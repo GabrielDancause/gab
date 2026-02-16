@@ -1,5 +1,5 @@
 /* ============================================
-   Gab — Course Sales Page
+   Gab & Ali — Course Sales Page
    Dark & Modern Design System
    ============================================ */
 
@@ -225,27 +225,45 @@ section {
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 160px 0 80px;
+  padding: 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-.hero::before {
-  content: '';
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  min-height: 480px;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.hero-image-overlay {
   position: absolute;
-  top: -200px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
-  pointer-events: none;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(10, 10, 11, 0.2) 0%,
+    rgba(10, 10, 11, 0.5) 50%,
+    rgba(10, 10, 11, 0.95) 85%,
+    var(--bg) 100%
+  );
 }
 
 .hero .container {
   position: relative;
   z-index: 1;
+  margin-top: -180px;
+  padding-bottom: 80px;
 }
 
 .hero-badge {
@@ -1032,9 +1050,29 @@ section {
   border-bottom: 1px solid var(--border);
 }
 
+/* Guide Hero Image */
+.guide-hero-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+}
+
+.guide-hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .guide-hero {
-  padding: 60px 0 48px;
+  padding: 0 0 48px;
   border-bottom: 1px solid var(--border);
+}
+
+.guide-hero .container {
+  padding-top: 36px;
 }
 
 .guide-breadcrumb {
@@ -1211,17 +1249,23 @@ section {
     width: 100%;
   }
 
-  .site-nav {
-    position: relative;
+  /* Hero */
+  .hero-image {
+    height: 50vh;
+    min-height: 320px;
   }
 
-  /* Hero */
-  .hero {
-    padding: 100px 0 60px;
+  .hero .container {
+    margin-top: -120px;
+    padding-bottom: 60px;
   }
 
   .hero h1 {
     font-size: 2.4rem;
+  }
+
+  .guide-hero-image {
+    height: 200px;
   }
 
   .hero-subtitle {
@@ -1300,12 +1344,22 @@ section {
     font-size: 1.55rem;
   }
 
-  .hero {
-    padding: 80px 0 48px;
+  .hero-image {
+    height: 40vh;
+    min-height: 260px;
+  }
+
+  .hero .container {
+    margin-top: -100px;
+    padding-bottom: 48px;
   }
 
   .hero h1 {
     font-size: 2rem;
+  }
+
+  .guide-hero-image {
+    height: 160px;
   }
 
   .hero-cta {

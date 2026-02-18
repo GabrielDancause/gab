@@ -8,9 +8,7 @@ By the end of this course, you'll have a professional, live website with a real 
 
 What you're building is a real, professional website. Not a "looks like it was made with a template" website. A clean, fast, mobile-responsive site that loads instantly and makes your business look legit.
 
-[SCREENSHOT: A finished business website on desktop — clean hero section, services grid, testimonials, contact section. Professional typography, cohesive color scheme.]
 
-[SCREENSHOT: The same website on a phone — everything stacks nicely, navigation collapses to a hamburger menu, text is readable without zooming.]
 
 This is the kind of site that businesses pay $2,000-$5,000 to have built. You're going to do it yourself in about two hours.
 

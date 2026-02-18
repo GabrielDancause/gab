@@ -12,7 +12,6 @@ Colors set the whole mood of your site. Here's how to change them:
 Change the primary color to navy blue (#1B2A4A) and the accent color to coral (#FF6B6B). Keep the background white and use dark gray (#333) for body text.
 ```
 
-[SCREENSHOT: Before and after of a color scheme change — warm golds becoming navy and coral.]
 
 If you don't know hex color codes (those # numbers), don't worry. You can just describe what you want:
 
@@ -38,7 +37,6 @@ Fonts make a bigger difference than most people think. A site with great fonts l
 Use the font Playfair Display for all headings and Inter for body text. Import them from Google Fonts.
 ```
 
-[SCREENSHOT: Before and after of a font change — default system font vs. Playfair Display headings with Inter body text.]
 
 Some font combinations I like and have used on my own sites:
 
@@ -76,7 +74,6 @@ mkdir images
 
 Now take the photos you want to use and drop them into that `images` folder. Use your file manager (Finder on Mac, File Explorer on Windows) — just drag and drop.
 
-[SCREENSHOT: Finder window showing the my-website folder with index.html, styles.css, and an images folder containing hero.jpg, about.jpg, and a few product photos.]
 
 ### Telling Claude to Use Your Images
 
@@ -130,7 +127,6 @@ Change the testimonials to a horizontal slider/carousel instead of stacked cards
 Put the about section text on the left and the image on the right, side by side. On mobile, stack them vertically with the image on top.
 ```
 
-[SCREENSHOT: A services section displayed as a 3-column card grid — each card has an image, title, description, and price.]
 
 Don't overthink layout. Look at websites you admire and describe their layout to Claude. "I want a layout like [website]'s services section" works great.
 
@@ -174,7 +170,6 @@ The hero text is too big on mobile. Scale it down so it fits without line breaks
 
 **How to check mobile:** Resize your browser window to be narrow (like phone-width) and see how the site responds. Or right-click the page, click "Inspect," and toggle the device toolbar (the phone/tablet icon) to simulate different screen sizes.
 
-[SCREENSHOT: Browser DevTools open with mobile device simulation — showing the site at iPhone width.]
 
 ## Dark Mode (Bonus)
 
@@ -184,7 +179,6 @@ This is one of those things that takes a developer hours but takes you one promp
 Add a dark mode toggle button in the top-right corner of the navigation. When clicked, the site should switch to a dark background with light text. Remember the user's preference using localStorage so it persists when they come back.
 ```
 
-[SCREENSHOT: The same website in light mode and dark mode side by side.]
 
 Is it necessary? No. Is it cool and makes your site feel more polished? Absolutely. Up to you.
 

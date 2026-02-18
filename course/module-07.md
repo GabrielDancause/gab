@@ -109,7 +109,6 @@ Now we need a place on GitHub to put this code.
 8. **Do NOT** choose a license
 9. Click **Create repository**
 
-[SCREENSHOT: GitHub "Create a new repository" page — repository name field shows "my-bakery-website", Public is selected, all three initialization checkboxes are unchecked, and the green "Create repository" button is at the bottom]
 
 After creating it, GitHub shows you a page with setup instructions. You'll see a section called "...or push an existing repository from the command line." That's exactly what we're doing.
 
@@ -145,7 +144,6 @@ That means it worked.
 
 Go back to your browser. Refresh the GitHub repository page. You should now see all your files listed — `index.html`, `styles.css`, your `images` folder, everything.
 
-[SCREENSHOT: GitHub repository page showing all the website files — index.html, styles.css, images folder, .gitignore — with the commit message "Initial website build" next to each file]
 
 That's your code, living in the cloud. If your laptop dies tomorrow, your website is safe.
 

@@ -64,7 +64,6 @@ The `@` means "the root domain" (e.g., `goldencrust.com` without any prefix).
 
 Replace `YOUR-USERNAME` with your actual GitHub username. Don't include the repository name here — just `username.github.io`.
 
-[SCREENSHOT: DNS settings panel at a domain registrar showing four A records pointing to GitHub's IPs and one CNAME record for www pointing to username.github.io]
 
 **Tip:** If there are existing A records or CNAME records for `@` or `www`, delete them first. You don't want conflicting records.
 

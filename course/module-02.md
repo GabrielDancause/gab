@@ -6,13 +6,11 @@ This is the "boring but necessary" module. Setup takes about 20-30 minutes, and 
 
 Go to [github.com](https://github.com) and click **Sign up**.
 
-[SCREENSHOT: GitHub.com homepage with the Sign up button highlighted.]
 
 Pick a username. This matters because your free website URL will be `yourusername.github.io`, so pick something professional. If your business is "Golden Crust Bakery," maybe use `goldencrustbakery` instead of `xXbaker_dude_99Xx`.
 
 Enter your email, create a password, and follow the verification steps. GitHub will ask you a few questions about what you're using it for — you can skip most of those.
 
-[SCREENSHOT: GitHub signup flow — username, email, password fields.]
 
 Once you're in, you'll see your GitHub dashboard. Don't worry about understanding anything here yet. We'll come back to this later.
 
@@ -24,7 +22,6 @@ Git is the tool that lets your computer talk to GitHub. Think of it as the deliv
 
 Good news — Git is probably already on your Mac. But let's make sure. Open your **Terminal** app (press `Cmd + Space`, type "Terminal", hit Enter).
 
-[SCREENSHOT: Spotlight search on Mac with "Terminal" typed in.]
 
 In the terminal, type this and press Enter:
 
@@ -46,7 +43,6 @@ That will trigger the same installation. Wait for it to finish, then try `git --
 
 Go to [git-scm.com](https://git-scm.com) and download the installer.
 
-[SCREENSHOT: git-scm.com download page with the big download button.]
 
 Run the installer. **Use all the default settings** — just keep clicking Next. Don't change anything unless you know what you're doing. The defaults are fine.
 
@@ -64,7 +60,6 @@ Node.js is what lets you run Claude Code. You don't need to know what Node.js do
 
 Go to [nodejs.org](https://nodejs.org).
 
-[SCREENSHOT: nodejs.org homepage showing the two download options, with an arrow pointing to the LTS version.]
 
 Download the **LTS** version (the one on the left — it says "Recommended For Most Users"). LTS stands for Long Term Support, meaning it's the stable, reliable version. Don't grab the "Current" version.
 
@@ -94,7 +89,6 @@ Now the good stuff. In your terminal, type:
 npm install -g @anthropic-ai/claude-code
 ```
 
-[SCREENSHOT: Terminal showing the npm install command running with progress output.]
 
 The `-g` means "install this globally" — so you can use it from anywhere on your computer. This might take a minute. You'll see a bunch of text scrolling by. That's normal.
 
@@ -126,7 +120,6 @@ Press `Cmd + Space` to open Spotlight, type **Terminal**, press Enter. That's it
 ### Windows
 Press the **Windows key**, type **cmd** or **PowerShell**, press Enter. I recommend PowerShell — it's a bit more modern. Either works for what we're doing.
 
-[SCREENSHOT: A clean terminal window — just the prompt, nothing scary.]
 
 This black (or white) window is your terminal. It's where you'll type commands and talk to Claude Code. I know it looks intimidating if you've never used it. It's not. You need exactly three commands, and I'll teach you those in a minute.
 
@@ -140,7 +133,6 @@ claude
 
 The first time you run it, Claude Code will ask you to authenticate. It'll open a browser window where you log in to your Anthropic account.
 
-[SCREENSHOT: Terminal showing Claude Code's first-run authentication prompt.]
 
 If you don't have an Anthropic account yet, create one at [console.anthropic.com](https://console.anthropic.com). You'll need to add a payment method for API usage — this is what powers Claude Code. The cost for building a website is minimal (we're talking a few dollars at most).
 
@@ -175,7 +167,6 @@ npm --version
 claude --version
 ```
 
-[SCREENSHOT: Terminal showing all four version checks with successful output.]
 
 If all four commands show version numbers, you're fully set up. If any of them fail, check the troubleshooting section below.
 

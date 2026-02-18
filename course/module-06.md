@@ -83,7 +83,6 @@ If you want something fancier, use **favicon.io** — you can generate favicons 
 Add the favicon files I downloaded to the site. The files are favicon.ico, favicon-16x16.png, favicon-32x32.png, and apple-touch-icon.png in the root directory
 ```
 
-[SCREENSHOT: Browser tab showing the site name with a custom favicon — a golden "G" in a circle next to "Golden Crust Bakery"]
 
 ## Open Graph Images for Social Sharing
 
@@ -134,7 +133,6 @@ Your site needs to look good on phones. Here's how to check without owning every
 3. Click the little phone/tablet icon in the top-left of the dev tools panel
 4. Choose different devices from the dropdown: iPhone SE, iPhone 14, iPad, Galaxy S8, whatever
 
-[SCREENSHOT: Chrome DevTools device toolbar showing the website in iPhone view — the navigation has collapsed to a hamburger menu, content is stacked vertically, text is readable]
 
 Scroll through the whole site in a few different phone sizes. If something looks off:
 

@@ -21,7 +21,6 @@ You should see all your files there from the previous module. If you don't see y
 
 This is the GitHub Pages configuration page. This is where the magic happens.
 
-[SCREENSHOT: GitHub repository settings sidebar with "Pages" highlighted under the "Code and automation" section]
 
 ## Step 3: Configure the Source
 
@@ -32,7 +31,6 @@ Under **"Build and deployment"**, you'll see a **Source** dropdown.
 3. Leave the folder as **"/ (root)"**
 4. Click **Save**
 
-[SCREENSHOT: GitHub Pages settings showing Source set to "Deploy from a branch", Branch set to "main", folder set to "/ (root)", and the Save button]
 
 That's all the configuration you need. GitHub now knows to take the files on your `main` branch and serve them as a website.
 
@@ -54,7 +52,6 @@ Your site is live at https://YOUR-USERNAME.github.io/my-bakery-website/
 
 Click that link.
 
-[SCREENSHOT: A live website in the browser with the URL "username.github.io/my-bakery-website" visible in the address bar — the full bakery website is displayed with hero image, sections, everything working]
 
 That's your website. On the internet. Right now. Anyone with that link can see it.
 

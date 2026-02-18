@@ -22,7 +22,6 @@ Go back to Claude Code (type `claude` in your terminal while in your project fol
 Create an about.html page that matches the exact same design style as index.html — same fonts, colors, header, and footer. The page should have: a hero banner with the title "Our Story", a section about the bakery's history (founded in 1987 by Marie and Pierre Gagnon, started as a small family kitchen, grew into a neighborhood institution, still uses original recipes), a team section with 3 team members (Marie - Head Baker, Pierre - Pastry Chef, Sophie - Front of House) each with a placeholder image and short bio, and a "Our Values" section with 3 values (Fresh Daily, Local Ingredients, Family Recipes) each with an icon and description.
 ```
 
-[SCREENSHOT: The generated About page — hero banner, story section, team cards with photos, values section with icons.]
 
 Claude will create `about.html` and it'll automatically use the same `styles.css` file, so the design will be consistent. If it creates a separate CSS file, tell it:
 
@@ -38,7 +37,6 @@ Same process:
 Create a contact.html page matching the same design as index.html. Include: a hero banner with the title "Get In Touch", a contact form with fields for name, email, phone (optional), and message with a submit button, the bakery's address (456 Saint-Laurent Blvd, Montreal, QC H2Y 2Z9) with a Google Maps embed showing that area of Montreal, the phone number (514-555-0123), email (hello@goldencrustbakery.com), business hours displayed in a clean table or list (Mon-Sat 7am-7pm, Sun 8am-5pm), and social media links for Instagram and Facebook.
 ```
 
-[SCREENSHOT: The generated Contact page — contact form on the left, map and business info on the right.]
 
 **A note about the contact form:** The form Claude creates will look great, but it won't actually send emails by default — it's just HTML. For it to actually work, you'll need a form service. I'll cover that in a later module when we talk about going live. For now, it looks professional and the design is what matters.
 
@@ -50,7 +48,6 @@ Right now you have three pages but no way to get between them. Let's fix that:
 Add a navigation bar to the top of all three pages (index.html, about.html, contact.html) with links to Home, About, and Contact. The nav should: have the bakery logo/name on the left and the links on the right, highlight the current page's link so users know where they are, be sticky (stay at the top when scrolling), collapse to a hamburger menu on mobile, and look exactly the same on all three pages.
 ```
 
-[SCREENSHOT: Navigation bar showing three links, with "About" highlighted as the current page.]
 
 This is one of the things Claude handles really well. It'll update all three files at once to add the same navigation, and it'll set the "active" state correctly on each page.
 
@@ -94,7 +91,6 @@ A good footer ties the whole site together. It appears on every page and gives p
 Add a footer to all pages (index.html, about.html, contact.html) with: the bakery name and a one-line tagline, quick links to all pages (Home, About, Contact), the address, phone number, and email, social media icons linking to Instagram and Facebook (use # as placeholder links for now), a copyright line that says "2025 Golden Crust Bakery. All rights reserved.", and a small "back to top" arrow button. Use a dark background for the footer with light text.
 ```
 
-[SCREENSHOT: A dark footer with the bakery info, navigation links, social icons, and copyright line.]
 
 Claude will update all three files. Check each page to make sure the footer appears and looks the same everywhere.
 
@@ -119,7 +115,6 @@ my-website/
     cake.jpg
 ```
 
-[SCREENSHOT: Terminal showing the file tree, or a Finder/Explorer window showing all the project files.]
 
 That's your entire website. A few HTML files, one CSS file, and your images. Clean and simple. No database, no server, no framework, no 500MB of node_modules. Just files that a browser can read.
 
@@ -136,7 +131,6 @@ Before we move on, do a full review of your site:
    - Images resize properly
    - Nothing overlaps or gets cut off
 
-[SCREENSHOT: All three pages open in browser tabs, showing consistent design across pages.]
 
 If you find issues, you know the drill — describe the problem to Claude and let it fix it.
 

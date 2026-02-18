@@ -20,7 +20,6 @@ Type:
 claude
 ```
 
-[SCREENSHOT: Terminal showing Claude Code launched inside the my-website folder, with the claude prompt ready.]
 
 You should see the Claude Code prompt. You're now talking directly to an AI that can write code and create files for you, right in this folder. Whatever files it creates will show up in your `my-website` folder.
 
@@ -45,7 +44,6 @@ Build me a professional one-page website for a bakery called "Golden Crust Baker
 
 Type that into Claude Code (or adapt it to your own business) and press Enter.
 
-[SCREENSHOT: Claude Code processing the prompt — showing it creating files, with code being written in real-time.]
 
 ## What Claude Generates
 
@@ -78,7 +76,6 @@ start index.html
 
 This opens your website in your default browser. That's it. You're looking at your website.
 
-[SCREENSHOT: The generated bakery website open in a browser — hero section with headline, warm cream and gold color scheme, clean layout.]
 
 ### Option B: Use a Local Server (Better)
 
@@ -121,7 +118,6 @@ Add a subtle fade-in animation to each section as the user scrolls down the page
 On mobile, the menu items are overlapping. Fix the spacing so each item has proper margin between them.
 ```
 
-[SCREENSHOT: Before and after of a design change — maybe the hero section going from short to full-height, showing the iteration process.]
 
 Every time you make a change, save and refresh your browser (or it might refresh automatically with `npx serve`). Check if you like it. If not, tell Claude what to adjust.
 

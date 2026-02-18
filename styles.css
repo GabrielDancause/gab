@@ -994,29 +994,24 @@ section {
   color: var(--accent-light);
 }
 
-.module-tag.tag-thailand {
-  background: rgba(255, 159, 67, 0.12);
-  color: #FF9F43;
-}
-
-.module-tag.tag-canada {
-  background: rgba(234, 67, 53, 0.12);
-  color: #EA4335;
-}
-
-.module-tag.tag-netherlands {
-  background: rgba(255, 107, 0, 0.12);
-  color: #FF6B00;
-}
-
-.module-tag.tag-worldwide {
+.module-tag.tag-automation {
   background: rgba(108, 92, 231, 0.12);
   color: var(--accent-light);
 }
 
-.module-tag.tag-personal {
+.module-tag.tag-management {
+  background: rgba(255, 159, 67, 0.12);
+  color: #FF9F43;
+}
+
+.module-tag.tag-realestate {
   background: rgba(52, 199, 89, 0.12);
   color: var(--success);
+}
+
+.module-tag.tag-hospitality {
+  background: rgba(234, 67, 53, 0.12);
+  color: #EA4335;
 }
 
 .module-price {

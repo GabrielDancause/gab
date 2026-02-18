@@ -22,6 +22,16 @@
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236C5CE7'/><text x='50' y='68' font-family='Arial' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>G</text></svg>">
 
+  <!-- Google Analytics 4 -->
+  <!-- Replace G-XXXXXXXXXX with your real GA4 Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,7 +71,8 @@
       <h1>Build &amp; Host a Website for <span class="gradient-text">Free</span></h1>
       <p class="hero-subtitle">I'll show you exactly how to use Claude Code and GitHub Pages to build a professional website from scratch and put it live on the internet &mdash; without writing a single line of code yourself, and without paying for hosting.</p>
       <div class="hero-cta">
-        <a href="#pricing" class="btn btn-primary btn-large">Get the Tutorial &mdash; $39</a>
+        <!-- Replace # with your Stripe Payment Link -->
+        <a href="#" class="btn btn-primary btn-large btn-stripe" data-event="cta_hero" target="_blank" rel="noopener">Get the Tutorial &mdash; $39</a>
         <a href="#whats-inside" class="btn btn-outline btn-large">See What's Inside</a>
       </div>
       <p class="hero-price">$39 one-time &middot; Instant access &middot; 30-day money-back guarantee</p>
@@ -74,15 +85,15 @@
       <div class="trust-items">
         <div class="trust-item">
           <span class="trust-icon">&#127909;</span>
-          <span>Full video walkthrough</span>
+          <span><strong>10</strong> video modules</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">&#128196;</span>
           <span>PDF cheat sheet included</span>
         </div>
         <div class="trust-item">
-          <span class="trust-icon">&#128274;</span>
-          <span>Secure checkout</span>
+          <span class="trust-icon">&#128101;</span>
+          <span><strong id="studentCount">100+</strong> students enrolled</span>
         </div>
         <div class="trust-item">
           <span class="trust-icon">&#9989;</span>
@@ -183,6 +194,44 @@
     </div>
   </section>
 
+  <!-- Lead Magnet -->
+  <section class="lead-magnet" id="free-guide">
+    <div class="container">
+      <div class="lead-magnet-inner fade-up">
+        <div class="lead-magnet-content">
+          <p class="section-label">Free Resource</p>
+          <h2>5 Claude Code Prompts That Build Websites</h2>
+          <p>Get the exact prompts I use to generate a homepage, about page, contact form, navigation bar, and mobile-responsive layout &mdash; ready to copy and paste into Claude Code.</p>
+          <ul class="lead-magnet-checks">
+            <li><span class="check">&#10003;</span> 5 battle-tested prompts with explanations</li>
+            <li><span class="check">&#10003;</span> Works with Claude Code right now</li>
+            <li><span class="check">&#10003;</span> Free &mdash; no credit card needed</li>
+          </ul>
+        </div>
+        <div class="lead-magnet-form">
+          <!-- Replace action URL with your Kit or Formspree form endpoint -->
+          <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="email-capture-form" data-form="lead-magnet-inline">
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="_subject" value="New lead magnet download">
+            <input type="hidden" name="source" value="inline">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="First name" required class="form-input">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Your email" required class="form-input">
+            </div>
+            <button type="submit" class="btn btn-primary btn-large form-submit-btn">Send Me the Prompts</button>
+            <p class="form-note">Free PDF. No spam. Unsubscribe anytime.</p>
+          </form>
+          <div class="form-success" style="display:none;">
+            <div class="form-success-icon">&#10003;</div>
+            <p><strong>Check your inbox!</strong> The prompts are on their way.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- About -->
   <section class="about">
     <div class="container">
@@ -254,7 +303,6 @@
         <p class="section-subtitle">Pay once, get the full tutorial and every future update included.</p>
       </div>
       <div class="pricing-grid fade-up">
-        <!-- Single pricing card, centered -->
         <div class="pricing-card featured">
           <div class="pricing-badge">Full Tutorial</div>
           <div class="pricing-amount">
@@ -268,8 +316,8 @@
             <li><span class="check">&#10003;</span> Lifetime access + future updates</li>
             <li><span class="check">&#10003;</span> 30-day money-back guarantee</li>
           </ul>
-          <!-- Replace href with your Stripe Payment Link -->
-          <a href="#pricing" class="btn btn-primary btn-large" data-stripe-link="YOUR_STRIPE_LINK">Get the Tutorial &mdash; $39</a>
+          <!-- Replace # with your Stripe Payment Link -->
+          <a href="#" class="btn btn-primary btn-large btn-stripe" data-event="cta_pricing" target="_blank" rel="noopener">Get the Tutorial &mdash; $39</a>
           <div class="pricing-guarantee">
             &#128274; Secure checkout via Stripe
           </div>
@@ -349,7 +397,8 @@
     <div class="container fade-up">
       <h2>Stop paying for website builders. Build it yourself &mdash; for free.</h2>
       <p>One tutorial. One afternoon. A professional website that's live on the internet, hosted for free, forever.</p>
-      <a href="#pricing" class="btn btn-primary btn-large">Get the Tutorial &mdash; $39</a>
+      <!-- Replace # with your Stripe Payment Link -->
+      <a href="#" class="btn btn-primary btn-large btn-stripe" data-event="cta_final" target="_blank" rel="noopener">Get the Tutorial &mdash; $39</a>
     </div>
   </section>
 
@@ -359,6 +408,62 @@
       <p class="footer-text">&copy; 2026 Gab &middot; <a href="mailto:gab@gabrieldancause.com">Contact</a></p>
     </div>
   </footer>
+
+  <!-- Lead Magnet Popup Modal -->
+  <div class="modal-overlay" id="leadMagnetModal" role="dialog" aria-modal="true" aria-label="Free prompts download">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <p class="section-label">Free Download</p>
+        <h3>Get 5 Copy-Paste Prompts That Build Websites</h3>
+        <p>The exact Claude Code prompts I use to generate professional web pages. Yours free.</p>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="email-capture-form" data-form="lead-magnet-popup">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_subject" value="New lead magnet download">
+          <input type="hidden" name="source" value="popup">
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Your best email" required class="form-input">
+            <button type="submit" class="btn btn-primary form-submit-btn">Get It Free</button>
+          </div>
+          <p class="form-note">No spam. Unsubscribe anytime.</p>
+        </form>
+        <div class="form-success" style="display:none;">
+          <div class="form-success-icon">&#10003;</div>
+          <p><strong>Check your inbox!</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exit Intent Modal -->
+  <div class="modal-overlay" id="exitIntentModal" role="dialog" aria-modal="true" aria-label="Before you go">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <h3>Before you go...</h3>
+        <p>Grab the free cheat sheet with 5 prompts that build real websites. No purchase needed.</p>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="email-capture-form" data-form="lead-magnet-exit">
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" name="_subject" value="New lead magnet download (exit)">
+          <input type="hidden" name="source" value="exit-intent">
+          <div class="form-row">
+            <input type="email" name="email" placeholder="Your email" required class="form-input">
+            <button type="submit" class="btn btn-primary form-submit-btn">Send Me the Prompts</button>
+          </div>
+        </form>
+        <div class="form-success" style="display:none;">
+          <div class="form-success-icon">&#10003;</div>
+          <p><strong>Done! Check your inbox.</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Social Proof Toast -->
+  <div class="social-proof-toast" id="socialProofToast" style="display:none;">
+    <span class="toast-icon">&#9889;</span>
+    <span class="toast-text"></span>
+  </div>
 
   <script src="js/main.js" defer></script>
 </body>

@@ -28,8 +28,11 @@
       window.history.replaceState({}, '', window.location.pathname);
     }
 
-    // Mark as customer so landing page suppresses all popups
-    try { localStorage.setItem('gab_customer', '1'); } catch(e) {}
+    // Mark as customer and grant course access
+    try {
+      localStorage.setItem('gab_customer', '1');
+      localStorage.setItem('gab_course_access', 'gab2026cc');
+    } catch(e) {}
   </script>
 
   <!-- Fonts -->
@@ -50,7 +53,7 @@
     <ul class="thankyou-steps">
       <li>
         <span class="step-num">1</span>
-        <span>Check your email for the download link (check spam if you don't see it within 5 minutes)</span>
+        <span>Check your email for your course access link (check spam if you don't see it within 5 minutes)</span>
       </li>
       <li>
         <span class="step-num">2</span>
@@ -80,7 +83,8 @@
 
     <p class="thankyou-support">Something wrong? Hit me up at <a href="mailto:gab@gab.ae">gab@gab.ae</a></p>
 
-    <div style="margin-top: 32px;">
+    <div style="margin-top: 32px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+      <a href="/course.html" class="btn btn-primary">Start the Course</a>
       <a href="/" class="btn btn-outline">Back to Home</a>
     </div>
   </div>

@@ -163,12 +163,19 @@
         submitBtn.textContent = 'Sending…';
       }
 
-      var formData = new FormData(formEl);
+      // Build JSON body for Kit API
+      var emailInput = formEl.querySelector('input[name="email_address"]');
+      var nameInput = formEl.querySelector('input[name="first_name"]');
+      var sourceInput = formEl.querySelector('input[name="source"]');
+
+      var body = { email_address: emailInput ? emailInput.value : '' };
+      if (nameInput && nameInput.value) body.first_name = nameInput.value;
+      if (sourceInput && sourceInput.value) body.fields = { source: sourceInput.value };
 
       fetch(formEl.action, {
         method: 'POST',
-        body: formData,
-        headers: { 'Accept': 'application/json' }
+        body: JSON.stringify(body),
+        headers: { 'Content-Type': 'application/json; charset=utf-8' }
       })
       .then(function(response) {
         if (response.ok) {

@@ -204,7 +204,7 @@
     .stocks-table {
       width: 100%;
       border-collapse: collapse;
-      min-width: 950px;
+      min-width: 880px;
     }
 
     .stocks-table thead {
@@ -294,19 +294,16 @@
       color: var(--text);
     }
 
-    .col-mcap,
-    .col-volume {
+    .col-mcap {
       font-weight: 500;
       font-variant-numeric: tabular-nums;
     }
 
-    .col-peg {
+    .col-peg,
+    .col-fcf,
+    .col-div {
       font-weight: 600;
       font-variant-numeric: tabular-nums;
-    }
-
-    .col-analyst {
-      font-weight: 500;
     }
 
     /* Sector pills */
@@ -358,12 +355,6 @@
       border-radius: 2px;
       transition: width 0.4s ease;
     }
-
-    /* Analyst rating colors */
-    .rating-strong-buy { color: var(--success); }
-    .rating-buy { color: #5AC8FA; }
-    .rating-hold { color: var(--text-secondary); }
-    .rating-sell { color: var(--danger); }
 
     /* ========== EMPTY STATE ========== */
     .empty-state {
@@ -559,8 +550,8 @@
             <th data-sort="sector">Sector <span class="sort-arrow"></span></th>
             <th class="text-right" data-sort="marketCap">Market Cap <span class="sort-arrow"></span></th>
             <th class="text-right" data-sort="peg">PEG Ratio <span class="sort-arrow"></span></th>
-            <th data-sort="analystRating">Analyst Rating <span class="sort-arrow"></span></th>
-            <th class="text-right" data-sort="avgVolume">Avg Volume <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="fcfYield">FCF Yield <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="divYield">Div Yield <span class="sort-arrow"></span></th>
             <th class="text-right" data-sort="score">Score <span class="sort-arrow"></span></th>
           </tr>
         </thead>
@@ -619,8 +610,8 @@ const SECTOR_MAP = {
 // STATE
 // ============================================================
 let STOCKS = [];
-let sortColumn = 'score';
-let sortDirection = 'desc';
+let sortColumn = 'peg';
+let sortDirection = 'asc';
 
 // ============================================================
 // API FETCHING
@@ -649,7 +640,6 @@ async function fetchAllData() {
     const quoteMap = {};
     const ratiosMap = {};
     const metricsMap = {};
-    const gradesMap = {};
 
     // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
     for (let i = 0; i < total; i++) {
@@ -679,36 +669,29 @@ async function fetchAllData() {
       } catch (e) { console.warn('Fundamentals failed for', t, e); }
     }
 
-    // Step 3: Fetch analyst grades
-    for (let i = 0; i < total; i++) {
-      const t = TICKERS[i];
-      setProgress('Fetching analyst ratings (' + (i + 1) + '/' + total + ') — ' + t + '...');
-      try {
-        const data = await fetchJSON(`${BASE_URL}/grades-consensus?symbol=${t}&apikey=${API_KEY}`);
-        if (data && data.length > 0) gradesMap[t] = data[0];
-      } catch (e) { console.warn('Grades failed for', t, e); }
-    }
-
-    // Step 4: Combine everything
+    // Step 3: Combine everything
     setProgress('Calculating scores...');
     STOCKS = TICKERS.map(t => {
       const displayTicker = t === 'BRK-B' ? 'BRK.B' : t;
       const q = quoteMap[t] || {};
       const r = ratiosMap[t] || {};
       const m = metricsMap[t] || {};
-      const g = gradesMap[t] || {};
 
       const rawSector = q.sector || 'Unknown';
       const sector = SECTOR_MAP[rawSector] || rawSector;
       const marketCapB = (q.marketCap || q.mktCap || 0) / 1e9;
       const peg = r.priceToEarningsGrowthRatioTTM || null;
-      const avgVolume = (q.averageVolume || q.avgVolume || q.volume || 0) / 1e6;
 
-      // Determine analyst consensus
-      const analystRating = getConsensusLabel(g);
+      // FCF Yield = 1 / Price-to-FCF ratio (as percentage)
+      const p2fcf = r.priceToFreeCashFlowRatioTTM || null;
+      const fcfYield = (p2fcf !== null && p2fcf > 0) ? (1 / p2fcf) * 100 : null;
+
+      // Dividend Yield (already a decimal from API, convert to %)
+      const rawDivYield = r.dividendYieldTTM || null;
+      const divYield = (rawDivYield !== null && rawDivYield >= 0) ? rawDivYield * 100 : null;
 
       // Calculate score
-      const score = calculateScore(peg, analystRating, marketCapB, avgVolume, m);
+      const score = calculateScore(peg, fcfYield, divYield, marketCapB, m);
 
       return {
         ticker: displayTicker,
@@ -716,8 +699,8 @@ async function fetchAllData() {
         sector,
         marketCap: Math.round(marketCapB * 10) / 10,
         peg: (peg !== null && peg > 0 && peg < 100) ? Math.round(peg * 100) / 100 : null,
-        analystRating,
-        avgVolume: Math.round(avgVolume * 10) / 10,
+        fcfYield: fcfYield !== null ? Math.round(fcfYield * 100) / 100 : null,
+        divYield: divYield !== null ? Math.round(divYield * 100) / 100 : null,
         score
       };
     }).filter(s => s.marketCap > 0);
@@ -735,35 +718,9 @@ async function fetchAllData() {
 }
 
 // ============================================================
-// ANALYST CONSENSUS
-// ============================================================
-function getConsensusLabel(grades) {
-  if (!grades || (!grades.strongBuy && !grades.buy && !grades.hold && !grades.sell && !grades.strongSell)) {
-    return 'N/A';
-  }
-
-  const sb = grades.strongBuy || 0;
-  const b = grades.buy || 0;
-  const h = grades.hold || 0;
-  const s = grades.sell || 0;
-  const ss = grades.strongSell || 0;
-  const total = sb + b + h + s + ss;
-  if (total === 0) return 'N/A';
-
-  // Weighted score: 5=StrongBuy, 4=Buy, 3=Hold, 2=Sell, 1=StrongSell
-  const weighted = (sb * 5 + b * 4 + h * 3 + s * 2 + ss * 1) / total;
-
-  if (weighted >= 4.3) return 'Strong Buy';
-  if (weighted >= 3.5) return 'Buy';
-  if (weighted >= 2.5) return 'Hold';
-  if (weighted >= 1.5) return 'Sell';
-  return 'Strong Sell';
-}
-
-// ============================================================
 // SCORING ALGORITHM (0-100)
 // ============================================================
-function calculateScore(peg, analystRating, marketCapB, avgVolume, metrics) {
+function calculateScore(peg, fcfYield, divYield, marketCapB, metrics) {
   let score = 0;
 
   // --- PEG Ratio (0-35 points) ---
@@ -777,31 +734,33 @@ function calculateScore(peg, analystRating, marketCapB, avgVolume, metrics) {
     else score += 3;
   }
 
-  // --- Analyst Rating (0-30 points) ---
-  const ratingScores = {
-    'Strong Buy': 30,
-    'Buy': 23,
-    'Hold': 12,
-    'Sell': 4,
-    'Strong Sell': 0,
-    'N/A': 10
-  };
-  score += ratingScores[analystRating] || 10;
+  // --- FCF Yield (0-25 points) ---
+  // Higher FCF yield = more cash returned per dollar invested
+  if (fcfYield !== null) {
+    if (fcfYield >= 8) score += 25;
+    else if (fcfYield >= 6) score += 20;
+    else if (fcfYield >= 4) score += 15;
+    else if (fcfYield >= 2) score += 10;
+    else if (fcfYield >= 0) score += 4;
+    else score += 0;
+  }
 
-  // --- Market Cap / Liquidity (0-10 points) ---
-  // Bigger = more stable & liquid
+  // --- Dividend Yield (0-15 points) ---
+  // Reward dividends but don't over-penalize growth stocks
+  if (divYield !== null) {
+    if (divYield >= 4) score += 15;
+    else if (divYield >= 3) score += 12;
+    else if (divYield >= 2) score += 9;
+    else if (divYield >= 1) score += 6;
+    else if (divYield > 0) score += 3;
+    else score += 0;
+  }
+
+  // --- Market Cap / Stability (0-10 points) ---
   if (marketCapB >= 1000) score += 10;
   else if (marketCapB >= 500) score += 8;
   else if (marketCapB >= 200) score += 6;
   else if (marketCapB >= 100) score += 4;
-  else score += 2;
-
-  // --- Volume (0-10 points) ---
-  // Higher avg volume = more liquid
-  if (avgVolume >= 50) score += 10;
-  else if (avgVolume >= 20) score += 8;
-  else if (avgVolume >= 10) score += 6;
-  else if (avgVolume >= 5) score += 4;
   else score += 2;
 
   // --- Profitability / ROE (0-15 points) ---
@@ -814,7 +773,7 @@ function calculateScore(peg, analystRating, marketCapB, avgVolume, metrics) {
     else if (roe >= 0) score += 3;
     else score += 0;
   } else {
-    score += 5; // neutral if unavailable
+    score += 5;
   }
 
   return Math.min(100, Math.max(0, Math.round(score)));
@@ -838,20 +797,31 @@ function getPEGColor(peg) {
   return 'var(--danger)';
 }
 
-function getRatingClass(rating) {
-  const r = rating.toLowerCase().replace(/\s+/g, '-');
-  return 'rating-' + r;
+function formatPercent(val) {
+  if (val === null) return 'N/A';
+  return val.toFixed(2) + '%';
+}
+
+function getFCFColor(fcf) {
+  if (fcf === null) return 'var(--text-tertiary)';
+  if (fcf >= 6) return 'var(--success)';
+  if (fcf >= 3) return 'var(--text)';
+  if (fcf >= 0) return 'var(--warning)';
+  return 'var(--danger)';
+}
+
+function getDivColor(div) {
+  if (div === null) return 'var(--text-tertiary)';
+  if (div >= 3) return 'var(--success)';
+  if (div >= 1) return 'var(--text)';
+  if (div > 0) return 'var(--text-secondary)';
+  return 'var(--text-tertiary)';
 }
 
 function formatMarketCap(b) {
   if (b >= 1000) return '$' + (b / 1000).toFixed(2) + 'T';
   if (b >= 100) return '$' + Math.round(b) + 'B';
   return '$' + b.toFixed(1) + 'B';
-}
-
-function formatVolume(m) {
-  if (m >= 100) return Math.round(m) + 'M';
-  return m.toFixed(1) + 'M';
 }
 
 function formatPEG(peg) {
@@ -930,7 +900,8 @@ function renderTable() {
   tbody.innerHTML = sorted.map((s, i) => {
     const scoreColor = getScoreColor(s.score);
     const pegColor = getPEGColor(s.peg);
-    const ratingClass = getRatingClass(s.analystRating);
+    const fcfColor = getFCFColor(s.fcfYield);
+    const divColor = getDivColor(s.divYield);
     const pillClass = sectorClass(s.sector);
 
     return `<tr>
@@ -940,8 +911,8 @@ function renderTable() {
       <td><span class="sector-pill ${pillClass}">${s.sector}</span></td>
       <td class="col-mcap text-right">${formatMarketCap(s.marketCap)}</td>
       <td class="col-peg text-right" style="color:${pegColor}">${formatPEG(s.peg)}</td>
-      <td class="col-analyst ${ratingClass}">${s.analystRating}</td>
-      <td class="col-volume text-right">${formatVolume(s.avgVolume)}</td>
+      <td class="col-fcf text-right" style="color:${fcfColor}">${formatPercent(s.fcfYield)}</td>
+      <td class="col-div text-right" style="color:${divColor}">${formatPercent(s.divYield)}</td>
       <td class="text-right">
         <div class="score-cell">
           <span class="score-number" style="color:${scoreColor}">${s.score}</span>
@@ -1003,7 +974,7 @@ document.querySelectorAll('.stocks-table th[data-sort]').forEach(th => {
       sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
     } else {
       sortColumn = col;
-      sortDirection = (col === 'score' || col === 'marketCap' || col === 'avgVolume') ? 'desc' : 'asc';
+      sortDirection = (col === 'score' || col === 'marketCap' || col === 'fcfYield' || col === 'divYield') ? 'desc' : 'asc';
     }
     renderTable();
   });

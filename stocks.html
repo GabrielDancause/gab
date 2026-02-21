@@ -607,6 +607,47 @@ const SECTOR_MAP = {
 };
 
 // ============================================================
+// FALLBACK PLACEHOLDER DATA (used when API + cache unavailable)
+// ============================================================
+const PLACEHOLDER_STOCKS = [
+  { ticker: "NVDA",  company: "NVIDIA Corporation",        sector: "Technology",              marketCap: 4621.5, peg: 3.17, fcfYield: 2.41, divYield: 0.02, score: 43 },
+  { ticker: "META",  company: "Meta Platforms Inc.",        sector: "Communication Services",  marketCap: 1580.0, peg: 1.15, fcfYield: 4.12, divYield: 0.35, score: 61 },
+  { ticker: "AMD",   company: "Advanced Micro Devices",    sector: "Technology",              marketCap: 280.0,  peg: 1.18, fcfYield: 3.85, divYield: 0.00, score: 46 },
+  { ticker: "TSM",   company: "Taiwan Semiconductor",      sector: "Technology",              marketCap: 920.0,  peg: 1.32, fcfYield: 3.10, divYield: 1.20, score: 54 },
+  { ticker: "GOOGL", company: "Alphabet Inc.",             sector: "Communication Services",  marketCap: 2140.0, peg: 1.08, fcfYield: 5.20, divYield: 0.45, score: 65 },
+  { ticker: "NFLX",  company: "Netflix Inc.",              sector: "Communication Services",  marketCap: 340.0,  peg: 1.42, fcfYield: 4.50, divYield: 0.00, score: 52 },
+  { ticker: "AAPL",  company: "Apple Inc.",                sector: "Technology",              marketCap: 3888.8, peg: 5.63, fcfYield: 3.13, divYield: 0.38, score: 41 },
+  { ticker: "MSFT",  company: "Microsoft Corporation",     sector: "Technology",              marketCap: 3180.0, peg: 2.12, fcfYield: 3.45, divYield: 0.72, score: 50 },
+  { ticker: "AMZN",  company: "Amazon.com Inc.",           sector: "Consumer Discretionary",  marketCap: 2080.0, peg: 1.92, fcfYield: 2.80, divYield: 0.00, score: 44 },
+  { ticker: "AVGO",  company: "Broadcom Inc.",             sector: "Technology",              marketCap: 830.0,  peg: 1.78, fcfYield: 3.90, divYield: 1.15, score: 57 },
+  { ticker: "JPM",   company: "JPMorgan Chase & Co.",      sector: "Financials",              marketCap: 680.0,  peg: 1.22, fcfYield: 8.50, divYield: 2.10, score: 74 },
+  { ticker: "ABBV",  company: "AbbVie Inc.",               sector: "Healthcare",              marketCap: 340.0,  peg: 1.68, fcfYield: 6.20, divYield: 3.40, score: 72 },
+  { ticker: "UNH",   company: "UnitedHealth Group Inc.",   sector: "Healthcare",              marketCap: 520.0,  peg: 1.55, fcfYield: 4.80, divYield: 1.50, score: 62 },
+  { ticker: "BAC",   company: "Bank of America Corp.",     sector: "Financials",              marketCap: 340.0,  peg: 1.38, fcfYield: 9.10, divYield: 2.40, score: 75 },
+  { ticker: "CRM",   company: "Salesforce Inc.",           sector: "Technology",              marketCap: 310.0,  peg: 1.95, fcfYield: 5.10, divYield: 0.50, score: 53 },
+  { ticker: "V",     company: "Visa Inc.",                 sector: "Financials",              marketCap: 620.0,  peg: 2.35, fcfYield: 4.20, divYield: 0.75, score: 52 },
+  { ticker: "MA",    company: "Mastercard Inc.",           sector: "Financials",              marketCap: 480.0,  peg: 2.41, fcfYield: 3.80, divYield: 0.55, score: 48 },
+  { ticker: "ADBE",  company: "Adobe Inc.",                sector: "Technology",              marketCap: 240.0,  peg: 1.88, fcfYield: 5.50, divYield: 0.00, score: 50 },
+  { ticker: "BRK.B", company: "Berkshire Hathaway Inc.",   sector: "Financials",              marketCap: 1050.0, peg: 1.45, fcfYield: 7.20, divYield: 0.00, score: 57 },
+  { ticker: "ORCL",  company: "Oracle Corporation",        sector: "Technology",              marketCap: 390.0,  peg: 2.22, fcfYield: 4.60, divYield: 1.00, score: 54 },
+  { ticker: "HD",    company: "The Home Depot Inc.",       sector: "Consumer Discretionary",  marketCap: 390.0,  peg: 2.05, fcfYield: 5.30, divYield: 2.30, score: 59 },
+  { ticker: "JNJ",   company: "Johnson & Johnson",        sector: "Healthcare",              marketCap: 370.0,  peg: 2.15, fcfYield: 6.80, divYield: 3.10, score: 66 },
+  { ticker: "WMT",   company: "Walmart Inc.",              sector: "Consumer Staples",        marketCap: 590.0,  peg: 2.88, fcfYield: 3.20, divYield: 1.10, score: 44 },
+  { ticker: "CSCO",  company: "Cisco Systems Inc.",        sector: "Technology",              marketCap: 240.0,  peg: 2.30, fcfYield: 6.50, divYield: 2.80, score: 62 },
+  { ticker: "LLY",   company: "Eli Lilly and Company",    sector: "Healthcare",              marketCap: 780.0,  peg: 3.85, fcfYield: 1.80, divYield: 0.65, score: 35 },
+  { ticker: "PG",    company: "Procter & Gamble Co.",      sector: "Consumer Staples",        marketCap: 380.0,  peg: 2.78, fcfYield: 5.40, divYield: 2.40, score: 56 },
+  { ticker: "KO",    company: "The Coca-Cola Company",    sector: "Consumer Staples",        marketCap: 270.0,  peg: 2.65, fcfYield: 4.90, divYield: 2.90, score: 57 },
+  { ticker: "PEP",   company: "PepsiCo Inc.",              sector: "Consumer Staples",        marketCap: 230.0,  peg: 2.72, fcfYield: 5.10, divYield: 3.20, score: 58 },
+  { ticker: "XOM",   company: "Exxon Mobil Corporation",  sector: "Energy",                  marketCap: 470.0,  peg: 1.82, fcfYield: 7.80, divYield: 3.50, score: 72 },
+  { ticker: "DIS",   company: "The Walt Disney Company",  sector: "Communication Services",  marketCap: 210.0,  peg: 2.45, fcfYield: 3.40, divYield: 0.90, score: 42 },
+  { ticker: "CVX",   company: "Chevron Corporation",      sector: "Energy",                  marketCap: 290.0,  peg: 2.10, fcfYield: 8.20, divYield: 4.10, score: 73 },
+  { ticker: "COST",  company: "Costco Wholesale Corp.",   sector: "Consumer Staples",        marketCap: 410.0,  peg: 3.12, fcfYield: 2.50, divYield: 0.50, score: 36 },
+  { ticker: "PFE",   company: "Pfizer Inc.",               sector: "Healthcare",              marketCap: 160.0,  peg: 3.20, fcfYield: 9.50, divYield: 5.80, score: 65 },
+  { ticker: "T",     company: "AT&T Inc.",                 sector: "Communication Services",  marketCap: 160.0,  peg: 3.80, fcfYield: 10.20, divYield: 4.80, score: 62 },
+  { ticker: "INTC",  company: "Intel Corporation",        sector: "Technology",              marketCap: 120.0,  peg: 4.50, fcfYield: null, divYield: 0.00, score: 11 },
+];
+
+// ============================================================
 // STATE
 // ============================================================
 let STOCKS = [];
@@ -765,8 +806,11 @@ async function fetchAllData() {
   } catch (err) {
     console.error('Fetch error:', err);
     if (!cache || !cache.stocks || cache.stocks.length === 0) {
-      setStatus('error', 'API Error \u2014 ' + err.message);
-      setProgress('Failed to load data. Check console for details.');
+      // No cache — show placeholder data
+      STOCKS = PLACEHOLDER_STOCKS;
+      document.getElementById('loading').style.display = 'none';
+      setStatus('error', 'Placeholder data \u2014 API limit reached');
+      renderTable();
     } else {
       // Cache is already showing, just update the status
       setStatus('live', 'Cached data \u2014 ' + cache.date + ' (API limit reached)');

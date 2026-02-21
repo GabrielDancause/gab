@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stock Scoring Dashboard</title>
+  <meta name="robots" content="noindex, nofollow">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236C5CE7'/><text x='50' y='68' font-family='Arial' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>G</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0A0A0B;
+      --surface: #141416;
+      --surface-elevated: #1C1C1F;
+      --accent: #6C5CE7;
+      --accent-light: #A29BFE;
+      --accent-glow: rgba(108, 92, 231, 0.15);
+      --text: #F5F5F7;
+      --text-secondary: #8E8E93;
+      --text-tertiary: #636366;
+      --success: #34C759;
+      --warning: #FF9F43;
+      --danger: #EA4335;
+      --border: rgba(255, 255, 255, 0.06);
+      --border-accent: rgba(108, 92, 231, 0.3);
+      --radius: 16px;
+      --radius-sm: 10px;
+      --radius-xs: 8px;
+      --transition: 0.2s ease;
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      min-height: 100vh;
+    }
+
+    .dashboard {
+      max-width: 1360px;
+      margin: 0 auto;
+      padding: 40px 24px 60px;
+    }
+
+    /* ========== HEADER ========== */
+    .dash-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .dash-header h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, var(--text) 0%, var(--accent-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .dash-header .subtitle {
+      font-size: 1rem;
+      color: var(--text-secondary);
+      margin-bottom: 16px;
+    }
+
+    .api-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: var(--surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+    }
+
+    .api-badge .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--warning);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ========== STATS BAR ========== */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+
+    .stat-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      text-align: center;
+    }
+
+    .stat-card .stat-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      color: var(--text-tertiary);
+      margin-bottom: 6px;
+    }
+
+    .stat-card .stat-value {
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .stat-card .stat-value.accent {
+      color: var(--accent-light);
+    }
+
+    .stat-card .stat-value.success {
+      color: var(--success);
+    }
+
+    /* ========== TOOLBAR ========== */
+    .toolbar {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+
+    .toolbar input,
+    .toolbar select {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.88rem;
+      padding: 10px 16px;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xs);
+      outline: none;
+      transition: border-color var(--transition);
+    }
+
+    .toolbar input:focus,
+    .toolbar select:focus {
+      border-color: var(--accent);
+    }
+
+    .toolbar input {
+      flex: 1;
+      min-width: 220px;
+    }
+
+    .toolbar select {
+      min-width: 160px;
+      cursor: pointer;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238E8E93' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 36px;
+    }
+
+    .toolbar select option {
+      background: var(--surface);
+      color: var(--text);
+    }
+
+    /* ========== TABLE ========== */
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .stocks-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 950px;
+    }
+
+    .stocks-table thead {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    .stocks-table th {
+      padding: 14px 16px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-tertiary);
+      background: var(--surface-elevated);
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+      transition: color var(--transition);
+      position: relative;
+    }
+
+    .stocks-table th:hover {
+      color: var(--text-secondary);
+    }
+
+    .stocks-table th.sort-active {
+      color: var(--accent-light);
+    }
+
+    .stocks-table th .sort-arrow {
+      margin-left: 4px;
+      font-size: 0.65rem;
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+
+    .stocks-table th:hover .sort-arrow,
+    .stocks-table th.sort-active .sort-arrow {
+      opacity: 1;
+    }
+
+    .stocks-table th.text-right,
+    .stocks-table td.text-right {
+      text-align: right;
+    }
+
+    .stocks-table th.text-center,
+    .stocks-table td.text-center {
+      text-align: center;
+    }
+
+    .stocks-table td {
+      padding: 12px 16px;
+      font-size: 0.88rem;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+      transition: background var(--transition);
+    }
+
+    .stocks-table tbody tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .stocks-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    /* Column styles */
+    .col-rank {
+      font-weight: 600;
+      color: var(--text-tertiary);
+      width: 50px;
+    }
+
+    .col-ticker {
+      font-weight: 700;
+      color: var(--accent-light);
+      letter-spacing: 0.02em;
+    }
+
+    .col-company {
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .col-mcap,
+    .col-volume {
+      font-weight: 500;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .col-peg {
+      font-weight: 600;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .col-analyst {
+      font-weight: 500;
+    }
+
+    /* Sector pills */
+    .sector-pill {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .sector-Technology { background: rgba(108, 92, 231, 0.12); color: #A29BFE; }
+    .sector-Healthcare { background: rgba(52, 199, 89, 0.12); color: #34C759; }
+    .sector-Financials { background: rgba(0, 122, 255, 0.12); color: #5AC8FA; }
+    .sector-Consumer-Discretionary { background: rgba(255, 159, 67, 0.12); color: #FF9F43; }
+    .sector-Communication-Services { background: rgba(225, 123, 251, 0.12); color: #e17bfb; }
+    .sector-Consumer-Staples { background: rgba(90, 200, 250, 0.12); color: #5AC8FA; }
+    .sector-Energy { background: rgba(255, 204, 0, 0.12); color: #FFCC00; }
+    .sector-Industrials { background: rgba(142, 142, 147, 0.12); color: #8E8E93; }
+    .sector-Materials { background: rgba(162, 132, 94, 0.12); color: #C4A265; }
+    .sector-Utilities { background: rgba(48, 209, 88, 0.12); color: #30D158; }
+    .sector-Real-Estate { background: rgba(175, 82, 222, 0.12); color: #AF52DE; }
+
+    /* Score cell */
+    .score-cell {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      min-width: 80px;
+    }
+
+    .score-number {
+      font-weight: 700;
+      font-size: 0.95rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .score-bar {
+      width: 100%;
+      height: 4px;
+      background: var(--surface-elevated);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .score-bar-fill {
+      height: 100%;
+      border-radius: 2px;
+      transition: width 0.4s ease;
+    }
+
+    /* Analyst rating colors */
+    .rating-strong-buy { color: var(--success); }
+    .rating-buy { color: #5AC8FA; }
+    .rating-hold { color: var(--text-secondary); }
+    .rating-sell { color: var(--danger); }
+
+    /* ========== EMPTY STATE ========== */
+    .empty-state {
+      text-align: center;
+      padding: 60px 24px;
+      color: var(--text-secondary);
+    }
+
+    .empty-state h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .empty-state p {
+      font-size: 0.88rem;
+      margin-bottom: 20px;
+    }
+
+    .btn-clear {
+      display: inline-block;
+      padding: 8px 20px;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--accent-light);
+      background: transparent;
+      border: 1px solid var(--border-accent);
+      border-radius: var(--radius-xs);
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .btn-clear:hover {
+      background: var(--accent-glow);
+    }
+
+    /* ========== FOOTER ========== */
+    .dash-footer {
+      text-align: center;
+      padding: 40px 0 0;
+      color: var(--text-tertiary);
+      font-size: 0.8rem;
+      line-height: 1.8;
+    }
+
+    /* ========== RESPONSIVE ========== */
+    @media (max-width: 768px) {
+      .dashboard {
+        padding: 24px 16px 40px;
+      }
+
+      .dash-header h1 {
+        font-size: 1.7rem;
+      }
+
+      .stats-bar {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .toolbar {
+        flex-direction: column;
+      }
+
+      .toolbar input,
+      .toolbar select {
+        min-width: 100%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .dash-header h1 {
+        font-size: 1.4rem;
+      }
+
+      .stats-bar {
+        grid-template-columns: 1fr;
+      }
+
+      .stat-card .stat-value {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="dashboard">
+
+    <!-- Header -->
+    <header class="dash-header">
+      <h1>Stock Scoring Dashboard</h1>
+      <p class="subtitle">Fundamental analysis scoring for large-cap equities</p>
+      <div class="api-badge">
+        <span class="dot"></span>
+        Placeholder data &mdash; Will connect to API
+      </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Total Stocks</div>
+        <div class="stat-value" id="stat-total">--</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Average Score</div>
+        <div class="stat-value accent" id="stat-avg">--</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Top Scorer</div>
+        <div class="stat-value success" id="stat-top">--</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Last Updated</div>
+        <div class="stat-value" id="stat-date">--</div>
+      </div>
+    </div>
+
+    <!-- Toolbar -->
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search by ticker or company..." aria-label="Search stocks by ticker or company name">
+      <select id="filter-sector" aria-label="Filter by sector">
+        <option value="">All Sectors</option>
+        <option>Technology</option>
+        <option>Healthcare</option>
+        <option>Financials</option>
+        <option>Consumer Discretionary</option>
+        <option>Communication Services</option>
+        <option>Consumer Staples</option>
+        <option>Energy</option>
+        <option>Industrials</option>
+      </select>
+      <select id="filter-score" aria-label="Filter by score range">
+        <option value="">All Scores</option>
+        <option value="80-100">80-100 Excellent</option>
+        <option value="60-79">60-79 Good</option>
+        <option value="40-59">40-59 Fair</option>
+        <option value="0-39">0-39 Poor</option>
+      </select>
+    </div>
+
+    <!-- Table -->
+    <div class="table-wrapper">
+      <table class="stocks-table" role="grid">
+        <thead>
+          <tr>
+            <th class="text-center" data-sort="rank"># <span class="sort-arrow"></span></th>
+            <th data-sort="ticker">Ticker <span class="sort-arrow"></span></th>
+            <th data-sort="company">Company <span class="sort-arrow"></span></th>
+            <th data-sort="sector">Sector <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="marketCap">Market Cap <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="peg">PEG Ratio <span class="sort-arrow"></span></th>
+            <th data-sort="analystRating">Analyst Rating <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="avgVolume">Avg Volume <span class="sort-arrow"></span></th>
+            <th class="text-right" data-sort="score">Score <span class="sort-arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+
+    <!-- Empty State -->
+    <div class="empty-state" id="empty-state" style="display:none;">
+      <h3>No stocks match your filters</h3>
+      <p>Try adjusting your search or filter criteria</p>
+      <button class="btn-clear" id="btn-clear-filters">Clear Filters</button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="dash-footer">
+      <p>Data shown is placeholder only. Scores will be calculated from live API data.</p>
+      <p>Built for personal use. Not financial advice.</p>
+    </footer>
+
+  </div>
+
+<script>
+'use strict';
+
+// ============================================================
+// PLACEHOLDER DATA — Replace with API fetch
+// ============================================================
+const STOCKS = [
+  { ticker: "NVDA",  company: "NVIDIA Corp.",              sector: "Technology",              marketCap: 2850, peg: 1.24, analystRating: "Strong Buy", avgVolume: 312.5, score: 91 },
+  { ticker: "META",  company: "Meta Platforms Inc.",        sector: "Communication Services",  marketCap: 1580, peg: 1.15, analystRating: "Strong Buy", avgVolume: 18.7,  score: 88 },
+  { ticker: "AMD",   company: "Advanced Micro Devices",    sector: "Technology",              marketCap: 280,  peg: 1.18, analystRating: "Strong Buy", avgVolume: 48.2,  score: 87 },
+  { ticker: "TSM",   company: "Taiwan Semiconductor",      sector: "Technology",              marketCap: 920,  peg: 1.32, analystRating: "Strong Buy", avgVolume: 16.9,  score: 86 },
+  { ticker: "GOOGL", company: "Alphabet Inc.",             sector: "Communication Services",  marketCap: 2140, peg: 1.08, analystRating: "Buy",        avgVolume: 25.8,  score: 85 },
+  { ticker: "NFLX",  company: "Netflix Inc.",              sector: "Communication Services",  marketCap: 340,  peg: 1.42, analystRating: "Strong Buy", avgVolume: 6.1,   score: 83 },
+  { ticker: "AAPL",  company: "Apple Inc.",                sector: "Technology",              marketCap: 3420, peg: 1.85, analystRating: "Strong Buy", avgVolume: 58.2,  score: 82 },
+  { ticker: "MSFT",  company: "Microsoft Corp.",           sector: "Technology",              marketCap: 3180, peg: 2.12, analystRating: "Strong Buy", avgVolume: 22.4,  score: 79 },
+  { ticker: "AMZN",  company: "Amazon.com Inc.",           sector: "Consumer Discretionary",  marketCap: 2080, peg: 1.92, analystRating: "Strong Buy", avgVolume: 45.3,  score: 78 },
+  { ticker: "AVGO",  company: "Broadcom Inc.",             sector: "Technology",              marketCap: 830,  peg: 1.78, analystRating: "Strong Buy", avgVolume: 8.4,   score: 77 },
+  { ticker: "JPM",   company: "JPMorgan Chase",            sector: "Financials",              marketCap: 680,  peg: 1.22, analystRating: "Buy",        avgVolume: 9.6,   score: 74 },
+  { ticker: "ABBV",  company: "AbbVie Inc.",               sector: "Healthcare",              marketCap: 340,  peg: 1.68, analystRating: "Buy",        avgVolume: 6.4,   score: 72 },
+  { ticker: "UNH",   company: "UnitedHealth Group",        sector: "Healthcare",              marketCap: 520,  peg: 1.55, analystRating: "Buy",        avgVolume: 3.9,   score: 71 },
+  { ticker: "BAC",   company: "Bank of America",           sector: "Financials",              marketCap: 340,  peg: 1.38, analystRating: "Buy",        avgVolume: 32.6,  score: 70 },
+  { ticker: "CRM",   company: "Salesforce Inc.",           sector: "Technology",              marketCap: 310,  peg: 1.95, analystRating: "Buy",        avgVolume: 5.8,   score: 69 },
+  { ticker: "V",     company: "Visa Inc.",                 sector: "Financials",              marketCap: 620,  peg: 2.35, analystRating: "Buy",        avgVolume: 7.1,   score: 68 },
+  { ticker: "MA",    company: "Mastercard Inc.",           sector: "Financials",              marketCap: 480,  peg: 2.41, analystRating: "Buy",        avgVolume: 4.3,   score: 67 },
+  { ticker: "ADBE",  company: "Adobe Inc.",                sector: "Technology",              marketCap: 240,  peg: 1.88, analystRating: "Buy",        avgVolume: 3.6,   score: 66 },
+  { ticker: "BRK.B", company: "Berkshire Hathaway",        sector: "Financials",              marketCap: 1050, peg: 1.45, analystRating: "Hold",       avgVolume: 3.8,   score: 65 },
+  { ticker: "ORCL",  company: "Oracle Corp.",              sector: "Technology",              marketCap: 390,  peg: 2.22, analystRating: "Buy",        avgVolume: 9.3,   score: 63 },
+  { ticker: "HD",    company: "Home Depot Inc.",           sector: "Consumer Discretionary",  marketCap: 390,  peg: 2.05, analystRating: "Buy",        avgVolume: 3.5,   score: 62 },
+  { ticker: "JNJ",   company: "Johnson & Johnson",        sector: "Healthcare",              marketCap: 370,  peg: 2.15, analystRating: "Hold",       avgVolume: 7.2,   score: 56 },
+  { ticker: "WMT",   company: "Walmart Inc.",              sector: "Consumer Staples",        marketCap: 590,  peg: 2.88, analystRating: "Hold",       avgVolume: 8.9,   score: 55 },
+  { ticker: "CSCO",  company: "Cisco Systems",             sector: "Technology",              marketCap: 240,  peg: 2.30, analystRating: "Hold",       avgVolume: 18.5,  score: 54 },
+  { ticker: "LLY",   company: "Eli Lilly & Co.",           sector: "Healthcare",              marketCap: 780,  peg: 3.85, analystRating: "Buy",        avgVolume: 4.2,   score: 52 },
+  { ticker: "PG",    company: "Procter & Gamble",          sector: "Consumer Staples",        marketCap: 380,  peg: 2.78, analystRating: "Hold",       avgVolume: 6.8,   score: 51 },
+  { ticker: "KO",    company: "Coca-Cola Co.",             sector: "Consumer Staples",        marketCap: 270,  peg: 2.65, analystRating: "Hold",       avgVolume: 12.1,  score: 50 },
+  { ticker: "PEP",   company: "PepsiCo Inc.",              sector: "Consumer Staples",        marketCap: 230,  peg: 2.72, analystRating: "Hold",       avgVolume: 5.4,   score: 49 },
+  { ticker: "XOM",   company: "Exxon Mobil Corp.",         sector: "Energy",                  marketCap: 470,  peg: 1.82, analystRating: "Hold",       avgVolume: 14.2,  score: 48 },
+  { ticker: "DIS",   company: "Walt Disney Co.",           sector: "Communication Services",  marketCap: 210,  peg: 2.45, analystRating: "Hold",       avgVolume: 9.7,   score: 47 },
+  { ticker: "CVX",   company: "Chevron Corp.",             sector: "Energy",                  marketCap: 290,  peg: 2.10, analystRating: "Hold",       avgVolume: 7.9,   score: 45 },
+  { ticker: "COST",  company: "Costco Wholesale",          sector: "Consumer Staples",        marketCap: 410,  peg: 3.12, analystRating: "Hold",       avgVolume: 2.8,   score: 44 },
+  { ticker: "PFE",   company: "Pfizer Inc.",               sector: "Healthcare",              marketCap: 160,  peg: 3.20, analystRating: "Hold",       avgVolume: 28.4,  score: 35 },
+  { ticker: "T",     company: "AT&T Inc.",                 sector: "Communication Services",  marketCap: 160,  peg: 3.80, analystRating: "Hold",       avgVolume: 34.2,  score: 32 },
+  { ticker: "INTC",  company: "Intel Corp.",               sector: "Technology",              marketCap: 120,  peg: 4.50, analystRating: "Hold",       avgVolume: 42.8,  score: 28 },
+];
+
+// ============================================================
+// STATE
+// ============================================================
+let sortColumn = 'score';
+let sortDirection = 'desc';
+
+// ============================================================
+// UTILITIES
+// ============================================================
+function getScoreColor(score) {
+  if (score >= 80) return 'var(--success)';
+  if (score >= 60) return 'var(--accent-light)';
+  if (score >= 40) return 'var(--warning)';
+  return 'var(--danger)';
+}
+
+function getPEGColor(peg) {
+  if (peg < 1.0) return 'var(--success)';
+  if (peg <= 2.0) return 'var(--text)';
+  if (peg <= 3.0) return 'var(--warning)';
+  return 'var(--danger)';
+}
+
+function getRatingClass(rating) {
+  const r = rating.toLowerCase().replace(/\s+/g, '-');
+  return 'rating-' + r;
+}
+
+function formatMarketCap(b) {
+  if (b >= 1000) return '$' + (b / 1000).toFixed(2) + 'T';
+  return '$' + b + 'B';
+}
+
+function formatVolume(m) {
+  return m.toFixed(1) + 'M';
+}
+
+function sectorClass(sector) {
+  return 'sector-' + sector.replace(/\s+/g, '-');
+}
+
+// ============================================================
+// FILTERING
+// ============================================================
+function getFilteredData() {
+  const query = document.getElementById('search').value.toLowerCase().trim();
+  const sectorFilter = document.getElementById('filter-sector').value;
+  const scoreFilter = document.getElementById('filter-score').value;
+
+  return STOCKS.filter(s => {
+    if (query && !s.ticker.toLowerCase().includes(query) && !s.company.toLowerCase().includes(query)) return false;
+    if (sectorFilter && s.sector !== sectorFilter) return false;
+    if (scoreFilter) {
+      const [min, max] = scoreFilter.split('-').map(Number);
+      if (s.score < min || s.score > max) return false;
+    }
+    return true;
+  });
+}
+
+// ============================================================
+// SORTING
+// ============================================================
+function sortData(data) {
+  const col = sortColumn;
+  const dir = sortDirection === 'asc' ? 1 : -1;
+
+  return [...data].sort((a, b) => {
+    let aVal = a[col];
+    let bVal = b[col];
+
+    // Rank is just score inverted
+    if (col === 'rank') {
+      aVal = a.score;
+      bVal = b.score;
+      return (bVal - aVal) * dir;
+    }
+
+    if (typeof aVal === 'string') {
+      return aVal.localeCompare(bVal) * dir;
+    }
+    return (aVal - bVal) * dir;
+  });
+}
+
+// ============================================================
+// RENDERING
+// ============================================================
+function renderTable() {
+  const filtered = getFilteredData();
+  const sorted = sortData(filtered);
+  const tbody = document.getElementById('table-body');
+  const emptyState = document.getElementById('empty-state');
+  const tableWrapper = document.querySelector('.table-wrapper');
+
+  if (sorted.length === 0) {
+    tableWrapper.style.display = 'none';
+    emptyState.style.display = 'block';
+  } else {
+    tableWrapper.style.display = 'block';
+    emptyState.style.display = 'none';
+  }
+
+  tbody.innerHTML = sorted.map((s, i) => {
+    const scoreColor = getScoreColor(s.score);
+    const pegColor = getPEGColor(s.peg);
+    const ratingClass = getRatingClass(s.analystRating);
+    const pillClass = sectorClass(s.sector);
+
+    return `<tr>
+      <td class="col-rank text-center">${i + 1}</td>
+      <td class="col-ticker">${s.ticker}</td>
+      <td class="col-company">${s.company}</td>
+      <td><span class="sector-pill ${pillClass}">${s.sector}</span></td>
+      <td class="col-mcap text-right">${formatMarketCap(s.marketCap)}</td>
+      <td class="col-peg text-right" style="color:${pegColor}">${s.peg.toFixed(2)}</td>
+      <td class="col-analyst ${ratingClass}">${s.analystRating}</td>
+      <td class="col-volume text-right">${formatVolume(s.avgVolume)}</td>
+      <td class="text-right">
+        <div class="score-cell">
+          <span class="score-number" style="color:${scoreColor}">${s.score}</span>
+          <div class="score-bar">
+            <div class="score-bar-fill" style="width:${s.score}%;background:${scoreColor}"></div>
+          </div>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+
+  updateStats(sorted);
+  updateSortHeaders();
+}
+
+function updateStats(data) {
+  document.getElementById('stat-total').textContent = data.length;
+
+  if (data.length > 0) {
+    const avg = data.reduce((sum, s) => sum + s.score, 0) / data.length;
+    document.getElementById('stat-avg').textContent = avg.toFixed(1);
+
+    const top = data.reduce((best, s) => s.score > best.score ? s : best, data[0]);
+    document.getElementById('stat-top').textContent = top.ticker;
+  } else {
+    document.getElementById('stat-avg').textContent = '--';
+    document.getElementById('stat-top').textContent = '--';
+  }
+
+  document.getElementById('stat-date').textContent = 'Feb 21, 2026';
+}
+
+function updateSortHeaders() {
+  document.querySelectorAll('.stocks-table th').forEach(th => {
+    const col = th.dataset.sort;
+    const arrow = th.querySelector('.sort-arrow');
+    if (!col || !arrow) return;
+
+    if (col === sortColumn) {
+      th.classList.add('sort-active');
+      arrow.textContent = sortDirection === 'asc' ? ' \u25B2' : ' \u25BC';
+    } else {
+      th.classList.remove('sort-active');
+      arrow.textContent = ' \u25B2';
+    }
+  });
+}
+
+// ============================================================
+// EVENT LISTENERS
+// ============================================================
+
+// Sort on header click
+document.querySelectorAll('.stocks-table th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.sort;
+    if (sortColumn === col) {
+      sortDirection = sortDirection === 'asc' ? 'desc' : 'asc';
+    } else {
+      sortColumn = col;
+      sortDirection = (col === 'score' || col === 'marketCap' || col === 'avgVolume') ? 'desc' : 'asc';
+    }
+    renderTable();
+  });
+});
+
+// Search
+let searchTimeout;
+document.getElementById('search').addEventListener('input', () => {
+  clearTimeout(searchTimeout);
+  searchTimeout = setTimeout(renderTable, 150);
+});
+
+// Filters
+document.getElementById('filter-sector').addEventListener('change', renderTable);
+document.getElementById('filter-score').addEventListener('change', renderTable);
+
+// Clear filters
+document.getElementById('btn-clear-filters').addEventListener('click', () => {
+  document.getElementById('search').value = '';
+  document.getElementById('filter-sector').value = '';
+  document.getElementById('filter-score').value = '';
+  renderTable();
+});
+
+// ============================================================
+// INITIAL RENDER
+// ============================================================
+renderTable();
+
+</script>
+</body>
+</html>

@@ -628,13 +628,57 @@ function setStatus(type, text) {
   statusText.textContent = text;
 }
 
+const CACHE_KEY = 'stocks_dashboard_cache';
+
 async function fetchJSON(url) {
   const res = await fetch(url);
   if (!res.ok) throw new Error('API error: ' + res.status);
-  return res.json();
+  const json = await res.json();
+  // FMP returns error messages as objects sometimes
+  if (json && json['Error Message']) throw new Error(json['Error Message']);
+  return json;
 }
 
+// ============================================================
+// CACHE
+// ============================================================
+function saveCache(stocks) {
+  try {
+    const cache = {
+      timestamp: Date.now(),
+      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+      stocks
+    };
+    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
+  } catch (e) { console.warn('Cache save failed', e); }
+}
+
+function loadCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY);
+    if (!raw) return null;
+    return JSON.parse(raw);
+  } catch (e) { return null; }
+}
+
+function showCachedData(cache) {
+  STOCKS = cache.stocks;
+  document.getElementById('loading').style.display = 'none';
+  setStatus('live', 'Cached data \u2014 ' + cache.date);
+  renderTable();
+}
+
+// ============================================================
+// FETCH
+// ============================================================
 async function fetchAllData() {
+  // Try loading cache first for instant display
+  const cache = loadCache();
+  if (cache && cache.stocks && cache.stocks.length > 0) {
+    showCachedData(cache);
+    setProgress('Showing cached data. Refreshing...');
+  }
+
   try {
     const total = TICKERS.length;
     const quoteMap = {};
@@ -644,7 +688,7 @@ async function fetchAllData() {
     // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
     for (let i = 0; i < total; i++) {
       const t = TICKERS[i];
-      setProgress('Fetching profiles (' + (i + 1) + '/' + total + ') — ' + t + '...');
+      setProgress('Fetching profiles (' + (i + 1) + '/' + total + ') \u2014 ' + t + '...');
       try {
         const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
         if (data && data.length > 0) quoteMap[t] = data[0];
@@ -652,13 +696,18 @@ async function fetchAllData() {
     }
 
     if (Object.keys(quoteMap).length === 0) {
-      throw new Error('No quote data returned. Check your API key.');
+      if (cache && cache.stocks && cache.stocks.length > 0) {
+        // API failed but we have cache — just keep showing it
+        setStatus('live', 'Cached data \u2014 ' + cache.date + ' (API limit reached)');
+        return;
+      }
+      throw new Error('No data returned. API limit may be reached.');
     }
 
     // Step 2: Fetch ratios TTM (has PEG ratio) + key metrics (has ROE)
     for (let i = 0; i < total; i++) {
       const t = TICKERS[i];
-      setProgress('Fetching fundamentals (' + (i + 1) + '/' + total + ') — ' + t + '...');
+      setProgress('Fetching fundamentals (' + (i + 1) + '/' + total + ') \u2014 ' + t + '...');
       try {
         const [ratios, metrics] = await Promise.all([
           fetchJSON(`${BASE_URL}/ratios-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => []),
@@ -705,6 +754,9 @@ async function fetchAllData() {
       };
     }).filter(s => s.marketCap > 0);
 
+    // Save to cache
+    saveCache(STOCKS);
+
     // Done!
     document.getElementById('loading').style.display = 'none';
     setStatus('live', 'Live data \u2014 ' + new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }));
@@ -712,8 +764,13 @@ async function fetchAllData() {
 
   } catch (err) {
     console.error('Fetch error:', err);
-    setStatus('error', 'API Error \u2014 ' + err.message);
-    setProgress('Failed to load data. Check console for details.');
+    if (!cache || !cache.stocks || cache.stocks.length === 0) {
+      setStatus('error', 'API Error \u2014 ' + err.message);
+      setProgress('Failed to load data. Check console for details.');
+    } else {
+      // Cache is already showing, just update the status
+      setStatus('live', 'Cached data \u2014 ' + cache.date + ' (API limit reached)');
+    }
   }
 }
 

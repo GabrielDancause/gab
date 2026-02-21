@@ -411,6 +411,40 @@
       line-height: 1.8;
     }
 
+    /* ========== LOADING ========== */
+    .loading-overlay {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--text-secondary);
+    }
+
+    .loading-overlay .spinner {
+      width: 36px;
+      height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .loading-overlay p {
+      font-size: 0.9rem;
+    }
+
+    .loading-overlay .progress-text {
+      font-size: 0.78rem;
+      color: var(--text-tertiary);
+      margin-top: 8px;
+    }
+
+    .status-live .dot { background: var(--success) !important; }
+    .status-error .dot { background: var(--danger) !important; }
+
     /* ========== RESPONSIVE ========== */
     @media (max-width: 768px) {
       .dashboard {
@@ -458,9 +492,9 @@
     <header class="dash-header">
       <h1>Stock Scoring Dashboard</h1>
       <p class="subtitle">Fundamental analysis scoring for large-cap equities</p>
-      <div class="api-badge">
-        <span class="dot"></span>
-        Placeholder data &mdash; Will connect to API
+      <div class="api-badge" id="api-badge">
+        <span class="dot" id="status-dot"></span>
+        <span id="status-text">Loading live data...</span>
       </div>
     </header>
 
@@ -507,8 +541,15 @@
       </select>
     </div>
 
+    <!-- Loading -->
+    <div class="loading-overlay" id="loading">
+      <div class="spinner"></div>
+      <p>Fetching live market data...</p>
+      <p class="progress-text" id="loading-progress">Connecting to API...</p>
+    </div>
+
     <!-- Table -->
-    <div class="table-wrapper">
+    <div class="table-wrapper" style="display:none;">
       <table class="stocks-table" role="grid">
         <thead>
           <tr>
@@ -536,7 +577,7 @@
 
     <!-- Footer -->
     <footer class="dash-footer">
-      <p>Data shown is placeholder only. Scores will be calculated from live API data.</p>
+      <p>Data powered by Financial Modeling Prep. Scores are algorithmically calculated.</p>
       <p>Built for personal use. Not financial advice.</p>
     </footer>
 
@@ -546,51 +587,238 @@
 'use strict';
 
 // ============================================================
-// PLACEHOLDER DATA — Replace with API fetch
+// CONFIG
 // ============================================================
-const STOCKS = [
-  { ticker: "NVDA",  company: "NVIDIA Corp.",              sector: "Technology",              marketCap: 2850, peg: 1.24, analystRating: "Strong Buy", avgVolume: 312.5, score: 91 },
-  { ticker: "META",  company: "Meta Platforms Inc.",        sector: "Communication Services",  marketCap: 1580, peg: 1.15, analystRating: "Strong Buy", avgVolume: 18.7,  score: 88 },
-  { ticker: "AMD",   company: "Advanced Micro Devices",    sector: "Technology",              marketCap: 280,  peg: 1.18, analystRating: "Strong Buy", avgVolume: 48.2,  score: 87 },
-  { ticker: "TSM",   company: "Taiwan Semiconductor",      sector: "Technology",              marketCap: 920,  peg: 1.32, analystRating: "Strong Buy", avgVolume: 16.9,  score: 86 },
-  { ticker: "GOOGL", company: "Alphabet Inc.",             sector: "Communication Services",  marketCap: 2140, peg: 1.08, analystRating: "Buy",        avgVolume: 25.8,  score: 85 },
-  { ticker: "NFLX",  company: "Netflix Inc.",              sector: "Communication Services",  marketCap: 340,  peg: 1.42, analystRating: "Strong Buy", avgVolume: 6.1,   score: 83 },
-  { ticker: "AAPL",  company: "Apple Inc.",                sector: "Technology",              marketCap: 3420, peg: 1.85, analystRating: "Strong Buy", avgVolume: 58.2,  score: 82 },
-  { ticker: "MSFT",  company: "Microsoft Corp.",           sector: "Technology",              marketCap: 3180, peg: 2.12, analystRating: "Strong Buy", avgVolume: 22.4,  score: 79 },
-  { ticker: "AMZN",  company: "Amazon.com Inc.",           sector: "Consumer Discretionary",  marketCap: 2080, peg: 1.92, analystRating: "Strong Buy", avgVolume: 45.3,  score: 78 },
-  { ticker: "AVGO",  company: "Broadcom Inc.",             sector: "Technology",              marketCap: 830,  peg: 1.78, analystRating: "Strong Buy", avgVolume: 8.4,   score: 77 },
-  { ticker: "JPM",   company: "JPMorgan Chase",            sector: "Financials",              marketCap: 680,  peg: 1.22, analystRating: "Buy",        avgVolume: 9.6,   score: 74 },
-  { ticker: "ABBV",  company: "AbbVie Inc.",               sector: "Healthcare",              marketCap: 340,  peg: 1.68, analystRating: "Buy",        avgVolume: 6.4,   score: 72 },
-  { ticker: "UNH",   company: "UnitedHealth Group",        sector: "Healthcare",              marketCap: 520,  peg: 1.55, analystRating: "Buy",        avgVolume: 3.9,   score: 71 },
-  { ticker: "BAC",   company: "Bank of America",           sector: "Financials",              marketCap: 340,  peg: 1.38, analystRating: "Buy",        avgVolume: 32.6,  score: 70 },
-  { ticker: "CRM",   company: "Salesforce Inc.",           sector: "Technology",              marketCap: 310,  peg: 1.95, analystRating: "Buy",        avgVolume: 5.8,   score: 69 },
-  { ticker: "V",     company: "Visa Inc.",                 sector: "Financials",              marketCap: 620,  peg: 2.35, analystRating: "Buy",        avgVolume: 7.1,   score: 68 },
-  { ticker: "MA",    company: "Mastercard Inc.",           sector: "Financials",              marketCap: 480,  peg: 2.41, analystRating: "Buy",        avgVolume: 4.3,   score: 67 },
-  { ticker: "ADBE",  company: "Adobe Inc.",                sector: "Technology",              marketCap: 240,  peg: 1.88, analystRating: "Buy",        avgVolume: 3.6,   score: 66 },
-  { ticker: "BRK.B", company: "Berkshire Hathaway",        sector: "Financials",              marketCap: 1050, peg: 1.45, analystRating: "Hold",       avgVolume: 3.8,   score: 65 },
-  { ticker: "ORCL",  company: "Oracle Corp.",              sector: "Technology",              marketCap: 390,  peg: 2.22, analystRating: "Buy",        avgVolume: 9.3,   score: 63 },
-  { ticker: "HD",    company: "Home Depot Inc.",           sector: "Consumer Discretionary",  marketCap: 390,  peg: 2.05, analystRating: "Buy",        avgVolume: 3.5,   score: 62 },
-  { ticker: "JNJ",   company: "Johnson & Johnson",        sector: "Healthcare",              marketCap: 370,  peg: 2.15, analystRating: "Hold",       avgVolume: 7.2,   score: 56 },
-  { ticker: "WMT",   company: "Walmart Inc.",              sector: "Consumer Staples",        marketCap: 590,  peg: 2.88, analystRating: "Hold",       avgVolume: 8.9,   score: 55 },
-  { ticker: "CSCO",  company: "Cisco Systems",             sector: "Technology",              marketCap: 240,  peg: 2.30, analystRating: "Hold",       avgVolume: 18.5,  score: 54 },
-  { ticker: "LLY",   company: "Eli Lilly & Co.",           sector: "Healthcare",              marketCap: 780,  peg: 3.85, analystRating: "Buy",        avgVolume: 4.2,   score: 52 },
-  { ticker: "PG",    company: "Procter & Gamble",          sector: "Consumer Staples",        marketCap: 380,  peg: 2.78, analystRating: "Hold",       avgVolume: 6.8,   score: 51 },
-  { ticker: "KO",    company: "Coca-Cola Co.",             sector: "Consumer Staples",        marketCap: 270,  peg: 2.65, analystRating: "Hold",       avgVolume: 12.1,  score: 50 },
-  { ticker: "PEP",   company: "PepsiCo Inc.",              sector: "Consumer Staples",        marketCap: 230,  peg: 2.72, analystRating: "Hold",       avgVolume: 5.4,   score: 49 },
-  { ticker: "XOM",   company: "Exxon Mobil Corp.",         sector: "Energy",                  marketCap: 470,  peg: 1.82, analystRating: "Hold",       avgVolume: 14.2,  score: 48 },
-  { ticker: "DIS",   company: "Walt Disney Co.",           sector: "Communication Services",  marketCap: 210,  peg: 2.45, analystRating: "Hold",       avgVolume: 9.7,   score: 47 },
-  { ticker: "CVX",   company: "Chevron Corp.",             sector: "Energy",                  marketCap: 290,  peg: 2.10, analystRating: "Hold",       avgVolume: 7.9,   score: 45 },
-  { ticker: "COST",  company: "Costco Wholesale",          sector: "Consumer Staples",        marketCap: 410,  peg: 3.12, analystRating: "Hold",       avgVolume: 2.8,   score: 44 },
-  { ticker: "PFE",   company: "Pfizer Inc.",               sector: "Healthcare",              marketCap: 160,  peg: 3.20, analystRating: "Hold",       avgVolume: 28.4,  score: 35 },
-  { ticker: "T",     company: "AT&T Inc.",                 sector: "Communication Services",  marketCap: 160,  peg: 3.80, analystRating: "Hold",       avgVolume: 34.2,  score: 32 },
-  { ticker: "INTC",  company: "Intel Corp.",               sector: "Technology",              marketCap: 120,  peg: 4.50, analystRating: "Hold",       avgVolume: 42.8,  score: 28 },
+const API_KEY = 'CFywTxjgPsYUjXyU7ev2lxPdFCN0zKEf';
+const BASE_URL = 'https://financialmodelingprep.com/stable';
+
+// Large-cap tickers to track
+const TICKERS = [
+  'AAPL','MSFT','NVDA','GOOGL','AMZN','META','TSM','AVGO','BRK-B','LLY',
+  'JPM','V','WMT','MA','UNH','XOM','COST','HD','PG','JNJ',
+  'ABBV','CRM','NFLX','AMD','ORCL','ADBE','DIS','INTC','PFE','KO',
+  'PEP','BAC','CVX','CSCO','T'
 ];
+
+// Sector mapping (FMP uses different names sometimes)
+const SECTOR_MAP = {
+  'Technology': 'Technology',
+  'Communication Services': 'Communication Services',
+  'Consumer Cyclical': 'Consumer Discretionary',
+  'Consumer Defensive': 'Consumer Staples',
+  'Financial Services': 'Financials',
+  'Healthcare': 'Healthcare',
+  'Energy': 'Energy',
+  'Industrials': 'Industrials',
+  'Basic Materials': 'Materials',
+  'Utilities': 'Utilities',
+  'Real Estate': 'Real Estate',
+};
 
 // ============================================================
 // STATE
 // ============================================================
+let STOCKS = [];
 let sortColumn = 'score';
 let sortDirection = 'desc';
+
+// ============================================================
+// API FETCHING
+// ============================================================
+function setProgress(text) {
+  const el = document.getElementById('loading-progress');
+  if (el) el.textContent = text;
+}
+
+function setStatus(type, text) {
+  const badge = document.getElementById('api-badge');
+  const statusText = document.getElementById('status-text');
+  badge.className = 'api-badge status-' + type;
+  statusText.textContent = text;
+}
+
+async function fetchJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error('API error: ' + res.status);
+  return res.json();
+}
+
+async function fetchAllData() {
+  try {
+    const total = TICKERS.length;
+    const quoteMap = {};
+    const ratiosMap = {};
+    const metricsMap = {};
+    const gradesMap = {};
+
+    // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
+    for (let i = 0; i < total; i++) {
+      const t = TICKERS[i];
+      setProgress('Fetching profiles (' + (i + 1) + '/' + total + ') — ' + t + '...');
+      try {
+        const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
+        if (data && data.length > 0) quoteMap[t] = data[0];
+      } catch (e) { console.warn('Profile failed for', t, e); }
+    }
+
+    if (Object.keys(quoteMap).length === 0) {
+      throw new Error('No quote data returned. Check your API key.');
+    }
+
+    // Step 2: Fetch ratios TTM (has PEG ratio) + key metrics (has ROE)
+    for (let i = 0; i < total; i++) {
+      const t = TICKERS[i];
+      setProgress('Fetching fundamentals (' + (i + 1) + '/' + total + ') — ' + t + '...');
+      try {
+        const [ratios, metrics] = await Promise.all([
+          fetchJSON(`${BASE_URL}/ratios-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => []),
+          fetchJSON(`${BASE_URL}/key-metrics-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => [])
+        ]);
+        if (ratios && ratios.length > 0) ratiosMap[t] = ratios[0];
+        if (metrics && metrics.length > 0) metricsMap[t] = metrics[0];
+      } catch (e) { console.warn('Fundamentals failed for', t, e); }
+    }
+
+    // Step 3: Fetch analyst grades
+    for (let i = 0; i < total; i++) {
+      const t = TICKERS[i];
+      setProgress('Fetching analyst ratings (' + (i + 1) + '/' + total + ') — ' + t + '...');
+      try {
+        const data = await fetchJSON(`${BASE_URL}/grades-consensus?symbol=${t}&apikey=${API_KEY}`);
+        if (data && data.length > 0) gradesMap[t] = data[0];
+      } catch (e) { console.warn('Grades failed for', t, e); }
+    }
+
+    // Step 4: Combine everything
+    setProgress('Calculating scores...');
+    STOCKS = TICKERS.map(t => {
+      const displayTicker = t === 'BRK-B' ? 'BRK.B' : t;
+      const q = quoteMap[t] || {};
+      const r = ratiosMap[t] || {};
+      const m = metricsMap[t] || {};
+      const g = gradesMap[t] || {};
+
+      const rawSector = q.sector || 'Unknown';
+      const sector = SECTOR_MAP[rawSector] || rawSector;
+      const marketCapB = (q.marketCap || q.mktCap || 0) / 1e9;
+      const peg = r.priceToEarningsGrowthRatioTTM || null;
+      const avgVolume = (q.averageVolume || q.avgVolume || q.volume || 0) / 1e6;
+
+      // Determine analyst consensus
+      const analystRating = getConsensusLabel(g);
+
+      // Calculate score
+      const score = calculateScore(peg, analystRating, marketCapB, avgVolume, m);
+
+      return {
+        ticker: displayTicker,
+        company: q.companyName || q.name || t,
+        sector,
+        marketCap: Math.round(marketCapB * 10) / 10,
+        peg: (peg !== null && peg > 0 && peg < 100) ? Math.round(peg * 100) / 100 : null,
+        analystRating,
+        avgVolume: Math.round(avgVolume * 10) / 10,
+        score
+      };
+    }).filter(s => s.marketCap > 0);
+
+    // Done!
+    document.getElementById('loading').style.display = 'none';
+    setStatus('live', 'Live data \u2014 ' + new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }));
+    renderTable();
+
+  } catch (err) {
+    console.error('Fetch error:', err);
+    setStatus('error', 'API Error \u2014 ' + err.message);
+    setProgress('Failed to load data. Check console for details.');
+  }
+}
+
+// ============================================================
+// ANALYST CONSENSUS
+// ============================================================
+function getConsensusLabel(grades) {
+  if (!grades || (!grades.strongBuy && !grades.buy && !grades.hold && !grades.sell && !grades.strongSell)) {
+    return 'N/A';
+  }
+
+  const sb = grades.strongBuy || 0;
+  const b = grades.buy || 0;
+  const h = grades.hold || 0;
+  const s = grades.sell || 0;
+  const ss = grades.strongSell || 0;
+  const total = sb + b + h + s + ss;
+  if (total === 0) return 'N/A';
+
+  // Weighted score: 5=StrongBuy, 4=Buy, 3=Hold, 2=Sell, 1=StrongSell
+  const weighted = (sb * 5 + b * 4 + h * 3 + s * 2 + ss * 1) / total;
+
+  if (weighted >= 4.3) return 'Strong Buy';
+  if (weighted >= 3.5) return 'Buy';
+  if (weighted >= 2.5) return 'Hold';
+  if (weighted >= 1.5) return 'Sell';
+  return 'Strong Sell';
+}
+
+// ============================================================
+// SCORING ALGORITHM (0-100)
+// ============================================================
+function calculateScore(peg, analystRating, marketCapB, avgVolume, metrics) {
+  let score = 0;
+
+  // --- PEG Ratio (0-35 points) ---
+  // Lower PEG = better value. Ideal: < 1.0
+  if (peg !== null && peg > 0 && peg < 50) {
+    if (peg <= 0.5) score += 35;
+    else if (peg <= 1.0) score += 30;
+    else if (peg <= 1.5) score += 25;
+    else if (peg <= 2.0) score += 18;
+    else if (peg <= 3.0) score += 10;
+    else score += 3;
+  }
+
+  // --- Analyst Rating (0-30 points) ---
+  const ratingScores = {
+    'Strong Buy': 30,
+    'Buy': 23,
+    'Hold': 12,
+    'Sell': 4,
+    'Strong Sell': 0,
+    'N/A': 10
+  };
+  score += ratingScores[analystRating] || 10;
+
+  // --- Market Cap / Liquidity (0-10 points) ---
+  // Bigger = more stable & liquid
+  if (marketCapB >= 1000) score += 10;
+  else if (marketCapB >= 500) score += 8;
+  else if (marketCapB >= 200) score += 6;
+  else if (marketCapB >= 100) score += 4;
+  else score += 2;
+
+  // --- Volume (0-10 points) ---
+  // Higher avg volume = more liquid
+  if (avgVolume >= 50) score += 10;
+  else if (avgVolume >= 20) score += 8;
+  else if (avgVolume >= 10) score += 6;
+  else if (avgVolume >= 5) score += 4;
+  else score += 2;
+
+  // --- Profitability / ROE (0-15 points) ---
+  const roe = metrics.returnOnEquityTTM || metrics.roeTTM || null;
+  if (roe !== null) {
+    if (roe >= 0.30) score += 15;
+    else if (roe >= 0.20) score += 12;
+    else if (roe >= 0.15) score += 9;
+    else if (roe >= 0.10) score += 6;
+    else if (roe >= 0) score += 3;
+    else score += 0;
+  } else {
+    score += 5; // neutral if unavailable
+  }
+
+  return Math.min(100, Math.max(0, Math.round(score)));
+}
 
 // ============================================================
 // UTILITIES
@@ -603,6 +831,7 @@ function getScoreColor(score) {
 }
 
 function getPEGColor(peg) {
+  if (peg === null) return 'var(--text-tertiary)';
   if (peg < 1.0) return 'var(--success)';
   if (peg <= 2.0) return 'var(--text)';
   if (peg <= 3.0) return 'var(--warning)';
@@ -616,11 +845,18 @@ function getRatingClass(rating) {
 
 function formatMarketCap(b) {
   if (b >= 1000) return '$' + (b / 1000).toFixed(2) + 'T';
-  return '$' + b + 'B';
+  if (b >= 100) return '$' + Math.round(b) + 'B';
+  return '$' + b.toFixed(1) + 'B';
 }
 
 function formatVolume(m) {
+  if (m >= 100) return Math.round(m) + 'M';
   return m.toFixed(1) + 'M';
+}
+
+function formatPEG(peg) {
+  if (peg === null) return 'N/A';
+  return peg.toFixed(2);
 }
 
 function sectorClass(sector) {
@@ -654,15 +890,17 @@ function sortData(data) {
   const dir = sortDirection === 'asc' ? 1 : -1;
 
   return [...data].sort((a, b) => {
+    if (col === 'rank') {
+      return (b.score - a.score) * dir;
+    }
+
     let aVal = a[col];
     let bVal = b[col];
 
-    // Rank is just score inverted
-    if (col === 'rank') {
-      aVal = a.score;
-      bVal = b.score;
-      return (bVal - aVal) * dir;
-    }
+    // Handle nulls
+    if (aVal === null && bVal === null) return 0;
+    if (aVal === null) return 1;
+    if (bVal === null) return -1;
 
     if (typeof aVal === 'string') {
       return aVal.localeCompare(bVal) * dir;
@@ -701,7 +939,7 @@ function renderTable() {
       <td class="col-company">${s.company}</td>
       <td><span class="sector-pill ${pillClass}">${s.sector}</span></td>
       <td class="col-mcap text-right">${formatMarketCap(s.marketCap)}</td>
-      <td class="col-peg text-right" style="color:${pegColor}">${s.peg.toFixed(2)}</td>
+      <td class="col-peg text-right" style="color:${pegColor}">${formatPEG(s.peg)}</td>
       <td class="col-analyst ${ratingClass}">${s.analystRating}</td>
       <td class="col-volume text-right">${formatVolume(s.avgVolume)}</td>
       <td class="text-right">
@@ -733,7 +971,8 @@ function updateStats(data) {
     document.getElementById('stat-top').textContent = '--';
   }
 
-  document.getElementById('stat-date').textContent = 'Feb 21, 2026';
+  const now = new Date();
+  document.getElementById('stat-date').textContent = now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
 
 function updateSortHeaders() {
@@ -790,9 +1029,9 @@ document.getElementById('btn-clear-filters').addEventListener('click', () => {
 });
 
 // ============================================================
-// INITIAL RENDER
+// LAUNCH
 // ============================================================
-renderTable();
+fetchAllData();
 
 </script>
 </body>

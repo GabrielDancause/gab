@@ -1,24 +1,14 @@
 (function() {
   'use strict';
 
+  // ---------- Scroll State ----------
+  var ticking = false;
+  var milestones = { 25: false, 50: false, 75: false, 100: false };
+  var scrollTriggered = false; // For Lead Popup
+
   // ---------- Sticky Nav ----------
   var nav = document.querySelector('.site-nav');
-  if (nav) {
-    var ticking = false;
-    window.addEventListener('scroll', function() {
-      if (!ticking) {
-        window.requestAnimationFrame(function() {
-          if (window.pageYOffset > 40) {
-            nav.classList.add('scrolled');
-          } else {
-            nav.classList.remove('scrolled');
-          }
-          ticking = false;
-        });
-        ticking = true;
-      }
-    });
-  }
+  // Scroll listener moved to Centralized Scroll Handler
 
   // ---------- Mobile Hamburger ----------
   var hamburger = document.querySelector('.nav-hamburger');
@@ -297,18 +287,7 @@
     }, 45000);
   }
 
-  // Scroll trigger: 60% page scroll
-  if (canShowLeadPopup()) {
-    var scrollTriggered = false;
-    window.addEventListener('scroll', function() {
-      if (scrollTriggered || leadPopupShown) return;
-      var scrollPercent = (window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight;
-      if (scrollPercent >= 0.60) {
-        scrollTriggered = true;
-        showLeadPopup();
-      }
-    });
-  }
+  // Scroll trigger removed from here; handled in Centralized Scroll Handler
 
   // ---------- Exit Intent Trigger ----------
   function canShowExitIntent() {
@@ -341,23 +320,50 @@
     }, 90000);
   }
 
-  // ---------- Scroll Depth Tracking ----------
-  (function() {
-    var milestones = { 25: false, 50: false, 75: false, 100: false };
+  // ---------- Centralized Scroll Handler ----------
+  // Handles Sticky Nav, Lead Popup Trigger (60%), and Scroll Depth Tracking
+  function handleScroll() {
+    var scrollTop = window.pageYOffset;
+    var docHeight = document.documentElement.scrollHeight;
+    var winHeight = window.innerHeight;
+    var scrollPercent = (scrollTop + winHeight) / docHeight;
+    var scrollPercentInt = Math.round(scrollPercent * 100);
 
-    window.addEventListener('scroll', function() {
-      var scrollPercent = Math.round(
-        ((window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight) * 100
-      );
+    // Sticky Nav
+    if (nav) {
+      if (scrollTop > 40) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    }
 
-      [25, 50, 75, 100].forEach(function(mark) {
-        if (!milestones[mark] && scrollPercent >= mark) {
-          milestones[mark] = true;
-          ga4('scroll_depth', { percent: mark });
-        }
-      });
+    // Lead Popup Trigger (60%)
+    if (canShowLeadPopup() && !leadPopupShown && !scrollTriggered) {
+      if (scrollPercent >= 0.60) {
+        scrollTriggered = true;
+        showLeadPopup();
+      }
+    }
+
+    // Scroll Depth Tracking
+    [25, 50, 75, 100].forEach(function(mark) {
+      if (!milestones[mark] && scrollPercentInt >= mark) {
+        milestones[mark] = true;
+        ga4('scroll_depth', { percent: mark });
+      }
     });
-  })();
+  }
+
+  window.addEventListener('scroll', function() {
+    if (!ticking) {
+      window.requestAnimationFrame(function() {
+        handleScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  });
 
   // ---------- Social Proof Toast ----------
   (function() {

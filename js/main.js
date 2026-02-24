@@ -1,6 +1,16 @@
 (function() {
   'use strict';
 
+  var CONFIG = {
+    selectors: {
+      modals: {
+        leadMagnet: 'leadMagnetModal',
+        exitIntent: 'exitIntentModal'
+      },
+      socialProofToast: 'socialProofToast'
+    }
+  };
+
   // ---------- Sticky Nav ----------
   var nav = document.querySelector('.site-nav');
   if (nav) {
@@ -210,8 +220,8 @@
   });
 
   // ---------- Modal System ----------
-  var leadModal = document.getElementById('leadMagnetModal');
-  var exitModal = document.getElementById('exitIntentModal');
+  var leadModal = document.getElementById(CONFIG.selectors.modals.leadMagnet);
+  var exitModal = document.getElementById(CONFIG.selectors.modals.exitIntent);
   var activeModal = null;
 
   function openModal(modal) {
@@ -361,7 +371,7 @@
 
   // ---------- Social Proof Toast ----------
   (function() {
-    var toast = document.getElementById('socialProofToast');
+    var toast = document.getElementById(CONFIG.selectors.socialProofToast);
     if (!toast || isCustomer) return;
 
     var messages = [

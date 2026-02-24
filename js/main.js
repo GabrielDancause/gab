@@ -282,6 +282,10 @@
     return leadModal && !isCustomer && !leadCaptured && !popupDismissed && !activeModal;
   }
 
+  // Expose for testing
+  window.GAB = window.GAB || {};
+  window.GAB.canShowLeadPopup = canShowLeadPopup;
+
   var leadPopupShown = false;
 
   function showLeadPopup() {

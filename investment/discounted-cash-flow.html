@@ -36,7 +36,7 @@
   </header>
 
   <div class="doc-abstract">
-    [JULES: PLEASE REPLACE THIS TEXT WITH A 2-3 SENTENCE HIGH-LEVEL SUMMARY OF WHAT THIS METRIC IS AND WHY IT MATTERS TO INVESTORS.]
+    Discounted Cash Flow (DCF) is a valuation method used to estimate the value of an investment based on its expected future cash flows. It works on the principle that the value of a company today is the sum of all money it will generate in the future, discounted back to the present.
   </div>
 
   <div class="doc-content">
@@ -45,9 +45,9 @@
       <div class="infobox-header">Quick Reference</div>
       <table>
         <tr><td>Type</td><td>Valuation Model</td></tr>
-        <tr><td>Formula</td><td>[JULES: INSERT HIGH-LEVEL FORMULA HERE]</td></tr>
-        <tr><td>Good Target</td><td>[JULES: INSERT TARGET VALUATION/EXPECTATION]</td></tr>
-        <tr><td>Best Used For</td><td>[JULES: INSERT WHEN TO USE THIS METRIC]</td></tr>
+        <tr><td>Formula</td><td>DCF = Sum of (CF / (1+r)^n)</td></tr>
+        <tr><td>Good Target</td><td>Intrinsic Value > Share Price (Margin of Safety)</td></tr>
+        <tr><td>Best Used For</td><td>Valuing mature companies with predictable cash flows</td></tr>
       </table>
     </div>
 
@@ -55,25 +55,30 @@
       <h2>1.0 The Formula</h2>
 
       <h3>Basic Form</h3>
-<pre><code><span class="code-label">formula</span>[JULES: INSERT DETAILED FORMULA TEXT HERE AND EXPLAIN THE NUMERATOR/DENOMINATOR]</code></pre>
+<pre><code><span class="code-label">formula</span>DCF = [CF1 / (1+r)^1] + [CF2 / (1+r)^2] + ... + [CFn / (1+r)^n]
 
-      <p>[JULES: INSERT A BRIEF EXPLANATION OF THE COMPONENTS OF THE FORMULA AND WHERE TO FIND THEM ON THE FINANCIAL STATEMENTS (Balance Sheet, Income Statement, etc.)]</p>
+Where:
+CF = Free Cash Flow for a given year
+r = Discount Rate (usually WACC)
+n = Time period (years)</code></pre>
+
+      <p><strong>Free Cash Flow (FCF)</strong> is found by taking Operating Cash Flow and subtracting Capital Expenditures (from the Cash Flow Statement). The <strong>Discount Rate (r)</strong> represents the risk or opportunity cost of the investment, often calculated using WACC or CAPM.</p>
 
       <h3>Worked Example</h3>
       <table>
         <thead>
-          <tr><th>Company</th><th>[JULES: METRIC 1]</th><th>[JULES: METRIC 2]</th><th>Discounted Cash Flow (DCF)</th></tr>
+          <tr><th>Company</th><th>Total Present Value of CFs</th><th>Current Share Price</th><th>Valuation Status</th></tr>
         </thead>
         <tbody>
-          <tr><td>Company A</td><td>[JULES: DATA 1]</td><td>[JULES: DATA 2]</td><td><strong>[JULES: RESULT A]</strong></td></tr>
-          <tr><td>Company B</td><td>[JULES: DATA 3]</td><td>[JULES: DATA 4]</td><td><strong>[JULES: RESULT B]</strong></td></tr>
+          <tr><td>Company A</td><td>$150.00</td><td>$100.00</td><td><strong>Undervalued</strong></td></tr>
+          <tr><td>Company B</td><td>$80.00</td><td>$100.00</td><td><strong>Overvalued</strong></td></tr>
         </tbody>
       </table>
 
-      <p>[JULES: EXPLAIN WHY COMPANY A OR B IS A BETTER INVESTMENT BASED ON THIS METRIC.]</p>
+      <p>After projecting future cash flows and discounting them back to today, Company A has an Intrinsic Value of $150 per share, but trades at $100, offering a 50% margin of safety. Company B trades at $100 but is only worth $80 based on its future cash generation, making it a poor investment.</p>
 
       <div class="callout callout-note">
-        [JULES: INSERT A KEY INSIGHT OR RULE OF THUMB REGARDING THIS METRIC HERE.]
+        Money today is worth more than money tomorrow due to inflation and opportunity cost. That is why we "discount" future cash flows—to see what that future money is actually worth in today's dollars.
       </div>
     </section>
 
@@ -81,13 +86,17 @@
       <h2>2.0 Interpretation & Edge Cases</h2>
 
       <h3>Benchmarks</h3>
-      <p>[JULES: EXPLAIN HOW TO INTERPRET DIFFERENT RANGES OF THIS METRIC (E.g. What does a high number mean? What does a low number mean?)]</p>
+      <p>
+        • <strong>Value > Price:</strong> The stock is trading at a discount (Buy signal).<br>
+        • <strong>Value < Price:</strong> The stock is trading at a premium (Sell/Hold signal).<br>
+        • <strong>Margin of Safety:</strong> Value investors typically look for a 20-30% gap between Intrinsic Value and Price to account for errors.
+      </p>
 
       <h3>When it Fails (Pitfalls)</h3>
-      <p>[JULES: EXPLAIN THE EDGE CASES WHERE THIS METRIC MIGHT MISLEAD INVESTORS.]</p>
+      <p>DCF is extremely sensitive to assumptions. A small change in the Growth Rate or Discount Rate can double or halve the valuation. This is known as "Garbage In, Garbage Out". It is also unreliable for high-growth tech startups with negative cash flows.</p>
       
       <div class="callout callout-warn">
-        [JULES: INSERT A WARNING ABOUT WHEN NOT TO USE THIS METRIC.]
+        The "Terminal Value" (value of the company after the projection period) often accounts for 60-70% of the total DCF value. Be very careful not to overestimate the perpetual growth rate used here.
       </div>
     </section>
 
@@ -96,8 +105,16 @@
 
       <div class="integration-grid">
         <div class="integration-card">
-          <h4>[JULES: INSERT RELATED WIKI PAGE]</h4>
-          <p>[JULES: EXPLAIN HOW THIS METRIC INTERACTS WITH THE RELATED METRIC.]</p>
+          <h4><a href="free-cash-flow.html">Free Cash Flow (FCF)</a></h4>
+          <p>The critical input for the DCF model, representing the actual cash available to owners.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="wacc.html">WACC</a></h4>
+          <p>Weighted Average Cost of Capital (WACC) is usually used as the discount rate (r) in DCF analysis.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="enterprise-value.html">Enterprise Value (EV)</a></h4>
+          <p>DCF typically calculates Enterprise Value, from which you subtract Net Debt to get Equity Value.</p>
         </div>
       </div>
     </section>

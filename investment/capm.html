@@ -36,7 +36,7 @@
   </header>
 
   <div class="doc-abstract">
-    [JULES: PLEASE REPLACE THIS TEXT WITH A 2-3 SENTENCE HIGH-LEVEL SUMMARY OF WHAT THIS METRIC IS AND WHY IT MATTERS TO INVESTORS.]
+    The Capital Asset Pricing Model (CAPM) is a formula used to calculate the expected return of an asset based on its systematic risk (beta) and the expected market return. It helps investors determine if an investment is fairly valued given its risk profile.
   </div>
 
   <div class="doc-content">
@@ -45,9 +45,9 @@
       <div class="infobox-header">Quick Reference</div>
       <table>
         <tr><td>Type</td><td>Valuation Model</td></tr>
-        <tr><td>Formula</td><td>[JULES: INSERT HIGH-LEVEL FORMULA HERE]</td></tr>
-        <tr><td>Good Target</td><td>[JULES: INSERT TARGET VALUATION/EXPECTATION]</td></tr>
-        <tr><td>Best Used For</td><td>[JULES: INSERT WHEN TO USE THIS METRIC]</td></tr>
+        <tr><td>Formula</td><td>ER = Rf + β(Rm – Rf)</td></tr>
+        <tr><td>Good Target</td><td>N/A (Used to find required return)</td></tr>
+        <tr><td>Best Used For</td><td>Calculating Cost of Equity (Ke) for DCF models</td></tr>
       </table>
     </div>
 
@@ -55,25 +55,30 @@
       <h2>1.0 The Formula</h2>
 
       <h3>Basic Form</h3>
-<pre><code><span class="code-label">formula</span>[JULES: INSERT DETAILED FORMULA TEXT HERE AND EXPLAIN THE NUMERATOR/DENOMINATOR]</code></pre>
+<pre><code><span class="code-label">formula</span>Expected Return = Risk-Free Rate + [Beta × (Market Return – Risk-Free Rate)]
 
-      <p>[JULES: INSERT A BRIEF EXPLANATION OF THE COMPONENTS OF THE FORMULA AND WHERE TO FIND THEM ON THE FINANCIAL STATEMENTS (Balance Sheet, Income Statement, etc.)]</p>
+Where:
+Rf = Risk-Free Rate (usually 10y Treasury Yield)
+β = Beta of the investment
+Rm = Expected Return of the Market (e.g., S&P 500 average)</code></pre>
+
+      <p>CAPM breaks down return into two parts: the risk-free return (what you'd get from a safe government bond) and the risk premium (the extra return you demand for taking on the volatility of the stock market). The term <strong>(Rm – Rf)</strong> is known as the Equity Risk Premium.</p>
 
       <h3>Worked Example</h3>
       <table>
         <thead>
-          <tr><th>Company</th><th>[JULES: METRIC 1]</th><th>[JULES: METRIC 2]</th><th>CAPM (Capital Asset Pricing Model)</th></tr>
+          <tr><th>Company</th><th>Beta</th><th>Risk-Free Rate / Market Return</th><th>Required Return (CAPM)</th></tr>
         </thead>
         <tbody>
-          <tr><td>Company A</td><td>[JULES: DATA 1]</td><td>[JULES: DATA 2]</td><td><strong>[JULES: RESULT A]</strong></td></tr>
-          <tr><td>Company B</td><td>[JULES: DATA 3]</td><td>[JULES: DATA 4]</td><td><strong>[JULES: RESULT B]</strong></td></tr>
+          <tr><td>Company A (Stable)</td><td>0.8</td><td>4% / 10%</td><td><strong>8.8%</strong></td></tr>
+          <tr><td>Company B (Risky)</td><td>1.5</td><td>4% / 10%</td><td><strong>13.0%</strong></td></tr>
         </tbody>
       </table>
 
-      <p>[JULES: EXPLAIN WHY COMPANY A OR B IS A BETTER INVESTMENT BASED ON THIS METRIC.]</p>
+      <p>Company A is less volatile (Beta 0.8), so investors require an 8.8% return to hold it. Company B is riskier (Beta 1.5), so investors demand a higher return of 13.0% to compensate for that risk. If you believe Company B will only return 10% in reality, it is theoretically overvalued according to CAPM because the return doesn't justify the risk.</p>
 
       <div class="callout callout-note">
-        [JULES: INSERT A KEY INSIGHT OR RULE OF THUMB REGARDING THIS METRIC HERE.]
+        The higher the Beta, the higher the discount rate you must use in your valuation models. This lowers the present value of future cash flows, making high-growth, high-risk companies harder to justify unless their projected growth is explosive.
       </div>
     </section>
 
@@ -81,13 +86,17 @@
       <h2>2.0 Interpretation & Edge Cases</h2>
 
       <h3>Benchmarks</h3>
-      <p>[JULES: EXPLAIN HOW TO INTERPRET DIFFERENT RANGES OF THIS METRIC (E.g. What does a high number mean? What does a low number mean?)]</p>
+      <p>
+        • <strong>High Result:</strong> Implies the stock is risky and must generate significant returns to be attractive.<br>
+        • <strong>Low Result:</strong> Implies the stock is safer and requires less return to be viable.<br>
+        • <strong>Comparison:</strong> Compare the CAPM result to your own estimated ROI. If Estimated ROI > CAPM, the stock might be undervalued (offering alpha).
+      </p>
 
       <h3>When it Fails (Pitfalls)</h3>
-      <p>[JULES: EXPLAIN THE EDGE CASES WHERE THIS METRIC MIGHT MISLEAD INVESTORS.]</p>
+      <p>CAPM relies heavily on Beta, which is historical and may not predict future risk. It also requires estimating the Expected Market Return (Rm), which is subjective. A small change in the Risk-Free Rate or Market Premium assumption can drastically change the output.</p>
       
       <div class="callout callout-warn">
-        [JULES: INSERT A WARNING ABOUT WHEN NOT TO USE THIS METRIC.]
+        Do not use CAPM as a prediction of what the stock WILL do. It is a calculation of what the stock SHOULD do to justify its risk. Real-world returns often deviate significantly from CAPM predictions.
       </div>
     </section>
 
@@ -96,8 +105,16 @@
 
       <div class="integration-grid">
         <div class="integration-card">
-          <h4>[JULES: INSERT RELATED WIKI PAGE]</h4>
-          <p>[JULES: EXPLAIN HOW THIS METRIC INTERACTS WITH THE RELATED METRIC.]</p>
+          <h4><a href="beta.html">Beta</a></h4>
+          <p>The primary input for risk in the CAPM formula, measuring volatility against the market.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="wacc.html">WACC</a></h4>
+          <p>CAPM calculates the Cost of Equity, a key component of the Weighted Average Cost of Capital (WACC).</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="discounted-cash-flow.html">Discounted Cash Flow (DCF)</a></h4>
+          <p>The output of CAPM is often used as the discount rate in DCF analysis to value future cash flows.</p>
         </div>
       </div>
     </section>

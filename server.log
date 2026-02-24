@@ -1,0 +1,6 @@
+127.0.0.1 - - [24/Feb/2026 05:55:35] "GET /investment/beta.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Feb/2026 05:55:35] "GET /docs/docs-styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/Feb/2026 05:55:37] "GET /investment/capm.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Feb/2026 05:55:37] "GET /investment/current-ratio.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Feb/2026 05:55:38] "GET /investment/debt-to-equity-ratio.html HTTP/1.1" 200 -
+127.0.0.1 - - [24/Feb/2026 05:55:38] "GET /investment/discounted-cash-flow.html HTTP/1.1" 200 -

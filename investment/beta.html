@@ -36,7 +36,7 @@
   </header>
 
   <div class="doc-abstract">
-    [JULES: PLEASE REPLACE THIS TEXT WITH A 2-3 SENTENCE HIGH-LEVEL SUMMARY OF WHAT THIS METRIC IS AND WHY IT MATTERS TO INVESTORS.]
+    Beta is a measure of a stock's volatility in relation to the overall market (typically the S&P 500). It helps investors understand the systematic risk profile of a security; a beta greater than 1.0 indicates higher volatility than the market, while a beta less than 1.0 implies lower volatility.
   </div>
 
   <div class="doc-content">
@@ -45,9 +45,9 @@
       <div class="infobox-header">Quick Reference</div>
       <table>
         <tr><td>Type</td><td>Risk Metric</td></tr>
-        <tr><td>Formula</td><td>[JULES: INSERT HIGH-LEVEL FORMULA HERE]</td></tr>
-        <tr><td>Good Target</td><td>[JULES: INSERT TARGET VALUATION/EXPECTATION]</td></tr>
-        <tr><td>Best Used For</td><td>[JULES: INSERT WHEN TO USE THIS METRIC]</td></tr>
+        <tr><td>Formula</td><td>Beta = Covariance(Rs, Rm) / Variance(Rm)</td></tr>
+        <tr><td>Good Target</td><td>1.0 (Market Avg); < 1.0 (Defensive)</td></tr>
+        <tr><td>Best Used For</td><td>Assessing systematic risk & Portfolio Construction</td></tr>
       </table>
     </div>
 
@@ -55,25 +55,29 @@
       <h2>1.0 The Formula</h2>
 
       <h3>Basic Form</h3>
-<pre><code><span class="code-label">formula</span>[JULES: INSERT DETAILED FORMULA TEXT HERE AND EXPLAIN THE NUMERATOR/DENOMINATOR]</code></pre>
+<pre><code><span class="code-label">formula</span>β = Covariance(Rs, Rm) / Variance(Rm)
 
-      <p>[JULES: INSERT A BRIEF EXPLANATION OF THE COMPONENTS OF THE FORMULA AND WHERE TO FIND THEM ON THE FINANCIAL STATEMENTS (Balance Sheet, Income Statement, etc.)]</p>
+Where:
+Rs = Return of the individual stock
+Rm = Return of the market index</code></pre>
+
+      <p>The formula compares how a stock's returns move relative to the market's returns. <strong>Covariance</strong> measures how the two variables (stock price and market index) move together, while <strong>Variance</strong> measures how far the market's data points are spread out from their average. These figures are calculated using historical price data, not from the Balance Sheet or Income Statement.</p>
 
       <h3>Worked Example</h3>
       <table>
         <thead>
-          <tr><th>Company</th><th>[JULES: METRIC 1]</th><th>[JULES: METRIC 2]</th><th>Beta</th></tr>
+          <tr><th>Company</th><th>Volatility Profile</th><th>Correlation to Market</th><th>Beta</th></tr>
         </thead>
         <tbody>
-          <tr><td>Company A</td><td>[JULES: DATA 1]</td><td>[JULES: DATA 2]</td><td><strong>[JULES: RESULT A]</strong></td></tr>
-          <tr><td>Company B</td><td>[JULES: DATA 3]</td><td>[JULES: DATA 4]</td><td><strong>[JULES: RESULT B]</strong></td></tr>
+          <tr><td>Company A (Utility)</td><td>Low Price Swings</td><td>High (0.8)</td><td><strong>0.5</strong></td></tr>
+          <tr><td>Company B (Tech)</td><td>High Price Swings</td><td>High (0.8)</td><td><strong>1.5</strong></td></tr>
         </tbody>
       </table>
 
-      <p>[JULES: EXPLAIN WHY COMPANY A OR B IS A BETTER INVESTMENT BASED ON THIS METRIC.]</p>
+      <p>Company A has a Beta of 0.5, meaning it theoretically moves only 50% as much as the market (a defensive stock). Company B has a Beta of 1.5, suggesting it is 50% more volatile than the market. Aggressive investors might prefer B during bull markets to amplify gains, while conservative investors would choose A to preserve capital.</p>
 
       <div class="callout callout-note">
-        [JULES: INSERT A KEY INSIGHT OR RULE OF THUMB REGARDING THIS METRIC HERE.]
+        High beta doesn't always mean "better returns". It means "more movement". In a market crash, high beta stocks typically fall much harder than low beta stocks.
       </div>
     </section>
 
@@ -81,13 +85,18 @@
       <h2>2.0 Interpretation & Edge Cases</h2>
 
       <h3>Benchmarks</h3>
-      <p>[JULES: EXPLAIN HOW TO INTERPRET DIFFERENT RANGES OF THIS METRIC (E.g. What does a high number mean? What does a low number mean?)]</p>
+      <p>
+        • <strong>β = 1:</strong> The stock moves in lockstep with the market.<br>
+        • <strong>β > 1:</strong> The stock is more volatile (riskier) than the market. Examples include tech startups and cyclicals.<br>
+        • <strong>β < 1:</strong> The stock is less volatile (safer) than the market. Examples include utilities and consumer staples.<br>
+        • <strong>β < 0:</strong> The stock moves inversely to the market (rare, e.g., gold or inverse ETFs).
+      </p>
 
       <h3>When it Fails (Pitfalls)</h3>
-      <p>[JULES: EXPLAIN THE EDGE CASES WHERE THIS METRIC MIGHT MISLEAD INVESTORS.]</p>
+      <p>Beta is strictly backward-looking based on historical data. Past volatility does not guarantee future risk. A company can have a low historical beta but face a new, catastrophic risk (e.g., bankruptcy) that the historical data hasn't captured yet. It also assumes market efficiency, which is not always the case.</p>
       
       <div class="callout callout-warn">
-        [JULES: INSERT A WARNING ABOUT WHEN NOT TO USE THIS METRIC.]
+        Do not use Beta in isolation for valuation. It is a risk metric, not a quality metric. A terrible company can have a low beta simply because it doesn't trade often (liquidity risk) or has uncorrelated movements.
       </div>
     </section>
 
@@ -96,8 +105,12 @@
 
       <div class="integration-grid">
         <div class="integration-card">
-          <h4>[JULES: INSERT RELATED WIKI PAGE]</h4>
-          <p>[JULES: EXPLAIN HOW THIS METRIC INTERACTS WITH THE RELATED METRIC.]</p>
+          <h4><a href="capm.html">CAPM (Capital Asset Pricing Model)</a></h4>
+          <p>Beta is the core variable in CAPM used to calculate the Expected Return of an asset.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="sharpe-ratio.html">Sharpe Ratio</a></h4>
+          <p>While Beta measures market risk, the Sharpe Ratio measures risk-adjusted return using standard deviation.</p>
         </div>
       </div>
     </section>

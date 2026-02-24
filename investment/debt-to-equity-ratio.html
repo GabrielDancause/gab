@@ -36,7 +36,7 @@
   </header>
 
   <div class="doc-abstract">
-    [JULES: PLEASE REPLACE THIS TEXT WITH A 2-3 SENTENCE HIGH-LEVEL SUMMARY OF WHAT THIS METRIC IS AND WHY IT MATTERS TO INVESTORS.]
+    The Debt-to-Equity (D/E) ratio is a leverage metric used to evaluate a company's financial leverage. It calculates the weight of total debt and liabilities against the shareholders' equity.
   </div>
 
   <div class="doc-content">
@@ -45,9 +45,9 @@
       <div class="infobox-header">Quick Reference</div>
       <table>
         <tr><td>Type</td><td>Leverage Ratio</td></tr>
-        <tr><td>Formula</td><td>[JULES: INSERT HIGH-LEVEL FORMULA HERE]</td></tr>
-        <tr><td>Good Target</td><td>[JULES: INSERT TARGET VALUATION/EXPECTATION]</td></tr>
-        <tr><td>Best Used For</td><td>[JULES: INSERT WHEN TO USE THIS METRIC]</td></tr>
+        <tr><td>Formula</td><td>D/E = Total Liabilities / Shareholders' Equity</td></tr>
+        <tr><td>Good Target</td><td>Industry dependent; generally < 1.0 is healthy</td></tr>
+        <tr><td>Best Used For</td><td>Assessing long-term solvency and leverage</td></tr>
       </table>
     </div>
 
@@ -55,25 +55,29 @@
       <h2>1.0 The Formula</h2>
 
       <h3>Basic Form</h3>
-<pre><code><span class="code-label">formula</span>[JULES: INSERT DETAILED FORMULA TEXT HERE AND EXPLAIN THE NUMERATOR/DENOMINATOR]</code></pre>
+<pre><code><span class="code-label">formula</span>Debt-to-Equity = Total Liabilities / Shareholders' Equity
 
-      <p>[JULES: INSERT A BRIEF EXPLANATION OF THE COMPONENTS OF THE FORMULA AND WHERE TO FIND THEM ON THE FINANCIAL STATEMENTS (Balance Sheet, Income Statement, etc.)]</p>
+Where:
+Total Liabilities = Short-term Debt + Long-term Debt + Other Liabilities
+Shareholders' Equity = Total Assets - Total Liabilities</code></pre>
+
+      <p>Both components are found on the <strong>Balance Sheet</strong>. Liabilities represent what the company owes to outsiders. Equity represents the net value belonging to owners/shareholders. This ratio tells you how much debt is used to finance every dollar of equity.</p>
 
       <h3>Worked Example</h3>
       <table>
         <thead>
-          <tr><th>Company</th><th>[JULES: METRIC 1]</th><th>[JULES: METRIC 2]</th><th>Debt-to-Equity Ratio</th></tr>
+          <tr><th>Company</th><th>Total Liabilities</th><th>Shareholders' Equity</th><th>Debt-to-Equity Ratio</th></tr>
         </thead>
         <tbody>
-          <tr><td>Company A</td><td>[JULES: DATA 1]</td><td>[JULES: DATA 2]</td><td><strong>[JULES: RESULT A]</strong></td></tr>
-          <tr><td>Company B</td><td>[JULES: DATA 3]</td><td>[JULES: DATA 4]</td><td><strong>[JULES: RESULT B]</strong></td></tr>
+          <tr><td>Company A</td><td>$500,000</td><td>$1,000,000</td><td><strong>0.5</strong></td></tr>
+          <tr><td>Company B</td><td>$2,000,000</td><td>$1,000,000</td><td><strong>2.0</strong></td></tr>
         </tbody>
       </table>
 
-      <p>[JULES: EXPLAIN WHY COMPANY A OR B IS A BETTER INVESTMENT BASED ON THIS METRIC.]</p>
+      <p>Company A has a D/E of 0.5, meaning it uses twice as much equity as debt to fund operations—a conservative structure. Company B has a D/E of 2.0, meaning it is heavily leveraged with $2 of debt for every $1 of equity. In a downturn, Company B faces much higher bankruptcy risk.</p>
 
       <div class="callout callout-note">
-        [JULES: INSERT A KEY INSIGHT OR RULE OF THUMB REGARDING THIS METRIC HERE.]
+        Leverage acts as a magnifier. In good times, high leverage amplifies Returns on Equity (ROE). In bad times, it amplifies losses and creates solvency risk.
       </div>
     </section>
 
@@ -81,13 +85,17 @@
       <h2>2.0 Interpretation & Edge Cases</h2>
 
       <h3>Benchmarks</h3>
-      <p>[JULES: EXPLAIN HOW TO INTERPRET DIFFERENT RANGES OF THIS METRIC (E.g. What does a high number mean? What does a low number mean?)]</p>
+      <p>
+        • <strong>D/E < 1.0:</strong> Generally considered safe and conservative.<br>
+        • <strong>D/E > 2.0:</strong> Indicates high leverage and higher risk (unless in utilities/telecom).<br>
+        • <strong>Negative D/E:</strong> Indicates the company has more liabilities than assets (insolvency warning).
+      </p>
 
       <h3>When it Fails (Pitfalls)</h3>
-      <p>[JULES: EXPLAIN THE EDGE CASES WHERE THIS METRIC MIGHT MISLEAD INVESTORS.]</p>
+      <p>Capital-intensive industries (like Utilities, Telecom, Manufacturing) naturally have higher D/E ratios (often 2.0+) because they require massive infrastructure investment. Always compare companies within the same sector.</p>
       
       <div class="callout callout-warn">
-        [JULES: INSERT A WARNING ABOUT WHEN NOT TO USE THIS METRIC.]
+        Watch out for "Share Buybacks". A company buying back its own stock reduces Shareholders' Equity, which mathematically increases the D/E ratio even if debt hasn't increased. This can artificially inflate the risk profile.
       </div>
     </section>
 
@@ -96,8 +104,16 @@
 
       <div class="integration-grid">
         <div class="integration-card">
-          <h4>[JULES: INSERT RELATED WIKI PAGE]</h4>
-          <p>[JULES: EXPLAIN HOW THIS METRIC INTERACTS WITH THE RELATED METRIC.]</p>
+          <h4><a href="interest-coverage-ratio.html">Interest Coverage Ratio</a></h4>
+          <p>Measures the ability to pay interest on the debt, providing context to the D/E ratio.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="return-on-equity.html">Return on Equity (ROE)</a></h4>
+          <p>High D/E often boosts ROE artificially through financial engineering.</p>
+        </div>
+        <div class="integration-card">
+          <h4><a href="current-ratio.html">Current Ratio</a></h4>
+          <p>Focuses on short-term liabilities rather than total leverage.</p>
         </div>
       </div>
     </section>

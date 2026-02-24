@@ -580,8 +580,6 @@
 // ============================================================
 // CONFIG
 // ============================================================
-const API_KEY = 'CFywTxjgPsYUjXyU7ev2lxPdFCN0zKEf';
-const BASE_URL = 'https://financialmodelingprep.com/stable';
 
 // Large-cap tickers to track
 const TICKERS = [
@@ -713,185 +711,37 @@ function showCachedData(cache) {
 // FETCH
 // ============================================================
 async function fetchAllData() {
-  // Try loading cache first for instant display
-  const cache = loadCache();
-  if (cache && cache.stocks && cache.stocks.length > 0) {
-    showCachedData(cache);
-    setProgress('Showing cached data. Refreshing...');
-  }
-
+  setProgress('Loading data...');
   try {
-    const total = TICKERS.length;
-    const quoteMap = {};
-    const ratiosMap = {};
-    const metricsMap = {};
+    const res = await fetch('data/stocks.json');
+    if (!res.ok) throw new Error('Failed to load data file');
+    const data = await res.json();
 
-    // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
-    const BATCH_SIZE = 5;
-    let completedProfiles = 0;
-    for (let i = 0; i < total; i += BATCH_SIZE) {
-      const batch = TICKERS.slice(i, i + BATCH_SIZE);
-      await Promise.all(batch.map(async (t) => {
-        try {
-          const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
-          if (data && data.length > 0) quoteMap[t] = data[0];
-        } catch (e) { console.warn('Profile failed for', t, e); }
-        finally {
-          completedProfiles++;
-          setProgress('Fetching profiles (' + completedProfiles + '/' + total + ') \u2014 ' + t + '...');
-        }
-      }));
+    if (data && data.stocks) {
+      STOCKS = data.stocks;
+      const dateStr = data.date || new Date().toLocaleDateString();
+      setStatus('live', 'Data updated: ' + dateStr);
+      document.getElementById('loading').style.display = 'none';
+      renderTable();
+      saveCache(STOCKS);
+    } else {
+      throw new Error('Invalid data format');
     }
-
-    if (Object.keys(quoteMap).length === 0) {
-      if (cache && cache.stocks && cache.stocks.length > 0) {
-        // API failed but we have cache — just keep showing it
-        setStatus('live', 'Cached data \u2014 ' + cache.date + ' (API limit reached)');
-        return;
-      }
-      throw new Error('No data returned. API limit may be reached.');
-    }
-
-    // Step 2: Fetch ratios TTM (has PEG ratio) + key metrics (has ROE)
-    let completedFundamentals = 0;
-    for (let i = 0; i < total; i += BATCH_SIZE) {
-      const batch = TICKERS.slice(i, i + BATCH_SIZE);
-      await Promise.all(batch.map(async (t) => {
-        try {
-          const [ratios, metrics] = await Promise.all([
-            fetchJSON(`${BASE_URL}/ratios-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => []),
-            fetchJSON(`${BASE_URL}/key-metrics-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => [])
-          ]);
-          if (ratios && ratios.length > 0) ratiosMap[t] = ratios[0];
-          if (metrics && metrics.length > 0) metricsMap[t] = metrics[0];
-        } catch (e) { console.warn('Fundamentals failed for', t, e); }
-        finally {
-          completedFundamentals++;
-          setProgress('Fetching fundamentals (' + completedFundamentals + '/' + total + ') \u2014 ' + t + '...');
-        }
-      }));
-    }
-
-    // Step 3: Combine everything
-    setProgress('Calculating scores...');
-    STOCKS = TICKERS.map(t => {
-      const displayTicker = t === 'BRK-B' ? 'BRK.B' : t;
-      const q = quoteMap[t] || {};
-      const r = ratiosMap[t] || {};
-      const m = metricsMap[t] || {};
-
-      const rawSector = q.sector || 'Unknown';
-      const sector = SECTOR_MAP[rawSector] || rawSector;
-      const marketCapB = (q.marketCap || q.mktCap || 0) / 1e9;
-      const peg = r.priceToEarningsGrowthRatioTTM || null;
-
-      // FCF Yield = 1 / Price-to-FCF ratio (as percentage)
-      const p2fcf = r.priceToFreeCashFlowRatioTTM || null;
-      const fcfYield = (p2fcf !== null && p2fcf > 0) ? (1 / p2fcf) * 100 : null;
-
-      // Dividend Yield (already a decimal from API, convert to %)
-      const rawDivYield = r.dividendYieldTTM || null;
-      const divYield = (rawDivYield !== null && rawDivYield >= 0) ? rawDivYield * 100 : null;
-
-      // Calculate score
-      const score = calculateScore(peg, fcfYield, divYield, marketCapB, m);
-
-      return {
-        ticker: displayTicker,
-        company: q.companyName || q.name || t,
-        sector,
-        marketCap: Math.round(marketCapB * 10) / 10,
-        peg: (peg !== null && peg > 0 && peg < 100) ? Math.round(peg * 100) / 100 : null,
-        fcfYield: fcfYield !== null ? Math.round(fcfYield * 100) / 100 : null,
-        divYield: divYield !== null ? Math.round(divYield * 100) / 100 : null,
-        score
-      };
-    }).filter(s => s.marketCap > 0);
-
-    // Save to cache
-    saveCache(STOCKS);
-
-    // Done!
-    document.getElementById('loading').style.display = 'none';
-    setStatus('live', 'Live data \u2014 ' + new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }));
-    renderTable();
-
   } catch (err) {
     console.error('Fetch error:', err);
-    if (!cache || !cache.stocks || cache.stocks.length === 0) {
-      // No cache — show placeholder data
+    // Fallback to cache or placeholder
+    const cache = loadCache();
+    if (cache && cache.stocks && cache.stocks.length > 0) {
+      showCachedData(cache);
+    } else {
       STOCKS = PLACEHOLDER_STOCKS;
       document.getElementById('loading').style.display = 'none';
-      setStatus('error', 'Placeholder data \u2014 API limit reached');
+      setStatus('error', 'Using offline placeholder data');
       renderTable();
-    } else {
-      // Cache is already showing, just update the status
-      setStatus('live', 'Cached data \u2014 ' + cache.date + ' (API limit reached)');
     }
   }
 }
 
-// ============================================================
-// SCORING ALGORITHM (0-100)
-// ============================================================
-function calculateScore(peg, fcfYield, divYield, marketCapB, metrics) {
-  let score = 0;
-
-  // --- PEG Ratio (0-35 points) ---
-  // Lower PEG = better value. Ideal: < 1.0
-  if (peg !== null && peg > 0 && peg < 50) {
-    if (peg <= 0.5) score += 35;
-    else if (peg <= 1.0) score += 30;
-    else if (peg <= 1.5) score += 25;
-    else if (peg <= 2.0) score += 18;
-    else if (peg <= 3.0) score += 10;
-    else score += 3;
-  }
-
-  // --- FCF Yield (0-25 points) ---
-  // Higher FCF yield = more cash returned per dollar invested
-  if (fcfYield !== null) {
-    if (fcfYield >= 8) score += 25;
-    else if (fcfYield >= 6) score += 20;
-    else if (fcfYield >= 4) score += 15;
-    else if (fcfYield >= 2) score += 10;
-    else if (fcfYield >= 0) score += 4;
-    else score += 0;
-  }
-
-  // --- Dividend Yield (0-15 points) ---
-  // Reward dividends but don't over-penalize growth stocks
-  if (divYield !== null) {
-    if (divYield >= 4) score += 15;
-    else if (divYield >= 3) score += 12;
-    else if (divYield >= 2) score += 9;
-    else if (divYield >= 1) score += 6;
-    else if (divYield > 0) score += 3;
-    else score += 0;
-  }
-
-  // --- Market Cap / Stability (0-10 points) ---
-  if (marketCapB >= 1000) score += 10;
-  else if (marketCapB >= 500) score += 8;
-  else if (marketCapB >= 200) score += 6;
-  else if (marketCapB >= 100) score += 4;
-  else score += 2;
-
-  // --- Profitability / ROE (0-15 points) ---
-  const roe = metrics.returnOnEquityTTM || metrics.roeTTM || null;
-  if (roe !== null) {
-    if (roe >= 0.30) score += 15;
-    else if (roe >= 0.20) score += 12;
-    else if (roe >= 0.15) score += 9;
-    else if (roe >= 0.10) score += 6;
-    else if (roe >= 0) score += 3;
-    else score += 0;
-  } else {
-    score += 5;
-  }
-
-  return Math.min(100, Math.max(0, Math.round(score)));
-}
 
 // ============================================================
 // UTILITIES

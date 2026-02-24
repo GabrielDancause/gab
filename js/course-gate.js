@@ -16,9 +16,6 @@
   var LS_KEY = 'gab_course_access';
   var LANDING_URL = 'https://gab.ae/';
 
-  // Hide page immediately to prevent content flash
-  document.documentElement.style.visibility = 'hidden';
-
   function getParam(name) {
     try {
       return new URLSearchParams(window.location.search).get(name);
@@ -67,16 +64,16 @@
   var urlKey = getParam('key');
   if (urlKey === ACCESS_KEY) {
     grantAccess();
-    showPage();
     return;
   }
 
   // 2. Check localStorage
   if (hasAccess()) {
-    showPage();
     return;
   }
 
   // 3. No access — show gate
+  // Hide page immediately to prevent content flash (only for unauthorized users)
+  document.documentElement.style.visibility = 'hidden';
   showGate();
 })();

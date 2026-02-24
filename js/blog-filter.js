@@ -1,9 +1,9 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', function() {
-  var filterBtns = document.querySelectorAll('.filter-btn');
-  var posts = document.querySelectorAll('.post-card');
-  var counter = document.getElementById('blog-count');
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const posts = document.querySelectorAll('.post-card');
+  const counter = document.getElementById('blog-count');
 
   if (filterBtns.length === 0 || posts.length === 0) return;
 
@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
       // Add active class to clicked button
       this.classList.add('active');
 
-      var filterValue = this.getAttribute('data-filter');
-      var visibleCount = 0;
+      const filterValue = this.getAttribute('data-filter');
+      let visibleCount = 0;
 
       posts.forEach(function(post) {
         if (filterValue === 'all') {
@@ -36,11 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
           return;
         }
 
-        var postTag = post.getAttribute('data-tag');
-        var postTools = post.getAttribute('data-tools'); // e.g., "Python,Claude"
+        const postTag = post.getAttribute('data-tag');
+        const postTools = post.getAttribute('data-tools'); // e.g., "Python,Claude"
 
-        var matchesTag = postTag === filterValue;
-        var matchesTool = postTools && postTools.split(',').includes(filterValue);
+        const matchesTag = postTag === filterValue;
+        const matchesTool = postTools && postTools.split(',').includes(filterValue);
 
         if (matchesTag || matchesTool) {
           post.style.display = 'block';

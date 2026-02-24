@@ -28,18 +28,12 @@
   }
 
   function hasAccess() {
-    try {
-      return localStorage.getItem(LS_KEY) === ACCESS_KEY;
-    } catch(e) {
-      return false;
-    }
+    return StorageUtils.get(LS_KEY) === ACCESS_KEY;
   }
 
   function grantAccess() {
-    try {
-      localStorage.setItem(LS_KEY, ACCESS_KEY);
-      localStorage.setItem('gab_customer', '1');
-    } catch(e) {}
+    StorageUtils.set(LS_KEY, ACCESS_KEY);
+    StorageUtils.set('gab_customer', '1');
     // Clean the key from URL
     var clean = window.location.pathname + window.location.hash;
     window.history.replaceState({}, '', clean);

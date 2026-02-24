@@ -11,6 +11,7 @@
 
   <!-- GA4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-24QTGCDKMH"></script>
+  <script src="js/storage-utils.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -29,10 +30,8 @@
     }
 
     // Mark as customer and grant course access
-    try {
-      localStorage.setItem('gab_customer', '1');
-      localStorage.setItem('gab_course_access', 'gab2026cc');
-    } catch(e) {}
+    StorageUtils.set('gab_customer', '1');
+    StorageUtils.set('gab_course_access', 'gab2026cc');
   </script>
 
   <!-- Fonts -->

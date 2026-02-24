@@ -574,6 +574,7 @@
 
   </div>
 
+<script src="js/storage-utils.js"></script>
 <script>
 'use strict';
 
@@ -684,20 +685,18 @@ async function fetchJSON(url) {
 // CACHE
 // ============================================================
 function saveCache(stocks) {
-  try {
-    const cache = {
-      timestamp: Date.now(),
-      date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
-      stocks
-    };
-    localStorage.setItem(CACHE_KEY, JSON.stringify(cache));
-  } catch (e) { console.warn('Cache save failed', e); }
+  const cache = {
+    timestamp: Date.now(),
+    date: new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }),
+    stocks
+  };
+  StorageUtils.set(CACHE_KEY, JSON.stringify(cache));
 }
 
 function loadCache() {
+  const raw = StorageUtils.get(CACHE_KEY);
+  if (!raw) return null;
   try {
-    const raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) return null;
     return JSON.parse(raw);
   } catch (e) { return null; }
 }

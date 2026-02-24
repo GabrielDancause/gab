@@ -52,10 +52,45 @@
       <p>Building websites with AI, free hosting, and thoughts on running a business without paying for developers.</p>
     </header>
 
+    <!-- Filters -->
+    <div class="blog-filters">
+      <div class="filter-group">
+        <span class="filter-group-label">Categories</span>
+        <div class="filter-group-items">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Analytics">Analytics</button>
+          <button class="filter-btn" data-filter="Automation">Automation</button>
+          <button class="filter-btn" data-filter="Business">Business</button>
+          <button class="filter-btn" data-filter="Comparison">Comparison</button>
+          <button class="filter-btn" data-filter="DevOps">DevOps</button>
+          <button class="filter-btn" data-filter="Future">Future</button>
+          <button class="filter-btn" data-filter="Growth">Growth</button>
+          <button class="filter-btn" data-filter="Guide">Guide</button>
+          <button class="filter-btn" data-filter="Hosting">Hosting</button>
+          <button class="filter-btn" data-filter="Ideas">Ideas</button>
+          <button class="filter-btn" data-filter="Process">Process</button>
+          <button class="filter-btn" data-filter="Story">Story</button>
+          <button class="filter-btn" data-filter="Strategy">Strategy</button>
+          <button class="filter-btn" data-filter="Technology">Technology</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-group-label">Tools</span>
+        <div class="filter-group-items">
+          <button class="filter-btn" data-filter="Claude">Claude</button>
+          <button class="filter-btn" data-filter="GitHub">GitHub</button>
+          <button class="filter-btn" data-filter="Google">Google</button>
+          <button class="filter-btn" data-filter="Python">Python</button>
+          <button class="filter-btn" data-filter="Stripe">Stripe</button>
+          <button class="filter-btn" data-filter="Suno">Suno</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Posts -->
     <div class="blog-posts">
 
-      <a href="future-of-work-ai-agents-openclaw.html" class="post-card">
+      <a href="future-of-work-ai-agents-openclaw.html" class="post-card" data-tag="Future" data-tools="Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Future</span>
           <span class="post-card-date">February 2026</span>
@@ -66,7 +101,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="viral-content-machine-google-pomeli.html" class="post-card">
+      <a href="viral-content-machine-google-pomeli.html" class="post-card" data-tag="Growth" data-tools="Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Growth</span>
           <span class="post-card-date">February 2026</span>
@@ -77,7 +112,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="solopreneur-stack-zero-cost-business.html" class="post-card">
+      <a href="solopreneur-stack-zero-cost-business.html" class="post-card" data-tag="Business" data-tools="GitHub,Stripe">
         <div class="post-card-meta">
           <span class="post-card-tag">Business</span>
           <span class="post-card-date">February 2026</span>
@@ -88,7 +123,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-google-apps-script.html" class="post-card">
+      <a href="automate-google-apps-script.html" class="post-card" data-tag="Automation" data-tools="Google,Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">March 2026</span>
@@ -99,7 +134,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-stripe-payment-links.html" class="post-card">
+      <a href="automate-stripe-payment-links.html" class="post-card" data-tag="Business" data-tools="Stripe">
         <div class="post-card-meta">
           <span class="post-card-tag">Business</span>
           <span class="post-card-date">March 2026</span>
@@ -110,7 +145,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-github-actions.html" class="post-card">
+      <a href="automate-github-actions.html" class="post-card" data-tag="DevOps" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">DevOps</span>
           <span class="post-card-date">March 2026</span>
@@ -121,7 +156,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-ga4-reporting.html" class="post-card">
+      <a href="automate-ga4-reporting.html" class="post-card" data-tag="Analytics" data-tools="Python,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Analytics</span>
           <span class="post-card-date">March 2026</span>
@@ -132,7 +167,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-shorts-with-python.html" class="post-card">
+      <a href="automate-shorts-with-python.html" class="post-card" data-tag="Automation" data-tools="Python">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">March 2026</span>
@@ -143,7 +178,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="true-cost-free-hosting-github-pages.html" class="post-card">
+      <a href="true-cost-free-hosting-github-pages.html" class="post-card" data-tag="Hosting" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Hosting</span>
           <span class="post-card-date">February 2026</span>
@@ -154,7 +189,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="managing-content-calendar-text-files.html" class="post-card">
+      <a href="managing-content-calendar-text-files.html" class="post-card" data-tag="Process">
         <div class="post-card-meta">
           <span class="post-card-tag">Process</span>
           <span class="post-card-date">February 2026</span>
@@ -165,7 +200,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-pull-requests-google-jule.html" class="post-card">
+      <a href="automate-pull-requests-google-jule.html" class="post-card" data-tag="Automation" data-tools="Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -176,7 +211,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="local-ai-future-web-development.html" class="post-card">
+      <a href="local-ai-future-web-development.html" class="post-card" data-tag="Technology">
         <div class="post-card-meta">
           <span class="post-card-tag">Technology</span>
           <span class="post-card-date">February 2026</span>
@@ -187,7 +222,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="one-video-five-platforms.html" class="post-card">
+      <a href="one-video-five-platforms.html" class="post-card" data-tag="Strategy">
         <div class="post-card-meta">
           <span class="post-card-tag">Strategy</span>
           <span class="post-card-date">February 2026</span>
@@ -197,10 +232,8 @@
           Instagram Reels, Facebook, and Reddit — without extra work.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
-      <span class="post-card-read">Read more &rarr;</span>
-      </a>
 
-      <a href="automate-google-flow-with-claude.html" class="post-card">
+      <a href="automate-google-flow-with-claude.html" class="post-card" data-tag="Automation" data-tools="Claude,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -211,7 +244,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-suno-with-claude.html" class="post-card">
+      <a href="automate-suno-with-claude.html" class="post-card" data-tag="Automation" data-tools="Claude,Suno">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -222,7 +255,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-your-faceless-channel.html" class="post-card">
+      <a href="automate-your-faceless-channel.html" class="post-card" data-tag="Automation" data-tools="Python">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -233,7 +266,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="how-to-create-a-faceless-channel.html" class="post-card">
+      <a href="how-to-create-a-faceless-channel.html" class="post-card" data-tag="Guide" data-tools="Suno,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Guide</span>
           <span class="post-card-date">February 2026</span>
@@ -244,7 +277,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="claude-code-vs-web-developer.html" class="post-card">
+      <a href="claude-code-vs-web-developer.html" class="post-card" data-tag="Comparison" data-tools="Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Comparison</span>
           <span class="post-card-date">February 2026</span>
@@ -255,7 +288,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="5-websites-you-can-build-for-free.html" class="post-card">
+      <a href="5-websites-you-can-build-for-free.html" class="post-card" data-tag="Ideas" data-tools="Claude,GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Ideas</span>
           <span class="post-card-date">February 2026</span>
@@ -266,7 +299,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="why-i-stopped-using-wordpress.html" class="post-card">
+      <a href="why-i-stopped-using-wordpress.html" class="post-card" data-tag="Story">
         <div class="post-card-meta">
           <span class="post-card-tag">Story</span>
           <span class="post-card-date">February 2026</span>
@@ -277,7 +310,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="what-is-github-pages.html" class="post-card">
+      <a href="what-is-github-pages.html" class="post-card" data-tag="Guide" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Guide</span>
           <span class="post-card-date">February 2026</span>
@@ -292,6 +325,7 @@
 
   </div>
 
+  <script src="../js/blog-filter.js"></script>
 </body>
 
 </html>

@@ -1,115 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beta — Investment Wiki</title>
-  <meta name="description" content="Technical reference for Beta. Formula, interpretation, worked examples, and practical application.">
+  <meta name="description" content="Technical reference for Beta. Formula, interpretation, and practical application.">
   <meta property="og:title" content="Beta — Investment Wiki">
-  <meta property="og:description" content="Beta explained: formula, interpretation, worked examples, and why it matters.">
+  <meta property="og:description"
+    content="Beta explained: interpretation, worked examples, and volatility measurement.">
   <meta property="og:type" content="article">
   <meta name="robots" content="index, follow">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236C5CE7'/><text x='50' y='68' font-family='Arial' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>G</text></svg>">
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236C5CE7'/><text x='50' y='68' font-family='Arial' font-size='55' font-weight='bold' fill='white' text-anchor='middle'>G</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../docs/docs-styles.css">
 </head>
+
 <body>
+  <div class="doc-container">
+    <nav class="doc-breadcrumb">
+      <a href="../index.html">Home</a>
+      <span class="sep">/</span>
+      <a href="./">Investment</a>
+      <span class="sep">/</span>
+      Beta
+    </nav>
 
-<div class="doc-container">
+    <header class="doc-header">
+      <h1 class="doc-title">Beta</h1>
+      <div class="doc-meta">
+        <span class="tag">Risk Metric</span>
+        <span>Investment Wiki — Fundamentals</span>
+      </div>
+    </header>
 
-  <nav class="doc-breadcrumb">
-    <a href="../index.html">Home</a>
-    <span class="sep">/</span>
-    <a href="./">Investment</a>
-    <span class="sep">/</span>
-    Beta
-  </nav>
-
-  <header class="doc-header">
-    <h1 class="doc-title">Beta</h1>
-    <div class="doc-meta">
-      <span class="tag">Risk Metric</span>
-      <span>Investment Wiki — Fundamentals</span>
-    </div>
-  </header>
-
-  <div class="doc-abstract">
-    [JULES: PLEASE REPLACE THIS TEXT WITH A 2-3 SENTENCE HIGH-LEVEL SUMMARY OF WHAT THIS METRIC IS AND WHY IT MATTERS TO INVESTORS.]
-  </div>
-
-  <div class="doc-content">
-
-    <div class="gab-stack-infobox">
-      <div class="infobox-header">Quick Reference</div>
-      <table>
-        <tr><td>Type</td><td>Risk Metric</td></tr>
-        <tr><td>Formula</td><td>[JULES: INSERT HIGH-LEVEL FORMULA HERE]</td></tr>
-        <tr><td>Good Target</td><td>[JULES: INSERT TARGET VALUATION/EXPECTATION]</td></tr>
-        <tr><td>Best Used For</td><td>[JULES: INSERT WHEN TO USE THIS METRIC]</td></tr>
-      </table>
+    <div class="doc-abstract">
+      Beta is a measure of a stock's volatility relative to the overall market (typically the S&P 500). It
+      mathematically evaluates systemic risk and helps investors gauge how deeply a stock will swing during broad market
+      crashes or rallies.
     </div>
 
-    <section class="doc-section">
-      <h2>1.0 The Formula</h2>
-
-      <h3>Basic Form</h3>
-<pre><code><span class="code-label">formula</span>[JULES: INSERT DETAILED FORMULA TEXT HERE AND EXPLAIN THE NUMERATOR/DENOMINATOR]</code></pre>
-
-      <p>[JULES: INSERT A BRIEF EXPLANATION OF THE COMPONENTS OF THE FORMULA AND WHERE TO FIND THEM ON THE FINANCIAL STATEMENTS (Balance Sheet, Income Statement, etc.)]</p>
-
-      <h3>Worked Example</h3>
-      <table>
-        <thead>
-          <tr><th>Company</th><th>[JULES: METRIC 1]</th><th>[JULES: METRIC 2]</th><th>Beta</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Company A</td><td>[JULES: DATA 1]</td><td>[JULES: DATA 2]</td><td><strong>[JULES: RESULT A]</strong></td></tr>
-          <tr><td>Company B</td><td>[JULES: DATA 3]</td><td>[JULES: DATA 4]</td><td><strong>[JULES: RESULT B]</strong></td></tr>
-        </tbody>
-      </table>
-
-      <p>[JULES: EXPLAIN WHY COMPANY A OR B IS A BETTER INVESTMENT BASED ON THIS METRIC.]</p>
-
-      <div class="callout callout-note">
-        [JULES: INSERT A KEY INSIGHT OR RULE OF THUMB REGARDING THIS METRIC HERE.]
+    <div class="doc-content">
+      <div class="gab-stack-infobox">
+        <div class="infobox-header">Quick Reference</div>
+        <table>
+          <tr>
+            <td>Type</td>
+            <td>Risk / Volatility Metric</td>
+          </tr>
+          <tr>
+            <td>Market Benchmark</td>
+            <td>Beta = 1.0</td>
+          </tr>
+          <tr>
+            <td>High Volatility</td>
+            <td>Beta > 1.2</td>
+          </tr>
+          <tr>
+            <td>Primary Use</td>
+            <td>Calculating WACC via the CAPM formula</td>
+          </tr>
+        </table>
       </div>
-    </section>
 
-    <section class="doc-section">
-      <h2>2.0 Interpretation & Edge Cases</h2>
+      <section class="doc-section">
+        <h2>1.0 Conceptual Breakdown</h2>
+        <p>Beta is derived through regression analysis. A Beta of exactly 1.0 indicates that a stock's price activity
+          perfectly matches the market. If the S&P 500 swings up 5%, the stock swings up 5%.</p>
+        <ul>
+          <li><strong>Beta > 1.0:</strong> The stock is more volatile than the market. E.g., a Beta of 1.5 means if the
+            market drops 10%, the stock will theoretically drop 15%. Common in high-growth tech.</li>
+          <li><strong>Beta < 1.0:</strong> The stock is less volatile than the market. E.g., a Beta of 0.5 means if the
+                market drops 10%, the stock will only drop 5%. Common in utilities and consumer staples.</li>
+          <li><strong>Negative Beta:</strong> The stock moves inversely to the market. Extremely rare; usually seen in
+            Gold mining stocks or inverse ETFs.</li>
+        </ul>
+      </section>
 
-      <h3>Benchmarks</h3>
-      <p>[JULES: EXPLAIN HOW TO INTERPRET DIFFERENT RANGES OF THIS METRIC (E.g. What does a high number mean? What does a low number mean?)]</p>
-
-      <h3>When it Fails (Pitfalls)</h3>
-      <p>[JULES: EXPLAIN THE EDGE CASES WHERE THIS METRIC MIGHT MISLEAD INVESTORS.]</p>
-      
-      <div class="callout callout-warn">
-        [JULES: INSERT A WARNING ABOUT WHEN NOT TO USE THIS METRIC.]
-      </div>
-    </section>
-
-    <section class="doc-section">
-      <h2>3.0 Related Pages</h2>
-
-      <div class="integration-grid">
-        <div class="integration-card">
-          <h4>[JULES: INSERT RELATED WIKI PAGE]</h4>
-          <p>[JULES: EXPLAIN HOW THIS METRIC INTERACTS WITH THE RELATED METRIC.]</p>
+      <section class="doc-section">
+        <h2>2.0 Interpretation & Edge Cases</h2>
+        <div class="callout callout-warn">
+          Beta measures historical volatility, not fundamental business risk. A company rapidly losing money and facing
+          bankruptcy might have a Beta of 0.8 simply because its stock has plummeted and flatlined, incorrectly implying
+          it is a "safe" investment.
         </div>
-      </div>
-    </section>
+      </section>
 
+      <section class="doc-section">
+        <h2>3.0 Related Pages</h2>
+        <div class="integration-grid">
+          <div class="integration-card">
+            <h4><a href="capm.html">CAPM (Capital Asset Pricing Model)</a></h4>
+            <p>Beta is the central multiplier in CAPM to determine expected return.</p>
+          </div>
+          <div class="integration-card">
+            <h4><a href="wacc.html">WACC</a></h4>
+            <p>Beta dictates the cost of equity inside WACC.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="doc-footer">
+      <a href="./">← Back to Investment Wiki</a>
+      <span style="color: var(--text-tertiary);">Investment Wiki</span>
+    </footer>
   </div>
-
-  <footer class="doc-footer">
-    <a href="./">← Back to Investment Wiki</a>
-    <span style="color: var(--text-tertiary);">Investment Wiki</span>
-  </footer>
-
-</div>
-
 </body>
+
 </html>

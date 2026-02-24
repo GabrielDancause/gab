@@ -153,9 +153,11 @@
       var successEl = formEl.parentElement.querySelector('.form-success');
       var source = formEl.getAttribute('data-form') || 'inline';
 
+      // Build FormData
+      var formData = new FormData(formEl);
+
       // Honeypot check
-      var honeypot = formEl.querySelector('input[name="_gotcha"]');
-      if (honeypot && honeypot.value) return;
+      if (formData.get('_gotcha')) return;
 
       // Disable button
       if (submitBtn) {
@@ -164,13 +166,13 @@
       }
 
       // Build JSON body for Kit API
-      var emailInput = formEl.querySelector('input[name="email_address"]');
-      var nameInput = formEl.querySelector('input[name="first_name"]');
-      var sourceInput = formEl.querySelector('input[name="source"]');
+      var body = { email_address: formData.get('email_address') || '' };
 
-      var body = { email_address: emailInput ? emailInput.value : '' };
-      if (nameInput && nameInput.value) body.first_name = nameInput.value;
-      if (sourceInput && sourceInput.value) body.fields = { source: sourceInput.value };
+      var firstName = formData.get('first_name');
+      if (firstName) body.first_name = firstName;
+
+      var sourceVal = formData.get('source');
+      if (sourceVal) body.fields = { source: sourceVal };
 
       fetch(formEl.action, {
         method: 'POST',

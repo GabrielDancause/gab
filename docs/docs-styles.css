@@ -3,26 +3,14 @@
    Wiki Architecture Stylesheet
    ============================================ */
 
+@import '../variables.css';
+
 /* ---------- CSS Custom Properties ---------- */
 :root {
-  --bg: #0A0A0B;
-  --surface: #141416;
-  --surface-elevated: #1C1C1F;
-  --accent: #6C5CE7;
-  --accent-light: #A29BFE;
-  --accent-glow: rgba(108, 92, 231, 0.15);
-  --text: #F5F5F7;
-  --text-secondary: #8E8E93;
-  --text-tertiary: #636366;
-  --success: #34C759;
-  --warning: #FF9F0A;
-  --border: rgba(255, 255, 255, 0.06);
-  --border-accent: rgba(108, 92, 231, 0.3);
-  --radius: 16px;
-  --radius-sm: 10px;
-  --radius-xs: 8px;
+  /* Override default container width */
   --container: 960px;
-  --transition: 0.2s ease;
+
+  /* Doc-specific variables */
   --code-bg: #1a1a2e;
   --code-border: rgba(108, 92, 231, 0.2);
   --infobox-bg: #111114;

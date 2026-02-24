@@ -379,3 +379,57 @@
     text-align: center;
   }
 }
+
+/* ---------- Blog Filters ---------- */
+.blog-filters {
+  margin-bottom: 48px;
+}
+
+.filter-group {
+  margin-bottom: 24px;
+}
+
+.filter-group-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-tertiary);
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.filter-group-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.filter-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all var(--transition);
+}
+
+.filter-btn:hover {
+  border-color: var(--text-tertiary);
+  color: var(--text);
+}
+
+.filter-btn.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+/* ---------- Pagination ---------- */
+.blog-load-more {
+  text-align: center;
+  margin-top: 48px;
+}

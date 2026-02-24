@@ -12,9 +12,14 @@
 (function() {
   'use strict';
 
-  var ACCESS_KEY = 'gab2026cc';
-  var LS_KEY = 'gab_course_access';
-  var LANDING_URL = 'https://gab.ae/';
+  var config = window.CourseConfig || {};
+  var ACCESS_KEY = config.ACCESS_KEY;
+  var LS_KEY = config.LS_KEY;
+  var LANDING_URL = config.LANDING_URL;
+
+  if (!ACCESS_KEY) {
+    console.error('Course configuration missing or invalid.');
+  }
 
   // Hide page immediately to prevent content flash
   document.documentElement.style.visibility = 'hidden';

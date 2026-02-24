@@ -5,6 +5,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
   if (filterBtns.length === 0 || posts.length === 0) return;
 
+  // Pre-calculate data to avoid DOM access during filtering
+  var postData = Array.from(posts).map(function(post) {
+    var toolsAttr = post.getAttribute('data-tools');
+    return {
+      element: post,
+      tag: post.getAttribute('data-tag'),
+      tools: toolsAttr ? toolsAttr.split(',') : [],
+      isVisible: post.style.display !== 'none'
+    };
+  });
+
   function updateCounter(count) {
     if (counter) {
       counter.textContent = count + (count === 1 ? ' post' : ' posts');
@@ -27,24 +38,29 @@ document.addEventListener('DOMContentLoaded', function() {
       var filterValue = this.getAttribute('data-filter');
       var visibleCount = 0;
 
-      posts.forEach(function(post) {
+      // Batch DOM updates
+      postData.forEach(function(post) {
+        var shouldShow = false;
+
         if (filterValue === 'all') {
-          post.style.display = 'block';
-          visibleCount++;
-          return;
+          shouldShow = true;
+        } else {
+          var matchesTag = post.tag === filterValue;
+          var matchesTool = post.tools.includes(filterValue);
+          shouldShow = matchesTag || matchesTool;
         }
 
-        var postTag = post.getAttribute('data-tag');
-        var postTools = post.getAttribute('data-tools'); // e.g., "Python,Claude"
-
-        var matchesTag = postTag === filterValue;
-        var matchesTool = postTools && postTools.split(',').includes(filterValue);
-
-        if (matchesTag || matchesTool) {
-          post.style.display = 'block';
+        if (shouldShow) {
           visibleCount++;
+          if (!post.isVisible) {
+            post.element.style.display = 'block';
+            post.isVisible = true;
+          }
         } else {
-          post.style.display = 'none';
+          if (post.isVisible) {
+            post.element.style.display = 'none';
+            post.isVisible = false;
+          }
         }
       });
 

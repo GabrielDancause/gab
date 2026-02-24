@@ -41,8 +41,11 @@
   <div class="blog-index">
 
     <!-- Navigation -->
-    <nav class="blog-nav">
-      <a href="../" class="blog-nav-home">&larr; Home</a>
+    <nav class="blog-nav" aria-label="Breadcrumb">
+      <ol class="breadcrumb">
+        <li><a href="../">Home</a></li>
+        <li aria-current="page">Blog</li>
+      </ol>
       <a href="../" class="blog-nav-logo">Gab</a>
     </nav>
 
@@ -52,8 +55,313 @@
       <p>Building websites with AI, free hosting, and thoughts on running a business without paying for developers.</p>
     </header>
 
+    <!-- Filters -->
+    <div class="blog-filters">
+      <div class="filter-group">
+        <span class="filter-group-label">Categories</span>
+        <div class="filter-group-items">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Analytics">Analytics</button>
+          <button class="filter-btn" data-filter="Automation">Automation</button>
+          <button class="filter-btn" data-filter="Business">Business</button>
+          <button class="filter-btn" data-filter="Comparison">Comparison</button>
+          <button class="filter-btn" data-filter="DevOps">DevOps</button>
+          <button class="filter-btn" data-filter="Future">Future</button>
+          <button class="filter-btn" data-filter="Growth">Growth</button>
+          <button class="filter-btn" data-filter="Guide">Guide</button>
+          <button class="filter-btn" data-filter="Hosting">Hosting</button>
+          <button class="filter-btn" data-filter="Ideas">Ideas</button>
+          <button class="filter-btn" data-filter="Process">Process</button>
+          <button class="filter-btn" data-filter="Story">Story</button>
+          <button class="filter-btn" data-filter="Strategy">Strategy</button>
+          <button class="filter-btn" data-filter="Technology">Technology</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <span class="filter-group-label">Tools</span>
+        <div class="filter-group-items">
+          <button class="filter-btn" data-filter="Claude">Claude</button>
+          <button class="filter-btn" data-filter="GitHub">GitHub</button>
+          <button class="filter-btn" data-filter="Google">Google</button>
+          <button class="filter-btn" data-filter="Python">Python</button>
+          <button class="filter-btn" data-filter="Stripe">Stripe</button>
+          <button class="filter-btn" data-filter="Suno">Suno</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Posts -->
     <div class="blog-posts">
+      <a href="day-30-review-github-commits-growth.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Reflection</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>The Review: 30 Days of GitHub Commits and Growth</h2>
+        <p>We made it. 30 days of building, shipping, and learning.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-29-claude-cowork-strategic-planning.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Planning</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Claude Cowork for Strategic Planning</h2>
+        <p>Take a step back and look at the big picture.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-28-kit-automations-segmentation.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Email</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Kit Automations: Segmenting Your Audience</h2>
+        <p>Treat your subscribers like individuals.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-27-openclaw-competitor-analysis.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Strategy</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>OpenClaw for Competitor Analysis</h2>
+        <p>Know your enemy (and learn from them).</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-26-claude-code-landing-pages.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Development</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Claude Code for Rapid Landing Page Iteration</h2>
+        <p>Launch fast, iterate faster.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-25-google-pomeli-visual-branding.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Branding</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Google Pomeli for Consistent Visual Branding Across Channels</h2>
+        <p>Your Instagram should look like your website.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-24-google-flow-product-demos.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Education</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Google Flow for Product Demos and Tutorials</h2>
+        <p>Show, don't just tell.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-23-suno-marketing-jingles.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Marketing</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Suno for Marketing: Creating Jingles and Audio Ads</h2>
+        <p>Audio branding is powerful. Make your brand memorable.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-22-gemini-customer-feedback.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Support</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Using Gemini to Analyze Customer Feedback</h2>
+        <p>Your customers are telling you what to build. Are you listening?</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-21-community-building-reddit.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Community</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Community Building on Reddit: The Authentic Way</h2>
+        <p>Don't just take from Reddit; give back.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-20-cross-posting-youtube-tiktok.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Automation</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Cross-Posting Automation: YouTube to TikTok</h2>
+        <p>Create once, distribute everywhere.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-19-stripe-webhooks-google-apps-script.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Integration</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Integrating Stripe Webhooks with Google Apps Script</h2>
+        <p>Connect your sales directly to your fulfillment.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-18-google-analytics-4-tracking.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Analytics</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Tracking What Matters with Google Analytics 4</h2>
+        <p>You can't improve what you don't measure.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-17-youtube-hybrid-strategy.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Video</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>YouTube Long-form vs. Shorts: The Hybrid Strategy</h2>
+        <p>YouTube is the second largest search engine. Don't ignore it.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-16-instagram-reels-strategy.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Social</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Instagram Reels Strategy: From Static to Dynamic</h2>
+        <p>Instagram is pivoting to video. You should too.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-15-conquering-tiktok-ai-shorts.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Video</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Conquering TikTok with AI-Generated Shorts</h2>
+        <p>TikTok is the discovery engine of the modern web.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-14-automated-facebook-posting.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Social</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Automated Social Posting to Facebook Groups</h2>
+        <p>Facebook Groups are still a goldmine for niche communities.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-13-whatsapp-business-api.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Communication</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>WhatsApp Business API for Client Communication</h2>
+        <p>Meet your customers where they are: on WhatsApp.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-12-claude-cowork-collaboration.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Productivity</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Claude Cowork: Real-time Collaboration with AI</h2>
+        <p>Never work alone. Claude Cowork is always on your team.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-11-openclaw-agentic-workflows.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Agents</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>The OpenClaw Advantage: Agentic Workflows</h2>
+        <p>Move from automation to autonomy with OpenClaw agents.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-10-launching-newsletter-kit.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Marketing</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Launching Your Newsletter with Kit</h2>
+        <p>Own your audience. An email list is your most valuable asset.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-9-building-product-stripe-payment-links.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Sales</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Building Your First Product with Stripe Payment Links</h2>
+        <p>Start selling immediately. No complex checkout code required.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-8-audio-frontier-suno.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Audio</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>The Audio Frontier: Generating Soundtracks with Suno</h2>
+        <p>Music sets the mood. Suno creates original soundtracks in seconds.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-7-creating-visuals-google-flow.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Design</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Creating Visual Masterpieces with Google Flow</h2>
+        <p>Visuals matter. Google Flow brings your scripts to life.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-6-defining-brand-voice-google-pomeli.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Branding</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Defining Your Brand Voice with Google Pomeli</h2>
+        <p>Consistency is key. Google Pomeli ensures your AI content sounds like you.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-5-scripting-success-gemini-pro.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Content</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Scripting Success with Gemini Pro 1.5</h2>
+        <p>Turn your Reddit insights into compelling scripts with Gemini.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-4-mining-reddit-viral-topics.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Growth</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Ideation Machine: Mining Reddit for Viral Topics</h2>
+        <p>The best ideas come from listening. Reddit is the world's largest focus group.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-3-mastering-google-apps-script.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Automation</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Mastering Google Apps Script for Admin Automation</h2>
+        <p>Stop doing manual data entry. Google Apps Script is the glue that connects your business.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-2-claude-code-technical-co-founder.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Development</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Why Claude Code is Your New Technical Co-Founder</h2>
+        <p>You don't need a CTO. You need Claude Code.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
+      <a href="day-1-setting-up-digital-hq-github-pages.html" class="post-card">
+        <div class="post-card-meta">
+          <span class="post-card-tag">Setup</span>
+          <span class="post-card-date">March 2026</span>
+        </div>
+        <h2>Setting Up Your Digital HQ with GitHub Pages</h2>
+        <p>Every solopreneur needs a home base. Today, we build yours for free using GitHub Pages.</p>
+        <span class="post-card-read">Read more &rarr;</span>
+      </a>
 
       <a href="build-faceless-youtube-channel-suno-google-flow.html" class="post-card">
         <div class="post-card-meta">
@@ -61,7 +369,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>How to Build a Faceless YouTube Channel with Suno and Google Flow</h2>
-        <p>Learn how to create a complete faceless YouTube channel using AI music from Suno and video from Google Flow.</p>
+        <p>Learn how to create a complete faceless YouTube channel using AI music from Suno and video from Google Flow.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -71,7 +380,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Automating Instagram Reels with Google Flow and Gemini</h2>
-        <p>A step-by-step guide to generating Instagram Reels automatically using Gemini for scripts and Google Flow for visuals.</p>
+        <p>A step-by-step guide to generating Instagram Reels automatically using Gemini for scripts and Google Flow for
+          visuals.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -81,7 +391,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>From Reddit Trends to TikTok Viral Hits: A Workflow</h2>
-        <p>Discover trending topics on Reddit and turn them into viral TikTok content using Gemini to script your videos.</p>
+        <p>Discover trending topics on Reddit and turn them into viral TikTok content using Gemini to script your
+          videos.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -101,7 +412,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>The Ultimate Solopreneur Stack: Claude Cowork + OpenClaw</h2>
-        <p>Why hiring employees is outdated. Use Claude Cowork and OpenClaw to run your entire business operation solo.</p>
+        <p>Why hiring employees is outdated. Use Claude Cowork and OpenClaw to run your entire business operation solo.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -111,7 +423,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Automating Client Onboarding with Stripe, Kit, and Google Apps</h2>
-        <p>Streamline your client onboarding process. automatically send welcome emails and access details when a Stripe payment is made.</p>
+        <p>Streamline your client onboarding process. automatically send welcome emails and access details when a Stripe
+          payment is made.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -131,7 +444,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Generating Music Videos for YouTube Shorts with Suno and Google Flow</h2>
-        <p>Combine AI-generated music from Suno with AI-generated video clips from Google Flow to create unique YouTube Shorts.</p>
+        <p>Combine AI-generated music from Suno with AI-generated video clips from Google Flow to create unique YouTube
+          Shorts.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -161,7 +475,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Building a SaaS MVP in a Weekend with Claude Code and GitHub</h2>
-        <p>Launch your startup idea in 48 hours. See how I used Claude Code to write the backend and deploy to GitHub.</p>
+        <p>Launch your startup idea in 48 hours. See how I used Claude Code to write the backend and deploy to GitHub.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -191,7 +506,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Creating a Lo-Fi Music Channel with Suno and Gemini</h2>
-        <p>Start a passive income stream by creating a 24/7 lo-fi music channel using Suno for tracks and Gemini for visuals.</p>
+        <p>Start a passive income stream by creating a 24/7 lo-fi music channel using Suno for tracks and Gemini for
+          visuals.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -231,7 +547,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>How to Scrape Reddit for Content Ideas using Claude Code</h2>
-        <p>Never run out of content ideas. Use Claude Code to build a Reddit scraper that finds high-engagement topics.</p>
+        <p>Never run out of content ideas. Use Claude Code to build a Reddit scraper that finds high-engagement topics.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -241,7 +558,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Deploying Your Static Site to GitHub Pages with Claude Code</h2>
-        <p>Host your website for free. A complete guide to deploying HTML/CSS sites to GitHub Pages using Claude Code.</p>
+        <p>Host your website for free. A complete guide to deploying HTML/CSS sites to GitHub Pages using Claude Code.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -291,7 +609,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Suno + Google Flow: The Future of Music Video Production</h2>
-        <p>The music industry is changing. How independent artists are using Suno and Google Flow to produce professional videos.</p>
+        <p>The music industry is changing. How independent artists are using Suno and Google Flow to produce
+          professional videos.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -311,7 +630,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Why OpenClaw is the Best Personal Assistant for Developers</h2>
-        <p>Forget Siri or Alexa. OpenClaw runs locally, understands code, and can control your entire development environment.</p>
+        <p>Forget Siri or Alexa. OpenClaw runs locally, understands code, and can control your entire development
+          environment.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -321,7 +641,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Automating YouTube Descriptions and Tags with Gemini</h2>
-        <p>Improve your video ranking. Use Gemini to generate SEO-optimized titles, descriptions, and tags for YouTube.</p>
+        <p>Improve your video ranking. Use Gemini to generate SEO-optimized titles, descriptions, and tags for YouTube.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -331,7 +652,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>How to Use Claude Cowork to Manage Your Local Dev Environment</h2>
-        <p>Keep your development machine clean and organized. Let Claude Cowork handle package updates and config files.</p>
+        <p>Keep your development machine clean and organized. Let Claude Cowork handle package updates and config files.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -371,7 +693,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>How to Use Google Flow to Repurpose YouTube Videos for TikTok</h2>
-        <p>Don't let your long-form content go to waste. Use Google Flow to automatically chop and reformat videos for TikTok.</p>
+        <p>Don't let your long-form content go to waste. Use Google Flow to automatically chop and reformat videos for
+          TikTok.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -381,7 +704,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>The Power of Kit Automations for Digital Product Sales</h2>
-        <p>Sell while you sleep. Set up powerful email automation sequences in Kit to upsell and cross-sell your products.</p>
+        <p>Sell while you sleep. Set up powerful email automation sequences in Kit to upsell and cross-sell your
+          products.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -391,7 +715,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Using Gemini to Write Better Scripts for Your Faceless Channel</h2>
-        <p>Writer's block is a thing of the past. Learn how to prompt Gemini to write engaging scripts for any niche.</p>
+        <p>Writer's block is a thing of the past. Learn how to prompt Gemini to write engaging scripts for any niche.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -401,7 +726,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>Claude Code: Your AI Junior Developer for GitHub Projects</h2>
-        <p>Scale your development output. Treat Claude Code as a junior developer who can handle pull requests and bug fixes.</p>
+        <p>Scale your development output. Treat Claude Code as a junior developer who can handle pull requests and bug
+          fixes.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -411,7 +737,8 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>How to Auto-Reply to Facebook Comments with OpenClaw</h2>
-        <p>Boost engagement by replying to every comment instantly. Set up OpenClaw to handle your Facebook page interactions.</p>
+        <p>Boost engagement by replying to every comment instantly. Set up OpenClaw to handle your Facebook page
+          interactions.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -431,7 +758,8 @@
           <span class="post-card-date">April 2026</span>
         </div>
         <h2>Google Pomeli: The Secret Weapon for Small Business Branding</h2>
-        <p>Level the playing field. Use Google Pomeli to create big-brand marketing assets on a small business budget.</p>
+        <p>Level the playing field. Use Google Pomeli to create big-brand marketing assets on a small business budget.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
@@ -451,13 +779,12 @@
           <span class="post-card-date">March 2026</span>
         </div>
         <h2>The Complete Guide to Automating Social Media with Google Apps</h2>
-        <p>You don't need expensive tools. Build your own social media scheduler using Google Sheets and Apps Script.</p>
+        <p>You don't need expensive tools. Build your own social media scheduler using Google Sheets and Apps Script.
+        </p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-
-
-      <a href="future-of-work-ai-agents-openclaw.html" class="post-card">
+      <a href="future-of-work-ai-agents-openclaw.html" class="post-card" data-tag="Future" data-tools="Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Future</span>
           <span class="post-card-date">February 2026</span>
@@ -468,7 +795,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="viral-content-machine-google-pomeli.html" class="post-card">
+      <a href="viral-content-machine-google-pomeli.html" class="post-card" data-tag="Growth" data-tools="Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Growth</span>
           <span class="post-card-date">February 2026</span>
@@ -479,7 +806,8 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="solopreneur-stack-zero-cost-business.html" class="post-card">
+      <a href="solopreneur-stack-zero-cost-business.html" class="post-card" data-tag="Business"
+        data-tools="GitHub,Stripe">
         <div class="post-card-meta">
           <span class="post-card-tag">Business</span>
           <span class="post-card-date">February 2026</span>
@@ -490,7 +818,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-google-apps-script.html" class="post-card">
+      <a href="automate-google-apps-script.html" class="post-card" data-tag="Automation" data-tools="Google,Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">March 2026</span>
@@ -501,7 +829,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-stripe-payment-links.html" class="post-card">
+      <a href="automate-stripe-payment-links.html" class="post-card" data-tag="Business" data-tools="Stripe">
         <div class="post-card-meta">
           <span class="post-card-tag">Business</span>
           <span class="post-card-date">March 2026</span>
@@ -512,7 +840,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-github-actions.html" class="post-card">
+      <a href="automate-github-actions.html" class="post-card" data-tag="DevOps" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">DevOps</span>
           <span class="post-card-date">March 2026</span>
@@ -523,7 +851,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-ga4-reporting.html" class="post-card">
+      <a href="automate-ga4-reporting.html" class="post-card" data-tag="Analytics" data-tools="Python,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Analytics</span>
           <span class="post-card-date">March 2026</span>
@@ -534,7 +862,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-shorts-with-python.html" class="post-card">
+      <a href="automate-shorts-with-python.html" class="post-card" data-tag="Automation" data-tools="Python">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">March 2026</span>
@@ -545,7 +873,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="true-cost-free-hosting-github-pages.html" class="post-card">
+      <a href="true-cost-free-hosting-github-pages.html" class="post-card" data-tag="Hosting" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Hosting</span>
           <span class="post-card-date">February 2026</span>
@@ -556,7 +884,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="managing-content-calendar-text-files.html" class="post-card">
+      <a href="managing-content-calendar-text-files.html" class="post-card" data-tag="Process">
         <div class="post-card-meta">
           <span class="post-card-tag">Process</span>
           <span class="post-card-date">February 2026</span>
@@ -567,7 +895,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-pull-requests-google-jule.html" class="post-card">
+      <a href="automate-pull-requests-google-jule.html" class="post-card" data-tag="Automation" data-tools="Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -578,7 +906,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="local-ai-future-web-development.html" class="post-card">
+      <a href="local-ai-future-web-development.html" class="post-card" data-tag="Technology">
         <div class="post-card-meta">
           <span class="post-card-tag">Technology</span>
           <span class="post-card-date">February 2026</span>
@@ -589,7 +917,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="one-video-five-platforms.html" class="post-card">
+      <a href="one-video-five-platforms.html" class="post-card" data-tag="Strategy">
         <div class="post-card-meta">
           <span class="post-card-tag">Strategy</span>
           <span class="post-card-date">February 2026</span>
@@ -599,10 +927,9 @@
           Instagram Reels, Facebook, and Reddit — without extra work.</p>
         <span class="post-card-read">Read more &rarr;</span>
       </a>
-      <span class="post-card-read">Read more &rarr;</span>
-      </a>
 
-      <a href="automate-google-flow-with-claude.html" class="post-card">
+      <a href="automate-google-flow-with-claude.html" class="post-card" data-tag="Automation"
+        data-tools="Claude,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -613,7 +940,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-suno-with-claude.html" class="post-card">
+      <a href="automate-suno-with-claude.html" class="post-card" data-tag="Automation" data-tools="Claude,Suno">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -624,7 +951,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="automate-your-faceless-channel.html" class="post-card">
+      <a href="automate-your-faceless-channel.html" class="post-card" data-tag="Automation" data-tools="Python">
         <div class="post-card-meta">
           <span class="post-card-tag">Automation</span>
           <span class="post-card-date">February 2026</span>
@@ -635,7 +962,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="how-to-create-a-faceless-channel.html" class="post-card">
+      <a href="how-to-create-a-faceless-channel.html" class="post-card" data-tag="Guide" data-tools="Suno,Google">
         <div class="post-card-meta">
           <span class="post-card-tag">Guide</span>
           <span class="post-card-date">February 2026</span>
@@ -646,7 +973,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="claude-code-vs-web-developer.html" class="post-card">
+      <a href="claude-code-vs-web-developer.html" class="post-card" data-tag="Comparison" data-tools="Claude">
         <div class="post-card-meta">
           <span class="post-card-tag">Comparison</span>
           <span class="post-card-date">February 2026</span>
@@ -657,7 +984,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="5-websites-you-can-build-for-free.html" class="post-card">
+      <a href="5-websites-you-can-build-for-free.html" class="post-card" data-tag="Ideas" data-tools="Claude,GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Ideas</span>
           <span class="post-card-date">February 2026</span>
@@ -668,7 +995,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="why-i-stopped-using-wordpress.html" class="post-card">
+      <a href="why-i-stopped-using-wordpress.html" class="post-card" data-tag="Story">
         <div class="post-card-meta">
           <span class="post-card-tag">Story</span>
           <span class="post-card-date">February 2026</span>
@@ -679,7 +1006,7 @@
         <span class="post-card-read">Read more &rarr;</span>
       </a>
 
-      <a href="what-is-github-pages.html" class="post-card">
+      <a href="what-is-github-pages.html" class="post-card" data-tag="Guide" data-tools="GitHub">
         <div class="post-card-meta">
           <span class="post-card-tag">Guide</span>
           <span class="post-card-date">February 2026</span>
@@ -694,6 +1021,8 @@
 
   </div>
 
+  <script src="../js/blog-filter.js"></script>
+  <script src="blog-pagination.js"></script>
 </body>
 
 </html>

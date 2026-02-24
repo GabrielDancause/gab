@@ -77,15 +77,18 @@
 
   // ---------- Scroll Animations (IntersectionObserver) ----------
   var fadeElements = document.querySelectorAll('.fade-up');
+
+  function handleScrollAnimation(entries, observer) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }
+
   if (fadeElements.length > 0 && 'IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
-      entries.forEach(function(entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-          observer.unobserve(entry.target);
-        }
-      });
-    }, {
+    var observer = new IntersectionObserver(handleScrollAnimation, {
       threshold: 0.1,
       rootMargin: '0px 0px -40px 0px'
     });

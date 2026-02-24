@@ -1,3 +1,5 @@
+'use strict';
+
 document.addEventListener('DOMContentLoaded', function() {
   var filterBtns = document.querySelectorAll('.filter-btn');
   var posts = document.querySelectorAll('.post-card');

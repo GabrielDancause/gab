@@ -312,12 +312,19 @@
   // Scroll trigger: 60% page scroll
   if (canShowLeadPopup()) {
     var scrollTriggered = false;
+    var scrollTimeout;
     window.addEventListener('scroll', function() {
       if (scrollTriggered || leadPopupShown) return;
-      var scrollPercent = (window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight;
-      if (scrollPercent >= 0.60) {
-        scrollTriggered = true;
-        showLeadPopup();
+
+      if (!scrollTimeout) {
+        scrollTimeout = setTimeout(function() {
+          var scrollPercent = (window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight;
+          if (scrollPercent >= 0.60) {
+            scrollTriggered = true;
+            showLeadPopup();
+          }
+          scrollTimeout = null;
+        }, 100);
       }
     });
   }

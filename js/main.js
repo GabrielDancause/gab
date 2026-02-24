@@ -111,18 +111,10 @@
     }
   }
 
-  function getLS(key) {
-    try { return localStorage.getItem(key); } catch(e) { return null; }
-  }
-
-  function setLS(key, val) {
-    try { localStorage.setItem(key, val || '1'); } catch(e) {}
-  }
-
-  var isCustomer = getLS('gab_customer') === '1';
-  var leadCaptured = getLS('gab_lead_captured') === '1';
-  var popupDismissed = getLS('gab_lead_popup_dismissed') === '1';
-  var exitDismissed = getLS('gab_exit_dismissed') === '1';
+  var isCustomer = GabUtils.getLS(GabUtils.KEYS.CUSTOMER) === '1';
+  var leadCaptured = GabUtils.getLS(GabUtils.KEYS.LEAD_CAPTURED) === '1';
+  var popupDismissed = GabUtils.getLS(GabUtils.KEYS.POPUP_DISMISSED) === '1';
+  var exitDismissed = GabUtils.getLS(GabUtils.KEYS.EXIT_DISMISSED) === '1';
 
   // ---------- Stripe CTA Tracking ----------
   document.querySelectorAll('.btn-stripe').forEach(function(btn) {
@@ -184,7 +176,7 @@
           if (successEl) successEl.style.display = 'block';
 
           // Track
-          setLS('gab_lead_captured');
+          GabUtils.setLS(GabUtils.KEYS.LEAD_CAPTURED, '1');
           leadCaptured = true;
           ga4('lead_magnet_signup', { source: source });
 
@@ -236,10 +228,10 @@
       closeModal(modal);
 
       if (modal === leadModal) {
-        setLS('gab_lead_popup_dismissed');
+        GabUtils.setLS(GabUtils.KEYS.POPUP_DISMISSED, '1');
         popupDismissed = true;
       } else if (modal === exitModal) {
-        setLS('gab_exit_dismissed');
+        GabUtils.setLS(GabUtils.KEYS.EXIT_DISMISSED, '1');
         exitDismissed = true;
       }
     });
@@ -252,10 +244,10 @@
         closeModal(overlay);
 
         if (overlay === leadModal) {
-          setLS('gab_lead_popup_dismissed');
+          GabUtils.setLS(GabUtils.KEYS.POPUP_DISMISSED, '1');
           popupDismissed = true;
         } else if (overlay === exitModal) {
-          setLS('gab_exit_dismissed');
+          GabUtils.setLS(GabUtils.KEYS.EXIT_DISMISSED, '1');
           exitDismissed = true;
         }
       }
@@ -266,10 +258,10 @@
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape' && activeModal) {
       if (activeModal === leadModal) {
-        setLS('gab_lead_popup_dismissed');
+        GabUtils.setLS(GabUtils.KEYS.POPUP_DISMISSED, '1');
         popupDismissed = true;
       } else if (activeModal === exitModal) {
-        setLS('gab_exit_dismissed');
+        GabUtils.setLS(GabUtils.KEYS.EXIT_DISMISSED, '1');
         exitDismissed = true;
       }
       closeModal(activeModal);

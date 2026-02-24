@@ -13,7 +13,7 @@
   'use strict';
 
   var ACCESS_KEY = 'gab2026cc';
-  var LS_KEY = 'gab_course_access';
+  var LS_KEY = GabUtils.KEYS.COURSE_ACCESS;
   var LANDING_URL = 'https://gab.ae/';
 
   // Hide page immediately to prevent content flash
@@ -28,18 +28,12 @@
   }
 
   function hasAccess() {
-    try {
-      return localStorage.getItem(LS_KEY) === ACCESS_KEY;
-    } catch(e) {
-      return false;
-    }
+    return GabUtils.getLS(LS_KEY) === ACCESS_KEY;
   }
 
   function grantAccess() {
-    try {
-      localStorage.setItem(LS_KEY, ACCESS_KEY);
-      localStorage.setItem('gab_customer', '1');
-    } catch(e) {}
+    GabUtils.setLS(LS_KEY, ACCESS_KEY);
+    GabUtils.setLS(GabUtils.KEYS.CUSTOMER, '1');
     // Clean the key from URL
     var clean = window.location.pathname + window.location.hash;
     window.history.replaceState({}, '', clean);

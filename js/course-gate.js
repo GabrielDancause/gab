@@ -16,9 +16,6 @@
   var LS_KEY = 'gab_course_access';
   var LANDING_URL = 'https://gab.ae/';
 
-  // Hide page immediately to prevent content flash
-  document.documentElement.style.visibility = 'hidden';
-
   function getParam(name) {
     try {
       return new URLSearchParams(window.location.search).get(name);
@@ -63,20 +60,39 @@
     });
   }
 
-  // 1. Check for key in URL
-  var urlKey = getParam('key');
-  if (urlKey === ACCESS_KEY) {
-    grantAccess();
-    showPage();
-    return;
+  function init() {
+    // Hide page immediately to prevent content flash
+    if (typeof document !== 'undefined' && document.documentElement) {
+      document.documentElement.style.visibility = 'hidden';
+    }
+
+    // 1. Check for key in URL
+    var urlKey = getParam('key');
+    if (urlKey === ACCESS_KEY) {
+      grantAccess();
+      showPage();
+      return;
+    }
+
+    // 2. Check localStorage
+    if (hasAccess()) {
+      showPage();
+      return;
+    }
+
+    // 3. No access — show gate
+    showGate();
   }
 
-  // 2. Check localStorage
-  if (hasAccess()) {
-    showPage();
-    return;
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = {
+      hasAccess: hasAccess,
+      grantAccess: grantAccess,
+      init: init,
+      ACCESS_KEY: ACCESS_KEY,
+      LS_KEY: LS_KEY
+    };
+  } else {
+    init();
   }
-
-  // 3. No access — show gate
-  showGate();
 })();

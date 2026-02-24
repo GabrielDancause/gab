@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   var postsPerPage = 6;
   var posts = document.querySelectorAll('.post-card');
   var totalPosts = posts.length;

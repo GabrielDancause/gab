@@ -727,13 +727,20 @@ async function fetchAllData() {
     const metricsMap = {};
 
     // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
-    for (let i = 0; i < total; i++) {
-      const t = TICKERS[i];
-      setProgress('Fetching profiles (' + (i + 1) + '/' + total + ') \u2014 ' + t + '...');
-      try {
-        const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
-        if (data && data.length > 0) quoteMap[t] = data[0];
-      } catch (e) { console.warn('Profile failed for', t, e); }
+    const BATCH_SIZE = 5;
+    let completedProfiles = 0;
+    for (let i = 0; i < total; i += BATCH_SIZE) {
+      const batch = TICKERS.slice(i, i + BATCH_SIZE);
+      await Promise.all(batch.map(async (t) => {
+        try {
+          const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
+          if (data && data.length > 0) quoteMap[t] = data[0];
+        } catch (e) { console.warn('Profile failed for', t, e); }
+        finally {
+          completedProfiles++;
+          setProgress('Fetching profiles (' + completedProfiles + '/' + total + ') \u2014 ' + t + '...');
+        }
+      }));
     }
 
     if (Object.keys(quoteMap).length === 0) {
@@ -746,17 +753,23 @@ async function fetchAllData() {
     }
 
     // Step 2: Fetch ratios TTM (has PEG ratio) + key metrics (has ROE)
-    for (let i = 0; i < total; i++) {
-      const t = TICKERS[i];
-      setProgress('Fetching fundamentals (' + (i + 1) + '/' + total + ') \u2014 ' + t + '...');
-      try {
-        const [ratios, metrics] = await Promise.all([
-          fetchJSON(`${BASE_URL}/ratios-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => []),
-          fetchJSON(`${BASE_URL}/key-metrics-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => [])
-        ]);
-        if (ratios && ratios.length > 0) ratiosMap[t] = ratios[0];
-        if (metrics && metrics.length > 0) metricsMap[t] = metrics[0];
-      } catch (e) { console.warn('Fundamentals failed for', t, e); }
+    let completedFundamentals = 0;
+    for (let i = 0; i < total; i += BATCH_SIZE) {
+      const batch = TICKERS.slice(i, i + BATCH_SIZE);
+      await Promise.all(batch.map(async (t) => {
+        try {
+          const [ratios, metrics] = await Promise.all([
+            fetchJSON(`${BASE_URL}/ratios-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => []),
+            fetchJSON(`${BASE_URL}/key-metrics-ttm?symbol=${t}&apikey=${API_KEY}`).catch(() => [])
+          ]);
+          if (ratios && ratios.length > 0) ratiosMap[t] = ratios[0];
+          if (metrics && metrics.length > 0) metricsMap[t] = metrics[0];
+        } catch (e) { console.warn('Fundamentals failed for', t, e); }
+        finally {
+          completedFundamentals++;
+          setProgress('Fetching fundamentals (' + completedFundamentals + '/' + total + ') \u2014 ' + t + '...');
+        }
+      }));
     }
 
     // Step 3: Combine everything

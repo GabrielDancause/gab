@@ -727,14 +727,17 @@ async function fetchAllData() {
     const metricsMap = {};
 
     // Step 1: Fetch profiles individually (has sector, avgVolume, marketCap)
-    for (let i = 0; i < total; i++) {
-      const t = TICKERS[i];
-      setProgress('Fetching profiles (' + (i + 1) + '/' + total + ') \u2014 ' + t + '...');
+    let profilesCompleted = 0;
+    const profilePromises = TICKERS.map(async (t) => {
       try {
         const data = await fetchJSON(`${BASE_URL}/profile?symbol=${t}&apikey=${API_KEY}`);
         if (data && data.length > 0) quoteMap[t] = data[0];
       } catch (e) { console.warn('Profile failed for', t, e); }
-    }
+      profilesCompleted++;
+      setProgress('Fetching profiles (' + profilesCompleted + '/' + total + ')...');
+    });
+
+    await Promise.all(profilePromises);
 
     if (Object.keys(quoteMap).length === 0) {
       if (cache && cache.stocks && cache.stocks.length > 0) {

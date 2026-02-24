@@ -344,19 +344,38 @@
   // ---------- Scroll Depth Tracking ----------
   (function() {
     var milestones = { 25: false, 50: false, 75: false, 100: false };
+    var ticking = false;
 
-    window.addEventListener('scroll', function() {
-      var scrollPercent = Math.round(
-        ((window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight) * 100
-      );
+    function onScroll() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          var scrollPercent = Math.round(
+            ((window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight) * 100
+          );
 
-      [25, 50, 75, 100].forEach(function(mark) {
-        if (!milestones[mark] && scrollPercent >= mark) {
-          milestones[mark] = true;
-          ga4('scroll_depth', { percent: mark });
-        }
-      });
-    });
+          var allMet = true;
+          [25, 50, 75, 100].forEach(function(mark) {
+            if (!milestones[mark]) {
+              if (scrollPercent >= mark) {
+                milestones[mark] = true;
+                ga4('scroll_depth', { percent: mark });
+              } else {
+                allMet = false;
+              }
+            }
+          });
+
+          if (allMet) {
+            window.removeEventListener('scroll', onScroll);
+          }
+
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }
+
+    window.addEventListener('scroll', onScroll);
   })();
 
   // ---------- Social Proof Toast ----------

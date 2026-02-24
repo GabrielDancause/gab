@@ -2,9 +2,9 @@
   'use strict';
 
   // ---------- Sticky Nav ----------
-  var nav = document.querySelector('.site-nav');
+  const nav = document.querySelector('.site-nav');
   if (nav) {
-    var ticking = false;
+    let ticking = false;
     window.addEventListener('scroll', function() {
       if (!ticking) {
         window.requestAnimationFrame(function() {
@@ -21,11 +21,11 @@
   }
 
   // ---------- Mobile Hamburger ----------
-  var hamburger = document.querySelector('.nav-hamburger');
-  var navCta = document.querySelector('.nav-cta');
+  const hamburger = document.querySelector('.nav-hamburger');
+  const navCta = document.querySelector('.nav-cta');
   if (hamburger && navCta) {
     hamburger.addEventListener('click', function() {
-      var open = navCta.classList.toggle('nav-open');
+      const open = navCta.classList.toggle('nav-open');
       hamburger.classList.toggle('active', open);
       hamburger.setAttribute('aria-expanded', open ? 'true' : 'false');
     });
@@ -43,13 +43,13 @@
   // ---------- Smooth Scroll for Anchor Links ----------
   document.querySelectorAll('a[href^="#"]').forEach(function(link) {
     link.addEventListener('click', function(e) {
-      var targetId = this.getAttribute('href');
+      const targetId = this.getAttribute('href');
       if (targetId === '#') return;
-      var target = document.querySelector(targetId);
+      const target = document.querySelector(targetId);
       if (target) {
         e.preventDefault();
-        var offset = 80; // account for fixed nav
-        var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+        const offset = 80; // account for fixed nav
+        const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
         window.scrollTo({ top: top, behavior: 'smooth' });
       }
     });
@@ -58,8 +58,8 @@
   // ---------- FAQ Accordion ----------
   document.querySelectorAll('.faq-question').forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var item = this.parentElement;
-      var isOpen = item.classList.contains('open');
+      const item = this.parentElement;
+      const isOpen = item.classList.contains('open');
 
       // Close all other items
       document.querySelectorAll('.faq-item.open').forEach(function(openItem) {
@@ -76,9 +76,9 @@
   });
 
   // ---------- Scroll Animations (IntersectionObserver) ----------
-  var fadeElements = document.querySelectorAll('.fade-up');
+  const fadeElements = document.querySelectorAll('.fade-up');
   if (fadeElements.length > 0 && 'IntersectionObserver' in window) {
-    var observer = new IntersectionObserver(function(entries) {
+    const observer = new IntersectionObserver(function(entries) {
       entries.forEach(function(entry) {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
@@ -119,26 +119,26 @@
     try { localStorage.setItem(key, val || '1'); } catch(e) {}
   }
 
-  var isCustomer = getLS('gab_customer') === '1';
-  var leadCaptured = getLS('gab_lead_captured') === '1';
-  var popupDismissed = getLS('gab_lead_popup_dismissed') === '1';
-  var exitDismissed = getLS('gab_exit_dismissed') === '1';
+  const isCustomer = getLS('gab_customer') === '1';
+  let leadCaptured = getLS('gab_lead_captured') === '1';
+  let popupDismissed = getLS('gab_lead_popup_dismissed') === '1';
+  let exitDismissed = getLS('gab_exit_dismissed') === '1';
 
   // ---------- Stripe CTA Tracking ----------
   document.querySelectorAll('.btn-stripe').forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var eventName = this.getAttribute('data-event') || 'cta_click';
+      const eventName = this.getAttribute('data-event') || 'cta_click';
       ga4(eventName, { currency: 'USD', value: 39 });
     });
   });
 
   // ---------- Stripe Cancel Detection ----------
   (function() {
-    var params = new URLSearchParams(window.location.search);
+    const params = new URLSearchParams(window.location.search);
     if (params.get('cancelled') === 'true') {
       ga4('checkout_cancelled');
       // Clean URL without reload
-      var clean = window.location.pathname + window.location.hash;
+      const clean = window.location.pathname + window.location.hash;
       window.history.replaceState({}, '', clean);
     }
   })();
@@ -148,13 +148,13 @@
     form.addEventListener('submit', function(e) {
       e.preventDefault();
 
-      var formEl = this;
-      var submitBtn = formEl.querySelector('button[type="submit"]');
-      var successEl = formEl.parentElement.querySelector('.form-success');
-      var source = formEl.getAttribute('data-form') || 'inline';
+      const formEl = this;
+      const submitBtn = formEl.querySelector('button[type="submit"]');
+      const successEl = formEl.parentElement.querySelector('.form-success');
+      const source = formEl.getAttribute('data-form') || 'inline';
 
       // Honeypot check
-      var honeypot = formEl.querySelector('input[name="_gotcha"]');
+      const honeypot = formEl.querySelector('input[name="_gotcha"]');
       if (honeypot && honeypot.value) return;
 
       // Disable button
@@ -164,11 +164,11 @@
       }
 
       // Build JSON body for Kit API
-      var emailInput = formEl.querySelector('input[name="email_address"]');
-      var nameInput = formEl.querySelector('input[name="first_name"]');
-      var sourceInput = formEl.querySelector('input[name="source"]');
+      const emailInput = formEl.querySelector('input[name="email_address"]');
+      const nameInput = formEl.querySelector('input[name="first_name"]');
+      const sourceInput = formEl.querySelector('input[name="source"]');
 
-      var body = { email_address: emailInput ? emailInput.value : '' };
+      const body = { email_address: emailInput ? emailInput.value : '' };
       if (nameInput && nameInput.value) body.first_name = nameInput.value;
       if (sourceInput && sourceInput.value) body.fields = { source: sourceInput.value };
 
@@ -189,7 +189,7 @@
           ga4('lead_magnet_signup', { source: source });
 
           // Close modal if inside one
-          var modal = formEl.closest('.modal-overlay');
+          const modal = formEl.closest('.modal-overlay');
           if (modal) {
             setTimeout(function() {
               closeModal(modal);
@@ -210,9 +210,9 @@
   });
 
   // ---------- Modal System ----------
-  var leadModal = document.getElementById('leadMagnetModal');
-  var exitModal = document.getElementById('exitIntentModal');
-  var activeModal = null;
+  const leadModal = document.getElementById('leadMagnetModal');
+  const exitModal = document.getElementById('exitIntentModal');
+  let activeModal = null;
 
   function openModal(modal) {
     if (!modal || activeModal) return;
@@ -232,7 +232,7 @@
   // Close button clicks
   document.querySelectorAll('.modal-close').forEach(function(btn) {
     btn.addEventListener('click', function() {
-      var modal = this.closest('.modal-overlay');
+      const modal = this.closest('.modal-overlay');
       closeModal(modal);
 
       if (modal === leadModal) {
@@ -282,7 +282,7 @@
     return leadModal && !isCustomer && !leadCaptured && !popupDismissed && !activeModal;
   }
 
-  var leadPopupShown = false;
+  let leadPopupShown = false;
 
   function showLeadPopup() {
     if (leadPopupShown || !canShowLeadPopup()) return;
@@ -299,10 +299,10 @@
 
   // Scroll trigger: 60% page scroll
   if (canShowLeadPopup()) {
-    var scrollTriggered = false;
+    let scrollTriggered = false;
     window.addEventListener('scroll', function() {
       if (scrollTriggered || leadPopupShown) return;
-      var scrollPercent = (window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight;
+      const scrollPercent = (window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight;
       if (scrollPercent >= 0.60) {
         scrollTriggered = true;
         showLeadPopup();
@@ -315,8 +315,8 @@
     return exitModal && !isCustomer && !leadCaptured && !exitDismissed && !activeModal && !leadPopupShown;
   }
 
-  var exitShown = false;
-  var pageLoadTime = Date.now();
+  let exitShown = false;
+  const pageLoadTime = Date.now();
 
   // Desktop: mouse leaves viewport (after 15s minimum)
   if ('ontouchstart' in window === false) {
@@ -343,10 +343,10 @@
 
   // ---------- Scroll Depth Tracking ----------
   (function() {
-    var milestones = { 25: false, 50: false, 75: false, 100: false };
+    const milestones = { 25: false, 50: false, 75: false, 100: false };
 
     window.addEventListener('scroll', function() {
-      var scrollPercent = Math.round(
+      const scrollPercent = Math.round(
         ((window.pageYOffset + window.innerHeight) / document.documentElement.scrollHeight) * 100
       );
 
@@ -361,10 +361,10 @@
 
   // ---------- Social Proof Toast ----------
   (function() {
-    var toast = document.getElementById('socialProofToast');
+    const toast = document.getElementById('socialProofToast');
     if (!toast || isCustomer) return;
 
-    var messages = [
+    const messages = [
       'Someone from Montreal just enrolled! 🎉',
       '3 people signed up this week',
       'A student just built their first site! 🚀',
@@ -372,10 +372,10 @@
       'Someone just completed Module 3!'
     ];
 
-    var textEl = toast.querySelector('.toast-text');
+    const textEl = toast.querySelector('.toast-text');
     if (!textEl) return;
 
-    var index = 0;
+    let index = 0;
 
     function showToast() {
       textEl.textContent = messages[index];

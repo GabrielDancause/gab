@@ -1011,32 +1011,95 @@ function renderTable() {
     emptyState.style.display = 'none';
   }
 
-  tbody.innerHTML = sorted.map((s, i) => {
+  tbody.innerHTML = '';
+  sorted.forEach((s, i) => {
     const scoreColor = getScoreColor(s.score);
     const pegColor = getPEGColor(s.peg);
     const fcfColor = getFCFColor(s.fcfYield);
     const divColor = getDivColor(s.divYield);
     const pillClass = sectorClass(s.sector);
 
-    return `<tr>
-      <td class="col-rank text-center">${i + 1}</td>
-      <td class="col-ticker">${s.ticker}</td>
-      <td class="col-company">${s.company}</td>
-      <td><span class="sector-pill ${pillClass}">${s.sector}</span></td>
-      <td class="col-mcap text-right">${formatMarketCap(s.marketCap)}</td>
-      <td class="col-peg text-right" style="color:${pegColor}">${formatPEG(s.peg)}</td>
-      <td class="col-fcf text-right" style="color:${fcfColor}">${formatPercent(s.fcfYield)}</td>
-      <td class="col-div text-right" style="color:${divColor}">${formatPercent(s.divYield)}</td>
-      <td class="text-right">
-        <div class="score-cell">
-          <span class="score-number" style="color:${scoreColor}">${s.score}</span>
-          <div class="score-bar">
-            <div class="score-bar-fill" style="width:${s.score}%;background:${scoreColor}"></div>
-          </div>
-        </div>
-      </td>
-    </tr>`;
-  }).join('');
+    const tr = document.createElement('tr');
+
+    // Rank
+    const tdRank = document.createElement('td');
+    tdRank.className = 'col-rank text-center';
+    tdRank.textContent = i + 1;
+    tr.appendChild(tdRank);
+
+    // Ticker
+    const tdTicker = document.createElement('td');
+    tdTicker.className = 'col-ticker';
+    tdTicker.textContent = s.ticker;
+    tr.appendChild(tdTicker);
+
+    // Company
+    const tdCompany = document.createElement('td');
+    tdCompany.className = 'col-company';
+    tdCompany.textContent = s.company;
+    tr.appendChild(tdCompany);
+
+    // Sector
+    const tdSector = document.createElement('td');
+    const spanSector = document.createElement('span');
+    spanSector.className = `sector-pill ${pillClass}`;
+    spanSector.textContent = s.sector;
+    tdSector.appendChild(spanSector);
+    tr.appendChild(tdSector);
+
+    // Market Cap
+    const tdMcap = document.createElement('td');
+    tdMcap.className = 'col-mcap text-right';
+    tdMcap.textContent = formatMarketCap(s.marketCap);
+    tr.appendChild(tdMcap);
+
+    // PEG
+    const tdPeg = document.createElement('td');
+    tdPeg.className = 'col-peg text-right';
+    tdPeg.style.color = pegColor;
+    tdPeg.textContent = formatPEG(s.peg);
+    tr.appendChild(tdPeg);
+
+    // FCF Yield
+    const tdFcf = document.createElement('td');
+    tdFcf.className = 'col-fcf text-right';
+    tdFcf.style.color = fcfColor;
+    tdFcf.textContent = formatPercent(s.fcfYield);
+    tr.appendChild(tdFcf);
+
+    // Div Yield
+    const tdDiv = document.createElement('td');
+    tdDiv.className = 'col-div text-right';
+    tdDiv.style.color = divColor;
+    tdDiv.textContent = formatPercent(s.divYield);
+    tr.appendChild(tdDiv);
+
+    // Score
+    const tdScore = document.createElement('td');
+    tdScore.className = 'text-right';
+    const divScoreCell = document.createElement('div');
+    divScoreCell.className = 'score-cell';
+
+    const spanScoreNum = document.createElement('span');
+    spanScoreNum.className = 'score-number';
+    spanScoreNum.style.color = scoreColor;
+    spanScoreNum.textContent = s.score;
+    divScoreCell.appendChild(spanScoreNum);
+
+    const divScoreBar = document.createElement('div');
+    divScoreBar.className = 'score-bar';
+    const divScoreBarFill = document.createElement('div');
+    divScoreBarFill.className = 'score-bar-fill';
+    divScoreBarFill.style.width = `${s.score}%`;
+    divScoreBarFill.style.background = scoreColor;
+    divScoreBar.appendChild(divScoreBarFill);
+
+    divScoreCell.appendChild(divScoreBar);
+    tdScore.appendChild(divScoreCell);
+    tr.appendChild(tdScore);
+
+    tbody.appendChild(tr);
+  });
 
   updateStats(sorted);
   updateSortHeaders();

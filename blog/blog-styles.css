@@ -379,3 +379,9 @@
     text-align: center;
   }
 }
+
+/* ---------- Pagination ---------- */
+.blog-load-more {
+  text-align: center;
+  margin-top: 48px;
+}

@@ -12,9 +12,9 @@
 (function() {
   'use strict';
 
-  var ACCESS_KEY = 'gab2026cc';
-  var LS_KEY = 'gab_course_access';
-  var LANDING_URL = 'https://gab.ae/';
+  const ACCESS_KEY = 'gab2026cc';
+  const LS_KEY = 'gab_course_access';
+  const LANDING_URL = 'https://gab.ae/';
 
   // Hide page immediately to prevent content flash
   document.documentElement.style.visibility = 'hidden';
@@ -41,7 +41,7 @@
       localStorage.setItem('gab_customer', '1');
     } catch(e) {}
     // Clean the key from URL
-    var clean = window.location.pathname + window.location.hash;
+    const clean = window.location.pathname + window.location.hash;
     window.history.replaceState({}, '', clean);
   }
 
@@ -64,7 +64,7 @@
   }
 
   // 1. Check for key in URL
-  var urlKey = getParam('key');
+  const urlKey = getParam('key');
   if (urlKey === ACCESS_KEY) {
     grantAccess();
     showPage();

@@ -66,6 +66,25 @@
             border-radius: 16px;
             outline: none;
         }
+
+        .vlog-nav {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-top: 32px;
+        }
+
+        .vlog-nav a {
+            color: var(--accent, #6C5CE7);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: opacity 0.2s ease;
+        }
+
+        .vlog-nav a:hover {
+            opacity: 0.8;
+        }
     </style>
 </head>
 
@@ -108,6 +127,9 @@
                     <source src="media/vlog_01.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
+            </div>
+            <div class="vlog-nav">
+                <a href="/vlog-02.html">Vlog 02 &rarr;</a>
             </div>
         </div>
     </section>

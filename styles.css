@@ -365,6 +365,78 @@ section {
   font-weight: 600;
 }
 
+/* ---------- Three Pillars ---------- */
+.pillars {
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.pillars-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.pillars-header .section-subtitle {
+  margin: 0 auto;
+}
+
+.pillars-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.pillar-card {
+  background: var(--surface-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 24px;
+  text-decoration: none;
+  color: var(--text);
+  display: block;
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.pillar-card:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+  color: var(--text);
+}
+
+.pillar-icon {
+  font-size: 2rem;
+  margin-bottom: 16px;
+}
+
+.pillar-card h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.pillar-card p {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.pillar-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  transition: color var(--transition);
+}
+
+.pillar-card:hover .pillar-link {
+  color: var(--accent);
+}
+
+.pillar-link-soon {
+  color: var(--text-tertiary);
+}
+
 /* ---------- Modules / What You'll Learn ---------- */
 .modules {
   background: var(--bg);
@@ -1552,7 +1624,7 @@ section {
   }
 
   .hero h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   .guide-hero-image {
@@ -1564,6 +1636,11 @@ section {
   }
 
   /* Grids */
+  .pillars-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .modules-grid {
     grid-template-columns: 1fr;
     gap: 12px;
@@ -1675,7 +1752,7 @@ section {
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.7rem;
   }
 
   .guide-hero-image {

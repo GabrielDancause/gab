@@ -109,7 +109,7 @@ section {
 .btn-primary:hover {
   background: var(--accent-light);
   color: #fff;
-  box-shadow: 0 8px 32px rgba(108, 92, 231, 0.3);
+  box-shadow: 0 8px 32px rgba(232, 168, 56, 0.3);
 }
 
 .btn-outline {
@@ -279,7 +279,7 @@ section {
 }
 
 .hero h1 .gradient-text {
-  background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 50%, #6C5CE7 100%);
+  background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 50%, #E85D38 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -109,7 +109,7 @@ section {
 .btn-primary:hover {
   background: var(--accent-light);
   color: #fff;
-  box-shadow: 0 8px 32px rgba(232, 168, 56, 0.3);
+  box-shadow: 0 8px 32px rgba(108, 92, 231, 0.3);
 }
 
 .btn-outline {
@@ -279,7 +279,7 @@ section {
 }
 
 .hero h1 .gradient-text {
-  background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 50%, #E85D38 100%);
+  background: linear-gradient(135deg, var(--accent-light) 0%, var(--accent) 50%, #6C5CE7 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -599,8 +599,7 @@ section {
 /* ---------- Footer ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
-  padding: 36px 0;
-  text-align: center;
+  padding: 48px 0 36px;
 }
 
 .footer-inner {
@@ -609,17 +608,45 @@ section {
   padding: 0 24px;
 }
 
-.footer-text {
-  font-size: 0.82rem;
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-heading {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
   color: var(--text-tertiary);
+  margin-bottom: 4px;
 }
 
-.footer-text a {
+.footer-col a {
+  font-size: 0.88rem;
   color: var(--text-secondary);
+  text-decoration: none;
+  transition: color var(--transition);
 }
 
-.footer-text a:hover {
+.footer-col a:hover {
   color: var(--accent-light);
+}
+
+.footer-copy {
+  font-size: 0.78rem;
+  color: var(--text-tertiary);
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+  text-align: center;
 }
 
 /* ---------- Scroll Animations ---------- */
@@ -999,6 +1026,13 @@ section {
   /* Trust */
   .trust-items {
     gap: 24px;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    text-align: center;
   }
 
   /* Guide page */

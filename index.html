@@ -35,7 +35,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 
   <!-- Styles -->
@@ -47,13 +47,13 @@
   <!-- Navigation -->
   <nav class="site-nav">
     <div class="nav-inner">
-      <a href="/" class="nav-logo">Gab</a>
+      <a href="/" class="nav-logo">Gabriel Dancause</a>
       <div class="nav-cta">
-        <a href="#videos" class="nav-link">Videos</a>
-        <a href="/vlog.html" class="nav-link">Vlogs</a>
+        <a href="#" class="nav-link filter-link active" data-filter="all">All</a>
+        <a href="#" class="nav-link filter-link" data-filter="travel">Travel</a>
+        <a href="#" class="nav-link filter-link" data-filter="vlog">Vlog</a>
         <a href="/blog/" class="nav-link">Blog</a>
         <a href="#about" class="nav-link">About</a>
-        <a href="https://www.youtube.com/@gabrieldancause" class="btn btn-primary" target="_blank" rel="noopener">YouTube</a>
       </div>
       <button class="nav-hamburger" aria-label="Toggle menu" aria-expanded="false">
         <span></span>
@@ -63,151 +63,155 @@
     </div>
   </nav>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="hero-image">
-      <img src="images/gab-hero.jpg" alt="Scenic travel footage" width="1600" height="700">
-      <div class="hero-image-overlay"></div>
-    </div>
-    <div class="container">
-      <h1>Travel. Film. <span class="gradient-text">Explore.</span></h1>
-      <p class="hero-subtitle">4K scenic drives, walking tours, drone footage, and vlogs &mdash; from the streets of Montr&eacute;al to the beaches of Mexico.</p>
-      <div class="hero-cta">
-        <a href="https://www.youtube.com/@gabrieldancause" class="btn btn-primary btn-large" target="_blank" rel="noopener">Watch on YouTube</a>
-        <a href="#videos" class="btn btn-outline btn-large">Latest Videos</a>
-      </div>
-    </div>
-  </section>
+  <!-- Masonry Grid -->
+  <section class="masonry-section">
+    <div class="masonry-container">
+      <div class="masonry" id="masonry-grid">
 
-  <!-- Stats Bar -->
-  <section class="trust-bar">
-    <div class="container">
-      <div class="trust-items">
-        <div class="trust-item">
-          <span class="trust-icon">&#127909;</span>
-          <span><strong>10+</strong> videos published</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">&#127758;</span>
-          <span><strong>3</strong> countries filmed</span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">&#128247;</span>
-          <span>Shot in <strong>4K &amp; 8K</strong></span>
-        </div>
-        <div class="trust-item">
-          <span class="trust-icon">&#9992;&#65039;</span>
-          <span>Drone &amp; street-level</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Latest Videos -->
-  <section class="videos" id="videos">
-    <div class="container">
-      <div class="videos-header fade-up">
-        <p class="section-label">Latest Videos</p>
-        <h2 class="section-title">Scenic drives, walks, and aerial footage</h2>
-        <p class="section-subtitle">Cinematic travel content in 4K. Exploring cities, roads, and landscapes with relaxing music and original audio.</p>
-      </div>
-      <div class="video-grid">
-        <a href="https://www.youtube.com/watch?v=nF0gw06FmG4" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
+        <!-- Featured: Large card -->
+        <a href="https://www.youtube.com/watch?v=nF0gw06FmG4" class="masonry-item masonry-large fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
             <img src="https://img.youtube.com/vi/nF0gw06FmG4/maxresdefault.jpg" alt="Puerto Morelos Beach Walk" loading="lazy">
-            <div class="video-play">&#9654;</div>
           </div>
-          <div class="video-info">
-            <h3>Beach Side Walking Tour in Puerto Morelos</h3>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Mexico</span>
+            <h2>Beach Side Walking Tour in Puerto Morelos</h2>
             <p>4K Relaxing Mexican Adventure &middot; Original Audio</p>
           </div>
         </a>
-        <a href="https://www.youtube.com/watch?v=tnHdEjR162E" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
-            <img src="https://img.youtube.com/vi/tnHdEjR162E/maxresdefault.jpg" alt="Night Skiing in Bromont" loading="lazy">
-            <div class="video-play">&#9654;</div>
-          </div>
-          <div class="video-info">
-            <h3>Bromont's Sleepless Night</h3>
-            <p>HD Scenic Skiing in Bromont, Qu&eacute;bec &middot; Original Audio</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=DrF1xB8G22w" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
-            <img src="https://img.youtube.com/vi/DrF1xB8G22w/maxresdefault.jpg" alt="Montréal at Night" loading="lazy">
-            <div class="video-play">&#9654;</div>
-          </div>
-          <div class="video-info">
-            <h3>Montr&eacute;al at Night</h3>
-            <p>4K Sainte-Catherine Street &amp; Underground Montr&eacute;al</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=orMY64oXOrM" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
-            <img src="https://img.youtube.com/vi/orMY64oXOrM/maxresdefault.jpg" alt="Driving Around Montréal" loading="lazy">
-            <div class="video-play">&#9654;</div>
-          </div>
-          <div class="video-info">
-            <h3>Driving Around Montr&eacute;al</h3>
-            <p>4K Scenic Drive &middot; Relaxing Music</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=XP_qTT4ZxVI" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
-            <img src="https://img.youtube.com/vi/XP_qTT4ZxVI/maxresdefault.jpg" alt="Old Quebec City at Christmas" loading="lazy">
-            <div class="video-play">&#9654;</div>
-          </div>
-          <div class="video-info">
-            <h3>Old Quebec City at Christmas</h3>
-            <p>4K &middot; Is This the Most Magical Christmas City?</p>
-          </div>
-        </a>
-        <a href="https://www.youtube.com/watch?v=qzCZwgkd7Fw" class="video-card fade-up" target="_blank" rel="noopener">
-          <div class="video-thumb">
-            <img src="https://img.youtube.com/vi/qzCZwgkd7Fw/maxresdefault.jpg" alt="Walking in Saint-Jean-sur-Richelieu" loading="lazy">
-            <div class="video-play">&#9654;</div>
-          </div>
-          <div class="video-info">
-            <h3>Dusk Walk in Saint-Jean-sur-Richelieu</h3>
-            <p>4K Scenic Walking Tour &middot; Relaxing Music</p>
-          </div>
-        </a>
-      </div>
-      <div class="videos-more fade-up">
-        <a href="https://www.youtube.com/@gabrieldancause" class="btn btn-outline btn-large" target="_blank" rel="noopener">See all videos on YouTube &rarr;</a>
-      </div>
-    </div>
-  </section>
 
-  <!-- Vlogs -->
-  <section class="vlogs">
-    <div class="container">
-      <div class="vlogs-header fade-up">
-        <p class="section-label">Behind the Scenes</p>
-        <h2 class="section-title">Personal vlogs</h2>
-        <p class="section-subtitle">Short edits from daily life &mdash; drone flights, road trips, and whatever I'm working on.</p>
-      </div>
-      <div class="vlog-grid">
-        <a href="/vlog-02.html" class="vlog-card fade-up">
-          <div class="vlog-thumb">
-            <img src="images/vlog-02-poster.jpg" alt="Vlog 02 — February 2026" loading="lazy">
-            <div class="vlog-duration">0:58</div>
+        <!-- Vlog 02 -->
+        <a href="/vlog-02.html" class="masonry-item fade-up" data-category="vlog">
+          <div class="masonry-img">
+            <img src="images/vlog-02-poster.jpg" alt="Vlog 02" loading="lazy">
           </div>
-          <div class="vlog-info">
-            <h3>Vlog 02 &mdash; February 2026</h3>
+          <div class="masonry-content">
+            <span class="masonry-tag">Vlog</span>
+            <h2>Vlog 02 &mdash; February 2026</h2>
             <p>Drone footage and daily clips from the field.</p>
           </div>
         </a>
-        <a href="/vlog.html" class="vlog-card fade-up">
-          <div class="vlog-thumb">
-            <img src="images/gab-hero.jpg" alt="Vlog 01" loading="lazy">
-            <div class="vlog-duration">Vlog</div>
+
+        <!-- Montréal at Night -->
+        <a href="https://www.youtube.com/watch?v=DrF1xB8G22w" class="masonry-item masonry-tall fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/DrF1xB8G22w/maxresdefault.jpg" alt="Montréal at Night" loading="lazy">
           </div>
-          <div class="vlog-info">
-            <h3>Vlog 01</h3>
-            <p>First vlog &mdash; building systems and managing ops.</p>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Montr&eacute;al</span>
+            <h2>Montr&eacute;al at Night</h2>
+            <p>4K Sainte-Catherine Street &amp; Underground Montr&eacute;al</p>
           </div>
         </a>
+
+        <!-- Bromont Skiing -->
+        <a href="https://www.youtube.com/watch?v=tnHdEjR162E" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/tnHdEjR162E/maxresdefault.jpg" alt="Night Skiing in Bromont" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Skiing</span>
+            <h2>Bromont's Sleepless Night</h2>
+            <p>HD Scenic Skiing in Bromont, Qu&eacute;bec</p>
+          </div>
+        </a>
+
+        <!-- Quebec City Christmas: Large -->
+        <a href="https://www.youtube.com/watch?v=XP_qTT4ZxVI" class="masonry-item masonry-large fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/XP_qTT4ZxVI/maxresdefault.jpg" alt="Old Quebec City at Christmas" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Qu&eacute;bec City</span>
+            <h2>Old Quebec City at Christmas</h2>
+            <p>4K &middot; Is This the Most Magical Christmas City?</p>
+          </div>
+        </a>
+
+        <!-- Driving Montréal -->
+        <a href="https://www.youtube.com/watch?v=orMY64oXOrM" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/orMY64oXOrM/maxresdefault.jpg" alt="Driving Around Montréal" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Driving</span>
+            <h2>Driving Around Montr&eacute;al</h2>
+            <p>4K Scenic Drive &middot; Relaxing Music</p>
+          </div>
+        </a>
+
+        <!-- Vlog 01 -->
+        <a href="/vlog.html" class="masonry-item fade-up" data-category="vlog">
+          <div class="masonry-img">
+            <img src="images/gab-hero.jpg" alt="Vlog 01" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Vlog</span>
+            <h2>Vlog 01</h2>
+            <p>Building systems and managing ops.</p>
+          </div>
+        </a>
+
+        <!-- Saint-Jean -->
+        <a href="https://www.youtube.com/watch?v=qzCZwgkd7Fw" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/qzCZwgkd7Fw/maxresdefault.jpg" alt="Walking in Saint-Jean-sur-Richelieu" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Walking Tour</span>
+            <h2>Dusk Walk in Saint-Jean-sur-Richelieu</h2>
+            <p>4K Scenic Walking Tour &middot; Relaxing Music</p>
+          </div>
+        </a>
+
+        <!-- Poconos -->
+        <a href="https://www.youtube.com/watch?v=wU4YAhqJrKM" class="masonry-item masonry-tall fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/wU4YAhqJrKM/maxresdefault.jpg" alt="Poconos Drive" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; USA</span>
+            <h2>Chill Day Drive Through Poconos, Pennsylvania</h2>
+            <p>4K City Streets &middot; Relaxing Music</p>
+          </div>
+        </a>
+
+        <!-- Winter Montreal -->
+        <a href="https://www.youtube.com/watch?v=KQkZC2lDpqQ" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/KQkZC2lDpqQ/maxresdefault.jpg" alt="Winter Drive Montreal" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Winter</span>
+            <h2>Scenic Winter Roads in Montreal</h2>
+            <p>4K City Drive &middot; Original Music</p>
+          </div>
+        </a>
+
+        <!-- HD Quebec City -->
+        <a href="https://www.youtube.com/watch?v=8TT23nRI7Dk" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/8TT23nRI7Dk/maxresdefault.jpg" alt="Québec City Driving & Walking" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Qu&eacute;bec City</span>
+            <h2>Driving &amp; Walking in Qu&eacute;bec City</h2>
+            <p>HD Scenic &middot; Relaxing Music &amp; Original Audio</p>
+          </div>
+        </a>
+
+        <!-- Road Trip South Shore -->
+        <a href="https://www.youtube.com/watch?v=2u8J1FzR7lw" class="masonry-item fade-up" data-category="travel" target="_blank" rel="noopener">
+          <div class="masonry-img">
+            <img src="https://img.youtube.com/vi/2u8J1FzR7lw/maxresdefault.jpg" alt="South Shore Road Trip" loading="lazy">
+          </div>
+          <div class="masonry-content">
+            <span class="masonry-tag">Travel &middot; Road Trip</span>
+            <h2>Road Trip to Nowhere</h2>
+            <p>4K South Shore of Montr&eacute;al &middot; Relaxing Music</p>
+          </div>
+        </a>
+
       </div>
     </div>
   </section>
@@ -245,7 +249,6 @@
         <div class="footer-col">
           <p class="footer-heading">Content</p>
           <a href="https://www.youtube.com/@gabrieldancause" target="_blank" rel="noopener">YouTube</a>
-          <a href="#videos">Videos</a>
           <a href="/vlog.html">Vlogs</a>
           <a href="/blog/">Blog</a>
         </div>
@@ -264,7 +267,7 @@
           <a href="mailto:gab@gab.ae">gab@gab.ae</a>
         </div>
       </div>
-      <p class="footer-copy">&copy; 2026 Gab</p>
+      <p class="footer-copy">&copy; 2026 Gabriel Dancause</p>
     </div>
   </footer>
 

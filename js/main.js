@@ -100,6 +100,32 @@
     });
   }
 
+  // ---------- Masonry Filter ----------
+  var filterLinks = document.querySelectorAll('.filter-link');
+  var masonryItems = document.querySelectorAll('.masonry-item');
+
+  if (filterLinks.length > 0 && masonryItems.length > 0) {
+    filterLinks.forEach(function(link) {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        var filter = this.getAttribute('data-filter');
+
+        // Update active state
+        filterLinks.forEach(function(l) { l.classList.remove('active'); });
+        this.classList.add('active');
+
+        // Filter items
+        masonryItems.forEach(function(item) {
+          if (filter === 'all' || item.getAttribute('data-category') === filter) {
+            item.classList.remove('hidden');
+          } else {
+            item.classList.add('hidden');
+          }
+        });
+      });
+    });
+  }
+
   // ---------- GA4 Helper ----------
   function ga4(event, params) {
     if (typeof gtag === 'function') {

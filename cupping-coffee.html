@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cupping Coffee &amp; Bakery &mdash; Premium Brews &amp; Exquisite Bakes</title>
+  <meta name="description"
+    content="Cupping Coffee & Bakery at The QUAD Sukhumvit — Premium coffee brews and freshly baked goods in the heart of Bangkok. Open daily 7AM–9PM.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cupping Coffee & Bakery — Premium Brews & Exquisite Bakes">
+  <meta property="og:description"
+    content="Premium coffee brews and freshly baked goods at The QUAD Sukhumvit. Open daily 7AM–9PM.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon - coffee cup -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <style>
+    /* ---------- Reset & Variables ---------- */
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --cream: #FDF6EC;
+      --cream-dark: #F5EBD7;
+      --espresso: #2C1810;
+      --espresso-light: #4A3228;
+      --mocha: #6F4E37;
+      --latte: #C4A882;
+      --latte-light: #D4BFA0;
+      --caramel: #C68B59;
+      --gold: #B8860B;
+      --text: #2C1810;
+      --text-secondary: #6F4E37;
+      --text-light: #9A7B6A;
+      --white: #FFFFFF;
+      --border: rgba(111, 78, 55, 0.12);
+      --shadow: 0 2px 20px rgba(44, 24, 16, 0.08);
+      --shadow-hover: 0 8px 40px rgba(44, 24, 16, 0.15);
+      --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    html {
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--cream);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    /* ---------- Utility ---------- */
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .serif {
+      font-family: 'Playfair Display', Georgia, serif;
+    }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background: linear-gradient(160deg, var(--espresso) 0%, var(--espresso-light) 40%, var(--mocha) 100%);
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(198, 139, 89, 0.15) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 20%, rgba(196, 168, 130, 0.1) 0%, transparent 50%);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: 60px 24px;
+      max-width: 700px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 6px 20px;
+      border: 1px solid rgba(196, 168, 130, 0.4);
+      color: var(--latte);
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 32px;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.8rem, 7vw, 4.5rem);
+      font-weight: 500;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--latte);
+    }
+
+    .hero-amp {
+      display: block;
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      color: var(--caramel);
+      margin: 4px 0;
+    }
+
+    .hero-tagline {
+      font-size: 15px;
+      color: var(--latte-light);
+      letter-spacing: 0.5px;
+      margin-top: 24px;
+      font-weight: 300;
+    }
+
+    .hero-hours {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 10px 24px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--latte-light);
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    .hero-hours .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #4CAF50;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: rgba(196, 168, 130, 0.5);
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-scroll svg {
+      animation: bounce 2s ease-in-out infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(6px); }
+    }
+
+    /* ---------- Section Common ---------- */
+    section {
+      padding: 80px 0;
+    }
+
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--caramel);
+      margin-bottom: 12px;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 500;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    /* ---------- About ---------- */
+    .about {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .about-text p {
+      color: var(--text-secondary);
+      font-size: 15px;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .about-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+
+    .about-card {
+      padding: 28px 20px;
+      background: var(--cream);
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+
+    .about-card-icon {
+      font-size: 28px;
+      margin-bottom: 12px;
+    }
+
+    .about-card h4 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 15px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+
+    .about-card p {
+      font-size: 12px;
+      color: var(--text-light);
+    }
+
+    /* ---------- Menu Highlights ---------- */
+    .menu {
+      background: var(--cream);
+    }
+
+    .menu-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+
+    .menu-header p {
+      color: var(--text-secondary);
+      font-size: 15px;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .menu-item {
+      background: var(--white);
+      border: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+      transition: var(--transition);
+    }
+
+    .menu-item:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-4px);
+    }
+
+    .menu-item-icon {
+      font-size: 36px;
+      margin-bottom: 16px;
+    }
+
+    .menu-item h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .menu-item p {
+      font-size: 13px;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    .menu-item .tag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 4px 12px;
+      background: var(--cream);
+      font-size: 11px;
+      color: var(--caramel);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    /* ---------- Experience / Gallery ---------- */
+    .experience {
+      background: var(--espresso);
+      color: var(--white);
+      text-align: center;
+    }
+
+    .experience .section-title {
+      color: var(--white);
+    }
+
+    .experience-subtitle {
+      color: var(--latte-light);
+      font-size: 15px;
+      max-width: 560px;
+      margin: 0 auto 48px;
+      line-height: 1.8;
+    }
+
+    .experience-stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 32px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .stat {
+      padding: 24px;
+    }
+
+    .stat-number {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: var(--caramel);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--latte);
+    }
+
+    /* ---------- Location ---------- */
+    .location {
+      background: var(--white);
+      border-top: 1px solid var(--border);
+    }
+
+    .location-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+
+    .location-info h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .location-detail {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 24px;
+      align-items: flex-start;
+    }
+
+    .location-detail svg {
+      flex-shrink: 0;
+      margin-top: 2px;
+      color: var(--caramel);
+    }
+
+    .location-detail h4 {
+      font-size: 14px;
+      font-weight: 500;
+      margin-bottom: 2px;
+    }
+
+    .location-detail p {
+      font-size: 14px;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .location-map {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .location-map iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    /* ---------- Social / Connect ---------- */
+    .connect {
+      background: var(--cream);
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .connect .section-title {
+      margin-bottom: 12px;
+    }
+
+    .connect-subtitle {
+      color: var(--text-secondary);
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      font-size: 14px;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .social-link:hover {
+      background: var(--espresso);
+      color: var(--white);
+      border-color: var(--espresso);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow);
+    }
+
+    .social-link svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Order / CTA */
+    .cta-block {
+      background: var(--espresso);
+      padding: 48px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .cta-block h3 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+
+    .cta-block p {
+      color: var(--latte-light);
+      font-size: 14px;
+      margin-bottom: 24px;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: var(--transition);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: var(--white);
+    }
+
+    .cta-btn:hover {
+      background: var(--white);
+      color: var(--espresso);
+      border-color: var(--white);
+    }
+
+    .cta-btn.primary {
+      background: var(--caramel);
+      border-color: var(--caramel);
+    }
+
+    .cta-btn.primary:hover {
+      background: var(--white);
+      color: var(--espresso);
+      border-color: var(--white);
+    }
+
+    /* ---------- Footer ---------- */
+    footer {
+      background: var(--espresso);
+      color: var(--latte);
+      text-align: center;
+      padding: 32px 24px;
+      font-size: 13px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    footer a {
+      color: var(--caramel);
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 768px) {
+      section {
+        padding: 60px 0;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .about-visual {
+        order: -1;
+      }
+
+      .menu-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .experience-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .stat-number {
+        font-size: 2rem;
+      }
+
+      .location-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      .cta-block {
+        padding: 32px 24px;
+      }
+
+      .social-links {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .social-link {
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-content {
+        padding: 40px 16px;
+      }
+
+      .experience-stats {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+
+      .stat {
+        padding: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-badge">The QUAD Sukhumvit</span>
+      <h1>
+        <em>Cupping</em>
+        <span class="hero-amp">&amp;</span>
+        Coffee &amp; Bakery
+      </h1>
+      <p class="hero-tagline">Premium coffee brews &amp; exquisite bakery in the heart of Bangkok</p>
+      <div class="hero-hours">
+        <span class="dot"></span>
+        Open daily &nbsp;7 : 00 AM &mdash; 9 : 00 PM
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+        stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="6 9 12 15 18 9" />
+      </svg>
+    </a>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="section-label">Our Story</p>
+          <h2 class="section-title">Crafted with care,<br>served with <em class="serif">passion</em></h2>
+          <p>
+            At Cupping Coffee &amp; Bakery, every cup is a journey through carefully sourced beans and
+            artisanal brewing methods. Nestled inside The QUAD Sukhumvit Eatery, we bring you a refined
+            coffee experience paired with freshly baked goods made from scratch daily.
+          </p>
+          <p>
+            From rich espresso-based drinks to delicate pastries, we believe that great coffee and
+            exceptional bakes deserve each other. Come for the coffee, stay for the warmth.
+          </p>
+        </div>
+        <div class="about-visual">
+          <div class="about-card">
+            <div class="about-card-icon">&#9749;</div>
+            <h4>Specialty Coffee</h4>
+            <p>Expertly sourced &amp; brewed</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">&#127838;</div>
+            <h4>Fresh Bakery</h4>
+            <p>Baked from scratch daily</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">&#127793;</div>
+            <h4>Quality Beans</h4>
+            <p>Carefully curated origins</p>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">&#10084;&#65039;</div>
+            <h4>Made with Love</h4>
+            <p>Passion in every detail</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Highlights -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="menu-header">
+        <p class="section-label">What We Serve</p>
+        <h2 class="section-title">Menu <em class="serif">Highlights</em></h2>
+        <p>From classic espresso drinks to signature house blends and freshly baked treats</p>
+      </div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-icon">&#9749;</div>
+          <h3>Signature Espresso</h3>
+          <p>Rich, full-bodied espresso shots pulled with precision from our carefully selected beans</p>
+          <span class="tag">House Favorite</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-icon">&#127866;</div>
+          <h3>Specialty Lattes</h3>
+          <p>Creamy, velvety lattes crafted with artisanal milk foam and unique flavor combinations</p>
+          <span class="tag">Best Seller</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-icon">&#129473;</div>
+          <h3>Artisan Pastries</h3>
+          <p>Freshly baked croissants, muffins, and seasonal treats made from scratch every morning</p>
+          <span class="tag">Baked Daily</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-icon">&#127848;</div>
+          <h3>Cakes &amp; Desserts</h3>
+          <p>Indulgent cakes and desserts that pair perfectly with your favorite coffee drink</p>
+          <span class="tag">Sweet Treats</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-icon">&#129380;</div>
+          <h3>Cold Brews</h3>
+          <p>Smooth, refreshing cold brew steeped for hours to deliver a naturally sweet finish</p>
+          <span class="tag">Refreshing</span>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-icon">&#127861;</div>
+          <h3>Premium Teas</h3>
+          <p>A curated selection of fine teas for those who prefer a lighter, aromatic experience</p>
+          <span class="tag">Tea Lovers</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience">
+    <div class="container">
+      <p class="section-label">The Experience</p>
+      <h2 class="section-title">More than just <em class="serif">coffee</em></h2>
+      <p class="experience-subtitle">
+        We are a community of coffee lovers, bakers, and creatives. Every visit is an invitation
+        to slow down, savor the moment, and enjoy the craft behind every cup and every bite.
+      </p>
+      <div class="experience-stats">
+        <div class="stat">
+          <div class="stat-number">7</div>
+          <div class="stat-label">Days a Week</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">14</div>
+          <div class="stat-label">Hours Daily</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Handcrafted</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location -->
+  <section class="location" id="visit">
+    <div class="container">
+      <div class="location-grid">
+        <div class="location-info">
+          <p class="section-label">Find Us</p>
+          <h2 class="section-title">Visit <em class="serif">us</em></h2>
+          <div class="location-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <div>
+              <h4>Location</h4>
+              <p>The QUAD Sukhumvit Eatery<br>Sukhumvit, Bangkok, Thailand</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <div>
+              <h4>Hours</h4>
+              <p>Open Daily<br>7:00 AM &mdash; 9:00 PM</p>
+            </div>
+          </div>
+          <div class="location-detail">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            <div>
+              <h4>Instagram</h4>
+              <p>@cupping.coffeeandbakery</p>
+            </div>
+          </div>
+        </div>
+        <div class="location-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.6!2d100.57!3d13.74!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDQ0JzI0LjAiTiAxMDDCsDM0JzEyLjAiRQ!5e0!3m2!1sen!2sth!4v1"
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            title="Cupping Coffee & Bakery location">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect -->
+  <section class="connect" id="connect">
+    <div class="container">
+      <p class="section-label">Stay Connected</p>
+      <h2 class="section-title">Follow our <em class="serif">journey</em></h2>
+      <p class="connect-subtitle">Join us on social media for daily brews, fresh bakes, and behind-the-scenes moments</p>
+
+      <div class="social-links">
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/cupping.coffeeandbakery/" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <circle cx="12" cy="12" r="5" />
+            <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+          Instagram
+        </a>
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/CuppingCoffeeAndBakery" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+          </svg>
+          Facebook
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@cupping.coffeeandbakery" target="_blank" rel="noopener" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.34-6.34V8.87a8.16 8.16 0 004.76 1.52V6.94a4.85 4.85 0 01-1-.25z" />
+          </svg>
+          TikTok
+        </a>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-block">
+        <h3>Ready for a great cup?</h3>
+        <p>Visit us at The QUAD Sukhumvit or follow along on social media</p>
+        <div class="cta-buttons">
+          <a href="https://maps.google.com/?q=The+QUAD+Sukhumvit+Eatery+Bangkok" target="_blank" rel="noopener"
+            class="cta-btn primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Get Directions
+          </a>
+          <a href="https://www.instagram.com/cupping.coffeeandbakery/" target="_blank" rel="noopener" class="cta-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" />
+              <circle cx="12" cy="12" r="5" />
+              <circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+            Follow Us
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Cupping Coffee &amp; Bakery &mdash; The QUAD Sukhumvit, Bangkok</p>
+  </footer>
+
+</body>
+
+</html>

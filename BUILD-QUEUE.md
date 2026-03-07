@@ -19,10 +19,10 @@
 - [x] sup-charlevoix.json — Stand-up paddle (SUP) dans Charlevoix
 - [x] photographie-charlevoix.json — Guide photo : meilleurs spots et belvédères de Charlevoix
 - [x] lune-de-miel-charlevoix.json — Lune de miel et escapade romantique dans Charlevoix
-- [ ] chute-fraser-charlevoix.json — Chute Fraser à Baie-Sainte-Catherine
-- [ ] mont-grand-fonds-charlevoix.json — Mont Grand-Fonds : ski alpin à La Malbaie
-- [ ] marche-la-malbaie-charlevoix.json — Marché public de La Malbaie
-- [ ] top-10-points-de-vue-charlevoix.json — Top 10 des plus beaux points de vue de Charlevoix
+- [x] chute-fraser-charlevoix.json — Chute Fraser à Baie-Sainte-Catherine
+- [x] mont-grand-fonds-charlevoix.json — Mont Grand-Fonds : ski alpin à La Malbaie
+- [x] marche-la-malbaie-charlevoix.json — Marché public de La Malbaie
+- [x] top-10-points-de-vue-charlevoix.json — Top 10 des plus beaux points de vue de Charlevoix
 
 ### Batch 3 — Activités, attraits et guides
 - [ ] canot-charlevoix.json — Canot et rabaska dans Charlevoix (rivières et lacs)

@@ -1,0 +1,109 @@
+{
+  "slug": "top-10-points-de-vue-charlevoix",
+  "title": "Top 10 — Plus beaux points de vue de Charlevoix, Québec",
+  "description": "Top 10 des plus beaux points de vue et belvédères de Charlevoix. Du sommet du Massif aux Hautes-Gorges, les panoramas les plus spectaculaires de la région.",
+  "ogTitle": "Top 10 — Plus beaux points de vue de Charlevoix",
+  "ogDescription": "Les 10 panoramas les plus spectaculaires de Charlevoix. Montagnes, fleuve et fjord.",
+  "heroGradient": "linear-gradient(135deg, #4a7c59 0%, #1a3a2a 100%)",
+  "accentColor": "#4a7c59",
+  "badge": "⚜️ Panoramas · Nature · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Points de vue<br>de Charlevoix",
+  "tagline": "Les panoramas les plus spectaculaires entre montagnes, fleuve et fjord",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est une région de contrastes saisissants : montagnes plongeant dans le fleuve Saint-Laurent, cratère météoritique de 56 km, forêt boréale à perte de vue. Voici <strong>les 10 plus beaux points de vue</strong> pour admirer ces paysages grandioses.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🏔️",
+      "title": "L'Acropole des Draveurs",
+      "location": "📍 Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+      "description": "Le point de vue le plus spectaculaire de Charlevoix, sinon du Québec. Au sommet (1 048 m), une vue à 360° sur les gorges profondes de la rivière Malbaie et les montagnes à perte de vue. Randonnée exigeante de 11 km (aller-retour) avec un dénivelé de 800 m.",
+      "tags": ["Randonnée difficile", "11 km A/R", "800 m dénivelé", "Panorama 360°"],
+      "href": "parc-hautes-gorges-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "⛷️",
+      "title": "Sommet du Massif de Charlevoix",
+      "location": "📍 Petite-Rivière-Saint-François",
+      "description": "Du sommet à 806 m, la vue plonge directement sur le fleuve Saint-Laurent, 770 m plus bas. En hiver, on skie vers le fleuve. En été, le belvédère est accessible en randonnée. Un des panoramas les plus uniques de l'Est du Canada.",
+      "tags": ["Accessible en remontée (hiver)", "Randonnée (été)", "Vue sur le fleuve"],
+      "href": "le-massif-ski-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🥾",
+      "title": "Mont du Lac des Cygnes",
+      "location": "📍 Parc national des Grands-Jardins",
+      "description": "Randonnée classique de Charlevoix menant à un sommet dégagé avec vue sur la taïga et le cratère de Charlevoix. Un paysage presque nordique au cœur du sud du Québec, avec la toundra alpine et les caribous.",
+      "tags": ["Randonnée intermédiaire", "Toundra alpine", "Caribous"],
+      "href": "parc-grands-jardins-charlevoix.html"
+    },
+    {
+      "rank": 4,
+      "emoji": "🌊",
+      "title": "Belvédère de Baie-Saint-Paul",
+      "location": "📍 Route 362, descente vers Baie-Saint-Paul",
+      "description": "Le moment où la route 362 amorce sa descente vers Baie-Saint-Paul : une vue panoramique saisissante sur la ville, la baie, l'Isle-aux-Coudres et le fleuve. L'un des points de vue les plus photographiés de la région.",
+      "tags": ["Accessible en voiture", "Vue sur la baie", "Isle-aux-Coudres"],
+      "href": "baie-saint-paul-charlevoix.html"
+    },
+    {
+      "rank": 5,
+      "emoji": "🚶",
+      "title": "Sentier des Caps de Charlevoix",
+      "location": "📍 Saint-Tite-des-Caps à Petite-Rivière-Saint-François",
+      "description": "Un réseau de sentiers longeant les falaises du fleuve Saint-Laurent sur plus de 50 km. Plusieurs belvédères offrent des vues plongeantes sur le fleuve et l'Isle-aux-Coudres. Les caps atteignent jusqu'à 800 m d'altitude.",
+      "tags": ["Longue randonnée", "Plusieurs belvédères", "Falaises du fleuve"],
+      "href": "sentier-des-caps-charlevoix.html"
+    },
+    {
+      "rank": 6,
+      "emoji": "🚢",
+      "title": "Pointe-Noire — Embouchure du Saguenay",
+      "location": "📍 Baie-Sainte-Catherine",
+      "description": "Le centre d'interprétation et d'observation de Pointe-Noire offre une vue imprenable sur le fjord du Saguenay qui se jette dans le Saint-Laurent. C'est aussi un excellent poste d'observation pour les baleines.",
+      "tags": ["Observation des baleines", "Fjord du Saguenay", "Accessible"],
+      "href": "parc-marin-saguenay-charlevoix.html"
+    },
+    {
+      "rank": 7,
+      "emoji": "🏝️",
+      "title": "Belvédère de l'Isle-aux-Coudres",
+      "location": "📍 Les Éboulements, route 362",
+      "description": "En descendant vers Saint-Joseph-de-la-Rive depuis <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a>, un belvédère offre une vue magistrale sur l'Isle-aux-Coudres posée dans le fleuve. Surtout beau au coucher du soleil.",
+      "tags": ["Accessible en voiture", "Coucher de soleil", "Isle-aux-Coudres"],
+      "href": "ile-aux-coudres-charlevoix.html"
+    },
+    {
+      "rank": 8,
+      "emoji": "🚂",
+      "title": "Route du Fleuve (route 362)",
+      "location": "📍 De Baie-Saint-Paul à La Malbaie",
+      "description": "La route panoramique 362, aussi appelée Route du Fleuve, serpente entre les villages et offre des dizaines de points de vue sur le Saint-Laurent. Chaque virage révèle un nouveau panorama.",
+      "tags": ["Route panoramique", "Plusieurs arrêts", "Accessible en voiture"],
+      "href": "route-fleuve-charlevoix.html"
+    },
+    {
+      "rank": 9,
+      "emoji": "🌅",
+      "title": "Quai de Cap-à-l'Aigle",
+      "location": "📍 La Malbaie, secteur Cap-à-l'Aigle",
+      "description": "Le quai de Cap-à-l'Aigle offre une vue paisible sur le fleuve, les montagnes de la rive sud et les couchers de soleil spectaculaires. Un endroit tranquille, loin des foules, prisé des photographes.",
+      "tags": ["Coucher de soleil", "Fleuve", "Tranquille"],
+      "href": "la-malbaie-charlevoix.html"
+    },
+    {
+      "rank": 10,
+      "emoji": "🏖️",
+      "title": "Plage de Saint-Irénée",
+      "location": "📍 Saint-Irénée",
+      "description": "La plage de Saint-Irénée offre une vue ouverte sur le fleuve avec les montagnes en toile de fond. Au coucher du soleil, c'est magique. Le <a href=\"domaine-forget-saint-irenee.html\">Domaine Forget</a>, juste au-dessus, offre aussi un panorama exceptionnel.",
+      "tags": ["Plage", "Coucher de soleil", "Domaine Forget"],
+      "href": "plage-saint-irenee-charlevoix.html"
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"randonnee-charlevoix.html\">Randonnée</a> · <a href=\"photographie-charlevoix.html\">Guide photo</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

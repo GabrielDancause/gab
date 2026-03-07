@@ -1,0 +1,133 @@
+{
+  "slug": "mont-grand-fonds-charlevoix",
+  "title": "Mont Grand-Fonds — Ski alpin à La Malbaie, Charlevoix, Québec",
+  "description": "Mont Grand-Fonds : station de ski familiale à La Malbaie dans Charlevoix. 20 pistes, 335 m de dénivelé, 140 km de ski de fond. Neige abondante et tarifs abordables.",
+  "ogTitle": "Mont Grand-Fonds — Ski alpin à La Malbaie",
+  "ogDescription": "Station de ski familiale dans Charlevoix. 20 pistes, 335 m de dénivelé, 140 km de ski de fond. Tarifs abordables.",
+  "heroGradient": "linear-gradient(135deg, #1e3a5f 0%, #2E3E24 100%)",
+  "accentColor": "#1e3a5f",
+  "badge": null,
+  "heroLocation": "La Malbaie · Charlevoix · Québec",
+  "h1": "Mont Grand-Fonds",
+  "tagline": "La station de ski familiale de La Malbaie — authentique et abordable",
+  "heroSub": null,
+  "backLink": {
+    "text": "← La Malbaie",
+    "href": "la-malbaie-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⛷️",
+      "value": "20 pistes",
+      "label": "Ski alpin"
+    },
+    {
+      "icon": "🏔️",
+      "value": "335 m",
+      "label": "Dénivelé"
+    },
+    {
+      "icon": "🎿",
+      "value": "140+ km",
+      "label": "Ski de fond"
+    },
+    {
+      "icon": "📍",
+      "value": "La Malbaie",
+      "label": "Localisation"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://www.montgrandfonds.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La station",
+      "paragraphs": [
+        "Le Mont Grand-Fonds est la station de ski familiale de <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>, nichée au cœur de Charlevoix. Avec ses 335 mètres de dénivelé et ses 20 pistes de tous niveaux, c'est l'option ski abordable et authentique de la région — loin des foules, avec un enneigement naturel remarquable grâce au microclimat charlevoisien.",
+        "Moins connue que <a href=\"le-massif-ski-charlevoix.html\">Le Massif de Charlevoix</a>, la station a un charme bien à elle : des tarifs familiaux, un après-ski chaleureux au Pub le Sommet, et un réseau de ski de fond parmi les plus étendus au Québec. C'est l'endroit préféré des locaux et des familles qui cherchent une expérience de ski décontractée."
+      ]
+    },
+    {
+      "title": "Les activités",
+      "highlightCards": [
+        {
+          "icon": "⛷️",
+          "title": "Ski alpin et planche",
+          "description": "20 pistes variées sur 335 m de dénivelé, desservies par un télésiège débrayable 6 places (Lynx Express), un télésiège quadruple, un T-bar et un tapis magique. Parc à neige pour le freestyle."
+        },
+        {
+          "icon": "🎿",
+          "title": "Ski de fond — 140+ km",
+          "description": "Un des plus grands réseaux de ski de fond au Québec. Plus de 140 km de pistes balisées et entretenues traversant la forêt boréale, pour tous les niveaux."
+        },
+        {
+          "icon": "🥾",
+          "title": "Raquette et randonnée",
+          "description": "Sentiers de raquette en hiver et randonnée pédestre en été. La station est une destination quatre saisons."
+        },
+        {
+          "icon": "🍻",
+          "title": "Après-ski au Pub le Sommet",
+          "description": "Chaque samedi en saison, le Pub le Sommet accueille des artistes locaux pour des après-skis festifs et authentiques."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📊 Statistiques",
+          "content": "Dénivelé : 335 m<br>20 pistes de ski alpin<br>140+ km de ski de fond<br>Parc à neige"
+        },
+        {
+          "title": "🚡 Remontées",
+          "content": "Télésiège débrayable 6 places Lynx Express<br>Télésiège quadruple<br>T-bar pente école<br>Tapis magique"
+        },
+        {
+          "title": "💰 Tarifs",
+          "content": "Plani-Ski : à partir de 59 $<br>Forfait famille (2 ad. + 2 enf.) : 209 $<br>Passe 5X : 315 $<br>Tarifs parmi les plus abordables de Charlevoix"
+        },
+        {
+          "title": "📍 Accès",
+          "content": "1000, chemin des Loisirs<br>La Malbaie (Québec) G5A 1Y8<br>418-665-0095<br><a href=\"https://www.montgrandfonds.com\" target=\"_blank\" rel=\"noopener\">montgrandfonds.com</a>"
+        }
+      ]
+    },
+    {
+      "title": "Hébergement",
+      "paragraphs": [
+        "Mont Grand-Fonds offre de l'hébergement ski-in/ski-out directement sur la montagne — parfait pour maximiser le temps sur les pistes. Les options d'hébergement à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> sont également nombreuses, du <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a> aux auberges et chalets locaux."
+      ]
+    },
+    {
+      "title": "À proximité",
+      "highlightCards": [
+        {
+          "icon": "🏰",
+          "title": "Fairmont Le Manoir Richelieu",
+          "description": "L'hôtel emblématique de La Malbaie, avec spa, casino et golf. À quelques minutes de la station."
+        },
+        {
+          "icon": "🎰",
+          "title": "Casino de Charlevoix",
+          "description": "Le Casino de Charlevoix au Manoir Richelieu, pour une soirée après une journée de ski."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Le Massif de Charlevoix",
+          "description": "L'autre grande montagne de la région, avec 770 m de dénivelé et vue sur le fleuve."
+        },
+        {
+          "icon": "🧖",
+          "title": "Spas de Charlevoix",
+          "description": "Détente après le ski dans un des nombreux spas de la région."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"la-malbaie-charlevoix.html\">← La Malbaie</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

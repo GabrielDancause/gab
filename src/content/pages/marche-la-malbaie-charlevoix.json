@@ -1,0 +1,148 @@
+{
+  "slug": "marche-la-malbaie-charlevoix",
+  "title": "Marché public de La Malbaie — Charlevoix, Québec",
+  "description": "Le marché public de La Malbaie : producteurs locaux, fromages, légumes, viandes et saveurs de Charlevoix. Rendez-vous gourmand estival incontournable.",
+  "ogTitle": "Marché public de La Malbaie — Charlevoix",
+  "ogDescription": "Produits du terroir charlevoisien au marché public de La Malbaie. Fromages, légumes, viandes et artisanat local.",
+  "heroGradient": "linear-gradient(135deg, #6b8e23 0%, #2E3E24 100%)",
+  "accentColor": "#6b8e23",
+  "badge": "⚜️ Terroir · Producteurs · Charlevoix",
+  "heroLocation": "La Malbaie · Charlevoix · Québec",
+  "h1": "Marché public<br>de La Malbaie",
+  "tagline": "Les saveurs de Charlevoix, directement des producteurs à votre panier",
+  "heroSub": null,
+  "backLink": {
+    "text": "← La Malbaie",
+    "href": "la-malbaie-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧺",
+      "value": "Marché public",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "Été / automne",
+      "label": "Saison"
+    },
+    {
+      "icon": "🧀",
+      "value": "Terroir local",
+      "label": "Produits"
+    },
+    {
+      "icon": "📍",
+      "value": "La Malbaie",
+      "label": "Localisation"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "Le marché",
+      "paragraphs": [
+        "Le marché public de La Malbaie est un rendez-vous gourmand incontournable de l'été charlevoisien. Chaque semaine en saison estivale, les producteurs et artisans de la région s'y retrouvent pour offrir le meilleur du terroir de Charlevoix : fromages fins, légumes frais, viandes biologiques, pains artisanaux, confitures et bien plus.",
+        "C'est l'occasion parfaite de rencontrer les agriculteurs et producteurs qui font la réputation gastronomique de Charlevoix — une région reconnue comme l'un des plus beaux garde-manger du Québec. Le marché complète l'offre du <a href=\"marche-public-bsp-charlevoix.html\">marché public de Baie-Saint-Paul</a> et s'inscrit dans la tradition de la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs de Charlevoix</a>."
+      ]
+    },
+    {
+      "title": "Ce qu'on y trouve",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Fromages de Charlevoix",
+          "description": "Les fromages qui ont fait la réputation de la région : Migneron, 1608, Ciel de Charlevoix et autres trésors des fromageries locales."
+        },
+        {
+          "icon": "🥬",
+          "title": "Fruits et légumes de saison",
+          "description": "Produits maraîchers cultivés dans la région. Légumes biologiques, fines herbes, petits fruits et fleurs comestibles."
+        },
+        {
+          "icon": "🥩",
+          "title": "Viandes et charcuteries",
+          "description": "Agneau de Charlevoix, viandes biologiques, charcuteries artisanales et produits de la <a href=\"ferme-basque-charlevoix.html\">Ferme Basque</a> et d'autres éleveurs locaux."
+        },
+        {
+          "icon": "🍯",
+          "title": "Produits transformés",
+          "description": "Confitures, miels, sirops, pains artisanaux, pâtisseries et autres délices préparés par des artisans de Charlevoix."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Généralement de juin à octobre<br>Consultez les horaires locaux pour les dates exactes"
+        },
+        {
+          "title": "📍 Emplacement",
+          "content": "La Malbaie, Charlevoix<br>Vérifiez l'emplacement exact auprès de Tourisme Charlevoix"
+        },
+        {
+          "title": "💡 Conseils",
+          "content": "Arrivez tôt pour le meilleur choix<br>Apportez vos sacs réutilisables<br>Discutez avec les producteurs — ils adorent partager leur passion"
+        },
+        {
+          "title": "🍽️ Route des Saveurs",
+          "content": "<a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a><br>Combinez le marché avec des visites de fermes et fromageries sur le circuit"
+        }
+      ]
+    },
+    {
+      "title": "Producteurs à découvrir",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Laiterie Charlevoix",
+          "description": "Fromagerie centenaire à Baie-Saint-Paul, connue pour son Cheddar vieilli et le fameux 1608."
+        },
+        {
+          "icon": "🍖",
+          "title": "Ferme Basque de Charlevoix",
+          "description": "Canard, foie gras, rillettes et terrines. Un incontournable du terroir charlevoisien."
+        },
+        {
+          "icon": "🧅",
+          "title": "Famille Migneron",
+          "description": "Les créateurs du fromage Migneron de Charlevoix, un classique québécois."
+        },
+        {
+          "icon": "🍎",
+          "title": "Cidrerie et Vergers Pedneault",
+          "description": "Cidres, mistelles et vinaigres artisanaux de l'Isle-aux-Coudres. Souvent présents aux marchés."
+        }
+      ]
+    },
+    {
+      "title": "À proximité",
+      "highlightCards": [
+        {
+          "icon": "🏘️",
+          "title": "La Malbaie",
+          "description": "Explorez le centre-ville de La Malbaie, ses boutiques, restaurants et le bord du fleuve."
+        },
+        {
+          "icon": "🏰",
+          "title": "Fairmont Le Manoir Richelieu",
+          "description": "L'hôtel historique surplombant le fleuve, avec casino, spa et golf."
+        },
+        {
+          "icon": "🛒",
+          "title": "Marché de Baie-Saint-Paul",
+          "description": "L'autre grand marché public de Charlevoix, à Baie-Saint-Paul, ouvert en saison."
+        },
+        {
+          "icon": "🍽️",
+          "title": "Restaurants de Charlevoix",
+          "description": "Complétez l'expérience avec un repas dans un des meilleurs restaurants de la région."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"la-malbaie-charlevoix.html\">← La Malbaie</a> · <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

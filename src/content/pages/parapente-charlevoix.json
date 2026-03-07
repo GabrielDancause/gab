@@ -1,0 +1,123 @@
+{
+  "slug": "parapente-charlevoix",
+  "title": "Parapente et vol libre dans Charlevoix — Guide complet | gab.ae",
+  "description": "Découvrez le parapente et le vol libre dans Charlevoix : sites de décollage, conditions de vol, panoramas sur le fleuve Saint-Laurent et les montagnes.",
+  "ogTitle": "Parapente et vol libre dans Charlevoix",
+  "ogDescription": "Survolez les montagnes et le fleuve — le parapente dans Charlevoix offre des panoramas incomparables.",
+  "heroGradient": "linear-gradient(135deg, #4a90d9 0%, #2E3E24 100%)",
+  "accentColor": "#4a90d9",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Parapente et vol libre 🪂",
+  "tagline": "Survolez Charlevoix — entre montagnes et fleuve Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🪂",
+      "value": "Vol libre",
+      "label": "Parapente"
+    },
+    {
+      "icon": "🏔️",
+      "value": "770 m+",
+      "label": "Dénivelé disponible"
+    },
+    {
+      "icon": "📅",
+      "value": "Mai–Oct",
+      "label": "Saison de vol"
+    },
+    {
+      "icon": "🌊",
+      "value": "Fleuve",
+      "label": "Vue en vol"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "Le parapente dans Charlevoix",
+      "paragraphs": [
+        "Charlevoix est un terrain de jeu exceptionnel pour le vol libre. La géographie unique de la région — un ancien cratère météoritique de 56 km de diamètre, des montagnes qui plongent directement vers le fleuve Saint-Laurent, des dénivelés parmi les plus importants de l'Est du Canada — crée des conditions favorables au parapente.",
+        "Les pilotes profitent des thermiques générés par les falaises côtières et les vallées encaissées. La vue en vol est spectaculaire : le fleuve Saint-Laurent, les îles, les villages accrochés aux montagnes, et l'immensité de la <a href=\"reserve-biosphere-charlevoix.html\">Réserve mondiale de la biosphère de Charlevoix</a>."
+      ]
+    },
+    {
+      "title": "Pourquoi Charlevoix pour le parapente",
+      "highlightCards": [
+        {
+          "icon": "🏔️",
+          "title": "Dénivelés impressionnants",
+          "description": "Avec des sommets dépassant 800 m d'altitude et des bases au niveau du fleuve, Charlevoix offre certains des plus grands dénivelés de l'Est canadien."
+        },
+        {
+          "icon": "🌊",
+          "title": "Vue sur le fleuve",
+          "description": "Voler au-dessus de Charlevoix, c'est contempler le fleuve Saint-Laurent, l'Isle-aux-Coudres et les montagnes en un seul coup d'œil."
+        },
+        {
+          "icon": "🌬️",
+          "title": "Conditions aérologiques",
+          "description": "La topographie de la région — vallées, falaises côtières et montagnes — génère des courants ascendants propices au vol libre."
+        },
+        {
+          "icon": "📍",
+          "title": "Cadre naturel protégé",
+          "description": "Vol au cœur d'une réserve mondiale de la biosphère UNESCO. Un privilège rare pour les pilotes de parapente."
+        }
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mai à octobre<br>Les meilleures conditions thermiques sont généralement en été (juin–août)"
+        },
+        {
+          "title": "🎓 Niveau requis",
+          "content": "Pilotes autonomes avec brevet<br>Vols en tandem parfois offerts par des écoles spécialisées<br>Renseignez-vous auprès de la FQVL"
+        },
+        {
+          "title": "⚠️ Sécurité",
+          "content": "Consultez les conditions météo avant chaque vol<br>Respectez les espaces aériens<br>Informez-vous auprès des clubs locaux"
+        },
+        {
+          "title": "🌐 Ressource",
+          "content": "<a href=\"https://fqvl.ca\" target=\"_blank\" rel=\"noopener\">Fédération québécoise de vol libre (FQVL)</a>"
+        }
+      ]
+    },
+    {
+      "title": "À proximité",
+      "highlightCards": [
+        {
+          "icon": "⛷️",
+          "title": "Le Massif de Charlevoix",
+          "description": "770 m de dénivelé et vue sur le fleuve. La montagne emblématique de la région."
+        },
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "La capitale artistique de Charlevoix, à proximité. Galeries, restaurants, hébergement."
+        },
+        {
+          "icon": "🚣",
+          "title": "Kayak de mer",
+          "description": "Explorez le fleuve depuis l'eau avec Katabatik, basé à Baie-Saint-Paul."
+        },
+        {
+          "icon": "🥾",
+          "title": "Randonnée",
+          "description": "Les Hautes-Gorges-de-la-Rivière-Malbaie et le Sentier des Caps offrent des panoramas spectaculaires."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

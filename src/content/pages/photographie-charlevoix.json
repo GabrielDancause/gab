@@ -1,0 +1,148 @@
+{
+  "slug": "photographie-charlevoix",
+  "title": "Guide photo — Meilleurs spots et belvédères de Charlevoix | gab.ae",
+  "description": "Les meilleurs endroits pour photographier Charlevoix : belvédères, points de vue, lumières magiques, couchers de soleil sur le fleuve. Guide pour photographes.",
+  "ogTitle": "Guide photo — Meilleurs spots de Charlevoix",
+  "ogDescription": "Belvédères, couchers de soleil, villages pittoresques. Le guide ultime pour photographier Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #d4a017 0%, #2E3E24 100%)",
+  "accentColor": "#d4a017",
+  "badge": null,
+  "heroLocation": "Guide thématique · Charlevoix · Québec",
+  "h1": "Guide photo de Charlevoix 📷",
+  "tagline": "Les meilleurs spots, belvédères et lumières pour capturer la beauté de Charlevoix",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "📷",
+      "value": "15+ spots",
+      "label": "Points de vue"
+    },
+    {
+      "icon": "🌅",
+      "value": "Est / Sud-est",
+      "label": "Couchers de soleil sur le fleuve"
+    },
+    {
+      "icon": "🍂",
+      "value": "Sept–Oct",
+      "label": "Couleurs d'automne"
+    },
+    {
+      "icon": "🏔️",
+      "value": "UNESCO",
+      "label": "Réserve de la biosphère"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "Charlevoix, paradis des photographes",
+      "paragraphs": [
+        "Charlevoix est sans doute l'une des régions les plus photogéniques du Québec. Entre le fleuve Saint-Laurent, les montagnes de la <a href=\"reserve-biosphere-charlevoix.html\">Réserve mondiale de la biosphère</a>, les villages colorés et la lumière changeante, chaque saison offre des sujets exceptionnels.",
+        "Ce guide recense les meilleurs endroits pour poser votre trépied — des belvédères routiers aux sentiers de randonnée, en passant par les villages pittoresques et les points de vue sur le fleuve."
+      ]
+    },
+    {
+      "title": "Belvédères et points de vue incontournables",
+      "highlightCards": [
+        {
+          "icon": "🏔️",
+          "title": "L'Acropole-des-Draveurs",
+          "description": "Le sommet le plus spectaculaire du <a href=\"parc-hautes-gorges-charlevoix.html\">Parc des Hautes-Gorges</a>. Vue plongeante sur la vallée de la Rivière Malbaie. Un classique absolu."
+        },
+        {
+          "icon": "⛷️",
+          "title": "Sommet du Massif",
+          "description": "La <a href=\"le-massif-ski-charlevoix.html\">télécabine du Massif</a> offre une vue panoramique sur le fleuve, l'Isle-aux-Coudres et les montagnes. Accessible été comme hiver."
+        },
+        {
+          "icon": "🛣️",
+          "title": "Route 362 (Route du Fleuve)",
+          "description": "La <a href=\"route-fleuve-charlevoix.html\">Route du Fleuve</a> entre Baie-Saint-Paul et La Malbaie offre des dizaines de points de vue sur le fleuve. Arrêtez-vous aux haltes routières."
+        },
+        {
+          "icon": "🥾",
+          "title": "Sentier des Caps",
+          "description": "Le <a href=\"sentier-des-caps-charlevoix.html\">Sentier des Caps de Charlevoix</a> offre des vues plongeantes sur le fleuve depuis les falaises. Idéal pour la photo de paysage."
+        }
+      ]
+    },
+    {
+      "title": "Villages et patrimoine",
+      "highlightCards": [
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "<a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> est un village d'artistes avec des rues colorées, des galeries et une lumière unique dans la vallée. Le pont couvert et la rue Saint-Jean-Baptiste sont des classiques."
+        },
+        {
+          "icon": "🏝️",
+          "title": "Isle-aux-Coudres",
+          "description": "L'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a> offre des paysages maritimes, des moulins patrimoniaux et des couchers de soleil sur le fleuve."
+        },
+        {
+          "icon": "🏘️",
+          "title": "Les Éboulements",
+          "description": "Le village des <a href=\"les-eboulements-charlevoix.html\">Éboulements</a> surplombe le fleuve et l'Isle-aux-Coudres. La descente vers le quai de Saint-Joseph-de-la-Rive est spectaculaire."
+        },
+        {
+          "icon": "🏨",
+          "title": "Manoir Richelieu",
+          "description": "Le <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a> à La Malbaie est un monument historique photogénique avec vue sur le fleuve."
+        }
+      ]
+    },
+    {
+      "title": "Conseils photo par saison",
+      "infoCards": [
+        {
+          "title": "🌸 Printemps (mai–juin)",
+          "content": "Rivières en crue, fonte des neiges<br>Oies blanches en migration<br>Lumière douce, ciels dramatiques"
+        },
+        {
+          "title": "☀️ Été (juil–août)",
+          "content": "Golden hour tardif (20h+)<br>Baleines depuis Baie-Sainte-Catherine<br>Jardins et marchés en pleine effervescence"
+        },
+        {
+          "title": "🍂 Automne (sept–oct)",
+          "content": "LA saison photo par excellence<br>Couleurs flamboyantes mi-sept à mi-oct<br>Brumes matinales dans les vallées"
+        },
+        {
+          "title": "❄️ Hiver (déc–mars)",
+          "content": "Paysages enneigés et givre<br>Aurores boréales possibles<br>Lumière rasante magnifique"
+        }
+      ]
+    },
+    {
+      "title": "Astro et nature",
+      "highlightCards": [
+        {
+          "icon": "🌌",
+          "title": "Ciel étoilé",
+          "description": "Les secteurs éloignés de Charlevoix (Grands-Jardins, Hautes-Gorges) offrent une faible pollution lumineuse. Excellent pour l'astrophotographie."
+        },
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "Depuis <a href=\"baie-sainte-catherine-charlevoix.html\">Baie-Sainte-Catherine</a>, photographiez les baleines dans l'embouchure du Saguenay. Téléobjectif 200mm+ recommandé."
+        },
+        {
+          "icon": "🦅",
+          "title": "Oiseaux",
+          "description": "L'<a href=\"observation-oiseaux-charlevoix.html\">observation d'oiseaux</a> à Charlevoix inclut pygargues, faucons pèlerins et oies blanches en migration."
+        },
+        {
+          "icon": "🌲",
+          "title": "Parcs nationaux",
+          "description": "Le <a href=\"parc-grands-jardins-charlevoix.html\">Parc des Grands-Jardins</a> offre un paysage de taïga unique au sud du Québec — caribous et épinettes noires."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"/\">gab.ae</a>"
+}

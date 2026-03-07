@@ -28,8 +28,20 @@
 - [x] canot-charlevoix.json — Canot et rabaska dans Charlevoix (rivières et lacs)
 - [x] equitation-charlevoix.json — Équitation et randonnée à cheval dans Charlevoix
 - [x] observation-aurores-boreales-charlevoix.json — Observer les aurores boréales dans Charlevoix
-- [ ] croisiere-fjord-saguenay-charlevoix.json — Croisière sur le fjord du Saguenay depuis Charlevoix
-- [ ] accessible-charlevoix.json — Charlevoix accessible : guide pour personnes à mobilité réduite
-- [ ] noel-charlevoix.json — Noël et temps des fêtes dans Charlevoix
+- [x] croisiere-fjord-saguenay-charlevoix.json — Croisière sur le fjord du Saguenay depuis Charlevoix
+- [x] accessible-charlevoix.json — Charlevoix accessible : guide pour personnes à mobilité réduite
+- [x] noel-charlevoix.json — Noël et temps des fêtes dans Charlevoix
 - [ ] top-10-randonnees-charlevoix.json — Top 10 des plus belles randonnées de Charlevoix
 - [ ] histoire-charlevoix.json — Histoire de Charlevoix : du cratère à la biosphère UNESCO
+
+### Batch 4 — Nouvelles pages (ajouté 2026-03-07)
+- [ ] yoga-meditation-charlevoix.json — Yoga, méditation et retraites bien-être dans Charlevoix
+- [ ] top-10-chalets-charlevoix.json — Top 10 des plus beaux chalets à louer dans Charlevoix
+- [ ] savonnerie-charlevoix.json — La Savonnerie de la Côte à Les Éboulements (artisanat local)
+- [ ] traversier-ile-aux-coudres-charlevoix.json — Le traversier vers l'Isle-aux-Coudres : infos pratiques
+- [ ] top-10-activites-hiver-charlevoix.json — Top 10 des activités d'hiver dans Charlevoix
+- [ ] marche-noel-charlevoix.json — Marchés de Noël dans Charlevoix
+- [ ] agneaux-charlevoix.json — L'agneau de Charlevoix : élevage et saveurs du terroir
+- [ ] route-montagnes-charlevoix.json — La Route des Montagnes : de Saint-Urbain au Parc des Grands-Jardins
+- [ ] couchers-soleil-charlevoix.json — Les meilleurs spots pour les couchers de soleil dans Charlevoix
+- [ ] artisans-charlevoix.json — Les artisans de Charlevoix : poterie, tissage et métiers d'art

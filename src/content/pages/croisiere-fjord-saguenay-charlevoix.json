@@ -1,0 +1,151 @@
+{
+  "slug": "croisiere-fjord-saguenay-charlevoix",
+  "title": "Croisière sur le fjord du Saguenay — Depuis Charlevoix, Québec",
+  "description": "Explorez le fjord du Saguenay en croisière depuis Baie-Sainte-Catherine ou Tadoussac. Falaises de 350 m, caps Trinité et Éternité, baleines et paysages grandioses.",
+  "ogTitle": "Croisière sur le fjord du Saguenay — Charlevoix",
+  "ogDescription": "Falaises de 350 m, caps Trinité et Éternité, baleines. Croisière inoubliable au départ de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #1a3a5c 0%, #2c5f7c 100%)",
+  "accentColor": "#1a3a5c",
+  "badge": null,
+  "heroLocation": "Baie-Sainte-Catherine · Charlevoix · Québec",
+  "h1": "Croisière sur le fjord du Saguenay",
+  "tagline": "Falaises vertigineuses, caps majestueux et baleines — une aventure maritime inoubliable",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🚢",
+      "value": "~3 h",
+      "label": "Durée typique"
+    },
+    {
+      "icon": "🏔️",
+      "value": "350 m",
+      "label": "Hauteur des falaises"
+    },
+    {
+      "icon": "🐋",
+      "value": "13+",
+      "label": "Espèces de baleines"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Ste-Catherine",
+      "label": "Départ principal"
+    }
+  ],
+  "heroCta": {
+    "text": "Croisières AML →",
+    "href": "https://www.croisieresaml.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le fjord du Saguenay",
+      "paragraphs": [
+        "Le fjord du Saguenay est l'un des fjords les plus méridionaux du monde et le seul fjord navigable en Amérique du Nord. Creusé par les glaciers il y a environ 10 000 ans, il s'étend sur plus de 100 km entre Alma et l'embouchure du Saguenay dans le fleuve Saint-Laurent, à la hauteur de <a href=\"baie-sainte-catherine-charlevoix.html\">Baie-Sainte-Catherine</a> et Tadoussac.",
+        "Les parois rocheuses du fjord s'élèvent à plus de 350 mètres au-dessus des eaux sombres et profondes (jusqu'à 275 m de profondeur). C'est un spectacle géologique extraordinaire, protégé par le <a href=\"parc-marin-saguenay-charlevoix.html\">parc marin du Saguenay–Saint-Laurent</a>, qui fait partie de la réserve mondiale de la biosphère de Charlevoix."
+      ]
+    },
+    {
+      "title": "L'expérience en croisière",
+      "highlightCards": [
+        {
+          "icon": "⛰️",
+          "title": "Cap Trinité et cap Éternité",
+          "description": "Les deux caps emblématiques du fjord, avec leurs falaises vertigineuses. Au pied du cap Trinité, la statue de Notre-Dame-du-Saguenay (9 m) veille depuis 1881."
+        },
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "À l'embouchure du fjord, les eaux riches en krill attirent bélugas, rorquals communs, petits rorquals, rorquals à bosse et parfois le rorqual bleu."
+        },
+        {
+          "icon": "🚤",
+          "title": "En bateau ou en Zodiac",
+          "description": "Croisières en grand bateau avec service de restauration ou excursions en Zodiac pour une expérience plus intime et rapprochée au ras de l'eau."
+        },
+        {
+          "icon": "📸",
+          "title": "Paysages spectaculaires",
+          "description": "Falaises de granit, forêt boréale, cascades, anses sauvages — chaque virage du fjord révèle un nouveau tableau grandiose."
+        }
+      ]
+    },
+    {
+      "title": "Compagnies de croisière",
+      "paragraphs": [
+        "Plusieurs compagnies offrent des croisières sur le fjord du Saguenay au départ de Charlevoix :"
+      ],
+      "infoCards": [
+        {
+          "title": "🚢 Croisières AML",
+          "content": "Le plus grand croisiériste au Canada. Fondée en 1972. Offre des croisières aux baleines et sur le fjord depuis Baie-Sainte-Catherine et Tadoussac.<br><a href=\"https://www.croisieresaml.com\" target=\"_blank\" rel=\"noopener\">croisieresaml.com</a>"
+        },
+        {
+          "title": "🚤 Croisières du Fjord",
+          "content": "Croisières commentées dans le fjord du Saguenay, avec différents itinéraires et durées. Navette maritime entre L'Anse-Saint-Jean et Tadoussac.<br><a href=\"https://www.croisieredufjord.com\" target=\"_blank\" rel=\"noopener\">croisieredufjord.com</a>"
+        },
+        {
+          "title": "🐋 Zodiac et kayak",
+          "content": "Plusieurs opérateurs offrent des excursions en Zodiac pour l'observation des baleines ou des sorties en kayak de mer dans le fjord. Voir aussi <a href=\"kayak-charlevoix.html\">kayak dans Charlevoix</a>."
+        },
+        {
+          "title": "💡 Conseil",
+          "content": "Réservez à l'avance en haute saison (juin à octobre). Les croisières au fjord se combinent souvent avec l'observation des baleines à l'embouchure."
+        }
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mi-mai à mi-octobre (selon les opérateurs)<br>Haute saison : juillet–août<br>Meilleur pour les baleines : août–septembre"
+        },
+        {
+          "title": "📍 Points de départ",
+          "content": "<a href=\"baie-sainte-catherine-charlevoix.html\">Baie-Sainte-Catherine</a><br>Tadoussac (traversier gratuit depuis Baie-Ste-Catherine)<br>L'Anse-Saint-Jean (côté Saguenay)"
+        },
+        {
+          "title": "👕 Quoi apporter",
+          "content": "Vêtements chauds (même en été, il fait frais sur l'eau)<br>Jumelles pour les baleines<br>Appareil photo avec zoom<br>Protection solaire"
+        },
+        {
+          "title": "💰 Budget",
+          "content": "Croisière en bateau : environ 80–130 $ / adulte<br>Excursion en Zodiac : environ 75–100 $ / adulte<br>Tarifs réduits enfants (vérifiez auprès des opérateurs)"
+        }
+      ]
+    },
+    {
+      "title": "À proximité",
+      "highlightCards": [
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "Baie-Sainte-Catherine et Tadoussac sont les capitales québécoises de l'observation des baleines."
+        },
+        {
+          "icon": "🏕️",
+          "title": "Parc marin du Saguenay",
+          "description": "Aire marine protégée à la confluence du Saguenay et du Saint-Laurent. Sentiers, centres d'interprétation."
+        },
+        {
+          "icon": "🏘️",
+          "title": "Baie-Sainte-Catherine",
+          "description": "Village-porte du fjord. Point de départ des croisières et du traversier vers Tadoussac."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Parc national du Fjord-du-Saguenay",
+          "description": "Sentiers de randonnée spectaculaires le long des falaises. Baie Éternité, Via Ferrata et camping."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

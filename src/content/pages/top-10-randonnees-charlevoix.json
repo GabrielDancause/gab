@@ -1,0 +1,180 @@
+{
+  "slug": "top-10-randonnees-charlevoix",
+  "title": "Top 10 — Plus belles randonnées de Charlevoix, Québec",
+  "description": "Top 10 des meilleures randonnées de Charlevoix. Parc des Hautes-Gorges, Parc des Grands-Jardins, Sentier des Caps, Mont du Lac des Cygnes et plus. Sentiers avec vue sur le fleuve et les montagnes.",
+  "ogTitle": "Top 10 — Randonnées de Charlevoix",
+  "ogDescription": "Les plus beaux sentiers de randonnée de Charlevoix au Québec. Montagnes, fleuve et parcs nationaux.",
+  "heroGradient": "linear-gradient(135deg, #3a7d44 0%, #2E3E24 100%)",
+  "accentColor": "#3a7d44",
+  "badge": "⚜️ Randonnée · Plein air · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Plus belles randonnées<br>de Charlevoix",
+  "tagline": "Sentiers spectaculaires entre fleuve, montagnes et forêt boréale",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est un paradis de randonnée. Deux parcs nationaux, des sentiers côtiers et des sommets offrant des panoramas grandioses sur le fleuve Saint-Laurent et les Laurentides. Que vous cherchiez une balade familiale ou une ascension exigeante, voici <strong>les 10 plus belles randonnées de Charlevoix</strong>.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🏔️",
+      "title": "L'Acropole des Draveurs",
+      "location": "📍 Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+      "description": "Le sentier le plus célèbre de Charlevoix. Une ascension soutenue de 10,4 km (aller-retour) menant à un sommet à 1 048 m d'altitude avec une vue à 360° sur les gorges de la rivière Malbaie et la forêt boréale. Dénivelé de 800 m — exigeant mais inoubliable.",
+      "tags": [
+        "Difficile",
+        "10,4 km A/R",
+        "800 m dénivelé",
+        "Vue panoramique"
+      ],
+      "href": "parc-hautes-gorges-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "🦢",
+      "title": "Mont du Lac des Cygnes",
+      "location": "📍 Parc national des Grands-Jardins",
+      "description": "Randonnée emblématique du <a href=\"parc-grands-jardins-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Parc des Grands-Jardins</a>. Le sentier de 8,6 km (boucle) traverse la taïga et mène au sommet (980 m) avec un panorama exceptionnel sur le plateau charlevoisien et la toundra alpine. Un paysage unique dans l'Est du Canada.",
+      "tags": [
+        "Intermédiaire",
+        "8,6 km boucle",
+        "Toundra alpine",
+        "Grands-Jardins"
+      ],
+      "href": "parc-grands-jardins-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🌊",
+      "title": "Sentier des Caps de Charlevoix",
+      "location": "📍 Saint-Tite-des-Caps à Petite-Rivière-Saint-François",
+      "description": "Un réseau de <a href=\"sentier-des-caps-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">51 km de sentiers</a> longeant les caps surplombant le fleuve Saint-Laurent. Belvédères spectaculaires, passerelles suspendues et refuges pour la longue randonnée. Possibilité de sections d'une journée ou de traversée sur plusieurs jours.",
+      "tags": [
+        "Facile à difficile",
+        "51 km total",
+        "Vue sur le fleuve",
+        "Refuges"
+      ],
+      "href": "sentier-des-caps-charlevoix.html"
+    },
+    {
+      "rank": 4,
+      "emoji": "🌲",
+      "title": "Le Riverain",
+      "location": "📍 Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+      "description": "Un sentier plus accessible dans les Hautes-Gorges. Parcours de 8 km (aller-retour) le long de la rivière Malbaie au fond des gorges. Forêt ancienne, parois rocheuses vertigineuses et ambiance paisible. Idéal pour les familles et randonneurs de niveau intermédiaire.",
+      "tags": [
+        "Facile à intermédiaire",
+        "8 km A/R",
+        "Rivière Malbaie",
+        "Famille"
+      ],
+      "href": "parc-hautes-gorges-charlevoix.html"
+    },
+    {
+      "rank": 5,
+      "emoji": "⛰️",
+      "title": "Sentier du Mont-du-Lac-à-l'Empêche",
+      "location": "📍 Parc national des Grands-Jardins",
+      "description": "Randonnée exigeante de 11 km (aller-retour) dans le Parc des Grands-Jardins. Le sentier traverse des paysages de taïga et offre des vues sur le cratère de Charlevoix depuis le sommet. Moins fréquenté que le Lac des Cygnes, pour ceux qui cherchent la solitude.",
+      "tags": [
+        "Difficile",
+        "11 km A/R",
+        "Taïga",
+        "Cratère de Charlevoix"
+      ],
+      "href": "parc-grands-jardins-charlevoix.html"
+    },
+    {
+      "rank": 6,
+      "emoji": "🌅",
+      "title": "Les Florent",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Un réseau de sentiers dans les montagnes derrière <a href=\"baie-saint-paul-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Baie-Saint-Paul</a>. Plusieurs boucles (3 à 12 km) offrent des points de vue sur la vallée du Gouffre et le fleuve. Accessible directement depuis la ville — parfait pour une demi-journée.",
+      "tags": [
+        "Facile à intermédiaire",
+        "3 à 12 km",
+        "Baie-Saint-Paul",
+        "Demi-journée"
+      ],
+      "href": "baie-saint-paul-charlevoix.html"
+    },
+    {
+      "rank": 7,
+      "emoji": "🐋",
+      "title": "Sentier de la Pointe-de-l'Islet",
+      "location": "📍 Baie-Sainte-Catherine (Parc marin du Saguenay–Saint-Laurent)",
+      "description": "Court sentier de 2,6 km (boucle) à la pointe de <a href=\"baie-sainte-catherine-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Baie-Sainte-Catherine</a>, à la confluence du Saguenay et du Saint-Laurent. Point d'observation terrestre exceptionnel pour les baleines. Facile et accessible à tous.",
+      "tags": [
+        "Facile",
+        "2,6 km boucle",
+        "Observation des baleines",
+        "Famille"
+      ],
+      "href": "parc-marin-saguenay-charlevoix.html"
+    },
+    {
+      "rank": 8,
+      "emoji": "🍁",
+      "title": "Sentier des Chouenneux",
+      "location": "📍 Le Massif de Charlevoix · Petite-Rivière-Saint-François",
+      "description": "Un sentier au <a href=\"le-massif-ski-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Massif de Charlevoix</a> qui offre des vues spectaculaires sur le fleuve pendant la descente. En été et automne, on peut combiner randonnée et vélo de montagne. Le panorama fleuve-montagne y est unique.",
+      "tags": [
+        "Intermédiaire",
+        "Le Massif",
+        "Vue sur le fleuve",
+        "Été-automne"
+      ],
+      "href": "le-massif-ski-charlevoix.html"
+    },
+    {
+      "rank": 9,
+      "emoji": "🏝️",
+      "title": "Les Sentiers pédestres de l'Isle-aux-Coudres",
+      "location": "📍 Isle-aux-Coudres",
+      "description": "Réseau de sentiers sur l'<a href=\"ile-aux-coudres-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Isle-aux-Coudres</a>. Marche côtière avec vue sur le fleuve et les montagnes de Charlevoix. Ambiance insulaire paisible, terrain plat — idéal pour une randonnée familiale combinée à une journée sur l'île.",
+      "tags": [
+        "Facile",
+        "Isle-aux-Coudres",
+        "Côtier",
+        "Famille"
+      ],
+      "href": "ile-aux-coudres-charlevoix.html"
+    },
+    {
+      "rank": 10,
+      "emoji": "🌿",
+      "title": "Sentier de la Forêt ancienne",
+      "location": "📍 Les Éboulements",
+      "description": "Un sentier d'interprétation de 2 km dans une forêt ancienne à <a href=\"les-eboulements-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Les Éboulements</a>. Arbres centenaires, mousse et fougères. Atmosphère de conte. Court mais enchanteur — parfait avec des enfants ou comme pause entre deux visites.",
+      "tags": [
+        "Facile",
+        "2 km",
+        "Forêt ancienne",
+        "Interprétation"
+      ],
+      "href": "les-eboulements-charlevoix.html"
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#e8f0e4",
+  "tagColor": "#3a7d44",
+  "ctaBanner": {
+    "title": "Explorer Charlevoix en plein air",
+    "text": "Complétez votre aventure avec nos guides d'activités.",
+    "links": [
+      {
+        "text": "Parc des Hautes-Gorges →",
+        "href": "parc-hautes-gorges-charlevoix.html"
+      },
+      {
+        "text": "Parc des Grands-Jardins →",
+        "href": "parc-grands-jardins-charlevoix.html"
+      },
+      {
+        "text": "Guide Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"parc-hautes-gorges-charlevoix.html\">Hautes-Gorges</a> · <a href=\"parc-grands-jardins-charlevoix.html\">Grands-Jardins</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

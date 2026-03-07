@@ -31,11 +31,11 @@
 - [x] croisiere-fjord-saguenay-charlevoix.json — Croisière sur le fjord du Saguenay depuis Charlevoix
 - [x] accessible-charlevoix.json — Charlevoix accessible : guide pour personnes à mobilité réduite
 - [x] noel-charlevoix.json — Noël et temps des fêtes dans Charlevoix
-- [ ] top-10-randonnees-charlevoix.json — Top 10 des plus belles randonnées de Charlevoix
-- [ ] histoire-charlevoix.json — Histoire de Charlevoix : du cratère à la biosphère UNESCO
+- [x] top-10-randonnees-charlevoix.json — Top 10 des plus belles randonnées de Charlevoix
+- [x] histoire-charlevoix.json — Histoire de Charlevoix : du cratère à la biosphère UNESCO
 
 ### Batch 4 — Nouvelles pages (ajouté 2026-03-07)
-- [ ] yoga-meditation-charlevoix.json — Yoga, méditation et retraites bien-être dans Charlevoix
+- [x] yoga-meditation-charlevoix.json — Yoga, méditation et retraites bien-être dans Charlevoix
 - [ ] top-10-chalets-charlevoix.json — Top 10 des plus beaux chalets à louer dans Charlevoix
 - [ ] savonnerie-charlevoix.json — La Savonnerie de la Côte à Les Éboulements (artisanat local)
 - [ ] traversier-ile-aux-coudres-charlevoix.json — Le traversier vers l'Isle-aux-Coudres : infos pratiques

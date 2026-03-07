@@ -1,0 +1,127 @@
+{
+  "slug": "equitation-charlevoix",
+  "title": "Équitation dans Charlevoix — Randonnée à cheval et centres équestres",
+  "description": "Guide de l'équitation dans Charlevoix : randonnée à cheval dans les montagnes, centres équestres, balades guidées et expériences en nature.",
+  "ogTitle": "Équitation dans Charlevoix — Randonnée à cheval",
+  "ogDescription": "Découvrez Charlevoix à cheval : randonnées guidées en montagne, centres équestres et balades pour tous les niveaux.",
+  "heroGradient": "linear-gradient(135deg, #8B5E3C 0%, #D4A574 100%)",
+  "accentColor": "#8B5E3C",
+  "badge": "🐴 4 saisons",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Équitation dans Charlevoix",
+  "tagline": "Explorez les montagnes et vallées de Charlevoix à dos de cheval",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐴",
+      "value": "Randonnée",
+      "label": "Activité"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Montagnes",
+      "label": "Décor"
+    },
+    {
+      "icon": "📅",
+      "value": "Mai–Nov",
+      "label": "Saison principale"
+    },
+    {
+      "icon": "👨‍👩‍👧‍👦",
+      "value": "Tous niveaux",
+      "label": "Accessibilité"
+    }
+  ],
+  "heroCta": {
+    "text": "Aventure plein air →",
+    "href": "aventure-plein-air-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "L'équitation dans Charlevoix",
+      "paragraphs": [
+        "Les paysages vallonnés de <a href=\"charlevoix.html\">Charlevoix</a>, entre montagnes et fleuve, offrent un cadre exceptionnel pour la randonnée à cheval. Plusieurs centres équestres de la région proposent des balades guidées à travers forêts, prairies et sentiers de montagne avec des vues panoramiques sur le Saint-Laurent.",
+        "Que vous soyez cavalier débutant ou expérimenté, les randonnées équestres de Charlevoix s'adaptent à tous les niveaux. Les sorties varient d'une heure à une journée complète, avec certaines excursions incluant un repas en plein air."
+      ]
+    },
+    {
+      "title": "Ce qui vous attend",
+      "highlightCards": [
+        {
+          "icon": "🌄",
+          "title": "Sentiers en montagne",
+          "description": "Les randonnées à cheval dans l'arrière-pays charlevoisien offrent des panoramas sur les vallées et le fleuve Saint-Laurent. Les sentiers traversent forêts mixtes et clairières."
+        },
+        {
+          "icon": "🌾",
+          "title": "Balades champêtres",
+          "description": "Des balades plus courtes à travers les campagnes de <a href=\"saint-urbain-charlevoix.html\">Saint-Urbain</a> et <a href=\"saint-hilarion-charlevoix.html\">Saint-Hilarion</a>, idéales pour les familles et les débutants."
+        },
+        {
+          "icon": "🍂",
+          "title": "Couleurs d'automne",
+          "description": "L'<a href=\"charlevoix-automne.html\">automne dans Charlevoix</a> est spectaculaire à cheval — les couleurs des forêts sont d'autant plus belles vues depuis les sentiers en hauteur."
+        },
+        {
+          "icon": "❄️",
+          "title": "Sorties hivernales",
+          "description": "Certains centres offrent des sorties à cheval en hiver sur des sentiers enneigés, une expérience magique dans les montagnes de Charlevoix."
+        }
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Principale : mai à novembre<br>Certains centres ouverts en hiver<br>Réservation recommandée en été"
+        },
+        {
+          "title": "👤 Pour qui?",
+          "content": "Débutants bienvenus (chevaux dociles)<br>Âge minimum variable selon le centre<br>Aucune expérience requise pour les balades guidées"
+        },
+        {
+          "title": "👕 Quoi apporter",
+          "content": "Pantalons longs obligatoires<br>Bottes ou chaussures fermées<br>Protection solaire et anti-moustiques en été"
+        },
+        {
+          "title": "💰 Tarifs",
+          "content": "Variable selon la durée<br>Balades d'une heure à journée complète<br>Contactez les centres pour les prix courants"
+        }
+      ]
+    },
+    {
+      "title": "À découvrir aussi",
+      "highlightCards": [
+        {
+          "icon": "🥾",
+          "title": "Randonnée pédestre",
+          "description": "<a href=\"randonnee-charlevoix.html\">La randonnée dans Charlevoix</a> — des sentiers pour tous les niveaux dans les parcs nationaux."
+        },
+        {
+          "icon": "🐕",
+          "title": "Traineau à chiens",
+          "description": "<a href=\"traineau-chiens-charlevoix.html\">Le traineau à chiens</a> — une autre aventure animale dans les paysages enneigés de Charlevoix."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Aventure plein air",
+          "description": "<a href=\"aventure-plein-air-charlevoix.html\">Toutes les activités de plein air</a> dans Charlevoix."
+        },
+        {
+          "icon": "🍂",
+          "title": "Charlevoix en automne",
+          "description": "<a href=\"charlevoix-automne.html\">L'automne dans Charlevoix</a> — la plus belle saison pour une randonnée à cheval."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

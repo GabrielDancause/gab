@@ -25,9 +25,9 @@
 - [x] top-10-points-de-vue-charlevoix.json — Top 10 des plus beaux points de vue de Charlevoix
 
 ### Batch 3 — Activités, attraits et guides
-- [ ] canot-charlevoix.json — Canot et rabaska dans Charlevoix (rivières et lacs)
-- [ ] equitation-charlevoix.json — Équitation et randonnée à cheval dans Charlevoix
-- [ ] observation-aurores-boreales-charlevoix.json — Observer les aurores boréales dans Charlevoix
+- [x] canot-charlevoix.json — Canot et rabaska dans Charlevoix (rivières et lacs)
+- [x] equitation-charlevoix.json — Équitation et randonnée à cheval dans Charlevoix
+- [x] observation-aurores-boreales-charlevoix.json — Observer les aurores boréales dans Charlevoix
 - [ ] croisiere-fjord-saguenay-charlevoix.json — Croisière sur le fjord du Saguenay depuis Charlevoix
 - [ ] accessible-charlevoix.json — Charlevoix accessible : guide pour personnes à mobilité réduite
 - [ ] noel-charlevoix.json — Noël et temps des fêtes dans Charlevoix

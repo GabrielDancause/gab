@@ -1,0 +1,127 @@
+{
+  "slug": "canot-charlevoix",
+  "title": "Canot et rabaska dans Charlevoix — Rivières, lacs et excursions",
+  "description": "Guide du canot et du rabaska dans Charlevoix : rivière Malbaie, rivière du Gouffre, lacs des parcs nationaux et excursions guidées en grand canot.",
+  "ogTitle": "Canot et rabaska dans Charlevoix — Guide complet",
+  "ogDescription": "Pagayez en canot ou en rabaska sur les rivières et lacs de Charlevoix. Rivière Malbaie, rivière du Gouffre et parcs nationaux.",
+  "heroGradient": "linear-gradient(135deg, #2D6A4F 0%, #52B788 100%)",
+  "accentColor": "#2D6A4F",
+  "badge": "☀️ Été",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Canot et rabaska dans Charlevoix",
+  "tagline": "Explorez les rivières et les lacs de Charlevoix à coups de pagaie",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🛶",
+      "value": "Canot & rabaska",
+      "label": "Types"
+    },
+    {
+      "icon": "🏞️",
+      "value": "Rivières & lacs",
+      "label": "Plans d'eau"
+    },
+    {
+      "icon": "☀️",
+      "value": "Mai–Oct",
+      "label": "Saison"
+    },
+    {
+      "icon": "👨‍👩‍👧‍👦",
+      "value": "Tous niveaux",
+      "label": "Accessibilité"
+    }
+  ],
+  "heroCta": {
+    "text": "Parc des Hautes-Gorges →",
+    "href": "parc-hautes-gorges-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Le canot dans Charlevoix",
+      "paragraphs": [
+        "<a href=\"charlevoix.html\">Charlevoix</a> est sillonnée de rivières et parsemée de lacs qui se prêtent magnifiquement au canot. La rivière Malbaie, la rivière du Gouffre et les plans d'eau des parcs nationaux offrent des parcours variés, du calme absolu aux sections plus animées.",
+        "Le rabaska — grand canot d'écorce traditionnel pouvant accueillir une dizaine de pagayeurs — permet de vivre l'expérience en groupe. Plusieurs pourvoyeurs de la région proposent des excursions guidées en rabaska, une activité idéale pour les familles et les groupes."
+      ]
+    },
+    {
+      "title": "Les meilleurs parcours en canot",
+      "highlightCards": [
+        {
+          "icon": "🏔️",
+          "title": "Parc des Hautes-Gorges — Rivière Malbaie",
+          "description": "Le <a href=\"parc-hautes-gorges-charlevoix.html\">parc national des Hautes-Gorges-de-la-Rivière-Malbaie</a> offre un parcours spectaculaire entre des parois rocheuses de plus de 700 mètres. Location de canots et de kayaks disponible au centre de services."
+        },
+        {
+          "icon": "🌊",
+          "title": "Rivière du Gouffre",
+          "description": "La rivière du Gouffre traverse <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> et offre des sections calmes propices au canot récréatif, avec un paysage champêtre bordé de montagnes."
+        },
+        {
+          "icon": "🌲",
+          "title": "Parc des Grands-Jardins",
+          "description": "Le <a href=\"parc-grands-jardins-charlevoix.html\">parc national des Grands-Jardins</a> compte plusieurs lacs accessibles en canot, dans un décor de taïga et de forêt boréale unique au sud du Québec."
+        },
+        {
+          "icon": "🏝️",
+          "title": "Isle-aux-Coudres",
+          "description": "Les eaux autour de l'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a> permettent des sorties en canot près des rives, mais attention aux marées et aux courants du fleuve."
+        }
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "🛶 Canot vs rabaska",
+          "content": "Canot : 2-3 personnes, autonome<br>Rabaska : 8-12 personnes, excursion guidée<br>Les deux sont accessibles aux débutants"
+        },
+        {
+          "title": "📅 Saison",
+          "content": "Mai à octobre<br>Haute saison : juin à août<br>Eau froide au printemps — VFI obligatoire"
+        },
+        {
+          "title": "📍 Location d'équipement",
+          "content": "Parcs nationaux (Sépaq) : location sur place<br>Pourvoyeurs locaux à Baie-Saint-Paul et La Malbaie<br>Réservation recommandée en haute saison"
+        },
+        {
+          "title": "⚠️ Sécurité",
+          "content": "Vérifier le niveau d'eau avant de partir<br>VFI (veste de flottaison) obligatoire<br>Informez quelqu'un de votre itinéraire"
+        }
+      ]
+    },
+    {
+      "title": "À découvrir aussi",
+      "highlightCards": [
+        {
+          "icon": "🛶",
+          "title": "Kayak",
+          "description": "<a href=\"kayak-charlevoix.html\">Le kayak dans Charlevoix</a> — kayak de mer sur le fleuve et excursions guidées."
+        },
+        {
+          "icon": "🏄",
+          "title": "Stand-up paddle",
+          "description": "<a href=\"sup-charlevoix.html\">Le SUP dans Charlevoix</a> — une autre façon de profiter des plans d'eau."
+        },
+        {
+          "icon": "🎣",
+          "title": "Pêche",
+          "description": "<a href=\"peche-charlevoix.html\">La pêche dans Charlevoix</a> — rivières à saumon et omble de fontaine."
+        },
+        {
+          "icon": "🥾",
+          "title": "Randonnée",
+          "description": "<a href=\"randonnee-charlevoix.html\">La randonnée dans Charlevoix</a> — combinez canot et rando pour une journée complète en nature."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

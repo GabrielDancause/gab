@@ -1,0 +1,134 @@
+{
+  "slug": "observation-aurores-boreales-charlevoix",
+  "title": "Aurores boréales dans Charlevoix — Meilleurs endroits et conseils d'observation",
+  "description": "Guide pour observer les aurores boréales dans Charlevoix : meilleurs sites, conditions idéales, périodes propices et conseils photo.",
+  "ogTitle": "Aurores boréales dans Charlevoix — Guide d'observation",
+  "ogDescription": "Où et quand observer les aurores boréales dans Charlevoix. Sites à faible pollution lumineuse, conditions idéales et conseils pratiques.",
+  "heroGradient": "linear-gradient(135deg, #1B0A3C 0%, #4A1C7C 50%, #0D9B6E 100%)",
+  "accentColor": "#4A1C7C",
+  "badge": "🌌 Nuit",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Observer les aurores boréales dans Charlevoix",
+  "tagline": "Le ciel de Charlevoix s'illumine — quand la nature danse en couleurs",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌌",
+      "value": "Aurores",
+      "label": "Phénomène"
+    },
+    {
+      "icon": "📅",
+      "value": "Sept–Avr",
+      "label": "Meilleure période"
+    },
+    {
+      "icon": "🌑",
+      "value": "Ciel sombre",
+      "label": "Condition clé"
+    },
+    {
+      "icon": "🧭",
+      "value": "Nord",
+      "label": "Direction"
+    }
+  ],
+  "heroCta": {
+    "text": "Réserve de biosphère →",
+    "href": "reserve-biosphere-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Les aurores boréales dans Charlevoix",
+      "paragraphs": [
+        "<a href=\"charlevoix.html\">Charlevoix</a> est l'un des endroits les plus propices au Québec pour observer les aurores boréales. Située à environ 47° de latitude nord, la région bénéficie d'un ciel relativement sombre grâce à sa faible densité de population et à ses vastes espaces naturels protégés, notamment la <a href=\"reserve-biosphere-charlevoix.html\">réserve mondiale de la biosphère de l'UNESCO</a>.",
+        "Les aurores boréales sont causées par l'interaction entre les particules solaires et l'atmosphère terrestre. Bien qu'elles ne soient pas visibles chaque nuit, une activité solaire élevée combinée à un ciel dégagé et une nouvelle lune offrent les meilleures chances d'observation."
+      ]
+    },
+    {
+      "title": "Les meilleurs sites d'observation",
+      "highlightCards": [
+        {
+          "icon": "🏔️",
+          "title": "Parc national des Grands-Jardins",
+          "description": "Le <a href=\"parc-grands-jardins-charlevoix.html\">parc des Grands-Jardins</a>, en altitude et loin de toute source de lumière artificielle, est l'un des meilleurs endroits de la région pour observer les aurores."
+        },
+        {
+          "icon": "🌊",
+          "title": "Baie-Sainte-Catherine",
+          "description": "<a href=\"baie-sainte-catherine-charlevoix.html\">Baie-Sainte-Catherine</a>, à l'embouchure du Saguenay, offre un horizon dégagé vers le nord au-dessus du fleuve — idéal pour voir les aurores danser au-dessus de l'eau."
+        },
+        {
+          "icon": "📸",
+          "title": "Belvédères de Charlevoix",
+          "description": "Les nombreux <a href=\"top-10-points-de-vue-charlevoix.html\">belvédères</a> en altitude de la région offrent des vues dégagées vers le nord avec peu de pollution lumineuse."
+        },
+        {
+          "icon": "🏝️",
+          "title": "Isle-aux-Coudres",
+          "description": "L'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a> bénéficie d'un horizon à 360° et d'une pollution lumineuse minimale — un site privilégié pour les nuits claires."
+        }
+      ]
+    },
+    {
+      "title": "Conditions et conseils",
+      "infoCards": [
+        {
+          "title": "📅 Quand observer",
+          "content": "Septembre à avril (nuits longues)<br>Pic d'activité : équinoxes (mars, septembre)<br>Nouvelle lune = meilleur moment"
+        },
+        {
+          "title": "🌤️ Conditions météo",
+          "content": "Ciel dégagé indispensable<br>Vérifiez la météo la journée même<br>Consultez les prévisions d'activité solaire (indice Kp)"
+        },
+        {
+          "title": "📸 Conseils photo",
+          "content": "Trépied obligatoire<br>ISO élevé (1600-6400), ouverture large (f/2.8 ou moins)<br>Exposition de 10-25 secondes<br>Voir aussi le <a href=\"photographie-charlevoix.html\">guide photo de Charlevoix</a>"
+        },
+        {
+          "title": "👕 Quoi apporter",
+          "content": "Habillement très chaud (les nuits sont froides)<br>Couverture ou chaise pliante<br>Lampe frontale à lumière rouge<br>Thermos de boisson chaude"
+        }
+      ]
+    },
+    {
+      "title": "Ressources utiles",
+      "paragraphs": [
+        "Consultez les sites de prévisions d'aurores boréales comme SpaceWeatherLive ou l'application Aurora Forecast pour connaître l'indice Kp en temps réel. Un indice Kp de 3 ou plus donne de bonnes chances d'observation à la latitude de Charlevoix.",
+        "La patience est essentielle — les aurores peuvent apparaître à tout moment durant la nuit, souvent entre 22 h et 2 h du matin. Arrivez tôt, laissez vos yeux s'adapter à l'obscurité pendant au moins 20 minutes, et profitez du ciel étoilé en attendant."
+      ]
+    },
+    {
+      "title": "À découvrir aussi",
+      "highlightCards": [
+        {
+          "icon": "📸",
+          "title": "Photographie",
+          "description": "<a href=\"photographie-charlevoix.html\">Guide photo de Charlevoix</a> — les meilleurs spots et conseils pour capturer la beauté de la région."
+        },
+        {
+          "icon": "🏕️",
+          "title": "Camping",
+          "description": "<a href=\"camping-charlevoix.html\">Camping dans Charlevoix</a> — combinez une nuit en camping avec l'observation des aurores."
+        },
+        {
+          "icon": "🌿",
+          "title": "Réserve de biosphère",
+          "description": "<a href=\"reserve-biosphere-charlevoix.html\">La réserve de biosphère de Charlevoix</a> — reconnue par l'UNESCO pour ses paysages exceptionnels."
+        },
+        {
+          "icon": "❄️",
+          "title": "Charlevoix en hiver",
+          "description": "<a href=\"charlevoix-hiver.html\">L'hiver dans Charlevoix</a> — la meilleure saison pour les nuits longues et les ciels dégagés."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

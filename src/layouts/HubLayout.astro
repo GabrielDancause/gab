@@ -5,10 +5,10 @@ const { page } = Astro.props;
 <html lang="fr">
 <head>
     <BaseHead title={page.title} description={page.description} ogTitle={page.ogTitle} ogDescription={page.ogDescription} />
-    <style define:vars={{ heroGradient: page.heroGradient }}>
+    <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
-        .hero { background: var(--heroGradient); color: #fff; padding: 80px 24px 72px; text-align: center; position: relative; overflow: hidden; }
+        .hero { color: #fff; padding: 80px 24px 72px; text-align: center; position: relative; overflow: hidden; }
         .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.05) 0%, transparent 70%); }
         .hero .content { position: relative; z-index: 1; }
         .hero .badge { display: inline-block; background: rgba(255,255,255,0.12); padding: 6px 18px; border-radius: 20px; font-size: 0.78rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px; text-transform: uppercase; }
@@ -51,7 +51,7 @@ const { page } = Astro.props;
 </head>
 <body>
 
-<div class="hero">
+<div class="hero" style={`background: ${page.heroGradient};`}>
     <div class="content">
         {page.badge && <div class="badge">{page.badge}</div>}
         <h1 set:html={page.h1} />

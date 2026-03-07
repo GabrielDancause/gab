@@ -7,10 +7,10 @@ const isListing = page.listingFormat;
 <head>
     <BaseHead title={page.title} description={page.description} ogTitle={page.ogTitle} ogDescription={page.ogDescription} />
     {isListing ? (
-        <style define:vars={{ heroGradient: page.heroGradient }}>
+        <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
-            .hero { background: var(--heroGradient); color: #fff; padding: 60px 24px 50px; text-align: center; position: relative; }
+            .hero { color: #fff; padding: 60px 24px 50px; text-align: center; position: relative; }
             .hero .badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 16px; text-transform: uppercase; }
             .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 12px; line-height: 1.2; }
             .hero p { font-size: 1rem; opacity: 0.85; max-width: 520px; margin: 0 auto; }
@@ -40,10 +40,10 @@ const isListing = page.listingFormat;
             }
         </style>
     ) : (
-        <style define:vars={{ heroGradient: page.heroGradient, accentColor: page.accentColor, tagBg: page.tagBg, tagColor: page.tagColor }}>
+        <style>
             * { margin: 0; padding: 0; box-sizing: border-box; }
             body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
-            .hero { background: var(--heroGradient); color: #fff; padding: 72px 24px 56px; text-align: center; position: relative; }
+            .hero { color: #fff; padding: 72px 24px 56px; text-align: center; position: relative; }
             .hero .badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 16px; text-transform: uppercase; }
             .hero h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 12px; line-height: 1.15; }
             .hero .tagline { font-size: 1.1rem; opacity: 0.85; max-width: 560px; margin: 0 auto; font-style: italic; }
@@ -53,14 +53,14 @@ const isListing = page.listingFormat;
             .entry { background: #fff; border-radius: 14px; padding: 28px 24px; margin-bottom: 18px; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 1px 4px rgba(0,0,0,0.04); position: relative; transition: transform 0.15s, box-shadow 0.15s; }
             .entry:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
             .entry-link { text-decoration: none; color: inherit; display: block; }
-            .entry .rank { position: absolute; top: -10px; left: 20px; background: var(--accentColor); color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; }
+            .entry .rank { position: absolute; top: -10px; left: 20px; color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; }
             .entry .meta { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
             .entry .emoji { font-size: 1.6rem; }
             .entry h2 { font-size: 1.2rem; font-weight: 700; color: #2E3E24; }
             .entry .location { font-size: 0.78rem; color: #999; font-weight: 500; }
             .entry .desc { font-size: 0.88rem; color: #666; line-height: 1.7; }
             .entry .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-            .entry .tag { background: var(--tagBg); color: var(--tagColor); padding: 4px 10px; border-radius: 6px; font-size: 0.72rem; font-weight: 600; }
+            .entry .tag { padding: 4px 10px; border-radius: 6px; font-size: 0.72rem; font-weight: 600; }
             .cta-banner { background: #2E3E24; border-radius: 14px; padding: 36px 28px; text-align: center; margin-top: 44px; }
             .cta-banner h2 { color: #FAF8EB; font-size: 1.3rem; margin-bottom: 10px; }
             .cta-banner p { color: rgba(250,248,235,0.7); font-size: 0.88rem; margin-bottom: 20px; }
@@ -79,7 +79,7 @@ const isListing = page.listingFormat;
 </head>
 <body>
 
-<div class="hero">
+<div class="hero" style={`background: ${page.heroGradient};`}>
     {page.badge && <div class="badge">{page.badge}</div>}
     <h1 set:html={page.h1} />
     {page.tagline && <p class="tagline">{page.tagline}</p>}
@@ -102,7 +102,7 @@ const isListing = page.listingFormat;
                 <p set:html={e.description} />
                 {e.tags.length > 0 && (
                     <div class="tags">
-                        {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                        {e.tags.map((t: string) => <span class="tag" style={`background: ${page.tagBg || "#f0f4ed"}; color: ${page.tagColor || "#2E3E24"};`}>{t}</span>)}
                     </div>
                 )}
             </div>
@@ -110,7 +110,7 @@ const isListing = page.listingFormat;
     ) : (
         page.entries?.map((e: any) => (
             <div class="entry">
-                <div class="rank">{e.rank}</div>
+                <div class="rank" style={`background: ${page.accentColor || '#2E3E24'};`}>{e.rank}</div>
                 {e.href ? (
                     <a href={e.href} class="entry-link">
                         <div class="meta">
@@ -123,7 +123,7 @@ const isListing = page.listingFormat;
                         <p class="desc" set:html={e.description} />
                         {e.tags.length > 0 && (
                             <div class="tags">
-                                {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                                {e.tags.map((t: string) => <span class="tag" style={`background: ${page.tagBg || "#f0f4ed"}; color: ${page.tagColor || "#2E3E24"};`}>{t}</span>)}
                             </div>
                         )}
                     </a>
@@ -139,7 +139,7 @@ const isListing = page.listingFormat;
                         <p class="desc" set:html={e.description} />
                         {e.tags.length > 0 && (
                             <div class="tags">
-                                {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                                {e.tags.map((t: string) => <span class="tag" style={`background: ${page.tagBg || "#f0f4ed"}; color: ${page.tagColor || "#2E3E24"};`}>{t}</span>)}
                             </div>
                         )}
                     </>

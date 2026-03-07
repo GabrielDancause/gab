@@ -47,10 +47,10 @@
 - [x] artisans-charlevoix.json — Les artisans de Charlevoix : poterie, tissage et métiers d'art
 
 ### Batch 5 — Nouvelles pages (ajouté 2026-03-07)
-- [ ] top-10-activites-ete-charlevoix.json — Top 10 des activités d'été dans Charlevoix
-- [ ] fromages-charlevoix.json — Les fromages de Charlevoix : Migneron, 1608 et terroir fromager
-- [ ] spa-nordique-charlevoix.json — Guide des spas nordiques de Charlevoix (expériences thermales)
-- [ ] notre-dame-des-monts-charlevoix.json — Notre-Dame-des-Monts : village et nature
+- [x] top-10-activites-ete-charlevoix.json — Top 10 des activités d'été dans Charlevoix
+- [x] fromages-charlevoix.json — Les fromages de Charlevoix : Migneron, 1608 et terroir fromager
+- [x] spa-nordique-charlevoix.json — Guide des spas nordiques de Charlevoix (expériences thermales)
+- [x] notre-dame-des-monts-charlevoix.json — Notre-Dame-des-Monts : village et nature
 - [ ] port-au-persil-charlevoix.json — Port-au-Persil : le plus petit village de Charlevoix
 - [ ] jardins-quatre-vents-charlevoix.json — Les Jardins de Quatre-Vents à La Malbaie
 - [ ] top-10-activites-famille-charlevoix.json — Top 10 des activités en famille dans Charlevoix

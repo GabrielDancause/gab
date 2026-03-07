@@ -1,0 +1,143 @@
+{
+  "slug": "spa-nordique-charlevoix",
+  "title": "Guide des spas nordiques de Charlevoix — Expériences thermales, Québec",
+  "description": "Guide complet des spas nordiques de Charlevoix. Spa du Germain, Spa du Fairmont, bains thermaux et expériences de détente entre montagnes et fleuve Saint-Laurent.",
+  "ogTitle": "Spas nordiques de Charlevoix — Guide complet",
+  "ogDescription": "Les meilleures expériences thermales de Charlevoix. Saunas, bains nordiques et détente au cœur de la nature.",
+  "heroGradient": "linear-gradient(135deg, #5c3a6b 0%, #1a3a5c 100%)",
+  "accentColor": "#5c3a6b",
+  "badge": "⚜️ Bien-être · Spa nordique · Charlevoix",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Spas nordiques<br>de Charlevoix",
+  "tagline": "Thermothérapie, saunas et bains en plein air dans la réserve de la biosphère",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 5 spas",
+    "href": "top-10-spas-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧖",
+      "value": "3+",
+      "label": "Spas"
+    },
+    {
+      "icon": "🌡️",
+      "value": "Chaud/froid",
+      "label": "Thermothérapie"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Plein air",
+      "label": "Nature"
+    },
+    {
+      "icon": "💆",
+      "value": "4 saisons",
+      "label": "Ouvert"
+    }
+  ],
+  "heroCta": {
+    "text": "Top 5 spas →",
+    "href": "top-10-spas-charlevoix.html"
+  },
+  "sections": [
+    {
+      "title": "La thermothérapie dans Charlevoix",
+      "paragraphs": [
+        "Le spa nordique est une tradition scandinave parfaitement adaptée au climat et aux paysages de Charlevoix. Le principe est simple : alterner entre le chaud (saunas, bains vapeur, bassins chauds) et le froid (bassins glacés, douches nordiques, neige) pour stimuler la circulation et procurer une détente profonde.",
+        "Dans Charlevoix, cette expérience prend une dimension unique grâce au cadre naturel exceptionnel — montagnes de la réserve de la biosphère UNESCO, air pur, forêts de conifères et vue sur le fleuve Saint-Laurent. Que ce soit en hiver sous la neige ou en été sous les étoiles, les spas nordiques charlevoisiens offrent un moment de bien-être incomparable."
+      ]
+    },
+    {
+      "title": "Les expériences spa",
+      "highlightCards": [
+        {
+          "icon": "🧖",
+          "title": "Spa Nordique Le Germain",
+          "description": "Le joyau thermal de Charlevoix. Circuit complet de thermothérapie en plein air au cœur du <a href=\"hotel-germain-charlevoix.html\">Germain Hôtel & Spa</a> à Baie-Saint-Paul. Sauna finlandais avec vue sur les pâturages, bain vapeur eucalyptus, bassins chauds et froids extérieurs, fontaine de neige. Ouvert 4 saisons. Environ 60 $ par personne."
+        },
+        {
+          "icon": "🏰",
+          "title": "Spa du Fairmont Le Manoir Richelieu",
+          "description": "Le <a href=\"spa-fairmont-charlevoix.html\">spa du Fairmont</a> à La Malbaie propose des soins haut de gamme dans un cadre historique. Piscine intérieure, bains à remous, salle de détente et gamme complète de soins corporels et esthétiques. L'élégance d'un grand hôtel avec vue sur le fleuve."
+        },
+        {
+          "icon": "🌿",
+          "title": "Détente en nature",
+          "description": "Plusieurs auberges et hébergements de Charlevoix offrent des installations de spa plus intimes — bains à remous extérieurs, saunas privés et soins de massothérapie. L'<a href=\"auberge-grande-maison-charlevoix.html\">Auberge La Grande Maison</a> et d'autres établissements complètent l'offre bien-être de la région."
+        }
+      ]
+    },
+    {
+      "title": "Le circuit thermique nordique",
+      "paragraphs": [
+        "Un circuit de spa nordique typique dans Charlevoix se déroule en trois étapes, à répéter plusieurs fois :"
+      ],
+      "highlightCards": [
+        {
+          "icon": "🔥",
+          "title": "1. Le réchauffement",
+          "description": "Sauna finlandais (80-90 °C), bain vapeur eucalyptus ou bain chaud extérieur. Le corps se réchauffe en profondeur pendant 10 à 15 minutes. Les muscles se détendent."
+        },
+        {
+          "icon": "❄️",
+          "title": "2. Le refroidissement",
+          "description": "Bassin d'eau froide, douche nordique ou roulade dans la neige en hiver. Le choc thermique stimule la circulation sanguine et libère des endorphines. Bref mais intense."
+        },
+        {
+          "icon": "☁️",
+          "title": "3. La détente",
+          "description": "Repos en zone de relaxation — chaises longues, hamacs, foyer extérieur. Le corps se rééquilibre. C'est à cette étape que la sensation de bien-être profond s'installe."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "paragraphs": [
+        "Pour profiter pleinement de l'expérience thermale dans Charlevoix :"
+      ],
+      "infoCards": [
+        {
+          "title": "📅 Quand y aller",
+          "content": "L'hiver est la saison la plus spectaculaire — le contraste chaud/froid est maximal et les paysages enneigés sont magiques. L'été et l'automne offrent une ambiance différente, tout aussi agréable."
+        },
+        {
+          "title": "⏱️ Durée",
+          "content": "Prévoir 2 à 3 heures minimum pour un circuit complet. Certains spas permettent de rester la journée entière."
+        },
+        {
+          "title": "🤫 Ambiance",
+          "content": "Le spa nordique est un lieu de silence. Conversations à voix basse, téléphones interdits. Respecter le calme fait partie de l'expérience."
+        },
+        {
+          "title": "📞 Réservation",
+          "content": "Réserver à l'avance, surtout les fins de semaine et en haute saison. Les spas ont des capacités limitées pour préserver la qualité de l'expérience."
+        }
+      ]
+    },
+    {
+      "title": "Combiner spa et séjour",
+      "paragraphs": [
+        "Le spa nordique se combine idéalement avec un séjour dans Charlevoix. Après une journée de <a href=\"randonnee-charlevoix.html\">randonnée</a>, de <a href=\"le-massif-ski-charlevoix.html\">ski au Massif</a> ou de découverte de la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a>, un circuit thermique est la récompense parfaite.",
+        "Pour un séjour axé sur le bien-être, combinez le spa avec du <a href=\"yoga-meditation-charlevoix.html\">yoga et méditation</a>, une visite des <a href=\"artisans-charlevoix.html\">artisans locaux</a> et un souper dans l'un des <a href=\"top-10-restaurants-charlevoix.html\">meilleurs restaurants</a> de la région."
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifier votre séjour bien-être",
+    "text": "Détente, nature et gastronomie — Charlevoix a tout pour se ressourcer.",
+    "links": [
+      {
+        "text": "Top 5 spas →",
+        "href": "top-10-spas-charlevoix.html"
+      },
+      {
+        "text": "Yoga et méditation →",
+        "href": "yoga-meditation-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-spas-charlevoix.html\">Top 5 spas</a> · <a href=\"yoga-meditation-charlevoix.html\">Yoga et méditation</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

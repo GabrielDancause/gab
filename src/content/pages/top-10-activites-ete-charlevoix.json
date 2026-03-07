@@ -1,0 +1,166 @@
+{
+  "slug": "top-10-activites-ete-charlevoix",
+  "title": "Top 10 — Activités d'été dans Charlevoix, Québec",
+  "description": "Top 10 des meilleures activités estivales à Charlevoix. Randonnée, kayak, vélo, observation des baleines, golf et plus. Guide complet pour un été dans la région.",
+  "ogTitle": "Top 10 — Activités d'été dans Charlevoix",
+  "ogDescription": "Les meilleures activités à faire en été dans Charlevoix au Québec. Nature, aventure et plein air.",
+  "heroGradient": "linear-gradient(135deg, #2a7b4f 0%, #1a5276 100%)",
+  "accentColor": "#2a7b4f",
+  "badge": "⚜️ Été · Plein air · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Activités d'été<br>dans Charlevoix",
+  "tagline": "Les meilleures expériences estivales entre montagnes, fleuve et vallées",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "L'été est la saison reine pour découvrir Charlevoix. De juin à septembre, la région s'anime : sentiers de randonnée, rivières à kayaker, baleines à observer et terrasses avec vue sur le fleuve. Voici <strong>les 10 meilleures activités estivales</strong> pour profiter de Charlevoix sous le soleil.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🥾",
+      "title": "Randonnée dans les parcs nationaux",
+      "location": "📍 Parc des Hautes-Gorges · Parc des Grands-Jardins",
+      "description": "Charlevoix compte deux parcs nationaux spectaculaires. Les <a href=\"parc-hautes-gorges-charlevoix.html\" class=\"entry-link\">Hautes-Gorges-de-la-Rivière-Malbaie</a> offrent les plus hautes parois rocheuses à l'est des Rocheuses, tandis que le <a href=\"parc-grands-jardins-charlevoix.html\" class=\"entry-link\">Parc des Grands-Jardins</a> abrite une toundra boréale unique au sud du 50e parallèle.",
+      "tags": [
+        "Randonnée",
+        "Parcs nationaux",
+        "Nature sauvage"
+      ],
+      "href": "randonnee-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "🐋",
+      "title": "Observation des baleines",
+      "location": "📍 Baie-Sainte-Catherine · Parc marin du Saguenay",
+      "description": "Depuis <a href=\"baie-sainte-catherine-charlevoix.html\" class=\"entry-link\">Baie-Sainte-Catherine</a>, embarquez pour une croisière dans le <a href=\"parc-marin-saguenay-charlevoix.html\" class=\"entry-link\">Parc marin du Saguenay–Saint-Laurent</a>. Rorquals, bélugas et petits rorquals fréquentent ces eaux riches en krill tout l'été.",
+      "tags": [
+        "Baleines",
+        "Croisière",
+        "Parc marin"
+      ],
+      "href": "observation-baleines-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🚴",
+      "title": "Vélo sur la Route Verte",
+      "location": "📍 Baie-Saint-Paul → La Malbaie",
+      "description": "Le <a href=\"velo-charlevoix.html\" class=\"entry-link\">réseau cyclable de Charlevoix</a> traverse des paysages à couper le souffle. La piste du P'tit Train du Nord relie Baie-Saint-Paul à La Malbaie sur un ancien tracé ferroviaire, avec vue constante sur le fleuve et les montagnes.",
+      "tags": [
+        "Vélo",
+        "Route Verte",
+        "Piste cyclable"
+      ],
+      "href": "velo-charlevoix.html"
+    },
+    {
+      "rank": 4,
+      "emoji": "🛶",
+      "title": "Kayak de mer sur le Saint-Laurent",
+      "location": "📍 Baie-Saint-Paul · Isle-aux-Coudres",
+      "description": "Le <a href=\"kayak-charlevoix.html\" class=\"entry-link\">kayak de mer</a> permet de découvrir la côte charlevoisienne depuis l'eau. Excursions guidées avec <a href=\"katabatik-kayak-charlevoix.html\" class=\"entry-link\">Katabatik</a> au coucher du soleil ou à la journée, entre baies, caps et marées spectaculaires.",
+      "tags": [
+        "Kayak",
+        "Saint-Laurent",
+        "Excursion guidée"
+      ],
+      "href": "kayak-charlevoix.html"
+    },
+    {
+      "rank": 5,
+      "emoji": "🎨",
+      "title": "Art et galeries à Baie-Saint-Paul",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "La capitale artistique de Charlevoix regorge de <a href=\"galeries-baie-saint-paul.html\" class=\"entry-link\">galeries d'art</a>, d'ateliers et du <a href=\"musee-art-contemporain-charlevoix.html\" class=\"entry-link\">Musée d'art contemporain</a>. Flânez sur la rue Saint-Jean-Baptiste et découvrez les artistes qui font la renommée de la région.",
+      "tags": [
+        "Art",
+        "Galeries",
+        "Culture"
+      ],
+      "href": "baie-saint-paul-charlevoix.html"
+    },
+    {
+      "rank": 6,
+      "emoji": "⛳",
+      "title": "Golf avec vue sur le fleuve",
+      "location": "📍 La Malbaie · Fairmont Le Manoir Richelieu",
+      "description": "Le <a href=\"golf-charlevoix.html\" class=\"entry-link\">golf dans Charlevoix</a> est une expérience unique. Le parcours du Fairmont Le Manoir Richelieu, fondé en 1925, offre 27 trous avec vue panoramique sur le fleuve Saint-Laurent depuis les hauteurs de La Malbaie.",
+      "tags": [
+        "Golf",
+        "Fairmont",
+        "Vue panoramique"
+      ],
+      "href": "golf-charlevoix.html"
+    },
+    {
+      "rank": 7,
+      "emoji": "🚂",
+      "title": "Train de Charlevoix",
+      "location": "📍 Québec → Baie-Saint-Paul → La Malbaie",
+      "description": "Le <a href=\"train-charlevoix.html\" class=\"entry-link\">Train de Charlevoix</a> longe la rive nord du Saint-Laurent sur un trajet spectaculaire. Un voyage panoramique qui traverse caps, villages et paysages côtiers inaccessibles par la route.",
+      "tags": [
+        "Train touristique",
+        "Panoramique",
+        "Fleuve"
+      ],
+      "href": "train-charlevoix.html"
+    },
+    {
+      "rank": 8,
+      "emoji": "🧀",
+      "title": "Route des Saveurs",
+      "location": "📍 Toute la région",
+      "description": "La <a href=\"route-saveurs-charlevoix.html\" class=\"entry-link\">Route des Saveurs</a> relie fromageries, cidreries, fermes et tables champêtres. Découvrez les produits du terroir : fromages de la <a href=\"famille-migneron-charlevoix.html\" class=\"entry-link\">Famille Migneron</a>, cidres de la <a href=\"cidrerie-pedneault-charlevoix.html\" class=\"entry-link\">Cidrerie Pedneault</a>, et plus encore.",
+      "tags": [
+        "Agrotourisme",
+        "Terroir",
+        "Fromages"
+      ],
+      "href": "route-saveurs-charlevoix.html"
+    },
+    {
+      "rank": 9,
+      "emoji": "🏖️",
+      "title": "Plages et baignade",
+      "location": "📍 Saint-Irénée · Isle-aux-Coudres",
+      "description": "La <a href=\"plage-saint-irenee-charlevoix.html\" class=\"entry-link\">plage de Saint-Irénée</a> est la plus célèbre de Charlevoix — sable fin, eau du fleuve et couchers de soleil mémorables. L'<a href=\"ile-aux-coudres-charlevoix.html\" class=\"entry-link\">Isle-aux-Coudres</a> offre aussi des plages tranquilles avec vue sur les montagnes.",
+      "tags": [
+        "Plage",
+        "Baignade",
+        "Saint-Irénée"
+      ],
+      "href": "plage-saint-irenee-charlevoix.html"
+    },
+    {
+      "rank": 10,
+      "emoji": "🎵",
+      "title": "Le Festif! et festivals d'été",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Le <a href=\"le-festif-charlevoix.html\" class=\"entry-link\">Festif!</a> transforme Baie-Saint-Paul en scène de musique géante chaque juillet. Ajoutez le <a href=\"symposium-peinture-charlevoix.html\" class=\"entry-link\">Symposium de peinture</a>, <a href=\"reves-dautomne-charlevoix.html\" class=\"entry-link\">Rêves d'automne</a> et la <a href=\"foire-terroirs-charlevoix.html\" class=\"entry-link\">Foire des Terroirs</a> pour un été culturel complet.",
+      "tags": [
+        "Festival",
+        "Musique",
+        "Culture"
+      ],
+      "href": "le-festif-charlevoix.html"
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#e8f5e9",
+  "tagColor": "#2a7b4f",
+  "ctaBanner": {
+    "title": "Planifier votre été à Charlevoix",
+    "text": "Consultez nos guides saisonniers pour préparer votre séjour.",
+    "links": [
+      {
+        "text": "Guide été →",
+        "href": "charlevoix-ete.html"
+      },
+      {
+        "text": "Hébergement →",
+        "href": "chalets-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix-ete.html\">Charlevoix en été</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

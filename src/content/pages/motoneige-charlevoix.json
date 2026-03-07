@@ -1,0 +1,154 @@
+{
+  "slug": "motoneige-charlevoix",
+  "title": "Motoneige à Charlevoix — Sentiers et circuits dans les montagnes, Québec",
+  "description": "Guide motoneige dans Charlevoix : sentiers balisés à travers les montagnes et le fleuve, clubs locaux, location et conseils pratiques pour explorer la région en motoneige.",
+  "ogTitle": "Motoneige à Charlevoix — Québec",
+  "ogDescription": "Explorez Charlevoix en motoneige : sentiers entre montagnes et fleuve, clubs, location et circuits.",
+  "heroGradient": "linear-gradient(135deg, #1a3a5c 0%, #2a4a3a 50%, #2E3E24 100%)",
+  "accentColor": "#1a3a5c",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Motoneige à Charlevoix",
+  "tagline": "Des sentiers entre montagnes et fleuve — l'hiver grandeur nature",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🛷",
+      "value": "Sentiers Trans-Québec",
+      "label": "Réseau"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Montagnes & fleuve",
+      "label": "Paysages"
+    },
+    {
+      "icon": "❄️",
+      "value": "Déc. à mars",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "Charlevoix",
+      "label": "Région"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "La motoneige dans Charlevoix",
+      "paragraphs": [
+        "Charlevoix est une destination de choix pour la motoneige au Québec. Avec ses montagnes escarpées, ses vallées enneigées et ses vues spectaculaires sur le fleuve Saint-Laurent, la région offre des conditions exceptionnelles pour les motoneigistes de tous les niveaux.",
+        "Le réseau de sentiers de Charlevoix fait partie du vaste réseau Trans-Québec, qui totalise plus de 30 000 km de sentiers balisés et entretenus à travers la province. Les sentiers de la région traversent des paysages variés — forêts boréales, plateaux montagneux, vallées agricoles et panoramas sur le fleuve — offrant une expérience unique en <a href=\"charlevoix-hiver.html\">hiver dans Charlevoix</a>."
+      ]
+    },
+    {
+      "title": "Les sentiers",
+      "paragraphs": [
+        "Les sentiers de motoneige de Charlevoix relient les principales municipalités de la région : <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>, <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>, Saint-Urbain et les secteurs montagneux de l'arrière-pays. Les sentiers sont entretenus par les clubs de motoneige locaux affiliés à la Fédération des clubs de motoneigistes du Québec (FCMQ)."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🗺️",
+          "title": "Réseau Trans-Québec",
+          "description": "Les sentiers de Charlevoix sont connectés au réseau provincial, permettant de relier la Côte-de-Beaupré, le Saguenay et d'autres régions."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Sentiers de montagne",
+          "description": "Des circuits traversent les hauts plateaux de Charlevoix, avec des dénivelés importants et des panoramas à couper le souffle."
+        },
+        {
+          "icon": "🌊",
+          "title": "Vues sur le fleuve",
+          "description": "Certains tronçons offrent des points de vue spectaculaires sur le fleuve Saint-Laurent et les montagnes de la rive sud."
+        },
+        {
+          "icon": "🌲",
+          "title": "Forêts boréales",
+          "description": "Les sentiers serpentent à travers des forêts de sapins et d'épinettes, typiques du paysage charlevoixien."
+        }
+      ]
+    },
+    {
+      "title": "Pratique",
+      "paragraphs": [
+        "La saison de motoneige dans Charlevoix s'étend généralement de décembre à mars, selon les conditions d'enneigement. Voici ce qu'il faut savoir avant de partir."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🎫",
+          "title": "Droit d'accès",
+          "description": "Un droit d'accès annuel de la FCMQ est obligatoire pour circuler sur les sentiers balisés. Il est disponible en ligne sur le site de la FCMQ ou auprès des clubs locaux."
+        },
+        {
+          "icon": "🛷",
+          "title": "Location",
+          "description": "Plusieurs entreprises de la région offrent la location de motoneiges et de vêtements d'hiver. Informez-vous auprès de Tourisme Charlevoix pour les forfaits disponibles."
+        },
+        {
+          "icon": "🧥",
+          "title": "Équipement",
+          "description": "Casque homologué obligatoire, vêtements chauds multicouches, bottes d'hiver, gants de motoneige et lunettes de protection. Les températures peuvent descendre sous -25 °C en montagne."
+        },
+        {
+          "icon": "⚠️",
+          "title": "Sécurité",
+          "description": "Respectez les limites de vitesse, restez sur les sentiers balisés et vérifiez les conditions de sentiers avant de partir. Un permis de conduire valide est requis."
+        }
+      ]
+    },
+    {
+      "title": "Combiner avec d'autres activités",
+      "paragraphs": [
+        "La motoneige se combine parfaitement avec d'autres <a href=\"aventure-plein-air-charlevoix.html\">activités de plein air</a> dans Charlevoix. Après une journée sur les sentiers, profitez d'un moment de détente dans l'un des <a href=\"top-10-spas-charlevoix.html\">spas de la région</a>, ou réchauffez-vous dans un des <a href=\"top-10-restaurants-charlevoix.html\">restaurants de Charlevoix</a> pour goûter aux saveurs locales."
+      ],
+      "cardGrid": [
+        {
+          "icon": "⛷️",
+          "title": "Ski au Massif",
+          "description": "Le plus haut dénivelé de l'Est du Canada",
+          "href": "le-massif-ski-charlevoix.html"
+        },
+        {
+          "icon": "♨️",
+          "title": "Spas nordiques",
+          "description": "Détente après une journée en motoneige",
+          "href": "top-10-spas-charlevoix.html"
+        },
+        {
+          "icon": "🎰",
+          "title": "Casino de Charlevoix",
+          "description": "Soirée divertissement à La Malbaie",
+          "href": "casino-charlevoix.html"
+        },
+        {
+          "icon": "🍽️",
+          "title": "Gastronomie locale",
+          "description": "Terroir et saveurs de Charlevoix",
+          "href": "gourmand-charlevoix.html"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Explorez Charlevoix en hiver",
+    "text": "Découvrez toutes les activités hivernales de la région.",
+    "links": [
+      {
+        "text": "Charlevoix en hiver",
+        "href": "charlevoix-hiver.html"
+      },
+      {
+        "text": "Guide Charlevoix",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "<a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"charlevoix-hiver.html\">Charlevoix en hiver</a> · <a href=\"https://gab.ae\">gab.ae</a>"
+}

@@ -55,3 +55,13 @@
 - [ ] jardins-quatre-vents-charlevoix.json — Les Jardins de Quatre-Vents à La Malbaie
 - [ ] top-10-activites-famille-charlevoix.json — Top 10 des activités en famille dans Charlevoix
 - [ ] microbieres-charlevoix.json — SKIP (microbrasseries-charlevoix.json existe déjà)
+
+### Batch 6 — Nouvelles pages (ajouté 2026-03-07)
+- [ ] chutes-jean-larose-charlevoix.json — La chute Jean-Larose : randonnée et cascade près du Massif
+- [ ] saint-aime-des-lacs-charlevoix.json — Saint-Aimé-des-Lacs : village, lac Nairne et nature
+- [ ] top-10-experiences-agrotourisme-charlevoix.json — Top 10 des expériences agrotouristiques de Charlevoix
+- [ ] peche-mouche-charlevoix.json — Pêche à la mouche dans Charlevoix : rivières et pourvoiries
+- [ ] route-362-charlevoix.json — La route 362 : la plus belle route panoramique du Québec
+- [ ] weekend-gastronomique-charlevoix.json — Guide : un week-end gastronomique dans Charlevoix
+- [ ] cabane-sucre-charlevoix.json — Les cabanes à sucre et érablières de Charlevoix
+- [ ] camping-sauvage-charlevoix.json — Camping sauvage et prêt-à-camper dans Charlevoix

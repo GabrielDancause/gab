@@ -1,0 +1,130 @@
+{
+  "slug": "couchers-soleil-charlevoix",
+  "title": "Les meilleurs spots pour les couchers de soleil dans Charlevoix | gab.ae",
+  "description": "Où voir les plus beaux couchers de soleil dans Charlevoix. Belvédères, plages, quais et villages avec vue sur le fleuve Saint-Laurent.",
+  "ogTitle": "Couchers de soleil — Charlevoix",
+  "ogDescription": "Les meilleurs endroits pour admirer les couchers de soleil dans Charlevoix. Fleuve, montagnes et lumière dorée.",
+  "heroGradient": "linear-gradient(135deg, #d4671a 0%, #6b2fa0 100%)",
+  "accentColor": "#d4671a",
+  "badge": null,
+  "heroLocation": "Guide thématique · Charlevoix · Québec",
+  "h1": "Couchers de soleil<br>à Charlevoix 🌅",
+  "tagline": "Les meilleurs spots pour capturer la lumière dorée sur le fleuve et les montagnes",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌅",
+      "value": "10+ spots",
+      "label": "Points de vue"
+    },
+    {
+      "icon": "🧭",
+      "value": "Nord-ouest",
+      "label": "Direction du coucher"
+    },
+    {
+      "icon": "🍂",
+      "value": "Sept–Oct",
+      "label": "Plus belles lumières"
+    },
+    {
+      "icon": "📷",
+      "value": "Golden hour",
+      "label": "~1h avant le coucher"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "La lumière magique de Charlevoix",
+      "paragraphs": [
+        "Charlevoix bénéficie d'une géographie exceptionnelle pour les couchers de soleil. Le fleuve Saint-Laurent agit comme un miroir géant, les montagnes créent des jeux d'ombres et la lumière rasante transforme les villages en tableaux vivants.",
+        "Que vous soyez photographe ou simplement en quête d'un moment contemplatif, voici les meilleurs endroits pour profiter du spectacle."
+      ]
+    },
+    {
+      "title": "Depuis le fleuve et les quais",
+      "highlightCards": [
+        {
+          "icon": "🏝️",
+          "title": "Isle-aux-Coudres — Côte ouest",
+          "description": "La côte ouest de l'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a> offre un panorama dégagé sur le fleuve et les montagnes de Charlevoix en arrière-plan. Spectaculaire en été."
+        },
+        {
+          "icon": "⛴️",
+          "title": "Quai de Saint-Joseph-de-la-Rive",
+          "description": "Le quai d'embarquement du <a href=\"traversier-ile-aux-coudres-charlevoix.html\">traversier vers l'Isle-aux-Coudres</a>. Vue dégagée sur le fleuve, avec les montagnes et le village des <a href=\"les-eboulements-charlevoix.html\">Éboulements</a> en toile de fond."
+        },
+        {
+          "icon": "🏖️",
+          "title": "Plage de Saint-Irénée",
+          "description": "La <a href=\"plage-saint-irenee-charlevoix.html\">plage de Saint-Irénée</a> est l'une des rares plages de sable de Charlevoix. Les pieds dans l'eau, face au coucher de soleil sur le fleuve."
+        },
+        {
+          "icon": "⚓",
+          "title": "Quai de Cap-à-l'Aigle",
+          "description": "Le petit quai de Cap-à-l'Aigle à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> offre une vue intimiste sur le fleuve, loin des foules."
+        }
+      ]
+    },
+    {
+      "title": "Depuis les hauteurs",
+      "highlightCards": [
+        {
+          "icon": "⛷️",
+          "title": "Le Massif de Charlevoix",
+          "description": "Le sommet du <a href=\"le-massif-ski-charlevoix.html\">Massif</a> offre une vue plongeante sur le fleuve. En été, la télécabine permet d'y accéder facilement pour le coucher de soleil."
+        },
+        {
+          "icon": "🛣️",
+          "title": "Belvédères de la Route 362",
+          "description": "La <a href=\"route-fleuve-charlevoix.html\">Route du Fleuve</a> entre Baie-Saint-Paul et La Malbaie compte plusieurs haltes routières avec vue imprenable. Arrêtez-vous au hasard."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Sentier des Caps",
+          "description": "Les falaises du <a href=\"sentier-des-caps-charlevoix.html\">Sentier des Caps</a> offrent un panorama vertigineux sur le fleuve. Il faut prévoir une randonnée pour y accéder."
+        },
+        {
+          "icon": "🏨",
+          "title": "Terrasse du Fairmont",
+          "description": "La terrasse du <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a> à La Malbaie. Un classique — cocktail à la main, face au fleuve."
+        }
+      ]
+    },
+    {
+      "title": "Depuis les villages",
+      "highlightCards": [
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul — Le quai",
+          "description": "Le secteur du quai à <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> offre une vue sur la baie et les montagnes environnantes, baignées de lumière dorée."
+        },
+        {
+          "icon": "🏘️",
+          "title": "Les Éboulements — Belvédère",
+          "description": "Le belvédère du village des <a href=\"les-eboulements-charlevoix.html\">Éboulements</a> surplombe le fleuve et l'Isle-aux-Coudres. Un des plus beaux panoramas de toute la région."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pour en profiter",
+      "infoCards": [
+        {
+          "title": "📅 Meilleure saison",
+          "content": "Automne (sept–oct) : lumière dorée intense<br>Été : couchers tardifs (20h30+)<br>Hiver : lumière rasante dès 16h"
+        },
+        {
+          "title": "📷 Conseils photo",
+          "content": "Arrivez 1h avant le coucher<br>Restez 20 min après — les plus belles couleurs viennent souvent après<br>Consultez le <a href=\"photographie-charlevoix.html\">guide photo de Charlevoix</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"photographie-charlevoix.html\">Guide photo</a> · <a href=\"top-10-points-de-vue-charlevoix.html\">Top 10 points de vue</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

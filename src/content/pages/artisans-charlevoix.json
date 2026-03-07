@@ -1,0 +1,123 @@
+{
+  "slug": "artisans-charlevoix",
+  "title": "Les artisans de Charlevoix — Poterie, tissage et métiers d'art | gab.ae",
+  "description": "Les artisans de Charlevoix : poterie, tissage, ébénisterie, papeterie et métiers d'art. Ateliers à visiter, boutiques et savoir-faire local.",
+  "ogTitle": "Les artisans de Charlevoix",
+  "ogDescription": "Poterie, tissage, papeterie et métiers d'art à Charlevoix. Découvrez le savoir-faire artisanal de la région.",
+  "heroGradient": "linear-gradient(135deg, #8B6914 0%, #5C3317 100%)",
+  "accentColor": "#8B6914",
+  "badge": null,
+  "heroLocation": "Artisanat · Culture · Charlevoix · Québec",
+  "h1": "Les artisans<br>de Charlevoix 🏺",
+  "tagline": "Poterie, tissage, papeterie et métiers d'art — le savoir-faire charlevoisien",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏺",
+      "value": "Poterie",
+      "label": "Tradition forte"
+    },
+    {
+      "icon": "📜",
+      "value": "Depuis 1965",
+      "label": "Papeterie Saint-Gilles"
+    },
+    {
+      "icon": "🎨",
+      "value": "30+",
+      "label": "Ateliers et galeries"
+    },
+    {
+      "icon": "🛣️",
+      "value": "Route des Arts",
+      "label": "Circuit artisanal"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "Charlevoix, terre d'artisans",
+      "paragraphs": [
+        "Charlevoix attire les artistes et artisans depuis des générations. La beauté des paysages, la lumière unique et l'isolement relatif de la région ont créé un terreau fertile pour la création. Des potiers aux tisserands, des ébénistes aux papetiers, le savoir-faire artisanal fait partie de l'identité charlevoisienne.",
+        "La <a href=\"route-arts-charlevoix.html\">Route des Arts de Charlevoix</a> relie des dizaines d'ateliers et de galeries entre Baie-Saint-Paul et La Malbaie. C'est la meilleure façon de découvrir ces métiers vivants."
+      ]
+    },
+    {
+      "title": "Ateliers et artisans à découvrir",
+      "highlightCards": [
+        {
+          "icon": "📜",
+          "title": "Papeterie Saint-Gilles",
+          "description": "À Saint-Joseph-de-la-Rive, la <a href=\"papeterie-saint-gilles-charlevoix.html\">Papeterie Saint-Gilles</a> fabrique du papier artisanal depuis 1965. Visite de l'atelier, démonstrations et boutique. Un lieu unique au Québec."
+        },
+        {
+          "icon": "🧼",
+          "title": "La Savonnerie de la Côte",
+          "description": "Aux Éboulements, la <a href=\"savonnerie-charlevoix.html\">Savonnerie de la Côte</a> produit des savons artisanaux à partir d'ingrédients naturels. Atelier-boutique ouvert aux visiteurs."
+        },
+        {
+          "icon": "🎨",
+          "title": "Galeries de Baie-Saint-Paul",
+          "description": "Le village de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> regorge de <a href=\"galeries-baie-saint-paul.html\">galeries d'art</a> et d'ateliers d'artistes. La rue Saint-Jean-Baptiste est un incontournable."
+        },
+        {
+          "icon": "🏺",
+          "title": "Poteries de Charlevoix",
+          "description": "Plusieurs potiers ont élu domicile dans la région, notamment aux Éboulements et à Baie-Saint-Paul. La poterie charlevoisienne se distingue par ses émaux inspirés des paysages locaux."
+        }
+      ]
+    },
+    {
+      "title": "Produits du terroir artisanal",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Fromages artisanaux",
+          "description": "Les fromages de Charlevoix sont reconnus : le Migneron de la <a href=\"famille-migneron-charlevoix.html\">Famille Migneron</a>, les fromages de la <a href=\"laiterie-charlevoix.html\">Laiterie Charlevoix</a> (incluant le fameux 1608). Un savoir-faire fromager unique."
+        },
+        {
+          "icon": "🍎",
+          "title": "Cidres et alcools",
+          "description": "La <a href=\"cidrerie-pedneault-charlevoix.html\">Cidrerie Pedneault</a> à l'Isle-aux-Coudres perpétue une tradition pomicole depuis des générations. Cidres de glace, mistelles et alcools de fruits."
+        },
+        {
+          "icon": "💐",
+          "title": "Lavande et herbes",
+          "description": "La <a href=\"lavande-azulee-charlevoix.html\">Lavande Azurée</a> cultive et transforme la lavande en produits artisanaux — savons, huiles essentielles et sachets."
+        },
+        {
+          "icon": "🐑",
+          "title": "Laine et textiles",
+          "description": "L'élevage ovin à Charlevoix (dont l'<a href=\"agneaux-charlevoix.html\">agneau de Charlevoix</a>) a donné naissance à une tradition de tissage et de tricot qui perdure dans certains ateliers."
+        }
+      ]
+    },
+    {
+      "title": "Circuits et visites",
+      "infoCards": [
+        {
+          "title": "🛣️ Route des Arts",
+          "content": "Circuit reliant ateliers et galeries<br>De Baie-Saint-Paul à La Malbaie<br><a href=\"route-arts-charlevoix.html\">Voir le circuit →</a>"
+        },
+        {
+          "title": "🎭 Événements",
+          "content": "Symposium de peinture (été)<br>Foire des terroirs de Charlevoix<br><a href=\"symposium-peinture-charlevoix.html\">Symposium →</a>"
+        },
+        {
+          "title": "🛍️ Marchés",
+          "content": "Marché public de Baie-Saint-Paul<br>Marché de La Malbaie<br>Artisans présents tout l'été"
+        },
+        {
+          "title": "📅 Meilleure période",
+          "content": "Été (juin–sept) : tous les ateliers ouverts<br>Automne : ambiance plus intime<br>Hiver : certains ateliers sur rendez-vous"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"route-arts-charlevoix.html\">Route des Arts</a> · <a href=\"galeries-baie-saint-paul.html\">Galeries BSP</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

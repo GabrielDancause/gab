@@ -1,0 +1,137 @@
+{
+  "slug": "marche-noel-charlevoix",
+  "title": "Marchés de Noël dans Charlevoix — Québec",
+  "description": "Découvrez les marchés de Noël de Charlevoix : artisans locaux, produits du terroir, vin chaud et ambiance féérique dans les plus beaux villages enneigés du Québec.",
+  "ogTitle": "Marchés de Noël dans Charlevoix",
+  "ogDescription": "Artisans, terroir et magie de Noël dans les villages enneigés de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #8b1a1a 0%, #1a3a1a 100%)",
+  "accentColor": "#8b1a1a",
+  "badge": "🎄 Noël · Terroir · Artisanat",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Marchés de Noël<br>dans Charlevoix",
+  "tagline": "Artisans, produits du terroir et magie hivernale dans les villages charlevoisiens",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Noël dans Charlevoix",
+    "href": "noel-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🎄",
+      "value": "Décembre",
+      "label": "Période"
+    },
+    {
+      "icon": "🎁",
+      "value": "Artisanat local",
+      "label": "Cadeaux"
+    },
+    {
+      "icon": "🍷",
+      "value": "Vin chaud",
+      "label": "Dégustations"
+    },
+    {
+      "icon": "❄️",
+      "value": "Gratuit",
+      "label": "Entrée"
+    }
+  ],
+  "heroCta": {
+    "text": "Noël dans Charlevoix →",
+    "href": "noel-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "La tradition des marchés de Noël",
+      "paragraphs": [
+        "Chaque décembre, les villages de Charlevoix se transforment en décors de carte postale hivernale. Les marchés de Noël réunissent artisans, producteurs du terroir et familles dans une ambiance chaleureuse et féérique. C'est l'occasion de dénicher des cadeaux uniques tout en savourant les produits de la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #8b1a1a; font-weight: 600;\">Route des Saveurs</a>.",
+        "Entre les rues illuminées, le vin chaud fumant et l'odeur des sapins, les marchés de Noël charlevoisiens sont une expérience hivernale authentiquement québécoise."
+      ]
+    },
+    {
+      "title": "Baie-Saint-Paul",
+      "highlightCards": [
+        {
+          "icon": "🎄",
+          "title": "Marché de Noël de Baie-Saint-Paul",
+          "description": "Le marché de Noël de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> se tient en décembre dans le cœur du village. Artisans locaux, producteurs de la région et animations festives. On y trouve des créations en bois, poterie, savons artisanaux, confitures, fromages et produits du terroir charlevoisien."
+        },
+        {
+          "icon": "🎨",
+          "title": "Art et artisanat",
+          "description": "Baie-Saint-Paul est reconnue comme la capitale artistique de Charlevoix. Lors du marché de Noël, les <a href=\"galeries-baie-saint-paul.html\">galeries d'art</a> ouvrent leurs portes avec des expositions spéciales et des œuvres originales à offrir en cadeaux."
+        }
+      ]
+    },
+    {
+      "title": "La Malbaie et environs",
+      "highlightCards": [
+        {
+          "icon": "🏨",
+          "title": "Fairmont Le Manoir Richelieu",
+          "description": "Le <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a> à La Malbaie offre une ambiance de Noël grandiose avec ses décorations somptueuses. Le hall et les espaces communs sont transformés pour les Fêtes, créant un cadre féerique pour un séjour hivernal de luxe."
+        },
+        {
+          "icon": "🎪",
+          "title": "Animations festives",
+          "description": "Les municipalités de La Malbaie et des environs organisent des activités de Noël en décembre : défilés, illuminations, spectacles et ateliers pour enfants. Consultez le calendrier de <a href=\"https://www.tourisme-charlevoix.com\" style=\"color: #8b1a1a; font-weight: 600;\">Tourisme Charlevoix</a> pour les dates exactes."
+        }
+      ]
+    },
+    {
+      "title": "Isle-aux-Coudres",
+      "paragraphs": [
+        "L'<a href=\"ile-aux-coudres-charlevoix.html\" style=\"color: #8b1a1a; font-weight: 600;\">Isle-aux-Coudres</a> vit au rythme de ses traditions. En période des Fêtes, l'île offre une ambiance particulièrement chaleureuse avec ses petits marchés locaux et ses artisans insulaires. Le <a href=\"traversier-ile-aux-coudres-charlevoix.html\" style=\"color: #8b1a1a; font-weight: 600;\">traversier</a> fonctionne à l'année, permettant de visiter même en hiver."
+      ]
+    },
+    {
+      "title": "Quoi acheter",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Produits du terroir",
+          "description": "Fromages de Charlevoix (dont le célèbre Migneron), charcuteries d'agneau, cidres et mistelles de la <a href=\"cidrerie-pedneault-charlevoix.html\">Cidrerie Pedneault</a>, confitures et produits de l'érable. Le panier-cadeau idéal pour les gourmands."
+        },
+        {
+          "icon": "🧼",
+          "title": "Artisanat local",
+          "description": "Savons de la <a href=\"savonnerie-charlevoix.html\">Savonnerie de la Côte</a>, papier fait main de la <a href=\"papeterie-saint-gilles-charlevoix.html\">Papeterie Saint-Gilles</a>, poterie, tissage et bijoux créés par les artisans de la région."
+        },
+        {
+          "icon": "🎨",
+          "title": "Œuvres d'art",
+          "description": "Charlevoix est terre d'artistes. Les galeries et ateliers proposent des tableaux, sculptures et créations originales signées par des artistes locaux — un cadeau unique et mémorable."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "paragraphs": [
+        "Les marchés de Noël ont lieu principalement en <strong>décembre</strong>, souvent les deux ou trois premiers week-ends du mois. Les dates exactes varient d'une année à l'autre — consultez les sites des municipalités ou <a href=\"https://www.tourisme-charlevoix.com\" style=\"color: #8b1a1a; font-weight: 600;\">Tourisme Charlevoix</a> pour le calendrier à jour.",
+        "Habillez-vous chaudement ! En décembre, les températures à Charlevoix oscillent entre -10°C et -20°C. Bottes d'hiver, tuque et mitaines sont essentielles. La plupart des marchés sont en plein air avec quelques kiosques couverts."
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifiez votre Noël à Charlevoix",
+    "text": "Tout pour un séjour magique pendant le temps des Fêtes.",
+    "links": [
+      {
+        "text": "Noël dans Charlevoix →",
+        "href": "noel-charlevoix.html"
+      },
+      {
+        "text": "Charlevoix en hiver →",
+        "href": "charlevoix-hiver.html"
+      },
+      {
+        "text": "Top 10 auberges →",
+        "href": "top-10-auberges-charlevoix-fr.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"noel-charlevoix.html\">Noël à Charlevoix</a> · <a href=\"charlevoix-hiver.html\">Hiver</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

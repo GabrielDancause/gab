@@ -1,0 +1,128 @@
+{
+  "slug": "agneaux-charlevoix",
+  "title": "L'agneau de Charlevoix — Terroir et saveurs du Québec",
+  "description": "Découvrez l'agneau de Charlevoix : élevage en pâturages de montagne, producteurs locaux, restaurants et l'histoire d'un terroir d'exception au Québec.",
+  "ogTitle": "L'agneau de Charlevoix — Terroir québécois",
+  "ogDescription": "L'agneau de Charlevoix, élevé en montagne face au fleuve. Producteurs, restaurants et saveurs du terroir.",
+  "heroGradient": "linear-gradient(135deg, #5a7a3a 0%, #2E3E24 100%)",
+  "accentColor": "#5a7a3a",
+  "badge": "🐑 Terroir · Agrotourisme · Charlevoix",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "L'agneau de Charlevoix 🐑",
+  "tagline": "Élevé en montagne, face au fleuve — un terroir d'exception",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Route des Saveurs",
+    "href": "route-saveurs-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐑",
+      "value": "Agneau",
+      "label": "Produit vedette"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Pâturages",
+      "label": "Élevage en montagne"
+    },
+    {
+      "icon": "⚜️",
+      "value": "IGP",
+      "label": "Appellation"
+    },
+    {
+      "icon": "🍽️",
+      "value": "Ferme à table",
+      "label": "Expérience"
+    }
+  ],
+  "heroCta": {
+    "text": "Route des Saveurs →",
+    "href": "route-saveurs-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Un terroir unique",
+      "paragraphs": [
+        "L'agneau de Charlevoix est l'un des produits emblématiques de la région. Élevés dans les pâturages vallonnés entre montagnes et fleuve Saint-Laurent, les agneaux charlevoisiens bénéficient d'un terroir unique qui se reflète dans la qualité de leur viande.",
+        "En 2009, l'<strong>Agneau de Charlevoix</strong> est devenu le premier produit au Québec à obtenir une indication géographique protégée (IGP), reconnaissant officiellement le lien entre le territoire et le goût distinctif de cette viande. C'est une fierté de la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #5a7a3a; font-weight: 600;\">Route des Saveurs de Charlevoix</a>."
+      ]
+    },
+    {
+      "title": "Producteurs et fermes",
+      "highlightCards": [
+        {
+          "icon": "🏡",
+          "title": "Ferme Éboulmontaise",
+          "description": "La <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a> aux Éboulements élève agneaux et porcs Berkshire. Son restaurant <a href=\"restaurant-epicentre-charlevoix.html\">L'Épicentre</a> offre l'expérience ultime de la ferme à l'assiette, avec une vue imprenable sur le fleuve."
+        },
+        {
+          "icon": "🐑",
+          "title": "Ferme Basque de Charlevoix",
+          "description": "La <a href=\"ferme-basque-charlevoix.html\">Ferme Basque</a> à Saint-Urbain est spécialisée dans l'élevage d'agneaux et la production de charcuteries artisanales. Terrines, cretons, saucisses et pâtés d'agneau sont disponibles à la boutique de la ferme."
+        },
+        {
+          "icon": "🥩",
+          "title": "Viandes biologiques de Charlevoix",
+          "description": "<a href=\"viandes-bio-charlevoix.html\">Viandes biologiques de Charlevoix</a> à Saint-Urbain propose de l'agneau élevé selon des méthodes biologiques certifiées, en pâturages libres dans les montagnes de l'arrière-pays charlevoisien."
+        }
+      ]
+    },
+    {
+      "title": "L'IGP Agneau de Charlevoix",
+      "paragraphs": [
+        "L'indication géographique protégée (IGP) « Agneau de Charlevoix » garantit que l'animal a été élevé et abattu dans la région de Charlevoix, selon un cahier des charges strict. Les agneaux doivent être nés et élevés sur le territoire, nourris principalement d'herbe et de foin local.",
+        "Cette appellation, la première du genre au Québec, est gérée par le Conseil des appellations réservées et des termes valorisants (CARTV). Elle assure au consommateur une traçabilité complète et un standard de qualité élevé."
+      ]
+    },
+    {
+      "title": "Où déguster l'agneau de Charlevoix",
+      "highlightCards": [
+        {
+          "icon": "🍽️",
+          "title": "L'Épicentre",
+          "description": "Le restaurant de la <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a> est l'adresse incontournable pour déguster l'agneau de Charlevoix dans un cadre champêtre, directement à la ferme."
+        },
+        {
+          "icon": "🌾",
+          "title": "Les Labours",
+          "description": "Au <a href=\"hotel-germain-charlevoix.html\">Germain Hôtel</a> de Baie-Saint-Paul, le chef met en valeur l'agneau de Charlevoix dans des plats gastronomiques inspirés du terroir local."
+        },
+        {
+          "icon": "🏨",
+          "title": "Tables de la région",
+          "description": "La plupart des <a href=\"top-10-restaurants-charlevoix.html\">meilleurs restaurants de Charlevoix</a> proposent l'agneau local à leur menu, préparé de différentes façons selon les saisons — gigot, carré, souris braisée ou tartare."
+        }
+      ]
+    },
+    {
+      "title": "Visiter les fermes",
+      "paragraphs": [
+        "Plusieurs producteurs d'agneau de Charlevoix ouvrent leurs portes aux visiteurs. C'est l'occasion de voir les troupeaux en pâturage, d'acheter directement à la ferme et de rencontrer les éleveurs passionnés qui perpétuent cette tradition. Consultez la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #5a7a3a; font-weight: 600;\">Route des Saveurs</a> pour planifier votre parcours agrotouristique.",
+        "La <a href=\"foire-terroirs-charlevoix.html\" style=\"color: #5a7a3a; font-weight: 600;\">Foire aux saveurs de Charlevoix</a> et la <a href=\"fete-fromages-charlevoix.html\" style=\"color: #5a7a3a; font-weight: 600;\">Fête des fromages</a> sont aussi d'excellentes occasions de découvrir l'agneau et les autres produits du terroir."
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Découvrir le terroir de Charlevoix",
+    "text": "L'agneau n'est que le début. Explorez tous les producteurs de la région.",
+    "links": [
+      {
+        "text": "Route des Saveurs →",
+        "href": "route-saveurs-charlevoix.html"
+      },
+      {
+        "text": "Top 10 fermes →",
+        "href": "top-10-fermes-charlevoix.html"
+      },
+      {
+        "text": "Top 10 restaurants →",
+        "href": "top-10-restaurants-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> · <a href=\"top-10-fermes-charlevoix.html\">Top 10 fermes</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -39,9 +39,19 @@
 - [x] top-10-chalets-charlevoix.json — Top 10 des plus beaux chalets à louer dans Charlevoix
 - [x] savonnerie-charlevoix.json — La Savonnerie de la Côte à Les Éboulements (artisanat local)
 - [x] traversier-ile-aux-coudres-charlevoix.json — Le traversier vers l'Isle-aux-Coudres : infos pratiques
-- [ ] top-10-activites-hiver-charlevoix.json — Top 10 des activités d'hiver dans Charlevoix
-- [ ] marche-noel-charlevoix.json — Marchés de Noël dans Charlevoix
-- [ ] agneaux-charlevoix.json — L'agneau de Charlevoix : élevage et saveurs du terroir
+- [x] top-10-activites-hiver-charlevoix.json — Top 10 des activités d'hiver dans Charlevoix
+- [x] marche-noel-charlevoix.json — Marchés de Noël dans Charlevoix
+- [x] agneaux-charlevoix.json — L'agneau de Charlevoix : élevage et saveurs du terroir
 - [ ] route-montagnes-charlevoix.json — La Route des Montagnes : de Saint-Urbain au Parc des Grands-Jardins
 - [ ] couchers-soleil-charlevoix.json — Les meilleurs spots pour les couchers de soleil dans Charlevoix
 - [ ] artisans-charlevoix.json — Les artisans de Charlevoix : poterie, tissage et métiers d'art
+
+### Batch 5 — Nouvelles pages (ajouté 2026-03-07)
+- [ ] top-10-activites-ete-charlevoix.json — Top 10 des activités d'été dans Charlevoix
+- [ ] fromages-charlevoix.json — Les fromages de Charlevoix : Migneron, 1608 et terroir fromager
+- [ ] spa-nordique-charlevoix.json — Guide des spas nordiques de Charlevoix (expériences thermales)
+- [ ] notre-dame-des-monts-charlevoix.json — Notre-Dame-des-Monts : village et nature
+- [ ] port-au-persil-charlevoix.json — Port-au-Persil : le plus petit village de Charlevoix
+- [ ] jardins-quatre-vents-charlevoix.json — Les Jardins de Quatre-Vents à La Malbaie
+- [ ] top-10-activites-famille-charlevoix.json — Top 10 des activités en famille dans Charlevoix
+- [ ] microbieres-charlevoix.json — Microbrasseries et bières artisanales de Charlevoix

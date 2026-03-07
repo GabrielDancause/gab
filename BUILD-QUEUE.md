@@ -36,9 +36,9 @@
 
 ### Batch 4 — Nouvelles pages (ajouté 2026-03-07)
 - [x] yoga-meditation-charlevoix.json — Yoga, méditation et retraites bien-être dans Charlevoix
-- [ ] top-10-chalets-charlevoix.json — Top 10 des plus beaux chalets à louer dans Charlevoix
-- [ ] savonnerie-charlevoix.json — La Savonnerie de la Côte à Les Éboulements (artisanat local)
-- [ ] traversier-ile-aux-coudres-charlevoix.json — Le traversier vers l'Isle-aux-Coudres : infos pratiques
+- [x] top-10-chalets-charlevoix.json — Top 10 des plus beaux chalets à louer dans Charlevoix
+- [x] savonnerie-charlevoix.json — La Savonnerie de la Côte à Les Éboulements (artisanat local)
+- [x] traversier-ile-aux-coudres-charlevoix.json — Le traversier vers l'Isle-aux-Coudres : infos pratiques
 - [ ] top-10-activites-hiver-charlevoix.json — Top 10 des activités d'hiver dans Charlevoix
 - [ ] marche-noel-charlevoix.json — Marchés de Noël dans Charlevoix
 - [ ] agneaux-charlevoix.json — L'agneau de Charlevoix : élevage et saveurs du terroir

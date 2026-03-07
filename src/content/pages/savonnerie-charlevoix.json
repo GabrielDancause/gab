@@ -1,0 +1,123 @@
+{
+  "slug": "savonnerie-charlevoix",
+  "title": "La Savonnerie de la Côte — Les Éboulements, Charlevoix, Québec",
+  "description": "La Savonnerie de la Côte aux Éboulements dans Charlevoix. Savons artisanaux fabriqués à la main avec des ingrédients naturels. Boutique, ateliers et artisanat local.",
+  "ogTitle": "La Savonnerie de la Côte — Artisanat charlevoisien",
+  "ogDescription": "Savons artisanaux aux Éboulements. Fabrication à la main, ingrédients naturels, boutique et ateliers.",
+  "heroGradient": "linear-gradient(135deg, #8a9a6b 0%, #2E3E24 100%)",
+  "accentColor": "#8a9a6b",
+  "badge": null,
+  "heroLocation": "Les Éboulements · Charlevoix · Québec",
+  "h1": "La Savonnerie de la Côte",
+  "tagline": "Savons artisanaux faits à la main au cœur de Charlevoix",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Route des Saveurs",
+    "href": "route-saveurs-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧼",
+      "value": "Savons",
+      "label": "Artisanat"
+    },
+    {
+      "icon": "📍",
+      "value": "Les Éboulements",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "🌿",
+      "value": "Naturel",
+      "label": "Ingrédients"
+    },
+    {
+      "icon": "🛍️",
+      "value": "Boutique",
+      "label": "Sur place"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "Un artisan du terroir charlevoisien",
+      "paragraphs": [
+        "La Savonnerie de la Côte est une entreprise artisanale située aux <a href=\"les-eboulements-charlevoix.html\">Éboulements</a>, dans le cœur de Charlevoix. Elle fabrique des savons à la main en utilisant des ingrédients naturels, souvent inspirés des plantes et des essences de la région.",
+        "L'atelier-boutique fait partie de l'écosystème artisanal de Charlevoix — une région reconnue pour ses créateurs et ses producteurs du terroir. La Savonnerie s'inscrit dans la tradition des métiers d'art charlevoisiens, aux côtés d'autres artisans comme la <a href=\"papeterie-saint-gilles-charlevoix.html\">Papeterie Saint-Gilles</a>."
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "highlightCards": [
+        {
+          "icon": "🧼",
+          "title": "Savons artisanaux",
+          "description": "Savons fabriqués selon des méthodes traditionnelles de saponification. Variétés parfumées aux huiles essentielles, aux herbes et aux ingrédients locaux."
+        },
+        {
+          "icon": "🛍️",
+          "title": "Boutique sur place",
+          "description": "Visitez l'atelier et la boutique pour découvrir la gamme complète : savons, produits corporels et idées-cadeaux. Un arrêt parfait en explorant Les Éboulements."
+        },
+        {
+          "icon": "🌿",
+          "title": "Ingrédients naturels",
+          "description": "Engagement envers des ingrédients de qualité : huiles végétales, beurres naturels, huiles essentielles. Pas de produits chimiques agressifs."
+        },
+        {
+          "icon": "🎁",
+          "title": "Idées-cadeaux",
+          "description": "Les savons de la Savonnerie font d'excellents souvenirs de Charlevoix. Coffrets-cadeaux et emballages soignés disponibles."
+        }
+      ]
+    },
+    {
+      "title": "Dans le secteur",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Famille Migneron",
+          "description": "La <a href=\"famille-migneron-charlevoix.html\">Famille Migneron de Charlevoix</a> est à proximité. Fromages artisanaux de renommée québécoise."
+        },
+        {
+          "icon": "🥩",
+          "title": "Ferme Éboulmontaise",
+          "description": "La <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a> et son restaurant <a href=\"restaurant-epicentre-charlevoix.html\">L'Épicentre</a> — agneau et porc Berkshire élevés sur place."
+        },
+        {
+          "icon": "📜",
+          "title": "Papeterie Saint-Gilles",
+          "description": "La <a href=\"papeterie-saint-gilles-charlevoix.html\">Papeterie Saint-Gilles</a>, un autre artisan emblématique de la région — papier fait main depuis des décennies."
+        },
+        {
+          "icon": "⛴️",
+          "title": "Traversier vers l'Isle-aux-Coudres",
+          "description": "Le quai de Saint-Joseph-de-la-Rive est tout près. Prenez le <a href=\"traversier-ile-aux-coudres-charlevoix.html\">traversier gratuit</a> vers l'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a>."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "Les Éboulements, Charlevoix<br>Sur la route entre Baie-Saint-Paul et La Malbaie"
+        },
+        {
+          "title": "🕐 Horaires",
+          "content": "Vérifiez les heures d'ouverture selon la saison. Plus fréquenté en été et durant les weekends d'automne."
+        },
+        {
+          "title": "🛣️ Accès",
+          "content": "Sur la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> et la <a href=\"route-arts-charlevoix.html\">Route des Arts</a>. Facile d'accès depuis la route 362."
+        },
+        {
+          "title": "🗺️ Parcours suggéré",
+          "content": "Combinez avec la <a href=\"cidrerie-pedneault-charlevoix.html\">Cidrerie Pedneault</a> et la <a href=\"famille-migneron-charlevoix.html\">Famille Migneron</a> pour une tournée des artisans des Éboulements."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> · <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

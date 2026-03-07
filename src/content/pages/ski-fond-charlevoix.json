@@ -1,0 +1,127 @@
+{
+  "slug": "ski-fond-charlevoix",
+  "title": "Ski de fond et raquette dans Charlevoix — Sentiers, parcs et centres nordiques",
+  "description": "Découvrez les meilleurs sentiers de ski de fond et de raquette dans Charlevoix : parcs nationaux, Sentier des Caps, Le Massif et plus. Guide complet.",
+  "ogTitle": "Ski de fond et raquette dans Charlevoix",
+  "ogDescription": "Sentiers de ski de fond et raquette dans les parcs nationaux, au Massif et sur le Sentier des Caps. Guide Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #E8F0FE 0%, #4A90D9 100%)",
+  "accentColor": "#4A90D9",
+  "badge": "❄️ Hiver",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Ski de fond et raquette dans Charlevoix",
+  "tagline": "Des sentiers nordiques spectaculaires entre montagnes et fleuve",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix en hiver",
+    "href": "charlevoix-hiver.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🎿",
+      "value": "100+ km",
+      "label": "De sentiers"
+    },
+    {
+      "icon": "🏔️",
+      "value": "2 parcs",
+      "label": "Nationaux"
+    },
+    {
+      "icon": "❄️",
+      "value": "Déc–Avr",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "Plusieurs",
+      "label": "Secteurs"
+    }
+  ],
+  "heroCta": {
+    "text": "Tourisme Charlevoix →",
+    "href": "https://www.tourisme-charlevoix.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Un paradis nordique",
+      "paragraphs": [
+        "Avec ses montagnes enneigées, ses forêts boréales et son enneigement abondant, <a href=\"charlevoix.html\">Charlevoix</a> est une destination de choix pour le ski de fond et la raquette au Québec. La région offre plus de 100 km de sentiers balisés répartis dans ses parcs nationaux, ses centres de plein air et ses domaines privés.",
+        "Que vous cherchiez du ski de fond classique ou du pas de patin, de la raquette en forêt ou des parcours plus sportifs en montagne, Charlevoix propose des options pour tous les niveaux dans des décors à couper le souffle."
+      ]
+    },
+    {
+      "title": "Où pratiquer",
+      "highlightCards": [
+        {
+          "icon": "🌲",
+          "title": "Parc national des Grands-Jardins",
+          "description": "Un réseau de sentiers de ski de fond et de raquette au cœur de la taïga boréale. Paysages de toundra alpine uniques au sud du 49e parallèle. Refuges disponibles pour les séjours multi-jours."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Parc national des Hautes-Gorges",
+          "description": "Sentiers de raquette le long de la rivière Malbaie, au pied de parois rocheuses spectaculaires. Accès hivernal limité — vérifiez les conditions auprès de la Sépaq."
+        },
+        {
+          "icon": "⛷️",
+          "title": "Le Massif de Charlevoix",
+          "description": "En plus du ski alpin, <a href=\"le-massif-ski-charlevoix.html\">Le Massif</a> offre des sentiers de raquette et des expériences nordiques avec vue imprenable sur le fleuve Saint-Laurent."
+        },
+        {
+          "icon": "🥾",
+          "title": "Sentier des Caps de Charlevoix",
+          "description": "Le <a href=\"sentier-des-caps-charlevoix.html\">Sentier des Caps</a> se transforme en hiver en un magnifique parcours de raquette avec des points de vue sur le fleuve et l'île d'Orléans."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "🎿 Équipement",
+          "content": "Location disponible dans la plupart des centres.<br>Prévoyez des couches chaudes et coupe-vent.<br>Bâtons et guêtres recommandés pour la raquette."
+        },
+        {
+          "title": "❄️ Conditions",
+          "content": "Saison : décembre à avril<br>Charlevoix reçoit en moyenne 400+ cm de neige par hiver.<br>Consultez les conditions avant de partir."
+        },
+        {
+          "title": "🏠 Hébergement",
+          "content": "Refuges en parcs nationaux (Sépaq)<br>Auberges à <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a><br>Hôtels à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>"
+        },
+        {
+          "title": "📍 Accès",
+          "content": "~1h30 de Québec via la route 138<br>ou le <a href=\"train-charlevoix.html\">Train de Charlevoix</a> (saison limitée)"
+        }
+      ]
+    },
+    {
+      "title": "À découvrir aussi",
+      "highlightCards": [
+        {
+          "icon": "🏂",
+          "title": "Ski alpin",
+          "description": "<a href=\"le-massif-ski-charlevoix.html\">Le Massif de Charlevoix</a> — 770 m de dénivelé et 52 pistes avec vue sur le fleuve."
+        },
+        {
+          "icon": "🏍️",
+          "title": "Motoneige",
+          "description": "<a href=\"motoneige-charlevoix.html\">Motoneige dans Charlevoix</a> — des centaines de kilomètres de sentiers fédérés dans les montagnes."
+        },
+        {
+          "icon": "🐕",
+          "title": "Traineau à chiens",
+          "description": "Vivez l'aventure du traineau à chiens dans les forêts enneigées de Charlevoix."
+        },
+        {
+          "icon": "♨️",
+          "title": "Spas et détente",
+          "description": "Après l'effort, le réconfort! <a href=\"top-10-spas-charlevoix.html\">Les meilleurs spas de Charlevoix</a> pour récupérer."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix-hiver.html\">← Charlevoix en hiver</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

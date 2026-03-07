@@ -1,0 +1,127 @@
+{
+  "slug": "kayak-charlevoix",
+  "title": "Kayak dans Charlevoix — Kayak de mer, rivière et excursions sur le fleuve",
+  "description": "Guide du kayak dans Charlevoix : kayak de mer sur le fleuve Saint-Laurent, excursions guidées, spots incontournables de Baie-Saint-Paul à Baie-Sainte-Catherine.",
+  "ogTitle": "Kayak dans Charlevoix — Guide complet",
+  "ogDescription": "Kayak de mer sur le fleuve Saint-Laurent, excursions guidées et meilleurs parcours dans Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #0077B6 0%, #00B4D8 100%)",
+  "accentColor": "#0077B6",
+  "badge": "☀️ Été",
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Kayak dans Charlevoix",
+  "tagline": "Pagayez sur le fleuve Saint-Laurent entre montagnes et marées",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🛶",
+      "value": "Mer & rivière",
+      "label": "Types"
+    },
+    {
+      "icon": "🐋",
+      "value": "Baleines",
+      "label": "Possibles"
+    },
+    {
+      "icon": "☀️",
+      "value": "Mai–Oct",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "Plusieurs",
+      "label": "Sites"
+    }
+  ],
+  "heroCta": {
+    "text": "Katabatik — Excursions →",
+    "href": "https://www.katabatik.ca",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le kayak dans Charlevoix",
+      "paragraphs": [
+        "Le fleuve Saint-Laurent, la rivière du Gouffre, la rivière Malbaie et les côtes spectaculaires de <a href=\"charlevoix.html\">Charlevoix</a> en font un terrain de jeu exceptionnel pour le kayak. De mai à octobre, on peut explorer des anses sauvages, longer des falaises impressionnantes et même observer des baleines depuis son embarcation.",
+        "Que vous soyez débutant ou kayakiste expérimenté, plusieurs entreprises offrent des excursions guidées adaptées à tous les niveaux. <a href=\"katabatik-kayak-charlevoix.html\">Katabatik</a>, basé à Baie-Saint-Paul, est l'un des principaux pourvoyeurs d'aventures en kayak de la région."
+      ]
+    },
+    {
+      "title": "Les meilleurs parcours",
+      "highlightCards": [
+        {
+          "icon": "🌊",
+          "title": "Baie-Saint-Paul — Les battures",
+          "description": "Explorez les battures et la baie au confluent de la rivière du Gouffre et du fleuve. Idéal pour les débutants, avec un paysage de montagnes en toile de fond."
+        },
+        {
+          "icon": "🏝️",
+          "title": "Isle-aux-Coudres",
+          "description": "Faites le tour de l'<a href=\"ile-aux-coudres-charlevoix.html\">Isle-aux-Coudres</a> en kayak de mer. Courants et marées à respecter — excursion guidée recommandée."
+        },
+        {
+          "icon": "🐋",
+          "title": "Baie-Sainte-Catherine",
+          "description": "À l'embouchure du Saguenay, <a href=\"baie-sainte-catherine-charlevoix.html\">Baie-Sainte-Catherine</a> est un spot réputé pour le kayak avec observation de bélugas et de baleines dans le <a href=\"parc-marin-saguenay-charlevoix.html\">parc marin</a>."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Les Éboulements — Cap-aux-Oies",
+          "description": "La côte entre <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a> et Cap-aux-Oies offre des falaises spectaculaires et des criques sauvages accessibles en kayak."
+        }
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "🛶 Types de kayak",
+          "content": "Kayak de mer (sit-in) pour le fleuve<br>Kayak récréatif pour rivières calmes<br>SUP (stand-up paddle) aussi disponible"
+        },
+        {
+          "title": "📅 Saison",
+          "content": "Mai à octobre<br>Haute saison : juillet–août<br>Eau froide — combinaison recommandée au printemps et en automne"
+        },
+        {
+          "title": "⚠️ Sécurité",
+          "content": "Marées et courants importants sur le fleuve<br>Excursions guidées recommandées<br>VFI (veste de flottaison) obligatoire"
+        },
+        {
+          "title": "🏢 Pourvoyeurs",
+          "content": "<a href=\"katabatik-kayak-charlevoix.html\">Katabatik</a> (Baie-Saint-Paul)<br>Plusieurs entreprises à Baie-Sainte-Catherine<br>Location et cours disponibles"
+        }
+      ]
+    },
+    {
+      "title": "À découvrir aussi",
+      "highlightCards": [
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "<a href=\"observation-baleines-charlevoix.html\">Les croisières aux baleines</a> partent de Baie-Sainte-Catherine et Tadoussac."
+        },
+        {
+          "icon": "🎣",
+          "title": "Pêche",
+          "description": "<a href=\"peche-charlevoix.html\">La pêche dans Charlevoix</a> — rivières à saumon et omble de fontaine."
+        },
+        {
+          "icon": "🚴",
+          "title": "Vélo",
+          "description": "Explorez Charlevoix à vélo sur la Route Verte et les circuits locaux."
+        },
+        {
+          "icon": "🥾",
+          "title": "Randonnée",
+          "description": "<a href=\"randonnee-charlevoix.html\">La randonnée dans Charlevoix</a> — des Hautes-Gorges au Sentier des Caps."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

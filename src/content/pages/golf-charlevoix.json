@@ -1,0 +1,129 @@
+{
+  "slug": "golf-charlevoix",
+  "title": "Golf dans Charlevoix — Fairmont Le Manoir Richelieu et parcours de la région",
+  "description": "Guide du golf dans Charlevoix : le célèbre parcours du Fairmont Le Manoir Richelieu, Mont Grand-Fonds et autres terrains. Infos, saison et réservations.",
+  "ogTitle": "Golf dans Charlevoix — Guide des parcours",
+  "ogDescription": "Le golf du Fairmont Le Manoir Richelieu et les parcours de Charlevoix. Un des plus beaux golfs au Canada.",
+  "heroGradient": "linear-gradient(135deg, #386641 0%, #A7C957 100%)",
+  "accentColor": "#386641",
+  "badge": "☀️ Été",
+  "heroLocation": "La Malbaie · Charlevoix · Québec",
+  "h1": "Golf dans Charlevoix",
+  "tagline": "Des parcours spectaculaires entre montagnes et fleuve Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⛳",
+      "value": "27 trous",
+      "label": "Fairmont"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Panoramique",
+      "label": "Vue fleuve"
+    },
+    {
+      "icon": "☀️",
+      "value": "Mai–Oct",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "La Malbaie",
+      "label": "Secteur"
+    }
+  ],
+  "heroCta": {
+    "text": "Fairmont Golf →",
+    "href": "https://www.fairmont.com/richelieu-charlevoix/golf/",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le golf dans Charlevoix",
+      "paragraphs": [
+        "Jouer au golf dans <a href=\"charlevoix.html\">Charlevoix</a>, c'est évoluer dans un décor de carte postale. Entre les montagnes de la Réserve mondiale de la biosphère et les rives du fleuve Saint-Laurent, la région abrite l'un des parcours de golf les plus emblématiques du Canada.",
+        "Le parcours du <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a>, à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>, est le joyau incontesté. Inauguré en 1925, ce parcours de 27 trous a accueilli des générations de golfeurs et figure régulièrement parmi les plus beaux parcours au pays."
+      ]
+    },
+    {
+      "title": "Les parcours",
+      "highlightCards": [
+        {
+          "icon": "⛳",
+          "title": "Fairmont Le Manoir Richelieu",
+          "description": "27 trous (3 parcours de 9) conçus par Herbert Strong en 1925, avec des rénovations par Darrell Huxham. Vues imprenables sur le fleuve depuis plusieurs tertres de départ. Un classique canadien."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Club de Golf Murray Bay",
+          "description": "Un parcours historique de La Malbaie avec une ambiance plus intime. Le club offre un cadre champêtre et des vues sur les montagnes environnantes."
+        },
+        {
+          "icon": "🌲",
+          "title": "Mont Grand-Fonds",
+          "description": "Connu pour le ski en hiver, Mont Grand-Fonds offre aussi un parcours de golf en été dans un cadre montagneux à quelques minutes de La Malbaie."
+        }
+      ]
+    },
+    {
+      "title": "Le parcours du Fairmont",
+      "paragraphs": [
+        "Le parcours de golf du Fairmont Le Manoir Richelieu est l'attraction principale pour les golfeurs visitant Charlevoix. Ses 27 trous se divisent en trois boucles de 9 : chacune offre des défis variés et des panoramas sur le fleuve, les montagnes et les jardins du Manoir.",
+        "Le club-house, intégré au complexe hôtelier du Fairmont, offre tous les services : boutique pro, voiturettes, restauration et leçons avec des professionnels certifiés. Les non-résidents de l'hôtel peuvent aussi réserver des départs."
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mi-mai à mi-octobre<br>Haute saison : juin à septembre<br>Réservation recommandée en juillet–août"
+        },
+        {
+          "title": "💰 Tarifs",
+          "content": "Fairmont : tarifs premium (vérifiez sur le site)<br>Rabais pour résidents de l'hôtel<br>Forfaits golf + hébergement disponibles"
+        },
+        {
+          "title": "📍 Accès",
+          "content": "La Malbaie — ~2h de Québec<br>Route 138 via Baie-Saint-Paul<br>Stationnement sur place"
+        },
+        {
+          "title": "🏨 Hébergement",
+          "content": "<a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a><br><a href=\"hotel-germain-charlevoix.html\">Hôtel Germain</a> à Baie-Saint-Paul<br>Nombreuses auberges dans la région"
+        }
+      ]
+    },
+    {
+      "title": "À faire aussi",
+      "highlightCards": [
+        {
+          "icon": "🎰",
+          "title": "Casino de Charlevoix",
+          "description": "Le <a href=\"casino-charlevoix.html\">Casino</a> est situé dans le Fairmont — combinez golf et divertissement."
+        },
+        {
+          "icon": "♨️",
+          "title": "Spa du Fairmont",
+          "description": "Le <a href=\"spa-fairmont-charlevoix.html\">spa</a> du Manoir Richelieu pour relaxer après une ronde de 18 trous."
+        },
+        {
+          "icon": "🍽️",
+          "title": "Gastronomie",
+          "description": "Charlevoix est un haut lieu <a href=\"gourmand-charlevoix.html\">gourmand</a> — profitez des restaurants de La Malbaie."
+        },
+        {
+          "icon": "🚗",
+          "title": "Road trip",
+          "description": "Intégrez le golf à un <a href=\"road-trip-charlevoix.html\">road trip dans Charlevoix</a> pour explorer toute la région."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

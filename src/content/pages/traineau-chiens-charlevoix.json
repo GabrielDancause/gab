@@ -1,0 +1,146 @@
+{
+  "slug": "traineau-chiens-charlevoix",
+  "title": "Traineau à chiens dans Charlevoix — Aventure hivernale | gab.ae",
+  "description": "Découvrez le traineau à chiens dans Charlevoix : excursions guidées à travers les forêts enneigées et les paysages montagneux de la région. Une expérience hivernale inoubliable.",
+  "ogTitle": "Traineau à chiens dans Charlevoix — Aventure hivernale",
+  "ogDescription": "Excursions en traineau à chiens à travers les forêts et montagnes enneigées de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #2c3e50 0%, #4a6741 100%)",
+  "accentColor": "#2c3e50",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Traineau à chiens 🐕‍🦺",
+  "tagline": "Glissez à travers les forêts enneigées de Charlevoix, guidé par une meute de huskies",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Aventure plein air",
+    "href": "aventure-plein-air-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐕",
+      "value": "Huskies",
+      "label": "Race typique"
+    },
+    {
+      "icon": "❄️",
+      "value": "Déc–mars",
+      "label": "Saison"
+    },
+    {
+      "icon": "⏱️",
+      "value": "1 h – demi-journée",
+      "label": "Durée"
+    },
+    {
+      "icon": "👨‍👩‍👧‍👦",
+      "value": "Tous âges",
+      "label": "Accessible"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "L'expérience",
+      "paragraphs": [
+        "Le traineau à chiens est l'une des activités hivernales les plus mémorables qu'offre <a href=\"charlevoix.html\">Charlevoix</a>. Confortablement installé dans le traîneau ou debout sur les patins en tant que musher, vous glissez à travers les forêts boréales enneigées, tirés par une meute enthousiaste de chiens de traîneau — généralement des huskies sibériens ou des alaskans.",
+        "Les parcours traversent des paysages spectaculaires : forêts de sapins et d'épinettes chargés de neige, vallées encaissées et panoramas montagneux typiques de la région charlevoisienne. Le silence hivernal, ponctué uniquement par le souffle des chiens et le crissement des patins sur la neige, crée une atmosphère presque magique."
+      ]
+    },
+    {
+      "title": "Ce qu'il faut savoir",
+      "highlightCards": [
+        {
+          "icon": "🧥",
+          "title": "Habillement",
+          "description": "Habillez-vous chaudement en couches. La plupart des pourvoyeurs fournissent des couvertures, mais prévoyez tuque, mitaines chaudes et bottes d'hiver. Vous serez immobile dans le traîneau — ça refroidit vite!"
+        },
+        {
+          "icon": "📋",
+          "title": "Réservation",
+          "description": "Réservez à l'avance, surtout pendant les Fêtes et la relâche scolaire. Les groupes sont souvent limités pour assurer une expérience de qualité."
+        },
+        {
+          "icon": "👶",
+          "title": "En famille",
+          "description": "Activité idéale pour les familles. Les enfants adorent l'interaction avec les chiens avant et après la balade. Plusieurs opérateurs acceptent les enfants dès 3-4 ans."
+        },
+        {
+          "icon": "📸",
+          "title": "Photo et vidéo",
+          "description": "Apportez une caméra bien protégée du froid. Les paysages enneigés et les chiens en action offrent des photos exceptionnelles."
+        }
+      ]
+    },
+    {
+      "title": "Les formules",
+      "paragraphs": [
+        "Les pourvoyeurs de la région offrent différentes formules adaptées à tous les niveaux d'aventure :"
+      ],
+      "highlightCards": [
+        {
+          "icon": "🏁",
+          "title": "Initiation (1 h)",
+          "description": "Parfait pour une première expérience. On vous enseigne les bases du mushing avant de partir pour une boucle d'environ une heure dans la forêt."
+        },
+        {
+          "icon": "🌲",
+          "title": "Demi-journée (2-3 h)",
+          "description": "Une excursion plus longue qui permet de s'enfoncer davantage dans l'arrière-pays charlevoisien. Souvent accompagné d'une pause chocolat chaud."
+        },
+        {
+          "icon": "🏕️",
+          "title": "Expédition",
+          "description": "Pour les plus aventureux : certains opérateurs offrent des sorties d'une journée complète ou même des expéditions avec nuitée en refuge, pour une immersion totale."
+        }
+      ]
+    },
+    {
+      "title": "Combiner avec d'autres activités hivernales",
+      "highlightCards": [
+        {
+          "icon": "⛷️",
+          "title": "Ski au Massif",
+          "description": "Combinez une matinée de traineau avec un après-midi de ski au <a href=\"le-massif-ski-charlevoix.html\">Massif de Charlevoix</a>."
+        },
+        {
+          "icon": "🎿",
+          "title": "Ski de fond et raquette",
+          "description": "Explorez les sentiers de <a href=\"ski-fond-charlevoix.html\">ski de fond et raquette</a> de la région pour une journée complète en plein air."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Motoneige",
+          "description": "Charlevoix offre aussi un réseau de sentiers de <a href=\"motoneige-charlevoix.html\">motoneige</a> de classe mondiale."
+        },
+        {
+          "icon": "♨️",
+          "title": "Spa nordique",
+          "description": "Rien de mieux qu'une séance de spa après une journée dans le froid. Consultez notre <a href=\"top-10-spas-charlevoix.html\">Top 10 des spas</a>."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Décembre à mars<br>Selon les conditions d'enneigement"
+        },
+        {
+          "title": "💰 Prix",
+          "content": "Variable selon la durée et l'opérateur<br>Comptez ~75-150 $/pers. pour 1 h"
+        },
+        {
+          "title": "📍 Où",
+          "content": "Plusieurs opérateurs dans la région<br>Secteurs de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> et <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>"
+        },
+        {
+          "title": "🌐 En savoir plus",
+          "content": "<a href=\"https://www.tourisme-charlevoix.com\" target=\"_blank\" rel=\"noopener\">tourisme-charlevoix.com</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"aventure-plein-air-charlevoix.html\">← Aventure plein air</a> · <a href=\"charlevoix-hiver.html\">Charlevoix en hiver</a> · <a href=\"/\">gab.ae</a>"
+}

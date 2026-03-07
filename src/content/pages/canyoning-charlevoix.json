@@ -1,0 +1,155 @@
+{
+  "slug": "canyoning-charlevoix",
+  "title": "Canyoning et descente de rivière dans Charlevoix — Guide aventure | gab.ae",
+  "description": "Canyoning et descente de rivière dans Charlevoix : explorez les gorges, cascades et rivières de la région en rafting, kayak de rivière ou canyoning.",
+  "ogTitle": "Canyoning et descente de rivière dans Charlevoix",
+  "ogDescription": "Gorges, cascades et rivières — l'aventure aquatique dans les montagnes de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #1565c0 0%, #2E3E24 100%)",
+  "accentColor": "#1565c0",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Canyoning et descente de rivière 🌊",
+  "tagline": "Explorez les gorges et rivières sauvages de Charlevoix",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Aventure plein air",
+    "href": "aventure-plein-air-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌊",
+      "value": "Rivières",
+      "label": "Milieu"
+    },
+    {
+      "icon": "☀️",
+      "value": "Mai–sept",
+      "label": "Saison"
+    },
+    {
+      "icon": "🏞️",
+      "value": "Gorges",
+      "label": "Terrain"
+    },
+    {
+      "icon": "🦺",
+      "value": "Guidé",
+      "label": "Recommandé"
+    }
+  ],
+  "heroCta": null,
+  "sections": [
+    {
+      "title": "L'aventure aquatique de Charlevoix",
+      "paragraphs": [
+        "Les montagnes de <a href=\"charlevoix.html\">Charlevoix</a> sont sculptées par d'innombrables rivières qui dévalent vers le fleuve Saint-Laurent, créant des gorges profondes, des cascades et des rapides. C'est un terrain idéal pour le canyoning et les descentes de rivière.",
+        "La <strong>Rivière du Gouffre</strong>, qui traverse <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>, est la rivière emblématique de la région pour les descentes. La <strong>Rivière Malbaie</strong>, qui serpente dans les <a href=\"parc-hautes-gorges-charlevoix.html\">Hautes-Gorges</a>, offre des paysages parmi les plus spectaculaires de l'Est du Canada."
+      ]
+    },
+    {
+      "title": "Les activités",
+      "highlightCards": [
+        {
+          "icon": "🏞️",
+          "title": "Canyoning",
+          "description": "Progression dans un canyon en combinant marche, nage, sauts dans des vasques naturelles, descentes en rappel le long de cascades et glissades sur des toboggans rocheux. Une activité complète et intense."
+        },
+        {
+          "icon": "🛶",
+          "title": "Descente de rivière en canot/kayak",
+          "description": "Plusieurs sections de la Rivière du Gouffre se prêtent à la descente en canot ou kayak, avec des niveaux de difficulté variés selon les tronçons et le débit saisonnier."
+        },
+        {
+          "icon": "🚣",
+          "title": "Rafting",
+          "description": "Les rivières charlevoisiennnes offrent des sections de rapides adaptées au rafting. Le niveau varie selon la saison — le printemps (fonte des neiges) offre les conditions les plus sportives."
+        },
+        {
+          "icon": "🏄",
+          "title": "Luge d'eau",
+          "description": "Allongé sur une luge flottante, vous descendez les rapides au fil de l'eau. Une façon ludique et accessible de découvrir la rivière, idéale pour les débutants."
+        }
+      ]
+    },
+    {
+      "title": "La Rivière du Gouffre",
+      "paragraphs": [
+        "La Rivière du Gouffre est le cours d'eau principal pour les descentes de rivière dans Charlevoix. Elle prend sa source dans les montagnes et se jette dans le fleuve Saint-Laurent à <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>.",
+        "<a href=\"katabatik-kayak-charlevoix.html\">Katabatik</a>, une entreprise d'aventure bien établie à Baie-Saint-Paul, offre des descentes guidées de la Rivière du Gouffre de mai à septembre. Les excursions sont adaptées selon le niveau des participants et les conditions de la rivière."
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "highlightCards": [
+        {
+          "icon": "🦺",
+          "title": "Sécurité avant tout",
+          "description": "Le canyoning et les descentes de rivière comportent des risques réels. Faites toujours appel à un guide certifié et ne vous aventurez jamais seul dans un canyon inconnu."
+        },
+        {
+          "icon": "👕",
+          "title": "Équipement",
+          "description": "Les opérateurs fournissent généralement : combinaison néoprène, casque, VFI (veste de flottaison) et équipement technique. Apportez maillot de bain, chaussures d'eau et vêtements de rechange."
+        },
+        {
+          "icon": "🌡️",
+          "title": "Température de l'eau",
+          "description": "Les rivières de Charlevoix sont fraîches, même en été. La combinaison néoprène fournie par les guides est essentielle pour le confort et la sécurité."
+        },
+        {
+          "icon": "📅",
+          "title": "Meilleure période",
+          "description": "De mai à septembre. Le printemps (mai-juin) offre un débit plus fort et des rapides plus intenses. L'été est plus calme et familial."
+        }
+      ]
+    },
+    {
+      "title": "À combiner avec",
+      "highlightCards": [
+        {
+          "icon": "🛶",
+          "title": "Kayak de mer",
+          "description": "Après la rivière, découvrez le fleuve en <a href=\"kayak-charlevoix.html\">kayak de mer</a>. Deux expériences aquatiques complètement différentes."
+        },
+        {
+          "icon": "🥾",
+          "title": "Randonnée aux Hautes-Gorges",
+          "description": "L'Acropole-des-Draveurs au <a href=\"parc-hautes-gorges-charlevoix.html\">parc des Hautes-Gorges</a> offre une vue plongeante sur la rivière Malbaie — un complément parfait."
+        },
+        {
+          "icon": "🧗",
+          "title": "Escalade",
+          "description": "Combinez eau et roche avec une journée d'<a href=\"escalade-charlevoix.html\">escalade</a> dans les parois des gorges charlevoisiennnes."
+        },
+        {
+          "icon": "🍺",
+          "title": "Microbrasseries",
+          "description": "Après l'effort, récompense! Les <a href=\"microbrasseries-charlevoix.html\">microbrasseries</a> de la région vous attendent."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mai à septembre<br>Printemps = plus sportif<br>Été = plus familial"
+        },
+        {
+          "title": "📍 Où",
+          "content": "Rivière du Gouffre (<a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>)<br>Rivière Malbaie (Hautes-Gorges)"
+        },
+        {
+          "title": "🏢 Opérateurs",
+          "content": "<a href=\"katabatik-kayak-charlevoix.html\">Katabatik</a> — <a href=\"https://katabatik.ca\" target=\"_blank\" rel=\"noopener\">katabatik.ca</a>"
+        },
+        {
+          "title": "💰 Prix",
+          "content": "Variable selon l'activité et la durée<br>Consultez les opérateurs locaux"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"aventure-plein-air-charlevoix.html\">← Aventure plein air</a> · <a href=\"charlevoix-ete.html\">Charlevoix en été</a> · <a href=\"/\">gab.ae</a>"
+}

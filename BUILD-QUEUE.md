@@ -10,9 +10,9 @@
 - [x] kayak-charlevoix.json — Kayak et sports nautiques dans Charlevoix
 - [x] velo-charlevoix.json — Vélo dans Charlevoix (Route Verte, circuits)
 - [x] golf-charlevoix.json — Golf dans Charlevoix (Fairmont, Murray Bay)
-- [ ] traineau-chiens-charlevoix.json — Traineau à chiens dans Charlevoix
-- [ ] escalade-charlevoix.json — Escalade et via ferrata dans Charlevoix
-- [ ] canyoning-charlevoix.json — Canyoning et descente de rivière dans Charlevoix
+- [x] traineau-chiens-charlevoix.json — Traineau à chiens dans Charlevoix
+- [x] escalade-charlevoix.json — Escalade et via ferrata dans Charlevoix
+- [x] canyoning-charlevoix.json — Canyoning et descente de rivière dans Charlevoix
 
 ### Batch 2 — Guides thématiques, villages et attraits
 - [ ] parapente-charlevoix.json — Parapente et vol libre dans Charlevoix

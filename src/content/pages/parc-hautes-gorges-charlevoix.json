@@ -1,0 +1,112 @@
+{
+  "slug": "parc-hautes-gorges-charlevoix",
+  "title": "Parc national des Hautes-Gorges-de-la-Rivière-Malbaie — Charlevoix, Québec",
+  "description": "Le Parc national des Hautes-Gorges-de-la-Rivière-Malbaie à Charlevoix. Vallées spectaculaires, croisières, randonnée, L'Acropole des Draveurs et paysages parmi les plus impressionnants de l'est du Canada.",
+  "ogTitle": "Parc national des Hautes-Gorges — Charlevoix",
+  "ogDescription": "Vallées spectaculaires, L'Acropole des Draveurs et croisières. Sépaq.",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #1a3a1a 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec · Sépaq",
+  "h1": "Parc national des<br>Hautes-Gorges",
+  "tagline": "Les plus hautes parois rocheuses de l'est du Canada",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏔️",
+      "value": "Parc national",
+      "label": "Type"
+    },
+    {
+      "icon": "📏",
+      "value": "800+ m",
+      "label": "Parois rocheuses"
+    },
+    {
+      "icon": "🥾",
+      "value": "Acropole des Draveurs",
+      "label": "Sentier vedette"
+    },
+    {
+      "icon": "🛶",
+      "value": "Croisière",
+      "label": "Sur la rivière"
+    }
+  ],
+  "heroCta": {
+    "text": "Planifier ma visite →",
+    "href": "https://www.sepaq.com/pq/hgo/",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le parc",
+      "paragraphs": [
+        "Le Parc national des Hautes-Gorges-de-la-Rivière-Malbaie est l'un des joyaux naturels les plus spectaculaires du Québec. Ses vallées glaciaires encaissées, avec des parois rocheuses dépassant les 800 mètres, comptent parmi les plus hautes de l'est du Canada.",
+        "Le parc fait partie de la Réserve mondiale de la biosphère de Charlevoix (UNESCO). C'est l'endroit idéal pour les randonneurs à la recherche de défis et de panoramas extraordinaires, mais aussi pour quiconque veut simplement être ébloui par la nature."
+      ]
+    },
+    {
+      "title": "Activités",
+      "highlightCards": [
+        {
+          "icon": "🥾",
+          "title": "L'Acropole des Draveurs",
+          "description": "LE sentier emblématique de Charlevoix. Une montée exigeante (~11 km aller-retour) récompensée par un panorama à 360° au sommet. Vue plongeante sur la rivière Malbaie et les gorges. Inoubliable."
+        },
+        {
+          "icon": "🛶",
+          "title": "Croisière sur la rivière",
+          "description": "Naviguez au cœur des gorges en bateau-mouche. Les parois rocheuses vertigineuses s'élèvent de chaque côté — une perspective unique et accessible à tous."
+        },
+        {
+          "icon": "🚣",
+          "title": "Canot et kayak",
+          "description": "Pagayez sur la rivière Malbaie au fond de la vallée. Location d'embarcations disponible sur place."
+        },
+        {
+          "icon": "🍂",
+          "title": "Couleurs d'automne",
+          "description": "En automne, les gorges se transforment en un spectacle de couleurs. L'un des plus beaux endroits au Québec pour admirer les feuillages."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Accès",
+          "content": "Depuis La Malbaie, suivre la route vers le nord<br>~30 min de route"
+        },
+        {
+          "title": "💰 Tarifs",
+          "content": "Droits d'accès Sépaq<br>Réservation fortement recommandée en haute saison (été et automne)"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Randonneurs, photographes, amoureux de la nature, couples, familles actives"
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://www.sepaq.com/pq/hgo/\" target=\"_blank\" rel=\"noopener\">sepaq.com/pq/hgo</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifier votre visite",
+    "text": "Consultez les sentiers, disponibilités et tarifs sur le site de la Sépaq.",
+    "links": [
+      {
+        "text": "Visiter le site →",
+        "href": "https://www.sepaq.com/pq/hgo/"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

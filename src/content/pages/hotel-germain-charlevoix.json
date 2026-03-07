@@ -1,0 +1,121 @@
+{
+  "slug": "hotel-germain-charlevoix",
+  "title": "Hôtel & Spa Le Germain Charlevoix — Baie-Saint-Paul",
+  "description": "Hôtel & Spa Le Germain Charlevoix à Baie-Saint-Paul. Clé MICHELIN 2025, spa nordique, restaurant Les Labours, jardin de 8 000 m², vaches Highland et vue sur les montagnes de Charlevoix.",
+  "ogTitle": "Hôtel & Spa Le Germain Charlevoix — Baie-Saint-Paul",
+  "ogDescription": "Clé MICHELIN, spa nordique, restaurant farm-to-table et vue sur les montagnes de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #4a6340 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Hôtel &amp; Spa Le Germain<br>Charlevoix",
+  "tagline": "Entre l'immensité du Saint-Laurent et la grandeur des montagnes charlevoisiennes",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 Auberges à Charlevoix",
+    "href": "top-10-auberges-charlevoix-fr.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏨",
+      "value": "Hôtel boutique",
+      "label": "Type"
+    },
+    {
+      "icon": "🏆",
+      "value": "Clé MICHELIN",
+      "label": "Distinction"
+    },
+    {
+      "icon": "🧖",
+      "value": "Spa nordique",
+      "label": "Sur place"
+    },
+    {
+      "icon": "🌱",
+      "value": "4/5 Clés Vertes",
+      "label": "Écoresponsable"
+    }
+  ],
+  "heroCta": {
+    "text": "Réserver →",
+    "href": "https://www.germainhotels.com/fr/hotel-et-spa-le-germain/charlevoix",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "À propos",
+      "paragraphs": [
+        "Déposer ses valises à l'Hôtel &amp; Spa Le Germain Charlevoix, c'est s'offrir une expérience unique en bordure de Baie-Saint-Paul. Installé sur une ancienne ferme, l'hôtel marie le raffinement à la nature sauvage de Charlevoix — avec en prime les célèbres vaches Highland qui paissent sur le domaine.",
+        "Récompensé par une Clé MICHELIN pour une deuxième année consécutive, c'est l'un des établissements les plus prestigieux de la région, à proximité des galeries d'art, des pistes de ski du Massif et des parcs nationaux."
+      ]
+    },
+    {
+      "title": "Points forts",
+      "highlightCards": [
+        {
+          "icon": "🍽️",
+          "title": "Restaurant Les Labours",
+          "description": "Cuisine ouverte sur quatre côtés. Le chef et son équipe concoctent des plats frais et saisonniers sous vos yeux, avec 85% d'ingrédients québécois. Certifié Aliments du Québec et Fourchette bleue."
+        },
+        {
+          "icon": "🧖",
+          "title": "Spa Nordique Le Germain",
+          "description": "Un lieu de détente unique dans un décor enchanteur. Bains nordiques, massages et soins dans un cadre naturel exceptionnel."
+        },
+        {
+          "icon": "🌿",
+          "title": "Jardin de 8 000 m²",
+          "description": "Le jardin de l'hôtel produit 7 525 kg de fruits et légumes par an, alimentant directement les cuisines du chef. 15 tonnes de compost maison."
+        },
+        {
+          "icon": "🐂",
+          "title": "Vaches Highland",
+          "description": "Les célèbres bovins Highland du domaine sont devenus l'emblème de l'hôtel. Incontournables pour les photos."
+        }
+      ]
+    },
+    {
+      "title": "Hébergement"
+    },
+    {
+      "title": "Engagement écoresponsable"
+    },
+    {
+      "title": "Quoi faire aux alentours"
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "50, rue de la Ferme<br>Baie-Saint-Paul, Québec G3Z 0G2"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Couples, événements corporatifs, mariages, retraites, escapades gourmandes"
+        },
+        {
+          "title": "📶 Services",
+          "content": "Wi-Fi gratuit haute vitesse, spa nordique, location de fat bikes, salles de réunion"
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://www.germainhotels.com/fr/hotel-et-spa-le-germain/charlevoix\" target=\"_blank\" rel=\"noopener\">germainhotels.com</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Réserver votre séjour",
+    "text": "Réservez directement pour le meilleur prix, départ flexible et annulation sans frais.",
+    "links": [
+      {
+        "text": "Réserver →",
+        "href": "https://www.germainhotels.com/fr/hotel-et-spa-le-germain/charlevoix"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-auberges-charlevoix-fr.html\">← Retour au Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

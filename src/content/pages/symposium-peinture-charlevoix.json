@@ -1,0 +1,109 @@
+{
+  "slug": "symposium-peinture-charlevoix",
+  "title": "Symposium international d'art contemporain — Baie-Saint-Paul, Charlevoix, Québec",
+  "description": "Symposium international d'art contemporain de Baie-Saint-Paul. Événement annuel au MACBSP qui a accueilli plus de 400 artistes du monde entier. Création en direct, ateliers et art dans les rues.",
+  "ogTitle": "Symposium international d'art contemporain — Baie-Saint-Paul, Charlevoix",
+  "ogDescription": "Événement annuel d'art contemporain à Baie-Saint-Paul. 400+ artistes internationaux.",
+  "heroGradient": "linear-gradient(135deg, #c44d3f 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Symposium international<br>d'art contemporain",
+  "tagline": "L'art sort du musée et envahit les rues de Baie-Saint-Paul",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 8 culture",
+    "href": "top-10-culture-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🎨",
+      "value": "Événement annuel",
+      "label": "Type"
+    },
+    {
+      "icon": "🌍",
+      "value": "400+ artistes",
+      "label": "International"
+    },
+    {
+      "icon": "🏛️",
+      "value": "MACBSP",
+      "label": "Organisateur"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Saint-Paul",
+      "label": "Lieu"
+    }
+  ],
+  "heroCta": {
+    "text": "Voir les événements →",
+    "href": "https://macbsp.com/evenements",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "L'événement",
+      "paragraphs": [
+        "Le Symposium international d'art contemporain de Baie-Saint-Paul est l'un des événements culturels phares de Charlevoix. Organisé par le <a href=\"musee-art-contemporain-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Musée d'art contemporain de Baie-Saint-Paul (MACBSP)</a>, il a accueilli au fil des années plus de 400 artistes venus de partout dans le monde.",
+        "Le Symposium transforme <a href=\"baie-saint-paul-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Baie-Saint-Paul</a> en un véritable laboratoire de création. Les artistes travaillent en direct, le public observe et interagit, et les œuvres créées enrichissent la collection permanente du musée."
+      ]
+    },
+    {
+      "title": "Ce qui s'y passe",
+      "highlightCards": [
+        {
+          "icon": "🎨",
+          "title": "Création en direct",
+          "description": "Des artistes de toutes disciplines créent sous les yeux du public. Peinture, sculpture, installation — l'art se fait en temps réel."
+        },
+        {
+          "icon": "🚶",
+          "title": "Symposium à emporter",
+          "description": "L'art contemporain sort du musée et s'installe dans les rues, les parcs et les espaces publics de Baie-Saint-Paul. Événement hors-les-murs accessible à tous."
+        },
+        {
+          "icon": "🤝",
+          "title": "Rencontres avec les artistes",
+          "description": "Le public peut échanger directement avec les créateurs, poser des questions et comprendre leurs démarches artistiques."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Collection permanente",
+          "description": "Les œuvres créées lors du Symposium enrichissent la collection du MACBSP, témoignant du passage de centaines d'artistes internationaux."
+        }
+      ]
+    },
+    {
+      "title": "Pourquoi y aller",
+      "paragraphs": [
+        "Le Symposium est une occasion unique de voir l'art contemporain se créer devant soi. Contrairement à une visite de musée classique, ici on assiste au processus créatif — des premières esquisses à l'œuvre achevée.",
+        "L'événement est aussi un excellent prétexte pour explorer Baie-Saint-Paul, ses <a href=\"galeries-baie-saint-paul.html\" style=\"color: #2E3E24; font-weight: 600;\">galeries d'art</a>, ses <a href=\"top-10-restaurants-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">restaurants</a> et l'ambiance unique de cette ville d'artistes au cœur de Charlevoix."
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Lieu",
+          "content": "MACBSP et rues de Baie-Saint-Paul<br>Charlevoix, QC"
+        },
+        {
+          "title": "📅 Quand",
+          "content": "Événement annuel<br>Généralement en été/automne<br>Consultez le site du MACBSP pour les dates"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://macbsp.com/evenements\" target=\"_blank\" rel=\"noopener\">macbsp.com/evenements</a>"
+        },
+        {
+          "title": "📌 À voir aussi",
+          "content": "<a href=\"musee-art-contemporain-charlevoix.html\">MACBSP</a><br><a href=\"galeries-baie-saint-paul.html\">Galeries de BSP</a><br><a href=\"top-10-culture-charlevoix.html\">Top 8 culture</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-culture-charlevoix.html\">← Top 8 culture</a> · <a href=\"musee-art-contemporain-charlevoix.html\">MACBSP</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

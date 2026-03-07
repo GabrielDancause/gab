@@ -1,0 +1,189 @@
+{
+  "slug": "saint-simeon-charlevoix",
+  "title": "Saint-Siméon — Village de Charlevoix, Québec",
+  "description": "Saint-Siméon, porte est de Charlevoix. Traversier vers Rivière-du-Loup, Port-au-Persil, chapelle McLaren et nature sauvage sur le fleuve Saint-Laurent.",
+  "ogTitle": "Saint-Siméon — Charlevoix, Québec",
+  "ogDescription": "Porte est de Charlevoix. Traversier vers Rivière-du-Loup, Port-au-Persil et nature sauvage.",
+  "heroGradient": "linear-gradient(135deg, #3d5a4c 0%, #2E3E24 100%)",
+  "accentColor": "#3d5a4c",
+  "badge": "⛴️ Porte est de Charlevoix",
+  "heroLocation": null,
+  "h1": "Saint-Siméon",
+  "tagline": "Entre fleuve et montagnes, aux confins de Charlevoix",
+  "heroSub": "Charlevoix-Est · Capitale-Nationale · Québec",
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "town",
+  "stats": [
+    {
+      "icon": "👥",
+      "value": "1 139 hab.",
+      "label": "Population (2021)"
+    },
+    {
+      "icon": "📐",
+      "value": "412,3 km²",
+      "label": "Superficie"
+    },
+    {
+      "icon": "📅",
+      "value": "1869",
+      "label": "Fondation"
+    },
+    {
+      "icon": "⛴️",
+      "value": "G0T 1X0",
+      "label": "Code postal"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Le village",
+      "paragraphs": [
+        "Saint-Siméon est la porte est de Charlevoix, là où la route 138 continue vers la Côte-Nord et où le traversier relie la rive nord à Rivière-du-Loup sur la rive sud. C'est un carrefour géographique stratégique depuis les années 1940.",
+        "Le village se démarque par ses hameaux pittoresques — notamment Port-au-Persil, avec sa célèbre chapelle blanche au bord du fleuve, et Baie-des-Rochers, un coin de nature sauvage. Le territoire est vaste (412 km²), couvert de forêts et sillonné de rivières.",
+        "Formée en 1869 en se détachant de Saint-Fidèle-de-Mont-Murray (aujourd'hui partie de <a href=\"la-malbaie-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;text-decoration:none;\">La Malbaie</a>), la municipalité a vécu de la pêche, du cabotage, du bois et de l'agriculture avant de se tourner vers le tourisme."
+      ]
+    },
+    {
+      "title": "Pourquoi visiter",
+      "cards": [
+        {
+          "icon": "⛪",
+          "title": "Port-au-Persil",
+          "description": "Hameau enchanteur avec sa chapelle protestante en bois blanc (1893), construite par John McLaren au bord de l'eau. Un des coins les plus photographiés de Charlevoix.",
+          "href": null
+        },
+        {
+          "icon": "⛴️",
+          "title": "Traversier Rivière-du-Loup",
+          "description": "Liaison maritime vers la rive sud du Saint-Laurent. Opéré par la STQ, le traversier offre une traversée de ~65 minutes avec vue sur le fleuve et les îles.",
+          "href": null
+        },
+        {
+          "icon": "🏞️",
+          "title": "Nature sauvage",
+          "description": "Baie-des-Rochers, rivière Noire, Port-aux-Quilles — des coins de nature reculés et sauvages. Kayak de mer, randonnée et observation de la faune.",
+          "href": null
+        },
+        {
+          "icon": "🚗",
+          "title": "Carrefour routier",
+          "description": "À l'intersection de la route 138 (vers Baie-Sainte-Catherine) et de la route 170 (vers le Saguenay–Lac-Saint-Jean). Point de départ ou d'arrivée de plusieurs itinéraires.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "title": "Quoi faire à Saint-Siméon et alentours",
+      "pois": [
+        {
+          "icon": "🐋",
+          "name": "Baie-Sainte-Catherine",
+          "type": "Baleines · 30 min",
+          "href": "baie-sainte-catherine-charlevoix.html"
+        },
+        {
+          "icon": "🐳",
+          "name": "Croisières baleines",
+          "type": "Excursion",
+          "href": "observation-baleines-charlevoix.html"
+        },
+        {
+          "icon": "🏨",
+          "name": "La Malbaie",
+          "type": "Ville · 40 min",
+          "href": "la-malbaie-charlevoix.html"
+        },
+        {
+          "icon": "🎣",
+          "name": "Pêche",
+          "type": "Rivières et lacs",
+          "href": "peche-charlevoix.html"
+        },
+        {
+          "icon": "🌊",
+          "name": "Parc marin",
+          "type": "Aire protégée",
+          "href": "parc-marin-saguenay-charlevoix.html"
+        },
+        {
+          "icon": "🦅",
+          "name": "Ornithologie",
+          "type": "Observation",
+          "href": "observation-oiseaux-charlevoix.html"
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "paragraphs": [
+        "L'histoire de Saint-Siméon est celle d'un village de marins, de bûcherons et de pêcheurs qui s'est adapté au fil des époques."
+      ],
+      "timeline": [
+        {
+          "year": "1869",
+          "desc": "Formation de la municipalité en se détachant de Saint-Fidèle-de-Mont-Murray."
+        },
+        {
+          "year": "1893",
+          "desc": "John McLaren, fils de l'immigrant écossais Neil McLaren, construit la chapelle protestante de Port-au-Persil au bord du fleuve."
+        },
+        {
+          "year": "1911",
+          "desc": "Le noyau central du village et la paroisse se séparent en deux entités municipales, suivant la coutume de l'époque."
+        },
+        {
+          "year": "~1940",
+          "desc": "Début de la liaison régulière par traversier vers Rivière-du-Loup. Saint-Siméon devient un carrefour de communication important."
+        },
+        {
+          "year": "1949-1953",
+          "desc": "Exploitation d'une mine de potassium et columbium dans le hameau de Port-aux-Quilles par la Québec Uranium Corporation."
+        },
+        {
+          "year": "2001",
+          "desc": "Refusion du village et de la paroisse pour former la municipalité actuelle de Saint-Siméon."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "MRC Charlevoix-Est, Capitale-Nationale<br>~190 km de Québec par la route 138<br>Route 170 vers le Saguenay"
+        },
+        {
+          "title": "⛴️ Traversier",
+          "content": "Saint-Siméon → Rivière-du-Loup (STQ)<br>~65 min de traversée<br>Service saisonnier (vérifier horaires)"
+        },
+        {
+          "title": "👥 Gentilé",
+          "content": "Saint-Siméonien, Saint-Siméonienne"
+        },
+        {
+          "title": "🌐 Site officiel",
+          "content": "<a href=\"http://www.saintsimeon.ca\" target=\"_blank\" rel=\"noopener\">saintsimeon.ca</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Découvrir Saint-Siméon",
+    "text": "Traversier, Port-au-Persil et nature sauvage — la porte est de Charlevoix.",
+    "links": [
+      {
+        "text": "Road trip Charlevoix →",
+        "href": "road-trip-charlevoix.html"
+      },
+      {
+        "text": "Guide Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"road-trip-charlevoix.html\">Road trip</a> · <a href=\"/\">gab.ae</a>"
+}

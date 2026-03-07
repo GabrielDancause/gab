@@ -1,0 +1,97 @@
+{
+  "slug": "alpaga-charlevoix",
+  "title": "Ferme Alpaga Charlevoix — Charlevoix, Québec",
+  "description": "Ferme Alpaga Charlevoix : rencontrez les alpagas dans un cadre enchanteur au cœur de Charlevoix. Visites, produits en fibre d'alpaga et agrotourisme.",
+  "ogTitle": "Ferme Alpaga Charlevoix",
+  "ogDescription": "Rencontrez les alpagas dans un cadre enchanteur au cœur de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #8b6f47 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Ferme Alpaga<br>Charlevoix",
+  "tagline": "Rencontrez les alpagas dans un cadre enchanteur",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🦙",
+      "value": "Alpagas",
+      "label": "Animaux"
+    },
+    {
+      "icon": "📍",
+      "value": "Charlevoix",
+      "label": "Région"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "value": "Familiale",
+      "label": "Ferme"
+    },
+    {
+      "icon": "🧶",
+      "value": "Fibre d'alpaga",
+      "label": "Produits"
+    }
+  ],
+  "sections": [
+    {
+      "title": "La ferme",
+      "paragraphs": [
+        "La Ferme Alpaga Charlevoix est une destination agrotouristique où petits et grands peuvent rencontrer et interagir avec des alpagas dans le décor spectaculaire de Charlevoix. Ces animaux doux et curieux sont irrésistibles — un arrêt parfait pour les familles.",
+        "En plus des visites, la ferme propose des produits en fibre d'alpaga : tuques, foulards, mitaines et autres créations artisanales fabriquées à partir de la laine de leurs propres animaux."
+      ]
+    },
+    {
+      "title": "Pourquoi visiter",
+      "highlightCards": [
+        {
+          "icon": "🦙",
+          "title": "Rencontre avec les alpagas",
+          "description": "Approchez et interagissez avec les alpagas. Des animaux doux, curieux et photogéniques — un bonheur pour les enfants comme pour les adultes."
+        },
+        {
+          "icon": "🧶",
+          "title": "Produits en fibre d'alpaga",
+          "description": "Tuques, foulards, mitaines et autres créations artisanales en fibre d'alpaga. Des produits chauds, doux et locaux."
+        },
+        {
+          "icon": "📸",
+          "title": "Photos mémorables",
+          "description": "Les alpagas dans le paysage de Charlevoix — c'est la photo souvenir garantie. Amenez votre appareil."
+        },
+        {
+          "icon": "🌿",
+          "title": "Agrotourisme",
+          "description": "Découvrez l'élevage d'alpagas en climat nordique. Une expérience éducative et amusante pour toute la famille."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Charlevoix, Québec<br>À proximité des Éboulements"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Familles, enfants, couples, amateurs d'animaux, photographes"
+        },
+        {
+          "title": "📅 Visite",
+          "content": "Vérifiez les heures d'ouverture et disponibilités avant votre visite."
+        },
+        {
+          "title": "🔗 Contact",
+          "content": "Consultez les réseaux sociaux pour les détails et réservations."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

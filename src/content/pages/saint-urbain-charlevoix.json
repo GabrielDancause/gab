@@ -1,0 +1,189 @@
+{
+  "slug": "saint-urbain-charlevoix",
+  "title": "Saint-Urbain — Village de Charlevoix, Québec",
+  "description": "Saint-Urbain, porte d'entrée du Parc des Grands-Jardins dans Charlevoix. Montagnes, rivière du Gouffre, fermes et plein air au cœur de l'arrière-pays charlevoisien.",
+  "ogTitle": "Saint-Urbain — Charlevoix, Québec",
+  "ogDescription": "Porte d'entrée du Parc des Grands-Jardins. Montagnes, rivière du Gouffre et terroir au cœur de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #3a5a2e 0%, #2E3E24 60%, #1a3a1a 100%)",
+  "accentColor": "#2E3E24",
+  "badge": "⚜️ Arrière-pays charlevoisien",
+  "heroLocation": null,
+  "h1": "Saint-Urbain",
+  "tagline": "La porte des montagnes de Charlevoix",
+  "heroSub": "Charlevoix · MRC Charlevoix · Capitale-Nationale · Québec",
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "town",
+  "stats": [
+    {
+      "icon": "👥",
+      "value": "1 320 hab.",
+      "label": "Population"
+    },
+    {
+      "icon": "📐",
+      "value": "333 km²",
+      "label": "Superficie"
+    },
+    {
+      "icon": "📅",
+      "value": "1855",
+      "label": "Constitution"
+    },
+    {
+      "icon": "🏔️",
+      "value": "G0A 4K0",
+      "label": "Code postal"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Le village",
+      "paragraphs": [
+        "Saint-Urbain est la plus grande municipalité de la MRC de Charlevoix en superficie. Nichée dans la vallée de la rivière du Gouffre, entourée par les sommets des Laurentides, c'est la porte d'entrée vers le Parc national des Grands-Jardins et l'arrière-pays montagneux de la région.",
+        "Le village se trouve à l'intersection des routes 138 et 381, au cœur d'un paysage façonné par les montagnes, l'agriculture et la forêt boréale. Nommée en l'honneur du Pape Urbain Ier et de l'abbé Urbain Boiret (1731-1774), supérieur du Séminaire de Québec, Saint-Urbain est une terre de bâtisseurs depuis la fin du 18e siècle.",
+        "En mai 2023, la municipalité a été frappée par des inondations exceptionnelles causées par le débordement de la rivière du Gouffre. Deux pompiers volontaires, Christopher Lavoie et Régis Lavoie, y ont tragiquement perdu la vie en tentant de secourir des résidents. Un mémorial a été inauguré en leur mémoire en 2024."
+      ]
+    },
+    {
+      "title": "Pourquoi visiter",
+      "cards": [
+        {
+          "icon": "🥾",
+          "title": "Parc des Grands-Jardins",
+          "description": "Accès direct au parc national. Taïga, caribous, randonnée alpine et paysages à couper le souffle. Le sentier de l'Acropole des Draveurs y est accessible.",
+          "href": null
+        },
+        {
+          "icon": "🏔️",
+          "title": "Montagnes des Laurentides",
+          "description": "Saint-Urbain est entourée de hauts sommets. La route 381 vers le Saguenay traverse un paysage spectaculaire de forêt boréale et de montagnes.",
+          "href": null
+        },
+        {
+          "icon": "🌊",
+          "title": "Rivière du Gouffre",
+          "description": "La rivière traverse la municipalité du nord au sud. Pêche, kayak et paysages riverains dans une vallée encaissée entre les montagnes.",
+          "href": null
+        },
+        {
+          "icon": "🌾",
+          "title": "Agriculture & terroir",
+          "description": "Fermes familiales, élevage et produits du terroir. Saint-Urbain est un paysage rural authentique, loin du tourisme de masse.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "title": "Quoi faire à Saint-Urbain et alentours",
+      "pois": [
+        {
+          "icon": "🥾",
+          "name": "Parc des Grands-Jardins",
+          "type": "Parc national · SÉPAQ",
+          "href": "parc-grands-jardins-charlevoix.html"
+        },
+        {
+          "icon": "🎨",
+          "name": "Baie-Saint-Paul",
+          "type": "Ville · ~20 min",
+          "href": "baie-saint-paul-charlevoix.html"
+        },
+        {
+          "icon": "⛪",
+          "name": "Saint-Hilarion",
+          "type": "Village voisin",
+          "href": "saint-hilarion-charlevoix.html"
+        },
+        {
+          "icon": "🏔️",
+          "name": "Hautes-Gorges",
+          "type": "Parc national",
+          "href": "parc-hautes-gorges-charlevoix.html"
+        },
+        {
+          "icon": "🏘️",
+          "name": "Les Éboulements",
+          "type": "Village · ~25 min",
+          "href": "les-eboulements-charlevoix.html"
+        },
+        {
+          "icon": "🛶",
+          "name": "Katabatik",
+          "type": "Kayak · Aventure",
+          "href": "katabatik-kayak-charlevoix.html"
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "paragraphs": [
+        "L'histoire de Saint-Urbain est celle de colons courageux qui ont défriché les montagnes de Charlevoix, dans une vallée encaissée entre les sommets des Laurentides."
+      ],
+      "timeline": [
+        {
+          "year": "~1790",
+          "desc": "Le Séminaire de Québec encourage les premiers colons à s'installer dans les hautes terres de Charlevoix."
+        },
+        {
+          "year": "1815",
+          "desc": "Le nom Saint-Urbain est déjà en usage, bien que la paroisse ne soit érigée canoniquement qu'en 1827."
+        },
+        {
+          "year": "1830",
+          "desc": "Le village compte environ 300 personnes dans 50 familles. La colonisation s'intensifie."
+        },
+        {
+          "year": "1855",
+          "desc": "Saint-Urbain est officiellement constituée en municipalité de paroisse."
+        },
+        {
+          "year": "1952",
+          "desc": "Un incendie dévastateur détruit 52 maisons — plus des deux tiers du village. Plus de 350 personnes se retrouvent sans abri."
+        },
+        {
+          "year": "2023",
+          "desc": "Inondations exceptionnelles de la rivière du Gouffre (débit record de ~500 m³/s). Deux pompiers volontaires perdent la vie lors des secours."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "MRC Charlevoix, Capitale-Nationale<br>Junction routes 138 et 381<br>~20 min de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a><br>~90 km de Québec"
+        },
+        {
+          "title": "🏛️ Mairesse",
+          "content": "Claudette Simard<br>Mandat 2021-2025"
+        },
+        {
+          "title": "🌐 Site officiel",
+          "content": "<a href=\"https://www.sainturbain.qc.ca/fr/\" target=\"_blank\" rel=\"noopener\">sainturbain.qc.ca</a>"
+        },
+        {
+          "title": "🛣️ Accès",
+          "content": "Route 138 (depuis BSP ou La Malbaie)<br>Route 381 (vers le Saguenay via les Grands-Jardins)"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Explorer Saint-Urbain",
+    "text": "Montagnes, rivière et terroir — l'arrière-pays charlevoisien vous attend.",
+    "links": [
+      {
+        "text": "Grands-Jardins →",
+        "href": "parc-grands-jardins-charlevoix.html"
+      },
+      {
+        "text": "Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,207 @@
+{
+  "slug": "baie-saint-paul-charlevoix",
+  "title": "Baie-Saint-Paul — Capitale artistique de Charlevoix, Québec",
+  "description": "Baie-Saint-Paul, chef-lieu de Charlevoix et capitale artistique du Québec. Galeries d'art, Musée d'art contemporain, Hôtel Germain, restaurants, Le Festif! et panoramas sur le fleuve Saint-Laurent.",
+  "ogTitle": "Baie-Saint-Paul — Charlevoix, Québec",
+  "ogDescription": "Capitale artistique de Charlevoix. Galeries, gastronomie, montagnes et fleuve au cœur d'une vallée spectaculaire.",
+  "heroGradient": "linear-gradient(135deg, #1a3a5c 0%, #2a4a3a 50%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": "⚜️ Chef-lieu de Charlevoix",
+  "heroLocation": null,
+  "h1": "Baie-Saint-Paul",
+  "tagline": "La capitale artistique de Charlevoix",
+  "heroSub": "Charlevoix · MRC Charlevoix · Capitale-Nationale · Québec",
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "town",
+  "stats": [
+    {
+      "icon": "👥",
+      "value": "7 371 hab.",
+      "label": "Population"
+    },
+    {
+      "icon": "📐",
+      "value": "547,4 km²",
+      "label": "Superficie"
+    },
+    {
+      "icon": "📅",
+      "value": "1681",
+      "label": "Paroisse"
+    },
+    {
+      "icon": "🎨",
+      "value": "G3Z",
+      "label": "Code postal"
+    }
+  ],
+  "sections": [
+    {
+      "title": "La ville",
+      "paragraphs": [
+        "Baie-Saint-Paul est le cœur battant de Charlevoix — chef-lieu de la MRC, centre culturel, artistique et gastronomique de la région. Nichée dans la vallée de la rivière du Gouffre, à son embouchure dans le fleuve Saint-Laurent, la ville est encadrée de montagnes qui lui donnent un décor à couper le souffle.",
+        "Reconnue comme la capitale artistique du Québec, Baie-Saint-Paul attire peintres, artisans et créateurs depuis des générations. Sa rue principale est bordée de galeries d'art, boutiques, restaurants et cafés. Le Musée d'art contemporain de Baie-Saint-Paul et le festival Le Festif! en font un incontournable culturel.",
+        "C'est aussi la porte d'entrée ouest de Charlevoix — passage obligé pour qui arrive de Québec par la route 138 ou la route 362 le long du fleuve."
+      ]
+    },
+    {
+      "title": "Pourquoi visiter",
+      "cards": [
+        {
+          "icon": "🎨",
+          "title": "Capitale des arts",
+          "description": "Galeries, ateliers d'artistes, le Musée d'art contemporain et une tradition artistique qui remonte à des décennies. L'art est partout à BSP.",
+          "href": null
+        },
+        {
+          "icon": "🍽️",
+          "title": "Gastronomie du terroir",
+          "description": "Les Labours, Le Mouton Noir, et de nombreux restaurants mettent en valeur les produits locaux de Charlevoix. Un vrai paradis gourmand.",
+          "href": null
+        },
+        {
+          "icon": "🏔️",
+          "title": "Vallée spectaculaire",
+          "description": "Encaissée entre les montagnes et le fleuve, la vallée de la rivière du Gouffre offre des panoramas uniques, surtout en automne avec les couleurs.",
+          "href": null
+        },
+        {
+          "icon": "🎵",
+          "title": "Le Festif!",
+          "description": "Festival de musique emblématique qui transforme toute la ville en scène chaque été. Un des événements culturels majeurs du Québec.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "title": "Quoi faire à Baie-Saint-Paul et alentours",
+      "pois": [
+        {
+          "icon": "⭐",
+          "name": "Hôtel Germain",
+          "type": "Hébergement",
+          "href": "hotel-germain-charlevoix.html"
+        },
+        {
+          "icon": "🎨",
+          "name": "Galeries d'art",
+          "type": "Art · Rue principale",
+          "href": "galeries-baie-saint-paul.html"
+        },
+        {
+          "icon": "🎨",
+          "name": "Auberge La Muse",
+          "type": "Hébergement",
+          "href": "auberge-la-muse-charlevoix.html"
+        },
+        {
+          "icon": "🧀",
+          "name": "Famille Migneron",
+          "type": "Fromagerie",
+          "href": "famille-migneron-charlevoix.html"
+        },
+        {
+          "icon": "🥾",
+          "name": "Parc des Grands-Jardins",
+          "type": "Nature · 40 min",
+          "href": "parc-grands-jardins-charlevoix.html"
+        },
+        {
+          "icon": "🛶",
+          "name": "Katabatik Kayak",
+          "type": "Kayak · Activité",
+          "href": "katabatik-kayak-charlevoix.html"
+        },
+        {
+          "icon": "🏘️",
+          "name": "Les Éboulements",
+          "type": "Village · 30 min",
+          "href": "les-eboulements-charlevoix.html"
+        },
+        {
+          "icon": "⛷️",
+          "name": "Le Massif",
+          "type": "Ski · 20 min",
+          "href": "petite-riviere-saint-francois-charlevoix.html"
+        },
+        {
+          "icon": "⛵",
+          "name": "Île-aux-Coudres",
+          "type": "Île · 45 min + traversier",
+          "href": "ile-aux-coudres-charlevoix.html"
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "paragraphs": [
+        "Baie-Saint-Paul est l'un des plus anciens lieux de peuplement de Charlevoix. Son histoire est indissociable de la rivière du Gouffre, de l'art et du terroir charlevoisien."
+      ],
+      "timeline": [
+        {
+          "year": "1550",
+          "desc": "La baie est d'abord nommée « baie de l'Islet » sur les premières cartes. Samuel de Champlain la renomme « baie du Gouffre »."
+        },
+        {
+          "year": "1641",
+          "desc": "Le nom « baie Saint-Paul » apparaît pour la première fois sur un plan de Jean Bourdon."
+        },
+        {
+          "year": "1681",
+          "desc": "Création de la paroisse. Les familles Tremblay, Simard et Bouchard comptent parmi les premiers colons installés pour l'exploitation forestière et l'agriculture."
+        },
+        {
+          "year": "1845",
+          "desc": "La municipalité prend le nom de Saint-Pierre et Saint-Paul de la baie Saint-Paul."
+        },
+        {
+          "year": "1964",
+          "desc": "Simplification officielle du nom en Baie-Saint-Paul."
+        },
+        {
+          "year": "1996",
+          "desc": "Constitution de la ville actuelle de Baie-Saint-Paul par regroupement municipal."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Chef-lieu MRC Charlevoix, Capitale-Nationale<br>~95 km de Québec par la route 138<br>Routes 138, 362 et 381"
+        },
+        {
+          "title": "🏛️ Maire",
+          "content": "Michaël Pilote<br>Mandat 2025-2029"
+        },
+        {
+          "title": "👥 Gentilé",
+          "content": "Baie-Saint-Paulois, Baie-Saint-Pauloise"
+        },
+        {
+          "title": "🌐 Site officiel",
+          "content": "<a href=\"https://www.baiesaintpaul.com\" target=\"_blank\" rel=\"noopener\">baiesaintpaul.com</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Découvrir Baie-Saint-Paul",
+    "text": "Art, gastronomie et nature — le cœur de Charlevoix vous attend.",
+    "links": [
+      {
+        "text": "Où dormir →",
+        "href": "hotel-germain-charlevoix.html"
+      },
+      {
+        "text": "Explorer Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "les-labours-charlevoix",
+  "title": "Les Labours — Restaurant du Germain, Baie-Saint-Paul, Charlevoix",
+  "description": "Les Labours, restaurant gastronomique du Germain Hôtel & Spa Charlevoix à Baie-Saint-Paul. Chef Patrick Dubé, cuisine ouverte, terroir charlevoisien et carte des vins primée Wine Spectator.",
+  "ogTitle": "Les Labours — Baie-Saint-Paul, Charlevoix",
+  "ogDescription": "Restaurant gastronomique du Germain Charlevoix. Cuisine ouverte, potager maison et carte des vins primée.",
+  "heroGradient": "linear-gradient(135deg, #8b2e2e 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Les Labours",
+  "tagline": "Restaurant gastronomique du Germain Charlevoix — de la terre à l'assiette",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 restaurants",
+    "href": "top-10-restaurants-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌾",
+      "value": "Gastronomique",
+      "label": "Type"
+    },
+    {
+      "icon": "👨‍🍳",
+      "value": "Patrick Dubé",
+      "label": "Chef"
+    },
+    {
+      "icon": "🍷",
+      "value": "1 000+ étiquettes",
+      "label": "Cave à vins"
+    },
+    {
+      "icon": "📍",
+      "value": "50 rue de la Ferme",
+      "label": "Baie-Saint-Paul"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://www.germainhotels.com/en/le-germain-hotel-and-spa/charlevoix/things-to-do/les-labours-restaurant",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le restaurant",
+      "paragraphs": [
+        "Les Labours est le restaurant signature du <a href=\"hotel-germain-charlevoix.html\">Germain Hôtel &amp; Spa Charlevoix</a> à Baie-Saint-Paul. Dans un décor chaleureux inspiré par la nature de la région, la cuisine ouverte sur quatre côtés place les convives au cœur de l'action.",
+        "Le chef Patrick Dubé et son équipe célèbrent les saveurs charlevoisien­nes avec des plats qui racontent l'histoire des producteurs locaux, des récoltes du potager maison et du rythme des saisons. Grillades au charbon, gibier, légumes cultivés sur place — chaque assiette est un hommage au terroir."
+      ]
+    },
+    {
+      "title": "Ce qui distingue Les Labours",
+      "highlightCards": [
+        {
+          "icon": "🌿",
+          "title": "Potager autosuffisant",
+          "description": "L'équipe en cuisine collabore étroitement avec l'équipe du jardin pour atteindre l'autosuffisance en ail, courges, micropousses et piments Gorria."
+        },
+        {
+          "icon": "🔥",
+          "title": "Cuisine ouverte",
+          "description": "La cuisine ouverte sur quatre côtés permet aux convives d'observer la préparation des plats. Grillades, gibier et produits de la ferme prennent vie sous leurs yeux."
+        },
+        {
+          "icon": "🍷",
+          "title": "Cave primée Wine Spectator",
+          "description": "Le sommelier Christian Beaupré gère une cave de ~11 000 bouteilles. Récipiendaire du Best of Award of Excellence de Wine Spectator — parmi les 1 531 meilleurs programmes vinicoles au monde."
+        },
+        {
+          "icon": "👨‍🍳",
+          "title": "Chef Patrick Dubé",
+          "description": "Plus de 25 ans d'expérience, incluant le James Street South à Belfast (1 étoile Michelin) et le Château Lynch-Bages en France. Ancien chef exécutif du Saint-Amour à Québec."
+        }
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "paragraphs": [
+        "Que ce soit pour un déjeuner en douceur, un dîner généreux ou un souper festif, Les Labours propose une cuisine honnête, savoureuse et sentie. Le menu évolue naturellement au fil des saisons, reflétant l'abondance du territoire charlevoisien et la créativité des chefs.",
+        "Les vins du Québec et du Canada occupent une place d'honneur sur la carte, aux côtés de sélections françaises, espagnoles et italiennes. Les prix vont de 50 $ à 5 000 $ la bouteille, pour tous les goûts et toutes les occasions."
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "50, rue de la Ferme<br>Baie-Saint-Paul, QC G3Z 0G2"
+        },
+        {
+          "title": "🕐 Horaires",
+          "content": "<strong>Déjeuner :</strong> lun-ven 7h-11h, sam-dim 7h-12h<br><strong>Souper :</strong> jeu-dim 17h30-21h"
+        },
+        {
+          "title": "🏨 Hôtel",
+          "content": "<a href=\"hotel-germain-charlevoix.html\">Le Germain Hôtel &amp; Spa Charlevoix</a><br>Ouvert aux non-résidents"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://www.germainhotels.com\" target=\"_blank\" rel=\"noopener\">germainhotels.com</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-restaurants-charlevoix.html\">← Top 10 restaurants</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

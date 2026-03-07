@@ -1,0 +1,123 @@
+{
+  "slug": "papeterie-saint-gilles-charlevoix",
+  "title": "Papeterie Saint-Gilles — Saint-Joseph-de-la-Rive, Charlevoix, Québec",
+  "description": "Papeterie Saint-Gilles à Saint-Joseph-de-la-Rive. Économusée du papier artisanal fondé en 1965 par Félix-Antoine Savard. Visites, ateliers et boutique de papier fait main.",
+  "ogTitle": "Papeterie Saint-Gilles — Saint-Joseph-de-la-Rive, Charlevoix",
+  "ogDescription": "Premier économusée du Québec. Papier artisanal de coton depuis 1965.",
+  "heroGradient": "linear-gradient(135deg, #7a6a4a 0%, #2E3E24 100%)",
+  "accentColor": "#7a6a4a",
+  "badge": null,
+  "heroLocation": "Saint-Joseph-de-la-Rive · Charlevoix · Québec",
+  "h1": "Papeterie Saint-Gilles",
+  "tagline": "Premier économusée du Québec — papier artisanal de coton depuis 1965",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 8 culture",
+    "href": "top-10-culture-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "📜",
+      "value": "Économusée",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "1965",
+      "label": "Fondation"
+    },
+    {
+      "icon": "✍️",
+      "value": "Félix-Antoine Savard",
+      "label": "Fondateur"
+    },
+    {
+      "icon": "📍",
+      "value": "304 rue F.-A. Savard",
+      "label": "Saint-Joseph-de-la-Rive"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://papeteriesaintgilles.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La papeterie",
+      "paragraphs": [
+        "La Papeterie Saint-Gilles est un économusée situé dans le village de <a href=\"les-eboulements-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Saint-Joseph-de-la-Rive</a>, au cœur de Charlevoix. Depuis près de 60 ans, on y fabrique du papier artisanal de coton de façon entièrement traditionnelle.",
+        "Fondée en 1965 par l'écrivain et prêtre <strong>Félix-Antoine Savard</strong> — auteur du roman classique <em>Menaud, maître-draveur</em> — avec l'aide de Mark Donohue, la papeterie est devenue le tout premier économusée du Québec en 1988, un concept créé par l'architecte et ethnologue Cyril Simard."
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "highlightCards": [
+        {
+          "icon": "📜",
+          "title": "Papier artisanal",
+          "description": "Papier de coton fabriqué à la main, de façon traditionnelle. Chaque feuille est unique — un savoir-faire rare transmis depuis près de 60 ans."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Parcours d'interprétation",
+          "description": "Découvrez les origines du papier et l'histoire de la Papeterie à travers un parcours dans l'ancien bâtiment scolaire de 1934."
+        },
+        {
+          "icon": "🎨",
+          "title": "Ateliers et activités",
+          "description": "Ateliers ludiques et éducatifs offerts en saison estivale. Visites guidées et autoguidées pour comprendre la fabrication du papier."
+        },
+        {
+          "icon": "🛍️",
+          "title": "Boutique",
+          "description": "Papiers de grande qualité, reproductions d'œuvres de grands maîtres sur papier Saint-Gilles, et produits faits main."
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "timeline": [
+        {
+          "year": "1934",
+          "desc": "Construction du bâtiment comme école du village de Saint-Joseph-de-la-Rive."
+        },
+        {
+          "year": "1965",
+          "desc": "Félix-Antoine Savard et Mark Donohue convertissent l'école en atelier de papier artisanal. Le premier maître-papetier, Georges Audet, est formé au moulin à papier de Richard-de-Bas en France."
+        },
+        {
+          "year": "1988",
+          "desc": "La papeterie devient le tout premier économusée du Québec, un concept établi par Cyril Simard. Mission de préservation et de transmission du savoir-faire."
+        },
+        {
+          "year": "Aujourd'hui",
+          "desc": "Près de 60 ans de fabrication de papier artisanal. Visites, ateliers, boutique et exposition permanente. Un lieu incontournable de la culture charlevoisienne."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "304, rue Félix-Antoine-Savard<br>Saint-Joseph-de-la-Rive, QC"
+        },
+        {
+          "title": "📅 Saison",
+          "content": "Ouvert en saison estivale<br>Hors-saison : sur rendez-vous seulement"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://papeteriesaintgilles.com\" target=\"_blank\" rel=\"noopener\">papeteriesaintgilles.com</a>"
+        },
+        {
+          "title": "📌 À proximité",
+          "content": "<a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a><br><a href=\"musee-maritime-charlevoix.html\">Musée maritime</a><br><a href=\"ile-aux-coudres-charlevoix.html\">Île-aux-Coudres</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-culture-charlevoix.html\">← Top 8 culture</a> · <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

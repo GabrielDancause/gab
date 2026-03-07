@@ -1,0 +1,104 @@
+{
+  "slug": "restaurant-epicentre-charlevoix",
+  "title": "L'Épicentre — Restaurant de la Ferme Éboulmontaise, Les Éboulements, Charlevoix",
+  "description": "L'Épicentre, restaurant de la Ferme Éboulmontaise aux Éboulements dans Charlevoix. Agneau, porc Berkshire et produits fermiers de la ferme à l'assiette, vue sur le fleuve Saint-Laurent.",
+  "ogTitle": "L'Épicentre — Les Éboulements, Charlevoix",
+  "ogDescription": "Restaurant de la Ferme Éboulmontaise. Agneau et terroir charlevoisien de la ferme à l'assiette.",
+  "heroGradient": "linear-gradient(135deg, #6b7a3e 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Les Éboulements · Charlevoix · Québec",
+  "h1": "L'Épicentre",
+  "tagline": "Le restaurant de la Ferme Éboulmontaise — de la ferme à l'assiette, littéralement",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 restaurants",
+    "href": "top-10-restaurants-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🥩",
+      "value": "Ferme à l'assiette",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "Depuis 1990",
+      "label": "La ferme"
+    },
+    {
+      "icon": "🐑",
+      "value": "Agneau & porc",
+      "label": "Spécialités"
+    },
+    {
+      "icon": "📍",
+      "value": "Les Éboulements",
+      "label": "Secteur Cratère et marées"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Le restaurant",
+      "paragraphs": [
+        "L'Épicentre est le restaurant de la <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a>, ambassadrice de l'agneau dans Charlevoix depuis 1990. Situé aux <a href=\"les-eboulements-charlevoix.html\">Éboulements</a>, dans le secteur Cratère et marées, c'est l'une des expériences « de la ferme à l'assiette » les plus authentiques du Québec.",
+        "Ici, la viande servie dans votre assiette a été élevée sur place. L'agneau et le porc Berkshire de la ferme sont au cœur du menu, complétés par des charcuteries maison et des plats cuisinés qui mettent en valeur le savoir-faire de la famille."
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "highlightCards": [
+        {
+          "icon": "🐑",
+          "title": "Agneau de Charlevoix",
+          "description": "L'agneau élevé sur la ferme est la vedette du menu. Reconnu pour sa finesse et sa qualité, c'est l'un des meilleurs agneaux du Québec."
+        },
+        {
+          "icon": "🐖",
+          "title": "Porc Berkshire",
+          "description": "Le porc Berkshire de la ferme, aussi appelé Kurobuta, est reconnu pour sa tendreté et son persillage. Un produit d'exception difficile à trouver ailleurs."
+        },
+        {
+          "icon": "🛍️",
+          "title": "Boutique fermière",
+          "description": "La boutique sur place offre une vaste sélection de viandes, charcuteries et plats cuisinés à l'année. Idéal pour rapporter un morceau de Charlevoix à la maison."
+        },
+        {
+          "icon": "🥾",
+          "title": "Sentiers de la ferme",
+          "description": "Profitez de votre visite pour parcourir les sentiers Le Paysan et Louis-Charles-Audet. Une balade champêtre avec vue sur le paysage charlevoisien."
+        }
+      ]
+    },
+    {
+      "title": "La Ferme Éboulmontaise",
+      "paragraphs": [
+        "Pionnière de l'agrotourisme dans Charlevoix, la <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a> est membre de la Route des Saveurs de Charlevoix. Depuis plus de 30 ans, elle se distingue par la finesse et la qualité des viandes qui y sont produites.",
+        "La ferme est ouverte à l'année, et la boutique propose ses produits en toute saison. C'est une visite incontournable pour quiconque s'intéresse au terroir charlevoisien."
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "Les Éboulements, QC<br>Secteur Cratère et marées"
+        },
+        {
+          "title": "📅 Ouverture",
+          "content": "Ouvert à l'année<br>Boutique et restauration sur place"
+        },
+        {
+          "title": "🗺️ Route des Saveurs",
+          "content": "Membre de la <strong>Route des Saveurs de Charlevoix</strong>, le circuit agrotouristique de la région"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://www.tourisme-charlevoix.com/fr/entreprises/la-ferme-eboulmontaise\" target=\"_blank\" rel=\"noopener\">Fiche Tourisme Charlevoix</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-restaurants-charlevoix.html\">← Top 10 restaurants</a> · <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

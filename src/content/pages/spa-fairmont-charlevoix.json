@@ -1,0 +1,124 @@
+{
+  "slug": "spa-fairmont-charlevoix",
+  "title": "Spa du Fairmont Le Manoir Richelieu — La Malbaie, Charlevoix, Québec",
+  "description": "Le spa du Fairmont Le Manoir Richelieu à La Malbaie. 13 salles de massage, soins corporels, piscines et vue sur le fleuve Saint-Laurent. Détente haut de gamme à Charlevoix.",
+  "ogTitle": "Spa du Fairmont Le Manoir Richelieu — La Malbaie, Charlevoix",
+  "ogDescription": "13 salles de massage, soins corporels et piscine. Spa haut de gamme au Manoir Richelieu.",
+  "heroGradient": "linear-gradient(135deg, #6b3a5c 0%, #2E3E24 100%)",
+  "accentColor": "#6b3a5c",
+  "badge": null,
+  "heroLocation": "La Malbaie · Charlevoix · Québec",
+  "h1": "Spa du Fairmont<br>Le Manoir Richelieu",
+  "tagline": "Détente haut de gamme avec vue sur le fleuve Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 5 spas",
+    "href": "top-10-spas-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "💆",
+      "value": "13 salles",
+      "label": "De massage"
+    },
+    {
+      "icon": "🏰",
+      "value": "Fairmont",
+      "label": "Hôtel associé"
+    },
+    {
+      "icon": "🌊",
+      "value": "Vue fleuve",
+      "label": "St-Laurent"
+    },
+    {
+      "icon": "📍",
+      "value": "La Malbaie",
+      "label": "Pointe-au-Pic"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://www.fairmont.com/richelieu-charlevoix/",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le spa",
+      "paragraphs": [
+        "Le spa du <a href=\"fairmont-manoir-richelieu.html\" style=\"color:#2E3E24;font-weight:600;\">Fairmont Le Manoir Richelieu</a> est l'un des plus grands espaces de bien-être de Charlevoix. Avec ses 13 salles de massage et un vaste choix de soins corporels, il offre une expérience de détente haut de gamme dans le cadre majestueux du Manoir, perché sur la falaise de Pointe-au-Pic.",
+        "Le spa se trouve au sein d'un hôtel historique de style château construit en 1929, surplombant le fleuve Saint-Laurent. L'emplacement unique permet de combiner traitements spa, activités de plein air et gastronomie dans un même séjour."
+      ]
+    },
+    {
+      "title": "Services et installations",
+      "highlightCards": [
+        {
+          "icon": "💆",
+          "title": "Massothérapie",
+          "description": "13 salles de massage offrant une grande variété de techniques : massage suédois, pierres chaudes, aromathérapie et plus."
+        },
+        {
+          "icon": "🧴",
+          "title": "Soins corporels",
+          "description": "Traitements du visage et du corps. Enveloppements, exfoliations et soins personnalisés pour une remise en forme complète."
+        },
+        {
+          "icon": "🏊",
+          "title": "Piscines",
+          "description": "Piscines intérieure et extérieure accessibles aux clients de l'hôtel. Détente aquatique avec vue sur le fleuve."
+        },
+        {
+          "icon": "🏋️",
+          "title": "Centre de conditionnement",
+          "description": "Salle d'entraînement équipée pour maintenir sa routine même en vacances."
+        }
+      ]
+    },
+    {
+      "title": "Le Manoir Richelieu",
+      "paragraphs": [
+        "Le Manoir Richelieu est un monument de l'hôtellerie québécoise. Le premier manoir a été construit en 1898 sur la falaise de Pointe-au-Pic pour accueillir les croisiéristes de la compagnie Richelieu Ontario. Après un incendie en 1928, il a été reconstruit en 1929 dans le style château que l'on connaît aujourd'hui.",
+        "Le Manoir compte 405 chambres et se trouve à côté du <a href=\"casino-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Casino de Charlevoix</a>. En 2018, il a accueilli le sommet du G7. Aujourd'hui géré par Fairmont, il offre un terrain de golf de 27 trous, des restaurants et un programme d'activités quatre saisons."
+      ]
+    },
+    {
+      "title": "Forfaits bien-être",
+      "highlightCards": [
+        {
+          "icon": "🧖",
+          "title": "Forfait Bien-être au Spa",
+          "description": "Hébergement avec jusqu'à 15 % de rabais et accès au spa. Le forfait idéal pour une escapade détente."
+        },
+        {
+          "icon": "💕",
+          "title": "Romance & Spa",
+          "description": "Forfait pour couples incluant hébergement, soins spa et attentions romantiques. Disponible à l'année."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "181, rue Richelieu<br>La Malbaie, QC G5A 1X7"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://www.fairmont.com/richelieu-charlevoix/\" target=\"_blank\" rel=\"noopener\">fairmont.com/richelieu</a>"
+        },
+        {
+          "title": "🏰 Hôtel",
+          "content": "<a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a><br>405 chambres · Depuis 1899"
+        },
+        {
+          "title": "🎰 À proximité",
+          "content": "<a href=\"casino-charlevoix.html\">Casino de Charlevoix</a><br>Adjacent au Manoir"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-spas-charlevoix.html\">← Top 5 spas</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

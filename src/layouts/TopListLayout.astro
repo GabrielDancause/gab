@@ -1,0 +1,170 @@
+---
+import BaseHead from './BaseHead.astro';
+const { page } = Astro.props;
+const isListing = page.listingFormat;
+---
+<html lang="fr">
+<head>
+    <BaseHead title={page.title} description={page.description} ogTitle={page.ogTitle} ogDescription={page.ogDescription} />
+    {isListing ? (
+        <style define:vars={{ heroGradient: page.heroGradient }}>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
+            .hero { background: var(--heroGradient); color: #fff; padding: 60px 24px 50px; text-align: center; position: relative; }
+            .hero .badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 16px; text-transform: uppercase; }
+            .hero h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 12px; line-height: 1.2; }
+            .hero p { font-size: 1rem; opacity: 0.85; max-width: 520px; margin: 0 auto; }
+            .container { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+            .intro { font-size: 0.95rem; color: #555; margin-bottom: 36px; line-height: 1.8; }
+            .listing { background: #fff; border-radius: 12px; padding: 28px 24px; margin-bottom: 20px; box-shadow: 0 1px 4px rgba(0,0,0,0.06); border: 1px solid rgba(0,0,0,0.04); }
+            .listing-rank { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; background: #2E3E24; color: #fff; border-radius: 8px; font-size: 0.85rem; font-weight: 700; margin-bottom: 12px; }
+            .listing h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 8px; color: #1a1a1a; }
+            .listing h2 a { color: #1a1a1a; text-decoration: none; border-bottom: 2px solid #2E3E24; }
+            .listing-meta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 12px; }
+            .listing-meta span { font-size: 0.82rem; color: #888; }
+            .listing p { font-size: 0.92rem; color: #555; line-height: 1.7; }
+            .listing .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+            .listing .tag { display: inline-block; background: #f0f4ed; color: #2E3E24; padding: 4px 12px; border-radius: 14px; font-size: 0.78rem; font-weight: 500; }
+            .cta-banner { background: #2E3E24; border-radius: 14px; padding: 36px 28px; text-align: center; margin-top: 44px; }
+            .cta-banner h2 { color: #FAF8EB; font-size: 1.3rem; margin-bottom: 10px; }
+            .cta-banner p { color: rgba(250,248,235,0.7); font-size: 0.88rem; margin-bottom: 20px; }
+            .cta-banner a { display: inline-block; background: #FAF8EB; color: #2E3E24; padding: 12px 24px; border-radius: 8px; font-size: 0.88rem; font-weight: 600; text-decoration: none; transition: transform 0.15s; margin: 0 6px; }
+            .cta-banner a:hover { transform: translateY(-2px); }
+            .footer { text-align: center; padding: 40px 24px; font-size: 0.82rem; color: #aaa; border-top: 1px solid #eee; }
+            .footer a { color: #2E3E24; text-decoration: none; }
+            @media (max-width: 480px) {
+                .hero { padding: 44px 18px 38px; }
+                .hero h1 { font-size: 1.7rem; }
+                .container { padding: 24px 16px 48px; }
+                .listing { padding: 22px 18px; }
+            }
+        </style>
+    ) : (
+        <style define:vars={{ heroGradient: page.heroGradient, accentColor: page.accentColor, tagBg: page.tagBg, tagColor: page.tagColor }}>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
+            .hero { background: var(--heroGradient); color: #fff; padding: 72px 24px 56px; text-align: center; position: relative; }
+            .hero .badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.5px; margin-bottom: 16px; text-transform: uppercase; }
+            .hero h1 { font-size: 2.4rem; font-weight: 700; margin-bottom: 12px; line-height: 1.15; }
+            .hero .tagline { font-size: 1.1rem; opacity: 0.85; max-width: 560px; margin: 0 auto; font-style: italic; }
+            .container { max-width: 740px; margin: 0 auto; padding: 44px 20px 60px; }
+            .intro { font-size: 0.94rem; color: #555; line-height: 1.8; margin-bottom: 40px; }
+            .intro :global(strong) { color: #2E3E24; }
+            .entry { background: #fff; border-radius: 14px; padding: 28px 24px; margin-bottom: 18px; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 1px 4px rgba(0,0,0,0.04); position: relative; transition: transform 0.15s, box-shadow 0.15s; }
+            .entry:hover { transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+            .entry-link { text-decoration: none; color: inherit; display: block; }
+            .entry .rank { position: absolute; top: -10px; left: 20px; background: var(--accentColor); color: #fff; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.82rem; font-weight: 700; }
+            .entry .meta { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+            .entry .emoji { font-size: 1.6rem; }
+            .entry h2 { font-size: 1.2rem; font-weight: 700; color: #2E3E24; }
+            .entry .location { font-size: 0.78rem; color: #999; font-weight: 500; }
+            .entry .desc { font-size: 0.88rem; color: #666; line-height: 1.7; }
+            .entry .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+            .entry .tag { background: var(--tagBg); color: var(--tagColor); padding: 4px 10px; border-radius: 6px; font-size: 0.72rem; font-weight: 600; }
+            .cta-banner { background: #2E3E24; border-radius: 14px; padding: 36px 28px; text-align: center; margin-top: 44px; }
+            .cta-banner h2 { color: #FAF8EB; font-size: 1.3rem; margin-bottom: 10px; }
+            .cta-banner p { color: rgba(250,248,235,0.7); font-size: 0.88rem; margin-bottom: 20px; }
+            .cta-banner a { display: inline-block; background: #FAF8EB; color: #2E3E24; padding: 12px 24px; border-radius: 8px; font-size: 0.88rem; font-weight: 600; text-decoration: none; transition: transform 0.15s; margin: 0 6px; }
+            .cta-banner a:hover { transform: translateY(-2px); }
+            .footer { text-align: center; padding: 40px 24px; font-size: 0.82rem; color: #aaa; border-top: 1px solid #eee; }
+            .footer a { color: #2E3E24; text-decoration: none; }
+            @media (max-width: 600px) {
+                .hero { padding: 56px 18px 44px; }
+                .hero h1 { font-size: 2rem; }
+                .container { padding: 28px 16px 48px; }
+                .entry { padding: 24px 18px; }
+            }
+        </style>
+    )}
+</head>
+<body>
+
+<div class="hero">
+    {page.badge && <div class="badge">{page.badge}</div>}
+    <h1 set:html={page.h1} />
+    {page.tagline && <p class="tagline">{page.tagline}</p>}
+</div>
+
+<div class="container">
+
+    {page.intro && <p class="intro" set:html={page.intro} />}
+
+    {isListing ? (
+        page.entries?.map((e: any) => (
+            <div class="listing">
+                <div class="listing-rank">{e.rank}</div>
+                <h2>{e.href ? <a href={e.href}>{e.title}</a> : e.title}</h2>
+                {e.meta && (
+                    <div class="listing-meta">
+                        {e.meta.map((m: string) => <span>{m}</span>)}
+                    </div>
+                )}
+                <p set:html={e.description} />
+                {e.tags.length > 0 && (
+                    <div class="tags">
+                        {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                    </div>
+                )}
+            </div>
+        ))
+    ) : (
+        page.entries?.map((e: any) => (
+            <div class="entry">
+                <div class="rank">{e.rank}</div>
+                {e.href ? (
+                    <a href={e.href} class="entry-link">
+                        <div class="meta">
+                            {e.emoji && <span class="emoji">{e.emoji}</span>}
+                            <div>
+                                <h2>{e.title}</h2>
+                                {e.location && <span class="location">{e.location}</span>}
+                            </div>
+                        </div>
+                        <p class="desc" set:html={e.description} />
+                        {e.tags.length > 0 && (
+                            <div class="tags">
+                                {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                            </div>
+                        )}
+                    </a>
+                ) : (
+                    <>
+                        <div class="meta">
+                            {e.emoji && <span class="emoji">{e.emoji}</span>}
+                            <div>
+                                <h2>{e.title}</h2>
+                                {e.location && <span class="location">{e.location}</span>}
+                            </div>
+                        </div>
+                        <p class="desc" set:html={e.description} />
+                        {e.tags.length > 0 && (
+                            <div class="tags">
+                                {e.tags.map((t: string) => <span class="tag">{t}</span>)}
+                            </div>
+                        )}
+                    </>
+                )}
+            </div>
+        ))
+    )}
+
+    {page.ctaBanner && (
+        <div class="cta-banner">
+            <h2>{page.ctaBanner.title}</h2>
+            <p>{page.ctaBanner.text}</p>
+            {page.ctaBanner.links.map((l: any) => (
+                <a href={l.href}>{l.text}</a>
+            ))}
+        </div>
+    )}
+
+</div>
+
+{page.footer && (
+    <div class="footer">
+        <p set:html={page.footer} />
+    </div>
+)}
+
+</body>
+</html>

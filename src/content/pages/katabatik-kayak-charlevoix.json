@@ -1,0 +1,112 @@
+{
+  "slug": "katabatik-kayak-charlevoix",
+  "title": "Katabatik — Kayak de mer et descentes de rivière à Charlevoix",
+  "description": "Katabatik : kayak de mer et descentes de la Rivière du Gouffre à Charlevoix. Excursions guidées, vente d'équipement et aventures en plein air à Baie-Saint-Paul.",
+  "ogTitle": "Katabatik — Kayak et aventures à Charlevoix",
+  "ogDescription": "Kayak de mer et descentes de rivière au cœur de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #1a5276 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Katabatik",
+  "tagline": "Kayak de mer, descentes de rivière et aventures en plein air",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🛶",
+      "value": "Kayak de mer",
+      "label": "Activité phare"
+    },
+    {
+      "icon": "🏞️",
+      "value": "Rivière du Gouffre",
+      "label": "Descentes"
+    },
+    {
+      "icon": "📅",
+      "value": "Mai à septembre",
+      "label": "Saison 2026"
+    },
+    {
+      "icon": "🛒",
+      "value": "Boutique",
+      "label": "Vente d'équipement"
+    }
+  ],
+  "heroCta": {
+    "text": "Réserver une activité →",
+    "href": "https://katabatik.ca/fr/",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "L'aventure Katabatik",
+      "paragraphs": [
+        "Katabatik est l'entreprise d'aventures de plein air incontournable de Charlevoix. Basée à Baie-Saint-Paul, elle offre des excursions guidées en kayak de mer sur le fleuve Saint-Laurent et des descentes de la Rivière du Gouffre — le tout dans des paysages à couper le souffle.",
+        "Que vous soyez débutant ou kayakiste expérimenté, les guides de Katabatik vous emmènent à la découverte des côtes charlevoisiennes, avec la possibilité d'observer phoques, bélugas et oiseaux marins en chemin."
+      ]
+    },
+    {
+      "title": "Activités",
+      "highlightCards": [
+        {
+          "icon": "🌊",
+          "title": "Kayak de mer",
+          "description": "Excursions guidées sur le fleuve Saint-Laurent. Du 23 mai au 19 septembre 2026. Pagayez le long des côtes de Charlevoix avec vue sur les montagnes."
+        },
+        {
+          "icon": "🏞️",
+          "title": "Descentes de rivière",
+          "description": "Descentes de la Rivière du Gouffre en kayak ou canot. Du 16 mai au 26 septembre 2026. Une aventure en eau vive accessible à tous."
+        },
+        {
+          "icon": "🛒",
+          "title": "Boutique",
+          "description": "Vente de kayaks, SUP (stand-up paddle) et équipement de plein air. Ouvert à l'année — achetez votre propre équipement."
+        },
+        {
+          "icon": "🎓",
+          "title": "Pour tous les niveaux",
+          "description": "Excursions adaptées aux débutants comme aux experts. Les guides locaux connaissent chaque recoin du fleuve et de la rivière."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Baie-Saint-Paul, Charlevoix"
+        },
+        {
+          "title": "📅 Saison 2026",
+          "content": "Kayak de mer : 23 mai — 19 sept.<br>Rivière : 16 mai — 26 sept."
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Couples, familles, groupes d'amis, aventuriers, débutants et experts"
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://katabatik.ca/fr/\" target=\"_blank\" rel=\"noopener\">katabatik.ca</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Réserver votre aventure",
+    "text": "Offre promotionnelle en cours pour la saison 2026. Réservez maintenant!",
+    "links": [
+      {
+        "text": "Voir les offres →",
+        "href": "https://katabatik.ca/fr/billets-activites-2026"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

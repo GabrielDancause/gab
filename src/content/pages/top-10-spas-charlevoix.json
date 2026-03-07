@@ -1,0 +1,105 @@
+{
+  "slug": "top-10-spas-charlevoix",
+  "title": "Top 5 — Spas et détente de Charlevoix, Québec",
+  "description": "Top 5 des meilleurs spas et expériences de détente dans Charlevoix. Spa Nordique Le Germain, Spa du Fairmont, massothérapie et bien-être entre montagnes et fleuve.",
+  "ogTitle": "Top 5 — Spas et détente de Charlevoix",
+  "ogDescription": "Les meilleurs spas et expériences bien-être de Charlevoix au Québec.",
+  "heroGradient": "linear-gradient(135deg, #5c3a6b 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": "⚜️ Bien-être · Détente · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 5 — Spas et<br>détente de Charlevoix",
+  "tagline": "Les meilleures expériences bien-être entre montagnes et fleuve",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est aussi une destination de bien-être. Entre les montagnes de la réserve de la biosphère et les rives du Saint-Laurent, la région offre des espaces de détente remarquables — du spa nordique en plein air aux centres de soins haut de gamme. Voici <strong>les 5 meilleures expériences spa et détente de Charlevoix</strong>.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🧖",
+      "title": "Spa Nordique Le Germain",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Le spa nordique de l'Hôtel &amp; Spa Le Germain Charlevoix propose un circuit de thermothérapie en plein air : sauna finlandais avec vue sur les pâturages, bain vapeur eucalyptus, bains chauds et froids extérieurs, fontaine de neige et douches nordiques. Le tout dans un décor pastoral enchanteur, au pied des montagnes. 60 $ par personne.",
+      "tags": [
+        "Thermothérapie",
+        "Sauna finlandais",
+        "Bains extérieurs",
+        "60 $/pers.",
+        "Clé MICHELIN"
+      ],
+      "href": "spa-germain-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "🏰",
+      "title": "Spa du Fairmont Le Manoir Richelieu",
+      "location": "📍 La Malbaie (Pointe-au-Pic)",
+      "description": "Le spa du Manoir Richelieu dispose de 13 salles de massage et offre un vaste choix de soins corporels. Situé dans un hôtel historique de style château surplombant le fleuve Saint-Laurent, il combine luxe, histoire et panoramas spectaculaires. Forfaits Bien-être et Romance &amp; Spa disponibles.",
+      "tags": [
+        "13 salles de massage",
+        "Soins corporels",
+        "Vue sur le fleuve",
+        "Hôtel historique"
+      ],
+      "href": "spa-fairmont-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🌿",
+      "title": "Spa du Verger",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Spa de détente situé dans le secteur de Baie-Saint-Paul, le Spa du Verger offre des soins de massothérapie et des installations de relaxation dans un cadre champêtre. Un choix prisé par les visiteurs qui souhaitent combiner spa et exploration de la capitale artistique de Charlevoix.",
+      "tags": [
+        "Massothérapie",
+        "Baie-Saint-Paul",
+        "Cadre champêtre"
+      ],
+      "href": null
+    },
+    {
+      "rank": 4,
+      "emoji": "🏨",
+      "title": "Spas d'auberges de Charlevoix",
+      "location": "📍 Plusieurs emplacements",
+      "description": "Plusieurs auberges et hôtels de Charlevoix offrent des services de spa et de massothérapie à leurs clients. Des soins de détente sont souvent disponibles à l'<a href=\"auberge-grande-maison-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Auberge La Grande Maison</a>, à l'<a href=\"auberge-des-peupliers-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Auberge des Peupliers</a> et dans d'autres établissements de la région.",
+      "tags": [
+        "Massothérapie",
+        "En auberge",
+        "Soins sur place"
+      ],
+      "href": null
+    },
+    {
+      "rank": 5,
+      "emoji": "🌊",
+      "title": "Détente en nature",
+      "location": "📍 Partout dans Charlevoix",
+      "description": "Charlevoix, c'est aussi le bien-être au naturel. Les plages du fleuve (dont la <a href=\"plage-saint-irenee-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">plage de Saint-Irénée</a>), les sentiers de <a href=\"randonnee-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">randonnée</a> en forêt et les panoramas de la <a href=\"route-fleuve-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Route du Fleuve</a> offrent une détente profonde — le meilleur spa est parfois la nature elle-même.",
+      "tags": [
+        "Plages",
+        "Randonnée",
+        "Fleuve",
+        "Gratuit"
+      ],
+      "href": null
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#f0f4ed",
+  "tagColor": "#2E3E24",
+  "ctaBanner": {
+    "title": "Explorer Charlevoix",
+    "text": "Découvrez aussi les meilleures auberges et restaurants de la région.",
+    "links": [
+      {
+        "text": "Top 10 auberges →",
+        "href": "top-10-auberges-charlevoix-fr.html"
+      },
+      {
+        "text": "Top 10 restaurants →",
+        "href": "top-10-restaurants-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,127 @@
+{
+  "slug": "chalets-charlevoix",
+  "title": "Chalets à Charlevoix — Location de chalets et maisons de vacances | Québec",
+  "description": "Trouvez le chalet parfait à Charlevoix. Guide des locations de chalets et maisons de vacances : bord de fleuve, montagne, spa privé. De Baie-Saint-Paul à La Malbaie.",
+  "ogTitle": "Chalets à Charlevoix — Guide de location",
+  "ogDescription": "Chalets et maisons de vacances à Charlevoix. Bord de fleuve, montagne, spa privé et plus.",
+  "heroGradient": "linear-gradient(135deg, #7a5230 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Chalets à Charlevoix",
+  "tagline": "Chalets et maisons de vacances — du bord du fleuve aux montagnes",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏠",
+      "value": "Chalets",
+      "label": "Hébergement"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Montagne & Fleuve",
+      "label": "Emplacements"
+    },
+    {
+      "icon": "👨‍👩‍👧‍👦",
+      "value": "2 à 20+ pers.",
+      "label": "Capacité"
+    },
+    {
+      "icon": "❄️",
+      "value": "4 saisons",
+      "label": "Disponibilité"
+    }
+  ],
+  "heroCta": {
+    "text": "Tourisme Charlevoix →",
+    "href": "https://www.tourisme-charlevoix.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Louer un chalet à Charlevoix",
+      "paragraphs": [
+        "Le chalet, c'est l'hébergement par excellence pour profiter de Charlevoix à son rythme. Que ce soit pour un weekend romantique, des vacances en famille ou un trip entre amis, la région offre une grande variété de chalets et maisons de vacances — du petit camp rustique au luxueux chalet avec spa privé et vue sur le fleuve.",
+        "Charlevoix étant une destination quatre saisons, les chalets sont populaires autant en hiver (ski, raquette, motoneige) qu'en été (rando, kayak, vélo). Réservez d'avance pour les périodes de pointe : vacances de Noël, relâche, fête du Travail et les weekends d'automne pour les couleurs."
+      ]
+    },
+    {
+      "title": "Par secteur",
+      "highlightCards": [
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "Chalets avec accès facile au centre-ville, aux galeries d'art et aux restaurants. Secteur prisé pour sa vie culturelle. <a href=\"baie-saint-paul-charlevoix.html\">Voir Baie-Saint-Paul →</a>"
+        },
+        {
+          "icon": "⛷️",
+          "title": "Petite-Rivière-Saint-François",
+          "description": "Populaire pour les chalets près du <a href=\"le-massif-ski-charlevoix.html\">Massif de Charlevoix</a>. Vue sur le fleuve et accès ski/montagne. <a href=\"petite-riviere-saint-francois-charlevoix.html\">Voir PRSF →</a>"
+        },
+        {
+          "icon": "🏰",
+          "title": "La Malbaie & environs",
+          "description": "Secteur calme avec accès aux <a href=\"parc-hautes-gorges-charlevoix.html\">Hautes-Gorges</a>, au <a href=\"casino-charlevoix.html\">Casino</a> et au Fairmont. Chalets en montagne ou en bordure de rivière. <a href=\"la-malbaie-charlevoix.html\">Voir La Malbaie →</a>"
+        },
+        {
+          "icon": "🏘️",
+          "title": "Les Éboulements & Saint-Irénée",
+          "description": "Chalets sur les hauteurs avec vue fleuve. Secteur tranquille entre les deux pôles principaux de la région. <a href=\"les-eboulements-charlevoix.html\">Voir Les Éboulements →</a>"
+        }
+      ]
+    },
+    {
+      "title": "Types de chalets",
+      "highlightCards": [
+        {
+          "icon": "✨",
+          "title": "Luxe & spa privé",
+          "description": "Chalets haut de gamme avec spa extérieur, foyer, cuisine complète et parfois sauna. Idéal pour un weekend romantique ou un séjour détente."
+        },
+        {
+          "icon": "👨‍👩‍👧‍👦",
+          "title": "Familial",
+          "description": "Grandes maisons de vacances pouvant accueillir 8-20+ personnes. Souvent avec terrain de jeu, accès au lac ou au fleuve. Parfait pour les réunions de famille."
+        },
+        {
+          "icon": "🌊",
+          "title": "Bord de fleuve",
+          "description": "Les plus prisés et souvent les plus chers. Vue directe sur le Saint-Laurent, couchers de soleil spectaculaires. Disponibilité limitée — réservez tôt."
+        },
+        {
+          "icon": "🪵",
+          "title": "Rustique & nature",
+          "description": "Camps en bois rond ou chalets simples en forêt. Déconnexion garantie, souvent à proximité des sentiers de <a href=\"randonnee-charlevoix.html\">randonnée</a>."
+        }
+      ]
+    },
+    {
+      "title": "Où réserver",
+      "infoCards": [
+        {
+          "title": "🌐 Plateformes",
+          "content": "Airbnb, VRBO et Booking.com offrent un large choix de chalets à Charlevoix. Filtrez par emplacement, capacité et équipements."
+        },
+        {
+          "title": "📞 Agences locales",
+          "content": "Plusieurs agences locales se spécialisent dans la location de chalets à Charlevoix. Consultez Tourisme Charlevoix pour des recommandations."
+        },
+        {
+          "title": "📅 Quand réserver",
+          "content": "Haute saison : été, relâche scolaire, Noël et weekends d'automne. Réservez 2-3 mois d'avance pour ces périodes."
+        },
+        {
+          "title": "🏨 Autres options",
+          "content": "Consultez aussi nos guides : <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> et <a href=\"camping-charlevoix.html\">Camping à Charlevoix</a> pour d'autres types d'hébergement."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-auberges-charlevoix-fr.html\">← Top 10 auberges</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

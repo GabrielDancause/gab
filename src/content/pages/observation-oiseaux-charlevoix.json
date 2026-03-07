@@ -1,0 +1,132 @@
+{
+  "slug": "observation-oiseaux-charlevoix",
+  "title": "Observation des oiseaux dans Charlevoix — Ornithologie, Québec",
+  "description": "Guide de l'observation des oiseaux dans Charlevoix. Sites d'observation, espèces à découvrir, parcs nationaux et conseils pour ornithologues débutants et expérimentés.",
+  "ogTitle": "Observation des oiseaux dans Charlevoix",
+  "ogDescription": "Sites d'observation, espèces vedettes et conseils pour les ornithologues dans la région de Charlevoix, Québec.",
+  "heroGradient": "linear-gradient(135deg, #4a6741 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Observation des oiseaux",
+  "tagline": "Un territoire exceptionnel pour l'ornithologie — de la forêt boréale au fleuve Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐦",
+      "value": "250+ espèces",
+      "label": "Répertoriées"
+    },
+    {
+      "icon": "🌲",
+      "value": "Boréale",
+      "label": "Forêt dominante"
+    },
+    {
+      "icon": "🌍",
+      "value": "UNESCO",
+      "label": "Biosphère"
+    },
+    {
+      "icon": "📅",
+      "value": "4 saisons",
+      "label": "Activité"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Un paradis pour les ornithologues",
+      "paragraphs": [
+        "Charlevoix offre une diversité d'habitats remarquable pour l'observation des oiseaux. La région se situe à la rencontre de la forêt boréale et de la forêt mixte, créant une mosaïque unique qui attire une grande variété d'espèces. Désignée <a href=\"reserve-biosphere-charlevoix.html\">réserve mondiale de la biosphère par l'UNESCO</a> depuis 1988, la région abrite des écosystèmes préservés qui en font un territoire de choix pour les ornithologues.",
+        "Du fleuve Saint-Laurent aux sommets des montagnes charlevoisienne, les habitats varient considérablement sur de courtes distances. Battures, marais, forêt boréale, toundra alpine — chaque milieu accueille ses espèces spécialisées."
+      ]
+    },
+    {
+      "title": "Meilleurs sites d'observation",
+      "highlightCards": [
+        {
+          "icon": "🏔️",
+          "title": "Parc des Grands-Jardins",
+          "description": "Taïga et toundra à moins de 100 km du fleuve. Habitat du caribou forestier et d'espèces boréales comme le mésangeai du Canada, la grive de Bicknell et le tétras du Canada. <a href=\"parc-grands-jardins-charlevoix.html\">Voir la page →</a>"
+        },
+        {
+          "icon": "🏞️",
+          "title": "Parc des Hautes-Gorges",
+          "description": "Vallées encaissées et forêts anciennes. Parulines, pics, rapaces. La rivière Malbaie attire des espèces riveraines intéressantes en saison. <a href=\"parc-hautes-gorges-charlevoix.html\">Voir la page →</a>"
+        },
+        {
+          "icon": "🌊",
+          "title": "Battures de Baie-Saint-Paul",
+          "description": "Les battures à l'embouchure de la rivière du Gouffre sont un arrêt migratoire important. Oies des neiges au printemps et à l'automne, canards, limicoles et hérons."
+        },
+        {
+          "icon": "🐋",
+          "title": "Parc marin du Saguenay",
+          "description": "Le secteur de Baie-Sainte-Catherine offre des observations combinées : oiseaux marins (guillemots, petits pingouins, eiders) et baleines. <a href=\"parc-marin-saguenay-charlevoix.html\">Voir la page →</a>"
+        },
+        {
+          "icon": "⛵",
+          "title": "Île-aux-Coudres",
+          "description": "L'île est un site prisé pour les oiseaux de rivage et les rapaces en migration. Le tour de l'île à vélo permet de repérer plusieurs espèces. <a href=\"ile-aux-coudres-charlevoix.html\">Voir la page →</a>"
+        },
+        {
+          "icon": "🥾",
+          "title": "Sentier des Caps",
+          "description": "Observation en altitude avec vue sur le fleuve. Rapaces migrateurs, bruants et passereaux de la forêt mixte tout au long du sentier. <a href=\"sentier-des-caps-charlevoix.html\">Voir la page →</a>"
+        }
+      ]
+    },
+    {
+      "title": "Espèces vedettes",
+      "highlightCards": [
+        {
+          "icon": "🦅",
+          "title": "Rapaces",
+          "description": "Pygargue à tête blanche, buse à queue rousse, épervier brun, faucon pèlerin. La migration automnale est spectaculaire depuis les sommets."
+        },
+        {
+          "icon": "🐦",
+          "title": "Passereaux boréaux",
+          "description": "Mésangeai du Canada, grive de Bicknell, tétras du Canada, jaseur boréal. Le Parc des Grands-Jardins est le meilleur endroit pour les observer."
+        },
+        {
+          "icon": "🦆",
+          "title": "Oiseaux aquatiques",
+          "description": "Eider à duvet, garrot à œil d'or, harle couronné, grand héron. Les battures et le littoral offrent d'excellentes conditions d'observation."
+        },
+        {
+          "icon": "🕊️",
+          "title": "Migration printanière",
+          "description": "Des dizaines de milliers d'oies des neiges s'arrêtent dans les battures de Charlevoix au printemps (avril-mai) et à l'automne (octobre). Un spectacle inoubliable."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Meilleure période",
+          "content": "Mai-juin pour les parulines et passereaux nicheurs. Septembre-octobre pour la migration des rapaces et des oies. Hiver pour les espèces boréales résidentes."
+        },
+        {
+          "title": "🔭 Équipement",
+          "content": "Jumelles essentielles (8x42 ou 10x42 recommandé). Lunette d'approche utile pour les battures et le littoral. Guide d'identification de Sibley ou Merlin (app)."
+        },
+        {
+          "title": "🗺️ Accès",
+          "content": "Carte annuelle SÉPAQ requise pour les parcs nationaux. Les battures et le littoral sont généralement accessibles librement."
+        },
+        {
+          "title": "📱 Ressources",
+          "content": "eBird pour les observations récentes dans la région. Club d'ornithologie de Québec pour les sorties guidées."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">← Charlevoix</a> · <a href=\"randonnee-charlevoix.html\">Randonnée</a> · <a href=\"reserve-biosphere-charlevoix.html\">Biosphère UNESCO</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "famille-migneron-charlevoix",
+  "title": "Famille Migneron de Charlevoix — Baie-Saint-Paul, Québec",
+  "description": "Famille Migneron de Charlevoix à Baie-Saint-Paul. Fromages affinés, vins biologiques nordiques et eaux-de-vie distillées à partir du lactosérum et des marcs de vignes.",
+  "ogTitle": "Famille Migneron de Charlevoix",
+  "ogDescription": "Fromages, vins bio nordiques et eaux-de-vie. Terroir charlevoisien unique.",
+  "heroGradient": "linear-gradient(135deg, #4a1a3a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Famille Migneron<br>de Charlevoix",
+  "tagline": "Fromages affinés, vins biologiques et eaux-de-vie — le terroir sous un même toit",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 fermes",
+    "href": "top-10-fermes-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧀",
+      "value": "Fromages affinés",
+      "label": "Fromagerie"
+    },
+    {
+      "icon": "🍷",
+      "value": "Vins biologiques",
+      "label": "Vignoble nordique"
+    },
+    {
+      "icon": "🥃",
+      "value": "Eaux-de-vie",
+      "label": "Distillerie"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://famillemigneron.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le projet",
+      "paragraphs": [
+        "La Famille Migneron de Charlevoix est un projet agrotouristique unique qui réunit trois savoir-faire sous un même toit : fromagerie, vignoble biologique et distillerie. Une approche circulaire où chaque produit nourrit le suivant.",
+        "Le secret de leurs fromages réside dans le soin accordé à l'affinage. Leurs vins biologiques sont l'expression de la nordicité et de la créativité charlevoisienne. Et leurs eaux-de-vie sont distillées à partir du lactosérum de leurs propres fromages et des marcs de leurs vignes — zéro gaspillage, 100% terroir."
+      ]
+    },
+    {
+      "title": "Trois savoir-faire",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Fromages",
+          "description": "Fromages affinés avec soin. Le secret est dans l'affinage — un processus patient qui révèle les saveurs du lait charlevoisien."
+        },
+        {
+          "icon": "🍷",
+          "title": "Vins biologiques",
+          "description": "Vins nordiques certifiés biologiques. L'expression du terroir de Charlevoix en bouteille — créativité et nordicité."
+        },
+        {
+          "icon": "🥃",
+          "title": "Eaux-de-vie",
+          "description": "Distillation du lactosérum des fromages et des marcs de vignes. Économie circulaire et saveurs uniques."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Baie-Saint-Paul, Charlevoix<br>Québec"
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://famillemigneron.com\" target=\"_blank\" rel=\"noopener\">famillemigneron.com</a>"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Amateurs de fromages, œnophiles, gourmands, circuits terroir"
+        },
+        {
+          "title": "🔗 Voir aussi",
+          "content": "<a href=\"laiterie-charlevoix.html\">Laiterie Charlevoix</a><br><a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-fermes-charlevoix.html\">← Top 10 fermes</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"/\">gab.ae</a>"
+}

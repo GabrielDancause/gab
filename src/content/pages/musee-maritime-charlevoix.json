@@ -1,0 +1,97 @@
+{
+  "slug": "musee-maritime-charlevoix",
+  "title": "Musée maritime de Charlevoix — Saint-Joseph-de-la-Rive, Québec",
+  "description": "Le Musée maritime de Charlevoix à Saint-Joseph-de-la-Rive. Histoire maritime du fleuve Saint-Laurent, goélettes, chantier naval et patrimoine maritime québécois.",
+  "ogTitle": "Musée maritime de Charlevoix",
+  "ogDescription": "Histoire maritime, goélettes et patrimoine du fleuve Saint-Laurent.",
+  "heroGradient": "linear-gradient(135deg, #1a4a6b 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Saint-Joseph-de-la-Rive · Charlevoix · Québec",
+  "h1": "Musée maritime<br>de Charlevoix",
+  "tagline": "L'histoire maritime du fleuve Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⚓",
+      "value": "Musée",
+      "label": "Type"
+    },
+    {
+      "icon": "📍",
+      "value": "St-Joseph-de-la-Rive",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "⛵",
+      "value": "Goélettes",
+      "label": "Collection"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "value": "Familial",
+      "label": "Public"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Le musée",
+      "paragraphs": [
+        "Le Musée maritime de Charlevoix est situé à Saint-Joseph-de-la-Rive, au pied des Éboulements, juste à côté du quai du traversier vers l'Île-aux-Coudres. Il raconte l'histoire maritime riche et fascinante de Charlevoix — une région dont la vie a toujours été intimement liée au fleuve Saint-Laurent.",
+        "Le musée est installé sur le site d'un ancien chantier naval où des goélettes étaient construites. Plusieurs bateaux patrimoniaux sont conservés sur place, dont des goélettes qu'on peut visiter."
+      ]
+    },
+    {
+      "title": "À découvrir",
+      "highlightCards": [
+        {
+          "icon": "⛵",
+          "title": "Goélettes patrimoniales",
+          "description": "Visitez des goélettes restaurées sur le site de l'ancien chantier naval. Ces bateaux témoignent de l'époque où le fleuve était la route principale de Charlevoix."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Expositions",
+          "description": "Expositions sur l'histoire maritime de Charlevoix : construction navale, navigation sur le fleuve, vie des marins et des familles côtières."
+        },
+        {
+          "icon": "🔨",
+          "title": "Chantier naval historique",
+          "description": "Le site même du musée est un ancien chantier naval. Découvrez les techniques de construction des goélettes charlevoisiennes."
+        },
+        {
+          "icon": "⛴️",
+          "title": "Près du traversier",
+          "description": "Juste à côté du quai du traversier vers l'Île-aux-Coudres. Combinez la visite du musée avec une excursion sur l'île."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Saint-Joseph-de-la-Rive<br>Près du quai du traversier"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Familles, amateurs d'histoire, combinaison avec Île-aux-Coudres"
+        },
+        {
+          "title": "📅 Ouverture",
+          "content": "Saison estivale principalement. Vérifiez les heures avant votre visite."
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://www.museemaritime.com\" target=\"_blank\" rel=\"noopener\">museemaritime.com</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

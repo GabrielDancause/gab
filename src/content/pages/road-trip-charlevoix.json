@@ -1,0 +1,162 @@
+{
+  "slug": "road-trip-charlevoix",
+  "title": "Road trip dans Charlevoix — Itinéraire 3-5 jours | gab.ae",
+  "description": "Itinéraire road trip de 3 à 5 jours dans Charlevoix : de Québec à Baie-Sainte-Catherine, Route du Fleuve, villages, parcs nationaux et terroir.",
+  "ogTitle": "Road trip dans Charlevoix — Itinéraire 3-5 jours",
+  "ogDescription": "De Québec à Baie-Sainte-Catherine : Route du Fleuve, villages, parcs et terroir en 3 à 5 jours.",
+  "heroGradient": "linear-gradient(135deg, #2c3e50 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Guide thématique · Charlevoix · Québec",
+  "h1": "Road trip Charlevoix 🚗",
+  "tagline": "De Québec à Baie-Sainte-Catherine — 3 à 5 jours de paysages spectaculaires",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "📅",
+      "value": "3-5 jours",
+      "label": "Durée"
+    },
+    {
+      "icon": "🚗",
+      "value": "~200 km",
+      "label": "Distance totale"
+    },
+    {
+      "icon": "🏘️",
+      "value": "8+ villages",
+      "label": "Arrêts"
+    },
+    {
+      "icon": "📅",
+      "value": "4 saisons",
+      "label": "Quand"
+    }
+  ],
+  "heroCta": {
+    "text": "Voir la carte →",
+    "href": "carte-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Le road trip",
+      "paragraphs": [
+        "Le road trip dans Charlevoix est l'un des plus beaux au Québec. De Québec, on traverse la Côte-de-Beaupré pour entrer dans un territoire façonné par un météorite tombé il y a 400 millions d'années — un immense cratère qui a créé les montagnes, les vallées et les panoramas qu'on découvre aujourd'hui.",
+        "La route longe le fleuve Saint-Laurent sur la mythique Route 362, traverse des villages patrimoniaux et grimpe dans les montagnes des parcs nationaux. Chaque virage offre un nouveau point de vue."
+      ]
+    },
+    {
+      "title": "Itinéraire jour par jour",
+      "dayBlocks": [
+        {
+          "label": "Jour 1 — Québec → Baie-Saint-Paul",
+          "title": "Entrée dans Charlevoix par la côte",
+          "distance": "🚗 ~95 km · 1h30",
+          "paragraphs": [
+            "<span class=\"distance\">🚗 ~95 km · 1h30</span>",
+            "Quittez Québec par la route 138 en passant par la Côte-de-Beaupré. Arrêtez-vous au belvédère du Massif à <a href=\"petite-riviere-saint-francois-charlevoix.html\">Petite-Rivière-Saint-François</a> pour votre premier aperçu époustouflant du fleuve.",
+            "Installez-vous à <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>. Explorez les galeries d'art de la rue Saint-Jean-Baptiste, visitez le <a href=\"musee-art-contemporain-charlevoix.html\">Musée d'art contemporain</a>. Souper au <a href=\"mouton-noir-charlevoix.html\">Mouton Noir</a> ou aux <a href=\"les-labours-charlevoix.html\">Labours</a>.",
+            "<strong>Nuit :</strong> <a href=\"hotel-germain-charlevoix.html\">Hôtel Germain</a>, <a href=\"auberge-la-muse-charlevoix.html\">Auberge La Muse</a> ou <a href=\"chalets-charlevoix.html\">chalet</a>"
+          ]
+        },
+        {
+          "label": "Jour 2 — Baie-Saint-Paul → Les Éboulements → Saint-Irénée",
+          "title": "Route du Fleuve et villages patrimoniaux",
+          "distance": "🚗 ~40 km · détours inclus",
+          "paragraphs": [
+            "<span class=\"distance\">🚗 ~40 km · détours inclus</span>",
+            "Le matin, arrêtez-vous à la <a href=\"laiterie-charlevoix.html\">Laiterie Charlevoix</a> pour des fromages et au <a href=\"marche-public-bsp-charlevoix.html\">Marché public</a> pour un lunch local.",
+            "Empruntez la <a href=\"route-fleuve-charlevoix.html\">Route du Fleuve (362)</a> vers <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a>. Descendez à Saint-Joseph-de-la-Rive pour la <a href=\"papeterie-saint-gilles-charlevoix.html\">Papeterie Saint-Gilles</a> et le traversier vers l'<a href=\"ile-aux-coudres-charlevoix.html\">Île-aux-Coudres</a> (si vous avez le temps, l'île mérite une demi-journée).",
+            "Fin d'après-midi sur la plage de <a href=\"saint-irenee-charlevoix.html\">Saint-Irénée</a> pour un coucher de soleil sur le fleuve.",
+            "<strong>Nuit :</strong> <a href=\"auberge-de-nos-aieux-charlevoix.html\">Auberge de nos Aïeux</a> ou <a href=\"auberge-des-peupliers-charlevoix.html\">Auberge des Peupliers</a>"
+          ]
+        },
+        {
+          "label": "Jour 3 — La Malbaie et ses environs",
+          "title": "Casino, Fairmont et Hautes-Gorges",
+          "distance": "🚗 ~30 km + excursion parc",
+          "paragraphs": [
+            "<span class=\"distance\">🚗 ~30 km + excursion parc</span>",
+            "Journée à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>. Le matin, excursion au <a href=\"parc-hautes-gorges-charlevoix.html\">Parc national des Hautes-Gorges-de-la-Rivière-Malbaie</a> — l'Acropole des Draveurs est l'une des plus belles randonnées au Québec (intense, ~5-6h).",
+            "L'après-midi, détente au <a href=\"spa-fairmont-charlevoix.html\">Spa du Fairmont</a>. En soirée, tentez votre chance au <a href=\"casino-charlevoix.html\">Casino de Charlevoix</a> et soupez au Fairmont.",
+            "<strong>Nuit :</strong> <a href=\"fairmont-manoir-richelieu.html\">Fairmont Le Manoir Richelieu</a> ou <a href=\"auberge-3-canards-charlevoix.html\">Auberge des 3 Canards</a>"
+          ]
+        },
+        {
+          "label": "Jour 4 (optionnel) — Les montagnes",
+          "title": "Saint-Urbain et Grands-Jardins",
+          "distance": "🚗 ~50 km depuis La Malbaie",
+          "paragraphs": [
+            "<span class=\"distance\">🚗 ~50 km depuis La Malbaie</span>",
+            "Direction <a href=\"saint-urbain-charlevoix.html\">Saint-Urbain</a> et le <a href=\"parc-grands-jardins-charlevoix.html\">Parc national des Grands-Jardins</a>. Randonnée dans la taïga boréale, paysages de toundra alpine et possibilité d'observer des caribous.",
+            "En route, arrêtez-vous chez des producteurs de la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> pour ramener des souvenirs gourmands.",
+            "<strong>Nuit :</strong> Retour à Baie-Saint-Paul ou camping dans le parc"
+          ]
+        },
+        {
+          "label": "Jour 5 (optionnel) — Baleines",
+          "title": "Baie-Sainte-Catherine et retour",
+          "distance": "🚗 ~70 km depuis La Malbaie",
+          "paragraphs": [
+            "<span class=\"distance\">🚗 ~70 km depuis La Malbaie</span>",
+            "Poussez jusqu'à Baie-Sainte-Catherine pour une excursion d'<a href=\"observation-baleines-charlevoix.html\">observation des baleines</a>. De mi-mai à octobre, bélugas, rorquals et parfois baleines bleues fréquentent l'embouchure du Saguenay.",
+            "Retour vers Québec par la 138 — ou traversez en ferry vers Rivière-du-Loup pour continuer le road trip au Bas-Saint-Laurent!"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Arrêts terroir en route",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Laiterie Charlevoix",
+          "description": "Le Migneron, les cheddars vieillis. Incontournable à BSP. <a href=\"laiterie-charlevoix.html\">En savoir plus →</a>"
+        },
+        {
+          "icon": "🍎",
+          "title": "Cidrerie Pedneault",
+          "description": "Cidres et mistelles à l'Île-aux-Coudres. Verger centenaire. <a href=\"cidrerie-pedneault-charlevoix.html\">En savoir plus →</a>"
+        },
+        {
+          "icon": "🍺",
+          "title": "Microbrasseries",
+          "description": "Charlevoix et ses microbrasseries locales — le conducteur désigné appréciera les root beers artisanales. <a href=\"microbrasseries-charlevoix.html\">En savoir plus →</a>"
+        },
+        {
+          "icon": "🥩",
+          "title": "Ferme Éboulmontaise",
+          "description": "Viandes et charcuteries d'exception aux Éboulements. <a href=\"ferme-eboulmontaise-charlevoix.html\">En savoir plus →</a>"
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "⛽ Essence",
+          "content": "Faites le plein à Québec ou Baie-Saint-Paul. Les stations sont plus rares et parfois plus chères en route vers Baie-Sainte-Catherine."
+        },
+        {
+          "title": "🛣️ Routes",
+          "content": "La 138 est rapide mais la <a href=\"route-fleuve-charlevoix.html\">Route 362</a> est infiniment plus belle. Prenez la 362 dans au moins une direction."
+        },
+        {
+          "title": "📅 Meilleure période",
+          "content": "Septembre-octobre pour les couleurs et la gastronomie. Été pour les baleines et activités nautiques. Hiver pour le ski."
+        },
+        {
+          "title": "📱 Réseau",
+          "content": "Le signal cellulaire peut être faible dans les parcs nationaux et certains tronçons montagneux. Téléchargez vos cartes hors-ligne."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">← Charlevoix</a> · <a href=\"carte-charlevoix.html\">Carte Charlevoix</a> · <a href=\"comment-se-rendre-charlevoix.html\">S'y rendre</a> · <a href=\"/\">gab.ae</a>"
+}

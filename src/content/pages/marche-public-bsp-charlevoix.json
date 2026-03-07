@@ -1,0 +1,119 @@
+{
+  "slug": "marche-public-bsp-charlevoix",
+  "title": "Marché public de Baie-Saint-Paul — Charlevoix, Québec",
+  "description": "Marché public de Baie-Saint-Paul : producteurs locaux, fruits, légumes, fromages et produits du terroir de Charlevoix en plein cœur de la ville.",
+  "ogTitle": "Marché public de Baie-Saint-Paul — Charlevoix",
+  "ogDescription": "Producteurs locaux et produits du terroir charlevoisien au cœur de Baie-Saint-Paul.",
+  "heroGradient": "linear-gradient(135deg, #c4652a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Marché public de Baie-Saint-Paul",
+  "tagline": "Les saveurs du terroir charlevoisien, directement des producteurs à votre panier",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Baie-Saint-Paul",
+    "href": "baie-saint-paul-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏪",
+      "value": "Marché public",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "Saisonnier",
+      "label": "Été / automne"
+    },
+    {
+      "icon": "🧑‍🌾",
+      "value": "Producteurs locaux",
+      "label": "Exposants"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Saint-Paul",
+      "label": "Emplacement"
+    }
+  ],
+  "heroCta": {
+    "text": "Découvrir Baie-Saint-Paul →",
+    "href": "baie-saint-paul-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Le marché",
+      "paragraphs": [
+        "Le Marché public de Baie-Saint-Paul est un rendez-vous incontournable pour les amateurs de produits locaux et de terroir. Situé au cœur de <a href=\"baie-saint-paul-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Baie-Saint-Paul</a>, capitale artistique de Charlevoix, ce marché saisonnier rassemble les producteurs et artisans de la région.",
+        "Le marché s'inscrit dans la riche tradition agrotouristique de Charlevoix, première région au Québec à avoir créé un circuit de la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Route des Saveurs</a>. C'est l'endroit idéal pour goûter aux produits <a href=\"charlevoix-pure-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Charlevoix Pure</a> et rencontrer ceux qui les fabriquent."
+      ]
+    },
+    {
+      "title": "Ce qu'on y trouve",
+      "highlightCards": [
+        {
+          "icon": "🥬",
+          "title": "Fruits & légumes",
+          "description": "Produits maraîchers frais cultivés dans les vallées de Charlevoix. Légumes de saison, fines herbes, petits fruits et fleurs."
+        },
+        {
+          "icon": "🧀",
+          "title": "Fromages & produits laitiers",
+          "description": "Les fromages de Charlevoix, reconnus à travers le Québec. <a href=\"laiterie-charlevoix.html\">Laiterie Charlevoix</a>, <a href=\"fromagerie-maurice-dufour-charlevoix.html\">Maurice Dufour</a> et autres artisans."
+        },
+        {
+          "icon": "🥖",
+          "title": "Pains & pâtisseries",
+          "description": "Boulangeries artisanales, pains au levain, viennoiseries et douceurs sucrées des artisans de la région."
+        },
+        {
+          "icon": "🥩",
+          "title": "Viandes & charcuteries",
+          "description": "Agneau, veau de Charlevoix, canard et charcuteries des fermes locales comme la <a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a>."
+        },
+        {
+          "icon": "🍎",
+          "title": "Cidres & alcools",
+          "description": "Cidres artisanaux, mistelles et produits de la <a href=\"cidrerie-pedneault-charlevoix.html\">Cidrerie Pedneault</a> et des <a href=\"microbrasseries-charlevoix.html\">microbrasseries</a> locales."
+        },
+        {
+          "icon": "🍯",
+          "title": "Produits de l'érable & miel",
+          "description": "Sirop d'érable, beurre d'érable, miel et autres produits sucrés des érablières et apiculteurs de Charlevoix."
+        }
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "paragraphs": [
+        "Plus qu'un simple marché, c'est une expérience immersive dans le terroir charlevoisien. Les producteurs sont sur place pour discuter de leurs méthodes, offrir des dégustations et partager leur passion. L'ambiance est conviviale, familiale et typiquement québécoise.",
+        "Le marché est aussi un excellent point de départ pour explorer la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Route des Saveurs</a> et planifier des visites chez les producteurs qui vous auront fait découvrir leurs produits."
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Centre-ville de Baie-Saint-Paul, Charlevoix"
+        },
+        {
+          "title": "📅 Saison",
+          "content": "Marché saisonnier, généralement de juin à octobre. Consulter les dates exactes avant votre visite."
+        },
+        {
+          "title": "🔗 À voir aussi",
+          "content": "<a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a><br><a href=\"top-10-fermes-charlevoix.html\">Top 10 fermes</a><br><a href=\"charlevoix-pure-charlevoix.html\">Charlevoix Pure</a>"
+        },
+        {
+          "title": "💡 Conseil",
+          "content": "Arrivez tôt pour le meilleur choix ! Apportez vos sacs réutilisables et prévoyez de l'argent comptant."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"baie-saint-paul-charlevoix.html\">← Baie-Saint-Paul</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

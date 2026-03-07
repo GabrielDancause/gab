@@ -1,0 +1,97 @@
+{
+  "slug": "ile-aux-coudres-charlevoix",
+  "title": "L'Île-aux-Coudres — Charlevoix, Québec",
+  "description": "L'Île-aux-Coudres à Charlevoix. Une île historique dans le fleuve Saint-Laurent accessible par traversier gratuit. Vélo, fromageries, moulins patrimoniaux et paysages spectaculaires.",
+  "ogTitle": "L'Île-aux-Coudres — Charlevoix",
+  "ogDescription": "Île historique du Saint-Laurent. Vélo, fromageries, moulins et paysages spectaculaires.",
+  "heroGradient": "linear-gradient(135deg, #1a6b8a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Fleuve Saint-Laurent · Charlevoix · Québec",
+  "h1": "L'Île-aux-Coudres",
+  "tagline": "Une île hors du temps au milieu du Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⛴️",
+      "value": "Traversier gratuit",
+      "label": "Accès"
+    },
+    {
+      "icon": "🚲",
+      "value": "~23 km",
+      "label": "Tour de l'île"
+    },
+    {
+      "icon": "👥",
+      "value": "~1 240 hab.",
+      "label": "Population"
+    },
+    {
+      "icon": "📅",
+      "value": "4 saisons",
+      "label": "À visiter"
+    }
+  ],
+  "sections": [
+    {
+      "title": "L'île",
+      "paragraphs": [
+        "L'Île-aux-Coudres est une petite île posée au milieu du fleuve Saint-Laurent, en face des Éboulements. Nommée par Jacques Cartier en 1535 pour ses coudriers (noisetiers), l'île a conservé un charme d'époque — un rythme de vie lent, des paysages à couper le souffle et un patrimoine maritime riche.",
+        "Accessible par un traversier gratuit depuis Saint-Joseph-de-la-Rive (environ 15 minutes), c'est l'excursion d'une journée parfaite depuis n'importe où dans Charlevoix. Le tour de l'île à vélo (~23 km) est un classique absolu."
+      ]
+    },
+    {
+      "title": "Quoi faire",
+      "highlightCards": [
+        {
+          "icon": "🚲",
+          "title": "Tour de l'île à vélo",
+          "description": "Un circuit d'environ 23 km qui fait le tour complet de l'île. Plat, scenic, avec des vues sur le fleuve à chaque tournant. Location de vélos disponible sur place."
+        },
+        {
+          "icon": "🧀",
+          "title": "Fromageries et terroir",
+          "description": "L'île abrite des artisans du terroir — fromageries, boulangeries et producteurs locaux. Arrêtez-vous goûter les spécialités insulaires."
+        },
+        {
+          "icon": "🏛️",
+          "title": "Moulins patrimoniaux",
+          "description": "Les Moulins de l'Isle-aux-Coudres — un moulin à eau et un moulin à vent patrimoniaux qui témoignent de l'histoire de l'île. Site historique à visiter."
+        },
+        {
+          "icon": "🌅",
+          "title": "Paysages et couchers de soleil",
+          "description": "Les vues sur le fleuve, les montagnes de Charlevoix et les marées spectaculaires font de l'île un paradis pour les photographes et les contemplatifs."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "⛴️ Traversier",
+          "content": "Gratuit, départ de Saint-Joseph-de-la-Rive<br>~15 minutes de traversée<br>Service régulier toute l'année"
+        },
+        {
+          "title": "🚲 Vélo",
+          "content": "Location de vélos disponible sur l'île<br>Tour complet : ~23 km (2-3h)<br>Circuit plat, adapté à tous"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Familles, cyclistes, amateurs d'histoire, gourmands, photographes"
+        },
+        {
+          "title": "📍 Depuis les Éboulements",
+          "content": "~10 min en voiture jusqu'au quai de Saint-Joseph-de-la-Rive + 15 min de traversée"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "charlevoix-ete",
+  "title": "Charlevoix en été — Guide saisonnier, activités et plein air",
+  "description": "Guide complet pour visiter Charlevoix en été : randonnée, kayak, plages, observation des baleines, festivals et terroir. Planifiez votre séjour estival.",
+  "ogTitle": "Charlevoix en été — Guide saisonnier",
+  "ogDescription": "Activités, plein air, festivals et terroir : tout pour profiter de Charlevoix l'été.",
+  "heroGradient": "linear-gradient(135deg, #2980b9 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Guide saisonnier · Charlevoix · Québec",
+  "h1": "Charlevoix en été ☀️",
+  "tagline": "À l'arrivée de la belle saison, une montagne d'activités ensoleillent la région où le bonheur coule à flots",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌡️",
+      "value": "18-28°C",
+      "label": "Températures"
+    },
+    {
+      "icon": "📅",
+      "value": "Juin — sept.",
+      "label": "Saison"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Plein air",
+      "label": "Activité #1"
+    },
+    {
+      "icon": "🐋",
+      "value": "Baleines",
+      "label": "Incontournable"
+    }
+  ],
+  "heroCta": {
+    "text": "Explorer Charlevoix →",
+    "href": "charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "L'été à Charlevoix",
+      "paragraphs": [
+        "L'été est la haute saison touristique à Charlevoix, et pour cause. Entre le fleuve Saint-Laurent et les sommets des Laurentides, la région offre un terrain de jeu exceptionnel pour les amateurs de plein air, de gastronomie et de culture.",
+        "De juin à septembre, les journées sont longues et chaudes, les terrasses sont ouvertes, les producteurs accueillent les visiteurs et les sentiers de randonnée dévoilent leurs plus beaux panoramas. C'est aussi la saison des festivals et des marchés publics."
+      ]
+    },
+    {
+      "title": "Activités incontournables",
+      "highlightCards": [
+        {
+          "icon": "🥾",
+          "title": "Randonnée",
+          "description": "L'Acropole des Draveurs au <a href=\"parc-hautes-gorges-charlevoix.html\">parc des Hautes-Gorges</a>, le <a href=\"parc-grands-jardins-charlevoix.html\">parc des Grands-Jardins</a> et le <a href=\"sentier-des-caps-charlevoix.html\">Sentier des Caps</a>. Voir notre <a href=\"randonnee-charlevoix.html\">guide randonnée</a>."
+        },
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "Bélugas, rorquals et baleines à bosse au large de <a href=\"observation-baleines-charlevoix.html\">Baie-Sainte-Catherine et Tadoussac</a>. De mai à octobre, un spectacle inoubliable."
+        },
+        {
+          "icon": "🛶",
+          "title": "Kayak & sports nautiques",
+          "description": "Kayak de mer sur le fleuve avec <a href=\"katabatik-kayak-charlevoix.html\">Katabatik</a>, paddleboard, voile. La <a href=\"plage-saint-irenee-charlevoix.html\">plage de Saint-Irénée</a> est un classique."
+        },
+        {
+          "icon": "🚂",
+          "title": "Train de Charlevoix",
+          "description": "Le <a href=\"train-charlevoix.html\">Train de Charlevoix</a> longe le fleuve de Québec à La Malbaie. Un des plus beaux trajets ferroviaires au pays."
+        },
+        {
+          "icon": "🚗",
+          "title": "Route du Fleuve",
+          "description": "La <a href=\"route-fleuve-charlevoix.html\">Route 362</a> entre Baie-Saint-Paul et La Malbaie offre des panoramas spectaculaires sur le fleuve et les montagnes."
+        },
+        {
+          "icon": "🐦",
+          "title": "Observation des oiseaux",
+          "description": "La <a href=\"reserve-biosphere-charlevoix.html\">biosphère de Charlevoix</a> abrite une faune ailée riche. Voir notre page <a href=\"observation-oiseaux-charlevoix.html\">observation des oiseaux</a>."
+        }
+      ]
+    },
+    {
+      "title": "Gastronomie & terroir",
+      "paragraphs": [
+        "L'été est la saison idéale pour explorer la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Route des Saveurs</a>. Les producteurs ouvrent leurs portes, les <a href=\"marche-public-bsp-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">marchés publics</a> battent leur plein et les restaurants proposent des menus mettant en vedette les produits frais de la région."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Fermes & fromageries",
+          "description": "Visitez la <a href=\"laiterie-charlevoix.html\">Laiterie Charlevoix</a>, la <a href=\"cidrerie-pedneault-charlevoix.html\">Cidrerie Pedneault</a> et les <a href=\"top-10-fermes-charlevoix.html\">fermes du terroir</a>."
+        },
+        {
+          "icon": "🍽️",
+          "title": "Restaurants",
+          "description": "Les terrasses sont ouvertes ! <a href=\"les-labours-charlevoix.html\">Les Labours</a>, <a href=\"mouton-noir-charlevoix.html\">Le Mouton Noir</a> et les <a href=\"top-10-restaurants-charlevoix.html\">meilleures tables</a>."
+        }
+      ]
+    },
+    {
+      "title": "Festivals & événements",
+      "highlightCards": [
+        {
+          "icon": "🎵",
+          "title": "Le Festif!",
+          "description": "<a href=\"le-festif-charlevoix.html\">Le Festif! de Baie-Saint-Paul</a> — festival de musique en plein air parmi les plus aimés au Québec. Ambiance unique dans les rues de BSP."
+        },
+        {
+          "icon": "🎪",
+          "title": "Foire des Terroirs",
+          "description": "La <a href=\"foire-terroirs-charlevoix.html\">Foire des Terroirs</a> à la Laiterie Charlevoix chaque été. Producteurs d'ici et d'ailleurs, dégustations et ambiance festive."
+        },
+        {
+          "icon": "🎶",
+          "title": "Domaine Forget",
+          "description": "Le <a href=\"domaine-forget-saint-irenee.html\">Domaine Forget à Saint-Irénée</a> présente une programmation musicale estivale de calibre international."
+        },
+        {
+          "icon": "🎨",
+          "title": "Symposium d'art",
+          "description": "Le <a href=\"symposium-peinture-charlevoix.html\">Symposium de la Nouvelle Peinture</a> à Baie-Saint-Paul — artistes en création en direct dans les rues."
+        }
+      ]
+    },
+    {
+      "title": "Où dormir",
+      "paragraphs": [
+        "En été, réservez à l'avance ! La région est très populaire. Voici quelques options :"
+      ],
+      "highlightCards": [
+        {
+          "icon": "🏨",
+          "title": "Auberges & hôtels",
+          "description": "Du <a href=\"fairmont-manoir-richelieu.html\">Fairmont</a> au <a href=\"hotel-germain-charlevoix.html\">Germain</a>, en passant par nos <a href=\"top-10-auberges-charlevoix-fr.html\">10 meilleures auberges</a>."
+        },
+        {
+          "icon": "🏕️",
+          "title": "Camping & chalets",
+          "description": "<a href=\"camping-charlevoix.html\">Camping</a> dans les parcs nationaux ou <a href=\"chalets-charlevoix.html\">chalets</a> avec vue sur le fleuve. Nature et confort."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "🚗 S'y rendre",
+          "content": "1h30 de Québec par la route 138 ou la 362. Le <a href=\"train-charlevoix.html\">Train de Charlevoix</a> est une alternative panoramique."
+        },
+        {
+          "title": "📅 Quand venir",
+          "content": "Juillet-août pour la chaleur et les festivals. Juin et septembre pour moins de foules et des températures agréables."
+        },
+        {
+          "title": "💡 Conseil #1",
+          "content": "Réservez votre hébergement des semaines à l'avance en juillet-août. La région affiche complet rapidement."
+        },
+        {
+          "title": "🧴 Conseil #2",
+          "content": "Prévoyez crème solaire, chasse-moustiques et vêtements en couches. Les soirées au bord du fleuve peuvent être fraîches."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix-printemps.html\">← Printemps</a> · <a href=\"charlevoix-automne.html\">Automne →</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

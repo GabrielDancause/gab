@@ -1,0 +1,179 @@
+{
+  "slug": "top-10-activites-charlevoix",
+  "title": "Top 10 — Activités et plein air de Charlevoix, Québec",
+  "description": "Top 10 des meilleures activités de Charlevoix. Ski au Massif, randonnée aux Hautes-Gorges, baleines, Train de Charlevoix, kayak et plus.",
+  "ogTitle": "Top 10 — Activités et plein air de Charlevoix",
+  "ogDescription": "Les meilleures activités de plein air et expériences de Charlevoix au Québec.",
+  "heroGradient": "linear-gradient(135deg, #1a6b8a 0%, #2E3E24 100%)",
+  "accentColor": "#1a6b8a",
+  "badge": "⚜️ Plein air · Aventure · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Activités et<br>plein air de Charlevoix",
+  "tagline": "Les meilleures expériences entre montagnes, fleuve et forêt boréale",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est un terrain de jeu quatre saisons. Réserve mondiale de la biosphère UNESCO, la région offre des paysages sculptés par un ancien impact de météorite, entre montagnes laurentiennes et fleuve Saint-Laurent. Voici <strong>les 10 activités incontournables</strong>.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "⛷️",
+      "title": "Le Massif de Charlevoix",
+      "location": "📍 Petite-Rivière-Saint-François",
+      "description": "Le plus haut dénivelé skiable à l'est des Rocheuses canadiennes (770 m). 53 pistes avec vue sur le fleuve Saint-Laurent, luge sur rails et vélo de montagne en été. Un incontournable absolu, été comme hiver.",
+      "tags": [
+        "Ski alpin",
+        "770 m de dénivelé",
+        "Vue sur le fleuve",
+        "4 saisons"
+      ],
+      "href": null
+    },
+    {
+      "rank": 2,
+      "emoji": "🏔️",
+      "title": "Parc national des Hautes-Gorges-de-la-Rivière-Malbaie",
+      "location": "📍 Secteur des Montagnes",
+      "description": "Des parois rocheuses parmi les plus hautes à l'est du Canada, encadrant la rivière Malbaie. L'Acropole des Draveurs (800 m de dénivelé) est l'une des randonnées les plus spectaculaires au Québec. Croisière, kayak et canot aussi disponibles.",
+      "tags": [
+        "Randonnée",
+        "Acropole des Draveurs",
+        "Croisière",
+        "Kayak"
+      ],
+      "href": "parc-hautes-gorges-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🐋",
+      "title": "Observation des baleines",
+      "location": "📍 Baie-Sainte-Catherine / Tadoussac",
+      "description": "À la rencontre du Saguenay et du Saint-Laurent, l'un des meilleurs sites d'observation de baleines au monde. Bélugas, rorquals, baleines à bosse et petits rorquals. Excursions en zodiac ou en bateau, de mai à octobre.",
+      "tags": [
+        "Baleines",
+        "Bélugas",
+        "Mai à octobre",
+        "Zodiac"
+      ],
+      "href": null
+    },
+    {
+      "rank": 4,
+      "emoji": "🌲",
+      "title": "Parc national des Grands-Jardins",
+      "location": "📍 Saint-Urbain",
+      "description": "Forêt boréale, taïga et toundra à seulement une heure de Québec. Territoire du caribou, randonnée pédestre, pêche, canot et camping. Le mont du Lac-des-Cygnes offre un panorama saisissant sur les montagnes de Charlevoix.",
+      "tags": [
+        "Randonnée",
+        "Forêt boréale",
+        "Caribou",
+        "Camping"
+      ],
+      "href": "parc-grands-jardins-charlevoix.html"
+    },
+    {
+      "rank": 5,
+      "emoji": "🚂",
+      "title": "Train de Charlevoix",
+      "location": "📍 Québec → Baie-Saint-Paul → La Malbaie",
+      "description": "Un trajet panoramique longeant le fleuve Saint-Laurent de Québec jusqu'à La Malbaie, en passant par Baie-Saint-Paul. Voitures historiques, service à bord et paysages spectaculaires. L'une des plus belles lignes ferroviaires au pays.",
+      "tags": [
+        "Train panoramique",
+        "Fleuve",
+        "Saisonnier"
+      ],
+      "href": null
+    },
+    {
+      "rank": 6,
+      "emoji": "🛶",
+      "title": "Kayak de mer — Katabatik",
+      "location": "📍 Baie-Saint-Paul / Saint-Irénée",
+      "description": "Excursions guidées en kayak de mer sur le fleuve Saint-Laurent. Découverte de la côte charlevoisienne, des battures et de la faune marine. Couchers de soleil sur l'eau en option. Plusieurs niveaux d'expérience offerts.",
+      "tags": [
+        "Kayak de mer",
+        "Guidé",
+        "Fleuve",
+        "Coucher de soleil"
+      ],
+      "href": "katabatik-kayak-charlevoix.html"
+    },
+    {
+      "rank": 7,
+      "emoji": "🛣️",
+      "title": "Route du Fleuve (route 362)",
+      "location": "📍 Baie-Saint-Paul → La Malbaie",
+      "description": "L'une des plus belles routes panoramiques au Canada. La route 362 serpente entre les villages charlevoisiens le long du fleuve : Saint-Joseph-de-la-Rive, Les Éboulements, Saint-Irénée, Cap-aux-Oies. Arrêts photo garantis.",
+      "tags": [
+        "Route panoramique",
+        "Fleuve",
+        "Road trip",
+        "Villages"
+      ],
+      "href": null
+    },
+    {
+      "rank": 8,
+      "emoji": "🎰",
+      "title": "Casino de Charlevoix",
+      "location": "📍 La Malbaie · Fairmont Le Manoir Richelieu",
+      "description": "Situé dans l'aile du majestueux Fairmont Le Manoir Richelieu, le Casino de Charlevoix est l'un des plus beaux casinos au Canada. Machines à sous, tables de jeu, spectacles et restaurants. Vue imprenable sur le fleuve.",
+      "tags": [
+        "Casino",
+        "Divertissement",
+        "Fairmont",
+        "Vue sur le fleuve"
+      ],
+      "href": null
+    },
+    {
+      "rank": 9,
+      "emoji": "🚲",
+      "title": "Tour de l'Île-aux-Coudres à vélo",
+      "location": "📍 Île-aux-Coudres",
+      "description": "<a href=\"ile-aux-coudres-charlevoix.html\" class=\"entry-link\">Une boucle de 23 km autour de l'île, accessible en traversier gratuit depuis Saint-Joseph-de-la-Rive. Paysages bucoliques, moulins patrimoniaux, </a><a href=\"cidrerie-pedneault-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Cidrerie Pedneault</a> et plages. L'excursion parfaite d'une journée.",
+      "tags": [
+        "Vélo",
+        "23 km",
+        "Traversier gratuit",
+        "Île"
+      ],
+      "href": "ile-aux-coudres-charlevoix.html"
+    },
+    {
+      "rank": 10,
+      "emoji": "🎵",
+      "title": "Domaine Forget — Festival international",
+      "location": "📍 Saint-Irénée",
+      "description": "<a href=\"domaine-forget-charlevoix.html\" class=\"entry-link\">Académie de musique et de danse de renommée internationale, perchée sur une falaise à </a><a href=\"saint-irenee-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Saint-Irénée</a>. Concerts classiques, jazz et musique du monde en plein air avec le fleuve en toile de fond. Été principalement.",
+      "tags": [
+        "Musique",
+        "Concerts",
+        "Festival d'été",
+        "Saint-Irénée"
+      ],
+      "href": "domaine-forget-charlevoix.html"
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#e8f4f8",
+  "tagColor": "#1a6b8a",
+  "ctaBanner": {
+    "title": "Explorer Charlevoix",
+    "text": "Planifiez votre séjour complet dans la région.",
+    "links": [
+      {
+        "text": "Top 10 auberges →",
+        "href": "top-10-auberges-charlevoix-fr.html"
+      },
+      {
+        "text": "Top 10 restaurants →",
+        "href": "top-10-restaurants-charlevoix.html"
+      },
+      {
+        "text": "Guide Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-restaurants-charlevoix.html\">Top 10 restaurants</a> · <a href=\"top-10-fermes-charlevoix.html\">Top 10 fermes</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "auberge-3-canards-charlevoix",
+  "title": "Auberge des 3 Canards — La Malbaie, Charlevoix",
+  "description": "Auberge des 3 Canards à La Malbaie : vue imprenable sur le fleuve Saint-Laurent, restaurant réputé de cuisine régionale et menus dégustation saisonniers en Charlevoix.",
+  "ogTitle": "",
+  "ogDescription": "",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #4a6340 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "La Malbaie · Charlevoix · Québec",
+  "h1": "Auberge des 3 Canards",
+  "tagline": "Une auberge riveraine classique avec vue imprenable sur le fleuve Saint-Laurent et une table gastronomique célébrée en Charlevoix.",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Retour au Top 10",
+    "href": "top-10-auberges-charlevoix-fr.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌎",
+      "value": "La Malbaie",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "🍴",
+      "value": "Gastronomie",
+      "label": "Restaurant"
+    },
+    {
+      "icon": "🗻",
+      "value": "Fleuve",
+      "label": "Vue"
+    },
+    {
+      "icon": "★",
+      "value": "Classique",
+      "label": "Style"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site officiel",
+    "href": "https://www.auberge3canards.com/fr-ca",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "À propos",
+      "paragraphs": [
+        "L'Auberge des 3 Canards est une adresse emblématique de La Malbaie, située au cœur de la région de Charlevoix. Reconnue pour son emplacement privilégié en bordure du fleuve Saint-Laurent, l'auberge offre des panoramas spectaculaires sur les eaux et les montagnes environnantes.",
+        "L'établissement incarne le charme des auberges riveraines classiques de Charlevoix, alliant hospitalité chaleureuse, confort et une expérience culinaire de premier plan. C'est une destination de choix pour les voyageurs en quête de nature, de tranquillité et de saveurs régionales."
+      ]
+    },
+    {
+      "title": "Restaurant et gastronomie"
+    },
+    {
+      "title": "Activités à proximité"
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "Emplacement",
+          "content": "La Malbaie, Charlevoix<br>Québec, Canada<br>En bordure du fleuve Saint-Laurent"
+        },
+        {
+          "title": "Site web",
+          "content": "<a href=\"https://www.auberge3canards.com/fr-ca\" target=\"_blank\" rel=\"noopener\">aubergedes3canards.com</a><br>Réservations et disponibilités en ligne"
+        },
+        {
+          "title": "Accès",
+          "content": "Environ 1h30 de route depuis la ville de Québec via la route 138 le long du fleuve"
+        },
+        {
+          "title": "Idéal pour",
+          "content": "Couples, escapades gourmandes, séjours nature et détente en toute saison"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifiez votre séjour à l'Auberge des 3 Canards",
+    "text": "Découvrez le charme de Charlevoix avec vue sur le fleuve et gastronomie régionale.",
+    "links": [
+      {
+        "text": "Réserver maintenant",
+        "href": "https://www.auberge3canards.com/fr-ca"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-auberges-charlevoix-fr.html\">Retour au Top 10 des auberges</a> · <a href=\"https://gab.ae\">gab.ae</a>"
+}

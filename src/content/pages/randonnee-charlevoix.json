@@ -1,0 +1,117 @@
+{
+  "slug": "randonnee-charlevoix",
+  "title": "Randonnée dans Charlevoix — Sentiers, parcs et sommets | Québec",
+  "description": "Guide de la randonnée dans Charlevoix. Acropole des Draveurs, Grands-Jardins, Hautes-Gorges, Sentier des Caps et plus. Tous les sentiers et niveaux de difficulté.",
+  "ogTitle": "Randonnée dans Charlevoix — Guide complet",
+  "ogDescription": "Les meilleurs sentiers de randonnée de Charlevoix. Parcs nationaux, sommets et vues spectaculaires.",
+  "heroGradient": "linear-gradient(135deg, #4a6e3a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Randonnée dans Charlevoix",
+  "tagline": "Des sommets de 1 000 m aux caps du fleuve — un paradis de la rando au Québec",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏔️",
+      "value": "1 048 m",
+      "label": "Plus haut sommet"
+    },
+    {
+      "icon": "🌿",
+      "value": "2 parcs nationaux",
+      "label": "SÉPAQ"
+    },
+    {
+      "icon": "🌍",
+      "value": "UNESCO",
+      "label": "Réserve de biosphère"
+    },
+    {
+      "icon": "🥾",
+      "value": "Tous niveaux",
+      "label": "Débutant → Expert"
+    }
+  ],
+  "heroCta": {
+    "text": "Tourisme Charlevoix →",
+    "href": "https://www.tourisme-charlevoix.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La randonnée à Charlevoix",
+      "paragraphs": [
+        "Charlevoix est une des meilleures destinations de randonnée au Québec. La région fait partie de la Réserve mondiale de la biosphère de l'UNESCO depuis 1988, et ses deux parcs nationaux — les <a href=\"parc-grands-jardins-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Grands-Jardins</a> et les <a href=\"parc-hautes-gorges-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Hautes-Gorges-de-la-Rivière-Malbaie</a> — offrent des sentiers spectaculaires avec des panoramas qu'on retrouve nulle part ailleurs dans l'est du Canada.",
+        "Des parois de plus de 800 mètres aux Hautes-Gorges, la taïga boréale des Grands-Jardins, les caps surplombant le fleuve — la diversité des paysages est impressionnante pour une région aussi compacte."
+      ]
+    },
+    {
+      "title": "Les sentiers incontournables",
+      "highlightCards": [
+        {
+          "icon": "⛰️",
+          "title": "Acropole des Draveurs",
+          "description": "Le sentier le plus célèbre de Charlevoix. Sommet à 1 048 m avec vue plongeante sur les gorges de la rivière Malbaie. Parc des <a href=\"parc-hautes-gorges-charlevoix.html\">Hautes-Gorges</a>."
+        },
+        {
+          "icon": "🌲",
+          "title": "Mont du Lac-des-Cygnes",
+          "description": "Randonnée classique dans le parc des <a href=\"parc-grands-jardins-charlevoix.html\">Grands-Jardins</a>. Sommet dégagé avec vue à 360° sur la taïga et les montagnes des Laurentides."
+        },
+        {
+          "icon": "🏞️",
+          "title": "Sentier des Caps de Charlevoix",
+          "description": "Réseau de sentiers de longue randonnée entre Saint-Tite-des-Caps et Petite-Rivière-Saint-François. Vues sur le fleuve et l'Île d'Orléans."
+        },
+        {
+          "icon": "💧",
+          "title": "Les Loups (Hautes-Gorges)",
+          "description": "Sentier longeant la rivière Malbaie au fond des gorges. Plus accessible que l'Acropole, paysages de vallée glaciaire remarquables."
+        }
+      ]
+    },
+    {
+      "title": "Les parcs nationaux",
+      "highlightCards": [
+        {
+          "icon": "🌿",
+          "title": "Parc des Hautes-Gorges",
+          "description": "224,9 km² de vallées glaciaires spectaculaires. Parois de plus de 800 mètres, cascades, et le fameux sentier de l'Acropole des Draveurs. Accessible depuis <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>."
+        },
+        {
+          "icon": "🦌",
+          "title": "Parc des Grands-Jardins",
+          "description": "318,9 km² de taïga boréale, lac et sommets. On y trouve le caribou des bois. Créé en 1981, accessible depuis <a href=\"saint-urbain-charlevoix.html\">Saint-Urbain</a> via la route 381."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mi-mai à fin octobre pour la rando d'été. Raquette et ski de fond en hiver dans les deux parcs. L'automne (mi-sept à mi-oct) est spectaculaire pour les couleurs."
+        },
+        {
+          "title": "🎟️ Accès aux parcs",
+          "content": "Droit d'accès SÉPAQ requis pour les Grands-Jardins et les Hautes-Gorges. Réservation recommandée en haute saison, surtout pour l'Acropole."
+        },
+        {
+          "title": "🏕️ Hébergement",
+          "content": "Camping, refuges et prêt-à-camper disponibles dans les deux parcs. <a href=\"camping-charlevoix.html\">Voir notre guide camping →</a>"
+        },
+        {
+          "title": "🐻 Sécurité",
+          "content": "Terrain montagneux — chaussures de rando recommandées. Apportez eau et couches supplémentaires. Le temps peut changer rapidement en altitude."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

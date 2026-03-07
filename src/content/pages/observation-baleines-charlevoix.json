@@ -1,0 +1,146 @@
+{
+  "slug": "observation-baleines-charlevoix",
+  "title": "Observation des baleines — Baie-Sainte-Catherine & Tadoussac, Charlevoix, Québec",
+  "description": "Observation des baleines à Baie-Sainte-Catherine et Tadoussac, porte de sortie de Charlevoix. Bélugas, rorquals, baleines bleues dans le parc marin du Saguenay–Saint-Laurent.",
+  "ogTitle": "Observation des baleines — Charlevoix / Tadoussac",
+  "ogDescription": "Bélugas, rorquals et baleines bleues au confluent du Saguenay et du Saint-Laurent.",
+  "heroGradient": "linear-gradient(135deg, #1a5276 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Sainte-Catherine · Tadoussac · Charlevoix · Québec",
+  "h1": "Observation des baleines",
+  "tagline": "Bélugas, rorquals et baleines bleues — là où le Saguenay rencontre le Saint-Laurent",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐋",
+      "value": "13 espèces",
+      "label": "De baleines"
+    },
+    {
+      "icon": "🌊",
+      "value": "1 245 km²",
+      "label": "Parc marin"
+    },
+    {
+      "icon": "📅",
+      "value": "Mai – Oct.",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Ste-Catherine",
+      "label": "Départ Charlevoix"
+    }
+  ],
+  "heroCta": {
+    "text": "Parc marin →",
+    "href": "https://parcmarin.qc.ca",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "L'observation",
+      "paragraphs": [
+        "L'observation des baleines est l'une des expériences les plus marquantes qu'on puisse vivre à Charlevoix. À l'extrémité est de la région, là où la rivière Saguenay se jette dans le fleuve Saint-Laurent, se trouve l'un des meilleurs sites d'observation de mammifères marins au monde.",
+        "Le parc marin du Saguenay–Saint-Laurent, créé en 1998 et couvrant 1 245 km², protège cet écosystème exceptionnel. Les eaux froides et riches en nutriments du fjord du Saguenay se mélangent au courant du Saint-Laurent, créant un garde-manger naturel qui attire chaque été une concentration remarquable de baleines.",
+        "Les croisières partent principalement de Baie-Sainte-Catherine (côté Charlevoix) et de Tadoussac (de l'autre côté du Saguenay, accessible par traversier gratuit). Mais on peut aussi observer les baleines depuis la rive, sans même monter sur un bateau."
+      ]
+    },
+    {
+      "title": "Les baleines",
+      "highlightCards": [
+        {
+          "icon": "🐋",
+          "title": "Béluga du Saint-Laurent",
+          "description": "Le résident permanent. La population de bélugas du Saint-Laurent est protégée et vit à l'année dans l'estuaire. Reconnaissable à sa couleur blanche."
+        },
+        {
+          "icon": "🐳",
+          "title": "Rorqual commun",
+          "description": "Le deuxième plus grand animal de la planète. Fréquent dans le parc marin de juin à octobre. Peut atteindre 24 mètres."
+        },
+        {
+          "icon": "💙",
+          "title": "Rorqual bleu (baleine bleue)",
+          "description": "Le plus grand animal ayant jamais existé. Observation possible mais plus rare. Un moment inoubliable quand ça arrive."
+        },
+        {
+          "icon": "🌊",
+          "title": "Petit rorqual et baleine à bosse",
+          "description": "Le petit rorqual est le plus fréquemment observé. La baleine à bosse, avec ses sauts spectaculaires, est aussi présente certaines saisons."
+        }
+      ]
+    },
+    {
+      "title": "Comment observer",
+      "highlightCards": [
+        {
+          "icon": "🚢",
+          "title": "Croisière en grand bateau",
+          "description": "Départs de Baie-Sainte-Catherine et Tadoussac. Confortable, avec guide naturaliste. Durée : environ 2 h 30 à 3 h."
+        },
+        {
+          "icon": "🛶",
+          "title": "Zodiac",
+          "description": "Plus près de l'eau, plus près des baleines. Expérience immersive et adrénaline garantie. Habits de flottaison fournis."
+        },
+        {
+          "icon": "🚣",
+          "title": "Kayak de mer",
+          "description": "Pour les plus aventuriers. Excursions guidées en kayak dans le fjord du Saguenay avec possibilité d'apercevoir des bélugas."
+        },
+        {
+          "icon": "🔭",
+          "title": "Depuis la rive",
+          "description": "Gratuit et parfois tout aussi spectaculaire. Le Centre d'interprétation et d'observation de Pointe-Noire (Baie-Sainte-Catherine) et Cap-de-Bon-Désir (Les Bergeronnes) sont des sites d'observation réputés."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mai à octobre<br>Meilleure période : juillet à septembre<br>Croisières quotidiennes en saison"
+        },
+        {
+          "title": "📍 Départs",
+          "content": "Baie-Sainte-Catherine (côté Charlevoix)<br>Tadoussac (traversier gratuit depuis Baie-Ste-Catherine, ~10 min)"
+        },
+        {
+          "title": "🌐 Parc marin",
+          "content": "<a href=\"https://parcmarin.qc.ca\" target=\"_blank\" rel=\"noopener\">parcmarin.qc.ca</a><br>Géré par Parcs Canada et la Sépaq"
+        },
+        {
+          "title": "💡 Conseils",
+          "content": "Habillez-vous chaudement, même en été — il fait froid sur l'eau. Apportez des jumelles et de la patience!"
+        }
+      ]
+    },
+    {
+      "title": "En route depuis Charlevoix",
+      "paragraphs": [
+        "Baie-Sainte-Catherine se trouve à l'extrémité nord-est de Charlevoix, à environ 45 minutes de <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> par la route 138. C'est la dernière municipalité avant le traversier vers Tadoussac et la Côte-Nord. La route pour s'y rendre longe le fleuve et offre des paysages magnifiques."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🏰",
+          "title": "La Malbaie",
+          "description": "À ~45 min de route. Le Fairmont, le Casino, et point de départ idéal pour combiner baleines + villégiature."
+        },
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "À ~1 h 30 de route. Combinez culture, gastronomie et observation des baleines en un weekend."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "ferme-eboulmontaise-charlevoix",
+  "title": "Ferme Éboulmontaise — Les Éboulements, Charlevoix",
+  "description": "La Ferme Éboulmontaise aux Éboulements, Charlevoix. Agneau, porc Berkshire, volailles et lapin élevés localement. Boutique, restaurant Épicentre, dînette fermière et sentiers de raquette.",
+  "ogTitle": "Ferme Éboulmontaise — Les Éboulements, Charlevoix",
+  "ogDescription": "Viandes d'exception élevées sur les terres des Éboulements. Boutique, restaurant et sentiers.",
+  "heroGradient": "linear-gradient(135deg, #5a3e28 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Les Éboulements · Charlevoix · Québec",
+  "h1": "Ferme Éboulmontaise",
+  "tagline": "Viandes d'exception élevées sur les terres des Éboulements depuis 1990",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Auberge de nos Aïeux",
+    "href": "auberge-de-nos-aieux-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🐑",
+      "value": "Agneau",
+      "label": "Spécialité"
+    },
+    {
+      "icon": "📍",
+      "value": "Les Éboulements",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "⭐",
+      "value": "4,5/5",
+      "label": "Google (44 avis)"
+    },
+    {
+      "icon": "👨‍👩‍👧",
+      "value": "Familiale",
+      "label": "Entreprise"
+    }
+  ],
+  "heroCta": {
+    "text": "Voir la boutique →",
+    "href": "https://fermeeboulmontaise.ca",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La ferme",
+      "paragraphs": [
+        "La Ferme Éboulmontaise est une entreprise familiale enracinée aux Éboulements depuis 1990. Fondatrice de l'IGP Agneau de Charlevoix, la ferme est aujourd'hui portée par Gabrielle Cadieux-Gagnon et son conjoint, qui privilégient une production en circuit court et à échelle humaine.",
+        "Les agneaux sont élevés sur les terres des Éboulements, nourris de foin aux saveurs de Charlevoix. L'air pur du Saint-Laurent et les pratiques d'élevage naturelles donnent à leurs viandes un goût unique et un caractère exceptionnel."
+      ]
+    },
+    {
+      "title": "Produits et services",
+      "highlightCards": [
+        {
+          "icon": "🐑",
+          "title": "Agneau d'exception",
+          "description": "Élevé sur les terres des Éboulements, nourri de foin aux saveurs de Charlevoix. Un goût unique au caractère exceptionnel."
+        },
+        {
+          "icon": "🐷",
+          "title": "Porc Berkshire",
+          "description": "Porc croisé Berkshire, Duroc ou Nagano et Sanglier. Engraissé doucement pour un gras faible et une viande très délicate."
+        },
+        {
+          "icon": "🍽️",
+          "title": "Restaurant Épicentre",
+          "description": "Dînette fermière sur place. Plats cuisinés avec les viandes de la ferme, dans un décor enchanteur. Mention spéciale à Lulu, la cuisinière!"
+        },
+        {
+          "icon": "🥾",
+          "title": "Sentiers de raquette",
+          "description": "Sentiers gratuits sur les terres de la ferme avec vue spectaculaire sur le fleuve. Parfait pour une randonnée hivernale."
+        }
+      ]
+    },
+    {
+      "title": "Aussi disponible",
+      "paragraphs": [
+        "Volailles, lapin, plats cuisinés maison, conserves de la ferme et tablée gourmande (soirées thématiques). Boutique ouverte pour achats de viandes congelées emballées sous vide."
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "2593 Route du Fleuve<br>Les Éboulements, Charlevoix"
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Gourmands, amateurs de produits locaux, familles, randonneurs (hiver)"
+        },
+        {
+          "title": "🛒 Boutique",
+          "content": "Agneau, porc, volaille, lapin, conserves, plats cuisinés. Emballés sous vide."
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://fermeeboulmontaise.ca\" target=\"_blank\" rel=\"noopener\">fermeeboulmontaise.ca</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Découvrir les produits",
+    "text": "Visitez la boutique en ligne ou passez directement à la ferme aux Éboulements.",
+    "links": [
+      {
+        "text": "Voir la boutique →",
+        "href": "https://fermeeboulmontaise.ca/boutique/"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"auberge-de-nos-aieux-charlevoix.html\">← Auberge de nos Aïeux</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10</a> · <a href=\"/\">gab.ae</a>"
+}

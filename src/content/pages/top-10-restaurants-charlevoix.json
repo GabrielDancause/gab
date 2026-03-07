@@ -1,0 +1,168 @@
+{
+  "slug": "top-10-restaurants-charlevoix",
+  "title": "Top 10 — Restaurants de Charlevoix, Québec",
+  "description": "Top 10 des meilleurs restaurants de Charlevoix. Les Labours, Le Mouton Noir, L'Épicentre, Chez Truchon et plus. Cuisine du terroir, gastronomie et bistros.",
+  "ogTitle": "Top 10 — Restaurants de Charlevoix",
+  "ogDescription": "Les meilleurs restaurants de Charlevoix au Québec. Terroir, gastronomie et tables d'exception.",
+  "heroGradient": "linear-gradient(135deg, #8b2e2e 0%, #2E3E24 100%)",
+  "accentColor": "#8b2e2e",
+  "badge": "⚜️ Gastronomie · Terroir · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Restaurants<br>de Charlevoix",
+  "tagline": "Les meilleures tables de la région, du bistro au gastronomique",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est une destination gourmande de premier plan au Québec. Entre le fleuve et les montagnes, des chefs passionnés cuisinent les produits d'ici — fromages, agneaux, légumes de saison — dans des décors à couper le souffle. Voici <strong>les 10 meilleures tables charlevoisien­nes</strong>.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🌾",
+      "title": "Les Labours",
+      "location": "📍 Baie-Saint-Paul · Le Germain Hôtel & Spa",
+      "description": "Le restaurant du Germain Charlevoix, dirigé par le chef Patrick Dubé. Cuisine ouverte sur quatre côtés, produits du potager maison, grillades au charbon et terroir charlevoisien. Carte des vins primée par Wine Spectator (Best of Award of Excellence).",
+      "tags": [
+        "Gastronomique",
+        "Terroir",
+        "Potager maison",
+        "Carte des vins primée"
+      ],
+      "href": "les-labours-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "🐑",
+      "title": "Le Mouton Noir",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Bistro emblématique de la rue Saint-Jean-Baptiste à Baie-Saint-Paul. Cuisine créative de marché mettant en valeur les producteurs de Charlevoix. Ambiance chaleureuse, terrasse en saison et carte des vins recherchée.",
+      "tags": [
+        "Bistro",
+        "Cuisine de marché",
+        "Baie-Saint-Paul"
+      ],
+      "href": "mouton-noir-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🥩",
+      "title": "L'Épicentre",
+      "location": "📍 Les Éboulements · Ferme Éboulmontaise",
+      "description": "<a href=\"restaurant-epicentre-charlevoix.html\" class=\"entry-link\">Le restaurant de la </a><a href=\"ferme-eboulmontaise-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Ferme Éboulmontaise</a>. Agneau et porc Berkshire élevés sur place, cuisine de la ferme à l'assiette dans un cadre champêtre avec vue sur le fleuve. L'expérience terroir la plus authentique de Charlevoix.",
+      "tags": [
+        "Ferme à l'assiette",
+        "Agneau",
+        "Porc Berkshire",
+        "Les Éboulements"
+      ],
+      "href": "restaurant-epicentre-charlevoix.html"
+    },
+    {
+      "rank": 4,
+      "emoji": "🍽️",
+      "title": "Chez Truchon",
+      "location": "📍 La Malbaie",
+      "description": "Table gastronomique et auberge à La Malbaie. Cuisine raffinée centrée sur les produits régionaux — gibier, poissons du fleuve, fromages de Charlevoix. Un pilier de la scène culinaire charlevoisienne depuis des années.",
+      "tags": [
+        "Gastronomique",
+        "Auberge",
+        "La Malbaie"
+      ],
+      "href": null
+    },
+    {
+      "rank": 5,
+      "emoji": "🍺",
+      "title": "Le Saint-Pub — Microbrasserie Charlevoix",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Le pub de la Microbrasserie Charlevoix, sur la rue Racine à Baie-Saint-Paul. Bières brassées sur place (Dominus Vobiscum, Vache Folle), menu pub réconfortant et ambiance décontractée. Incontournable pour un repas entre amis.",
+      "tags": [
+        "Microbrasserie",
+        "Pub",
+        "Bières artisanales"
+      ],
+      "href": null
+    },
+    {
+      "rank": 6,
+      "emoji": "🥃",
+      "title": "La Maison du Bootlegger",
+      "location": "📍 La Malbaie",
+      "description": "Ancienne maison de contrebandiers reconvertie en restaurant atmosphérique. Cuisine du terroir servie dans un décor historique unique avec passages secrets. Liée au Fairmont Le Manoir Richelieu et à l'époque de la prohibition.",
+      "tags": [
+        "Historique",
+        "Terroir",
+        "Ambiance unique"
+      ],
+      "href": null
+    },
+    {
+      "rank": 7,
+      "emoji": "🔥",
+      "title": "Le Bercail",
+      "location": "📍 Baie-Saint-Paul · Le Germain Hôtel & Spa",
+      "description": "L'espace lounge et bar du Germain Charlevoix. Cuisine de partage décontractée, cocktails créatifs et ambiance conviviale autour du foyer. Idéal pour un apéro ou un repas plus léger avant ou après une journée en montagne.",
+      "tags": [
+        "Bar-lounge",
+        "Partage",
+        "Cocktails"
+      ],
+      "href": null
+    },
+    {
+      "rank": 8,
+      "emoji": "🏡",
+      "title": "Le Patriarche",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Restaurant de cuisine régionale au cœur de Baie-Saint-Paul. Ambiance maison de campagne avec un menu qui met de l'avant les producteurs locaux de Charlevoix. Table d'hôte et plats saisonniers.",
+      "tags": [
+        "Cuisine régionale",
+        "Table d'hôte",
+        "Baie-Saint-Paul"
+      ],
+      "href": null
+    },
+    {
+      "rank": 9,
+      "emoji": "☕",
+      "title": "Le Café des Artistes",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Café-restaurant convivial dans le quartier artistique de Baie-Saint-Paul. Brunchs copieux, plats du jour et pâtisseries maison. Le repaire des artistes et des visiteurs qui prennent leur temps.",
+      "tags": [
+        "Café",
+        "Brunch",
+        "Quartier artistique"
+      ],
+      "href": null
+    },
+    {
+      "rank": 10,
+      "emoji": "🌳",
+      "title": "Auberge des Peupliers — Restaurant",
+      "location": "📍 Cap-aux-Oies (Les Éboulements)",
+      "description": "<a href=\"auberge-peupliers-charlevoix.html\" class=\"entry-link\">La table de l'</a><a href=\"auberge-peupliers-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Auberge des Peupliers</a>, face au fleuve. Cuisine gastronomique régionale avec vue spectaculaire sur le Saint-Laurent. Menu dégustation et carte des vins mettant en valeur les produits charlevoisiens.",
+      "tags": [
+        "Gastronomique",
+        "Vue sur le fleuve",
+        "Menu dégustation"
+      ],
+      "href": "auberge-peupliers-charlevoix.html"
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#f4eded",
+  "tagColor": "#8b2e2e",
+  "ctaBanner": {
+    "title": "Explorer Charlevoix",
+    "text": "Découvrez aussi les producteurs derrière ces plats.",
+    "links": [
+      {
+        "text": "Top 10 fermes →",
+        "href": "top-10-fermes-charlevoix.html"
+      },
+      {
+        "text": "Guide Charlevoix →",
+        "href": "charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-fermes-charlevoix.html\">Top 10 fermes</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

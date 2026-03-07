@@ -1,0 +1,121 @@
+---
+import BaseHead from './BaseHead.astro';
+const { page } = Astro.props;
+---
+<html lang="fr">
+<head>
+    <BaseHead title={page.title} description={page.description} ogTitle={page.ogTitle} ogDescription={page.ogDescription} />
+    <style define:vars={{ heroGradient: page.heroGradient }}>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #fafafa; color: #1a1a1a; line-height: 1.7; }
+        .hero { background: var(--heroGradient); color: #fff; padding: 80px 24px 72px; text-align: center; position: relative; overflow: hidden; }
+        .hero::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.05) 0%, transparent 70%); }
+        .hero .content { position: relative; z-index: 1; }
+        .hero .badge { display: inline-block; background: rgba(255,255,255,0.12); padding: 6px 18px; border-radius: 20px; font-size: 0.78rem; font-weight: 600; letter-spacing: 1px; margin-bottom: 20px; text-transform: uppercase; }
+        .hero h1 { font-size: 3rem; font-weight: 700; margin-bottom: 14px; line-height: 1.1; }
+        .hero .sub { font-size: 1.15rem; opacity: 0.8; max-width: 520px; margin: 0 auto; }
+        .container { max-width: 800px; margin: 0 auto; padding: 48px 20px 60px; }
+        .intro { font-size: 0.95rem; color: #555; line-height: 1.8; margin-bottom: 44px; text-align: center; max-width: 640px; margin-left: auto; margin-right: auto; }
+        .section-label { font-size: 0.72rem; font-weight: 700; color: #999; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 18px; }
+        .top10-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; margin-bottom: 52px; }
+        .top10-card { background: #fff; border-radius: 16px; overflow: hidden; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 2px 8px rgba(0,0,0,0.04); transition: transform 0.2s, box-shadow 0.2s; text-decoration: none; color: inherit; display: block; }
+        .top10-card:hover { transform: translateY(-4px); box-shadow: 0 8px 28px rgba(0,0,0,0.1); }
+        .top10-card .card-hero { padding: 32px 24px 28px; color: #fff; position: relative; }
+        .top10-card .card-hero .emoji { font-size: 2.2rem; margin-bottom: 12px; display: block; }
+        .top10-card .card-hero h2 { font-size: 1.25rem; font-weight: 700; margin-bottom: 4px; }
+        .top10-card .card-hero .count { font-size: 0.78rem; opacity: 0.7; }
+        .top10-card .card-body { padding: 18px 24px 22px; }
+        .top10-card .card-body p { font-size: 0.84rem; color: #666; line-height: 1.6; margin-bottom: 10px; }
+        .top10-card .card-body .arrow { font-size: 0.82rem; font-weight: 600; color: #2E3E24; }
+        .pages-section { margin-bottom: 44px; }
+        .pages-section h3 { font-size: 1.1rem; font-weight: 700; color: #2E3E24; margin-bottom: 14px; }
+        .page-list { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+        .page-link { background: #fff; border-radius: 10px; padding: 14px 16px; text-decoration: none; color: #2E3E24; font-size: 0.82rem; font-weight: 500; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 1px 3px rgba(0,0,0,0.03); transition: transform 0.15s, box-shadow 0.15s; display: flex; align-items: center; gap: 8px; }
+        .page-link:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+        .page-link .pl-emoji { font-size: 1.1rem; }
+        .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 48px; }
+        .stat-item { background: #fff; border-radius: 12px; padding: 22px 16px; text-align: center; border: 1px solid rgba(0,0,0,0.04); box-shadow: 0 1px 4px rgba(0,0,0,0.04); }
+        .stat-item .s-num { font-size: 1.8rem; font-weight: 700; color: #2E3E24; }
+        .stat-item .s-label { font-size: 0.72rem; color: #999; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+        .footer { text-align: center; padding: 40px 24px; font-size: 0.82rem; color: #aaa; border-top: 1px solid #eee; }
+        .footer a { color: #2E3E24; text-decoration: none; }
+        @media (max-width: 600px) {
+            .hero { padding: 60px 18px 56px; }
+            .hero h1 { font-size: 2.2rem; }
+            .top10-grid { grid-template-columns: 1fr; }
+            .page-list { grid-template-columns: repeat(2, 1fr); }
+            .stats-bar { grid-template-columns: repeat(2, 1fr); }
+            .container { padding: 32px 16px 48px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero">
+    <div class="content">
+        {page.badge && <div class="badge">{page.badge}</div>}
+        <h1 set:html={page.h1} />
+        {page.heroSub && <p class="sub">{page.heroSub}</p>}
+    </div>
+</div>
+
+<div class="container">
+
+    {page.intro && <p class="intro" set:html={page.intro} />}
+
+    {page.stats && page.stats.length > 0 && (
+        <div class="stats-bar">
+            {page.stats.map((s: any) => (
+                <div class="stat-item">
+                    <div class="s-num">{s.num}</div>
+                    <div class="s-label">{s.label}</div>
+                </div>
+            ))}
+        </div>
+    )}
+
+    <div class="section-label">Nos Top 10</div>
+
+    {page.top10Cards && page.top10Cards.length > 0 && (
+        <div class="top10-grid">
+            {page.top10Cards.map((card: any) => (
+                <a href={card.href} class="top10-card">
+                    <div class="card-hero" style={`background: ${card.gradient};`}>
+                        <span class="emoji">{card.emoji}</span>
+                        <h2>{card.title}</h2>
+                        <span class="count">{card.count}</span>
+                    </div>
+                    <div class="card-body">
+                        <p>{card.description}</p>
+                        <span class="arrow">Découvrir →</span>
+                    </div>
+                </a>
+            ))}
+        </div>
+    )}
+
+    <div class="section-label">Toutes nos pages</div>
+
+    {page.pageSections?.map((section: any) => (
+        <div class="pages-section">
+            <h3>{section.title}</h3>
+            <div class="page-list">
+                {section.links.map((link: any) => (
+                    <a href={link.href} class="page-link">
+                        <span class="pl-emoji">{link.emoji}</span> {link.text}
+                    </a>
+                ))}
+            </div>
+        </div>
+    ))}
+
+</div>
+
+{page.footer && (
+    <div class="footer">
+        <p set:html={page.footer} />
+    </div>
+)}
+
+</body>
+</html>

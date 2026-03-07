@@ -1,0 +1,153 @@
+{
+  "slug": "train-charlevoix",
+  "title": "Train de Charlevoix — Québec → Baie-Saint-Paul → La Malbaie",
+  "description": "Le Train de Charlevoix : 125 km de paysages entre fleuve et montagnes, de Québec à La Malbaie en passant par Baie-Saint-Paul. Horaires, tarifs et gares.",
+  "ogTitle": "Train de Charlevoix — Québec → La Malbaie",
+  "ogDescription": "125 km de paysages côtiers spectaculaires. Le train touristique de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #8B4513 0%, #2E3E24 100%)",
+  "accentColor": "#8B4513",
+  "badge": null,
+  "heroLocation": "Québec → Baie-Saint-Paul → La Malbaie",
+  "h1": "Train de Charlevoix",
+  "tagline": "125 km de paysages côtiers entre fleuve et montagnes — une fenêtre sur Charlevoix",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🚂",
+      "value": "125 km",
+      "label": "Parcours"
+    },
+    {
+      "icon": "🛤️",
+      "value": "7 gares",
+      "label": "Arrêts"
+    },
+    {
+      "icon": "📅",
+      "value": "Juin – Nov.",
+      "label": "Saison"
+    },
+    {
+      "icon": "💰",
+      "value": "Dès 99 $",
+      "label": "Aller-retour"
+    }
+  ],
+  "heroCta": {
+    "text": "Réserver →",
+    "href": "https://traindecharlevoix.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "L'expérience",
+      "paragraphs": [
+        "Le Train de Charlevoix, c'est s'offrir une fenêtre incomparable sur la beauté de la région. Le train touristique longe le fleuve Saint-Laurent sur 125 km, de la Chute-Montmorency près de Québec jusqu'à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a>, en passant par <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> et les villages côtiers de Charlevoix.",
+        "Les paysages sont spectaculaires : le fleuve à perte de vue, les montagnes des Laurentides, les villages perchés sur les caps. C'est l'une des plus belles lignes ferroviaires au Canada et une façon unique de découvrir Charlevoix sans voiture."
+      ]
+    },
+    {
+      "title": "Les gares",
+      "highlightCards": [
+        {
+          "icon": "🏛️",
+          "title": "Chute-Montmorency (Québec)",
+          "description": "Point de départ. Navette disponible depuis la Gare du Palais et Place D'Youville. Billetterie sur place."
+        },
+        {
+          "icon": "⛪",
+          "title": "Sainte-Anne-de-Beaupré",
+          "description": "Arrêt près de la basilique. Pas de billetterie."
+        },
+        {
+          "icon": "⛷️",
+          "title": "Petite-Rivière-Saint-François",
+          "description": "Accès au <a href=\"le-massif-ski-charlevoix.html\">Massif de Charlevoix</a>. Pas de billetterie."
+        },
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "Gare à l'Hôtel Le Germain. Billetterie. Arrêt principal au cœur de Charlevoix."
+        },
+        {
+          "icon": "🏘️",
+          "title": "Les Éboulements",
+          "description": "Village historique avec vue sur le fleuve. Pas de billetterie."
+        },
+        {
+          "icon": "🎵",
+          "title": "Saint-Irénée",
+          "description": "Le Domaine Forget, concerts et plage. Pas de billetterie."
+        },
+        {
+          "icon": "🏰",
+          "title": "La Malbaie",
+          "description": "Terminus. Secteur Pointe-au-Pic, près du Manoir Richelieu et du <a href=\"casino-charlevoix.html\">Casino</a>. Billetterie."
+        }
+      ]
+    },
+    {
+      "title": "Horaires et tarifs",
+      "paragraphs": [
+        "Le train circule de juin à novembre, 7 jours sur 7. Un départ par jour le matin.",
+        "Tarifs indicatifs, sujets à changement. Vérifiez sur <a href=\"https://traindecharlevoix.com\" target=\"_blank\" rel=\"noopener\" style=\"color: #2E3E24; font-weight: 600;\">traindecharlevoix.com</a> pour les prix en vigueur."
+      ]
+    },
+    {
+      "title": "Histoire",
+      "timeline": [
+        {
+          "year": "Avant 1996",
+          "desc": "Le « Tortillard du Saint-Laurent » assure le transport de passagers sur le chemin de fer Charlevoix. Service interrompu en 1996."
+        },
+        {
+          "year": "2011",
+          "desc": "Le Groupe Le Massif (Daniel Gauthier) relance le transport ferroviaire de passagers. Le Train de Charlevoix est inauguré."
+        },
+        {
+          "year": "2015",
+          "desc": "Suspension temporaire du service. Reprise sous Réseau Charlevoix, un OBNL dédié à l'exploitation du train."
+        },
+        {
+          "year": "2023",
+          "desc": "Le train atteint 90 000 embarquements et génère près de 15 M$ en retombées économiques pour la région."
+        },
+        {
+          "year": "Décembre 2024",
+          "desc": "Annonce de la fin des opérations. La baisse des subventions rend l'exploitation insoutenable (déficit de 625 000 $)."
+        },
+        {
+          "year": "2025",
+          "desc": "Relance confirmée grâce à un partenariat avec Groupe Voyages Québec (GVQ), distributeur exclusif des forfaits. Le train repart sur les rails!"
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Saison",
+          "content": "Mi-juin à début novembre<br>7 jours / semaine<br>Départ 8 h (Chute-Montmorency)"
+        },
+        {
+          "title": "📞 Réservation",
+          "content": "1 833 616-7135<br>ou en ligne sur le site"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://traindecharlevoix.com\" target=\"_blank\" rel=\"noopener\">traindecharlevoix.com</a><br>App iOS et Android"
+        },
+        {
+          "title": "💡 Bon à savoir",
+          "content": "Forfaits train + hébergement disponibles. Navette gratuite Gare du Palais → Chute-Montmorency."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

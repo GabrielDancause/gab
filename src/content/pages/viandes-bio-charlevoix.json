@@ -1,0 +1,97 @@
+{
+  "slug": "viandes-bio-charlevoix",
+  "title": "Les Viandes Bio de Charlevoix — Saint-Urbain, Charlevoix, Québec",
+  "description": "Les Viandes Bio de Charlevoix à Saint-Urbain. Élevage biologique certifié de bœuf, veau et agneau en pâturage libre dans les montagnes de Charlevoix.",
+  "ogTitle": "Les Viandes Bio de Charlevoix — Saint-Urbain",
+  "ogDescription": "Bœuf, veau et agneau bio certifié en pâturage libre dans les montagnes de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #3a5a2e 0%, #1a2e1a 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Saint-Urbain · Charlevoix · Québec",
+  "h1": "Les Viandes Bio<br>de Charlevoix",
+  "tagline": "Élevage biologique en pâturage libre dans les montagnes",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 fermes",
+    "href": "top-10-fermes-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🥩",
+      "value": "Viandes bio",
+      "label": "Produits"
+    },
+    {
+      "icon": "🌿",
+      "value": "Certifié bio",
+      "label": "Certification"
+    },
+    {
+      "icon": "🏔️",
+      "value": "Saint-Urbain",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "🐄",
+      "value": "Pâturage libre",
+      "label": "Élevage"
+    }
+  ],
+  "sections": [
+    {
+      "title": "La ferme",
+      "paragraphs": [
+        "Les Viandes Bio de Charlevoix est une ferme d'élevage biologique certifié située à Saint-Urbain, dans les montagnes de Charlevoix. Les animaux — bœuf, veau et agneau — sont élevés en pâturage libre, sans hormones de croissance ni antibiotiques.",
+        "Dans ce cadre montagneux entre la Vallée du Gouffre et les sommets de Charlevoix, les pâturages naturels offrent une alimentation riche et diversifiée aux animaux. Le résultat : des viandes au goût distinctif, reflet du terroir charlevoisien."
+      ]
+    },
+    {
+      "title": "Pourquoi choisir bio",
+      "highlightCards": [
+        {
+          "icon": "🌿",
+          "title": "Certification biologique",
+          "description": "Certification bio officielle. Aucun hormone de croissance, aucun antibiotique préventif, alimentation 100% biologique."
+        },
+        {
+          "icon": "🐄",
+          "title": "Pâturage libre",
+          "description": "Les animaux vivent en liberté dans les pâturages des montagnes de Charlevoix. Bien-être animal et qualité de vie supérieurs."
+        },
+        {
+          "icon": "🥩",
+          "title": "Bœuf, veau, agneau",
+          "description": "Trois types de viandes élevées dans les mêmes conditions d'excellence. Vente directe à la ferme et dans les marchés régionaux."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Terroir montagneux",
+          "description": "L'altitude et les pâturages naturels de Saint-Urbain donnent aux viandes un goût unique — le terroir dans l'assiette."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Saint-Urbain, Charlevoix<br>Dans les montagnes, entre BSP et le Parc des Grands-Jardins"
+        },
+        {
+          "title": "🛒 Achat",
+          "content": "Vente directe à la ferme et dans les marchés régionaux de Charlevoix."
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Familles soucieuses de la qualité, restaurateurs, amateurs de circuit court"
+        },
+        {
+          "title": "🔗 Voir aussi",
+          "content": "<a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a><br><a href=\"ferme-basque-charlevoix.html\">Ferme Basque</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-fermes-charlevoix.html\">← Top 10 fermes</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"/\">gab.ae</a>"
+}

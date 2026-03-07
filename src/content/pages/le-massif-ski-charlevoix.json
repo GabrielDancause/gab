@@ -1,0 +1,160 @@
+{
+  "slug": "le-massif-ski-charlevoix",
+  "title": "Le Massif de Charlevoix — Ski alpin, Petite-Rivière-Saint-François, Québec",
+  "description": "Le Massif de Charlevoix : plus haut dénivelé de l'Est du Canada (770 m). 52 pistes de ski avec vue sur le fleuve Saint-Laurent à Petite-Rivière-Saint-François.",
+  "ogTitle": "Le Massif de Charlevoix — Ski alpin",
+  "ogDescription": "770 m de dénivelé, 52 pistes, vue sur le fleuve. La montagne emblématique de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #3a6186 0%, #2E3E24 100%)",
+  "accentColor": "#3a6186",
+  "badge": null,
+  "heroLocation": "Petite-Rivière-Saint-François · Charlevoix · Québec",
+  "h1": "Le Massif de Charlevoix",
+  "tagline": "770 m de dénivelé — le plus haut de l'Est du Canada, avec vue sur le fleuve",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 activités",
+    "href": "top-10-activites-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⛷️",
+      "value": "52 pistes",
+      "label": "Ski alpin"
+    },
+    {
+      "icon": "🏔️",
+      "value": "770 m",
+      "label": "Dénivelé"
+    },
+    {
+      "icon": "🚡",
+      "value": "6",
+      "label": "Remontées"
+    },
+    {
+      "icon": "📍",
+      "value": "70 km",
+      "label": "De Québec"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://www.lemassif.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La montagne",
+      "paragraphs": [
+        "Le Massif de Charlevoix est la montagne de ski emblématique du Québec. Situé à <a href=\"petite-riviere-saint-francois-charlevoix.html\">Petite-Rivière-Saint-François</a>, à 70 km au nord-est de la ville de Québec, Le Massif offre le plus haut dénivelé skiable de l'Est du Canada avec ses 770 mètres — du sommet à 806 m d'altitude jusqu'à la base au niveau du fleuve.",
+        "Ce qui distingue Le Massif de toutes les autres stations, c'est la vue spectaculaire sur le fleuve Saint-Laurent qu'on a en dévalant les pentes. On skie littéralement vers le fleuve. L'enneigement naturel y est abondant, avec souvent plus de 240 cm de neige compactée au sommet, ce qui en fait une des montagnes les mieux enneigées de l'Est."
+      ]
+    },
+    {
+      "title": "L'expérience",
+      "highlightCards": [
+        {
+          "icon": "⛷️",
+          "title": "52 pistes variées",
+          "description": "10 vertes, 19 bleues, 18 rouges et 7 noires. La piste « La Charlevoix » est l'une des rares au Québec homologuée trois diamants par la FIS."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Accès sommet et base",
+          "description": "Accessible autant par le sommet (route depuis la 138) que par la base à Petite-Rivière. Trois sommets, dont deux exploités."
+        },
+        {
+          "icon": "🏠",
+          "title": "Hébergement sur la montagne",
+          "description": "Chalets-Forêt au sommet, refuges, et appartements au pied des pistes. Séjournez directement sur le domaine pour un accès ski-in/ski-out."
+        },
+        {
+          "icon": "🍽️",
+          "title": "Restaurant Camp Boule",
+          "description": "Perché au sommet du Massif, ce restaurant offre une cuisine de produits locaux avec une vue panoramique sur le fleuve et les montagnes."
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "timeline": [
+        {
+          "year": "Fin des années 1970",
+          "desc": "Les premiers skieurs dévalent les pentes du Massif, remorqués au sommet par des motoneiges depuis la route 138."
+        },
+        {
+          "year": "Années 1980",
+          "desc": "Début de l'exploitation commerciale. Des autobus scolaires remontent les skieurs après chaque descente."
+        },
+        {
+          "year": "1992–1993",
+          "desc": "Installation de la première remontée mécanique. Le Massif devient une vraie station de ski."
+        },
+        {
+          "year": "2001",
+          "desc": "Construction d'une nouvelle route reliant la 138 au sommet. Québec n'est plus qu'à 70 km."
+        },
+        {
+          "year": "2002",
+          "desc": "Daniel Gauthier, cofondateur du Cirque du Soleil, acquiert Le Massif et lance une vision ambitieuse pour la station."
+        },
+        {
+          "year": "2010",
+          "desc": "Investissement de 16 M$ : nouvelle télécabine 8 places Doppelmayr, secteur d'apprentissage, et quatre nouvelles pistes."
+        },
+        {
+          "year": "Aujourd'hui",
+          "desc": "Projet « Territoire Le Massif » en développement — 180 M$ d'investissements pour en faire une destination quatre saisons, incluant hébergement, activités et le lien avec le <a href=\"train-charlevoix.html\">Train de Charlevoix</a>."
+        }
+      ]
+    },
+    {
+      "title": "Fiche technique",
+      "infoCards": [
+        {
+          "title": "📊 Statistiques",
+          "content": "Sommet : 806 m<br>Base : 36 m<br>Dénivelé : 770 m<br>Débit : 8 700 pers./h"
+        },
+        {
+          "title": "🎿 Pistes",
+          "content": "52 pistes au total<br>🟢 10 · 🔵 19 · 🔴 18 · ⚫ 7<br>+ secteur hors-piste"
+        },
+        {
+          "title": "📍 Accès",
+          "content": "Petite-Rivière-Saint-François<br>70 km de Québec (par le sommet)<br>~1 h de route"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://www.lemassif.com\" target=\"_blank\" rel=\"noopener\">lemassif.com</a>"
+        }
+      ]
+    },
+    {
+      "title": "À proximité",
+      "highlightCards": [
+        {
+          "icon": "🏘️",
+          "title": "Petite-Rivière-Saint-François",
+          "description": "Le village au pied du Massif. Charme du fleuve, restaurants, et ambiance de montagne."
+        },
+        {
+          "icon": "🎨",
+          "title": "Baie-Saint-Paul",
+          "description": "La capitale artistique de Charlevoix, à 20 minutes. Galeries, restaurants, Le Germain."
+        },
+        {
+          "icon": "🚂",
+          "title": "Train de Charlevoix",
+          "description": "Le train touristique passe par Petite-Rivière-Saint-François. Vue spectaculaire sur le fleuve."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Randonnée",
+          "description": "Le Massif offre aussi des sentiers de randonnée et du vélo de montagne en saison estivale."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">← Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

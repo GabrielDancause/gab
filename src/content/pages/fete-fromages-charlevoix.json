@@ -1,0 +1,125 @@
+{
+  "slug": "fete-fromages-charlevoix",
+  "title": "Fête des fromages de Charlevoix — Événement gourmand, Québec",
+  "description": "La Fête des fromages de Charlevoix célèbre le savoir-faire fromager de la région. Dégustations, rencontres avec les artisans et découverte des fromages charlevoisiens.",
+  "ogTitle": "Fête des fromages de Charlevoix",
+  "ogDescription": "Célébration du patrimoine fromager de Charlevoix. Dégustations, artisans et terroir.",
+  "heroGradient": "linear-gradient(135deg, #c9a227 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Charlevoix · Québec",
+  "h1": "Fête des fromages de Charlevoix",
+  "tagline": "Célébration du patrimoine fromager charlevoisien — dégustations, artisans et terroir",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧀",
+      "value": "Festival fromager",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "Été",
+      "label": "Saison"
+    },
+    {
+      "icon": "📍",
+      "value": "Charlevoix",
+      "label": "Région"
+    },
+    {
+      "icon": "🎟️",
+      "value": "Gourmand",
+      "label": "Ambiance"
+    }
+  ],
+  "sections": [
+    {
+      "title": "L'événement",
+      "paragraphs": [
+        "Charlevoix est l'une des grandes capitales fromagères du Québec. La Fête des fromages de Charlevoix met en valeur ce patrimoine exceptionnel en rassemblant les fromageries et producteurs laitiers de la région autour d'un événement festif et gourmand.",
+        "La région abrite des fromageries de renommée nationale, dont la <a href=\"laiterie-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Laiterie Charlevoix</a> (fondée en 1948) et la <a href=\"fromagerie-maurice-dufour-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;\">Fromagerie Maurice Dufour</a>, créatrice du célèbre Migneron de Charlevoix et du Secret de Maurice. C'est cette tradition qui donne son âme à l'événement."
+      ]
+    },
+    {
+      "title": "Quoi découvrir",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Dégustations",
+          "description": "Fromages à pâte molle, semi-ferme, cheddar vieilli — goûtez aux créations des artisans fromagers de la région."
+        },
+        {
+          "icon": "👨‍🌾",
+          "title": "Rencontres avec les artisans",
+          "description": "Échangez directement avec les producteurs. Apprenez les secrets de fabrication et l'histoire derrière chaque fromage."
+        },
+        {
+          "icon": "🍷",
+          "title": "Accords et terroir",
+          "description": "Découvrez les accords fromages et produits locaux : cidres des <a href=\"cidrerie-pedneault-charlevoix.html\">Vergers Pedneault</a>, bières de la <a href=\"microbrasseries-charlevoix.html\">MicroBrasserie Charlevoix</a>."
+        },
+        {
+          "icon": "🎪",
+          "title": "Ambiance festive",
+          "description": "Une fête conviviale, en plein cœur du terroir charlevoisien. L'occasion parfaite de combiner gourmandise et découverte de la région."
+        }
+      ]
+    },
+    {
+      "title": "Les fromageries de Charlevoix",
+      "paragraphs": [
+        "Charlevoix compte parmi les régions les plus riches du Québec en matière de production fromagère artisanale. Parmi les incontournables :"
+      ],
+      "highlightCards": [
+        {
+          "icon": "🏭",
+          "title": "Laiterie Charlevoix",
+          "description": "Fondée en 1948, 4e génération de la famille Labbé. Migneron de Charlevoix, cheddars vieillis et fromages fins. Baie-Saint-Paul."
+        },
+        {
+          "icon": "🏅",
+          "title": "Maurice Dufour",
+          "description": "Maison d'affinage réputée. Le Secret de Maurice, Le Migneron, Le Ciel de Charlevoix. Baie-Saint-Paul."
+        },
+        {
+          "icon": "🐄",
+          "title": "Famille Migneron",
+          "description": "Vignoble et fromagerie. Un lien direct entre le terroir et la table, au cœur de Charlevoix."
+        },
+        {
+          "icon": "🥩",
+          "title": "Ferme Éboulmontaise",
+          "description": "Élevage de porc et agneau, mais aussi des produits laitiers. Les Éboulements."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Quand",
+          "content": "Période estivale. Vérifiez les dates exactes auprès de <a href=\"https://www.tourisme-charlevoix.com\" target=\"_blank\" rel=\"noopener\">Tourisme Charlevoix</a>."
+        },
+        {
+          "title": "📍 Où",
+          "content": "Région de Charlevoix, Québec"
+        },
+        {
+          "title": "🧀 À voir aussi",
+          "content": "<a href=\"foire-terroirs-charlevoix.html\">Foire des Terroirs</a> — événement annuel sur les terrains de la Laiterie Charlevoix en août."
+        },
+        {
+          "title": "🗺️ En profiter",
+          "content": "Combinez avec la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> pour un circuit agrotouristique complet."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">← Charlevoix</a> · <a href=\"top-10-fermes-charlevoix.html\">Top 10 fermes</a> · <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> · <a href=\"/\">gab.ae</a>"
+}

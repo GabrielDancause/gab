@@ -1,0 +1,97 @@
+{
+  "slug": "ferme-basque-charlevoix",
+  "title": "Ferme Basque de Charlevoix — Saint-Urbain, Charlevoix, Québec",
+  "description": "Ferme Basque de Charlevoix à Saint-Urbain. Élevage de canards, production artisanale de foie gras, confits, terrines et rillettes dans les montagnes de Charlevoix.",
+  "ogTitle": "Ferme Basque de Charlevoix — Saint-Urbain",
+  "ogDescription": "Canard, foie gras artisanal et confits dans les montagnes de Charlevoix.",
+  "heroGradient": "linear-gradient(135deg, #6b3a1a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Saint-Urbain · Charlevoix · Québec",
+  "h1": "Ferme Basque<br>de Charlevoix",
+  "tagline": "Canard et foie gras artisanal des montagnes de Charlevoix",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 fermes",
+    "href": "top-10-fermes-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🦆",
+      "value": "Canard",
+      "label": "Élevage"
+    },
+    {
+      "icon": "🍽️",
+      "value": "Foie gras",
+      "label": "Spécialité"
+    },
+    {
+      "icon": "📍",
+      "value": "Saint-Urbain",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "🏅",
+      "value": "Artisanal",
+      "label": "Production"
+    }
+  ],
+  "sections": [
+    {
+      "title": "La ferme",
+      "paragraphs": [
+        "La Ferme Basque de Charlevoix est une exploitation d'élevage de canards nichée dans les montagnes de Saint-Urbain, au cœur de Charlevoix. Spécialisée dans la production artisanale de foie gras, la ferme transforme sur place l'ensemble de ses produits.",
+        "Le nom « Basque » fait référence à la tradition gastronomique du sud-ouest de la France, réinterprétée dans le terroir nordique de Charlevoix. Un mariage entre savoir-faire européen et caractère québécois."
+      ]
+    },
+    {
+      "title": "Produits",
+      "highlightCards": [
+        {
+          "icon": "🍽️",
+          "title": "Foie gras",
+          "description": "Foie gras de canard artisanal, préparé et transformé sur place. Mi-cuit, en conserve ou frais — un produit de luxe du terroir charlevoisien."
+        },
+        {
+          "icon": "🍖",
+          "title": "Confits de canard",
+          "description": "Cuisses et magrets de canard confits dans leur propre graisse. Prêts à réchauffer pour un repas gastronomique à la maison."
+        },
+        {
+          "icon": "🫙",
+          "title": "Terrines et rillettes",
+          "description": "Terrines et rillettes de canard préparées artisanalement. Parfaites en entrée ou pour un apéro charlevoisien."
+        },
+        {
+          "icon": "🦆",
+          "title": "Viande de canard",
+          "description": "Magrets, cuisses et pièces de canard frais. Des volailles élevées dans l'air pur des montagnes de Saint-Urbain."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "Saint-Urbain, Charlevoix<br>Dans les montagnes, entre BSP et le Parc des Grands-Jardins"
+        },
+        {
+          "title": "🛒 Achat",
+          "content": "Vente à la ferme et dans les boutiques spécialisées de Charlevoix et du Québec."
+        },
+        {
+          "title": "👥 Idéal pour",
+          "content": "Gourmands, amateurs de gastronomie, circuits terroir, cadeaux gourmets"
+        },
+        {
+          "title": "🔗 Voir aussi",
+          "content": "<a href=\"ferme-eboulmontaise-charlevoix.html\">Ferme Éboulmontaise</a><br><a href=\"viandes-bio-charlevoix.html\">Viandes Bio</a>"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-fermes-charlevoix.html\">← Top 10 fermes</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"/\">gab.ae</a>"
+}

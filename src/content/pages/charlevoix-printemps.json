@@ -1,0 +1,169 @@
+{
+  "slug": "charlevoix-printemps",
+  "title": "Charlevoix au printemps — Sucres, migration et renouveau",
+  "description": "Charlevoix au printemps : temps des sucres, migration des oies blanches, ouverture des sentiers et renouveau de la nature. Guide complet pour un séjour printanier dans Charlevoix.",
+  "ogTitle": "Charlevoix au printemps — Sucres, migration et renouveau",
+  "ogDescription": "Le printemps à Charlevoix : la nature se réveille, les érables coulent et les oies blanches envahissent les battures.",
+  "heroGradient": "linear-gradient(135deg, #6b8e5a 0%, #8fbc6a 50%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Guide saisonnier · Charlevoix · Québec",
+  "h1": "Charlevoix au printemps 🌱",
+  "tagline": "Les érables coulent, les oies blanches reviennent et la nature se réveille dans toute sa splendeur",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🌡️",
+      "value": "-5 à 15°C",
+      "label": "Températures"
+    },
+    {
+      "icon": "📅",
+      "value": "Avril — juin",
+      "label": "Saison"
+    },
+    {
+      "icon": "🍁",
+      "value": "Sucres",
+      "label": "Tradition"
+    },
+    {
+      "icon": "🪿",
+      "value": "Oies",
+      "label": "Migration"
+    }
+  ],
+  "heroCta": {
+    "text": "Explorer Charlevoix →",
+    "href": "charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Le printemps à Charlevoix",
+      "paragraphs": [
+        "Le printemps est peut-être la saison la plus méconnue de Charlevoix — et pourtant l'une des plus magiques. La neige fond sur les montagnes, les rivières gonflent, les érables coulent et la nature reprend vie après des mois d'hiver.",
+        "C'est aussi la saison de la migration des grandes oies des neiges, un spectacle naturel impressionnant le long des battures du fleuve Saint-Laurent. Et surtout, c'est le temps des sucres — une tradition québécoise profondément ancrée dans Charlevoix."
+      ]
+    },
+    {
+      "title": "Le temps des sucres",
+      "highlightCards": [
+        {
+          "icon": "🍯",
+          "title": "Cabanes à sucre",
+          "description": "De fin mars à fin avril, les cabanes à sucre de Charlevoix ouvrent leurs portes. Repas traditionnels, tire sur la neige et ambiance festive. Plusieurs fermes de la <a href=\"route-saveurs-charlevoix.html\">Route des Saveurs</a> participent."
+        },
+        {
+          "icon": "🌳",
+          "title": "Érablières",
+          "description": "Les érables à sucre de Charlevoix produisent un sirop réputé. L'altitude et le climat de la région donnent au sirop des saveurs distinctives. Visites et dégustations possibles."
+        }
+      ]
+    },
+    {
+      "title": "Migration des oies",
+      "paragraphs": [
+        "Chaque printemps (et automne), des dizaines de milliers de grandes oies des neiges font escale dans les battures de Charlevoix lors de leur migration. C'est un spectacle naturel extraordinaire, observable depuis plusieurs points le long du fleuve."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🪿",
+          "title": "Les battures",
+          "description": "Les rives du fleuve entre <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> et <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> accueillent des milliers d'oies blanches en avril-mai. Un spectacle sonore et visuel inoubliable."
+        },
+        {
+          "icon": "🐦",
+          "title": "Observation des oiseaux",
+          "description": "Le printemps est la meilleure saison pour l'<a href=\"observation-oiseaux-charlevoix.html\">observation des oiseaux</a> dans Charlevoix. Les espèces migratrices reviennent et animent les forêts et les rives."
+        }
+      ]
+    },
+    {
+      "title": "Nature & plein air",
+      "highlightCards": [
+        {
+          "icon": "🥾",
+          "title": "Ouverture des sentiers",
+          "description": "Les sentiers de <a href=\"randonnee-charlevoix.html\">randonnée</a> ouvrent progressivement à partir de mai. Le <a href=\"sentier-des-caps-charlevoix.html\">Sentier des Caps</a> offre des vues spectaculaires sur le fleuve au dégel."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Ski de printemps",
+          "description": "<a href=\"le-massif-ski-charlevoix.html\">Le Massif</a> reste ouvert jusqu'en avril selon les conditions. Le ski de printemps au soleil, en t-shirt, avec vue sur le fleuve — un classique québécois."
+        },
+        {
+          "icon": "🌊",
+          "title": "Cascades & rivières",
+          "description": "La fonte des neiges gonfle les rivières et les cascades de Charlevoix. Le parc des <a href=\"parc-hautes-gorges-charlevoix.html\">Hautes-Gorges</a> est particulièrement impressionnant au printemps."
+        },
+        {
+          "icon": "🐋",
+          "title": "Retour des baleines",
+          "description": "Les premières baleines reviennent dans le <a href=\"parc-marin-saguenay-charlevoix.html\">Parc marin du Saguenay</a> à partir de mai. L'<a href=\"observation-baleines-charlevoix.html\">observation des baleines</a> reprend en fin de printemps."
+        }
+      ]
+    },
+    {
+      "title": "Gastronomie du printemps",
+      "paragraphs": [
+        "Le printemps, c'est les sucres, les premières récoltes et le renouveau des menus dans les restaurants. Les producteurs de la <a href=\"route-saveurs-charlevoix.html\" style=\"color: #2E3E24; font-weight: 600;\">Route des Saveurs</a> recommencent leurs activités."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🍽️",
+          "title": "Menus printaniers",
+          "description": "<a href=\"les-labours-charlevoix.html\">Les Labours</a> et <a href=\"mouton-noir-charlevoix.html\">Le Mouton Noir</a> adaptent leurs cartes aux premiers produits de saison — ail des bois, fiddleheads, agneau de lait."
+        },
+        {
+          "icon": "🍺",
+          "title": "Microbrasseries",
+          "description": "Les <a href=\"microbrasseries-charlevoix.html\">microbrasseries de Charlevoix</a> lancent souvent des bières de saison au printemps. L'occasion de découvrir des cuvées éphémères."
+        }
+      ]
+    },
+    {
+      "title": "Où dormir au printemps",
+      "paragraphs": [
+        "Le printemps est la basse saison à Charlevoix — idéal pour les voyageurs qui cherchent la tranquillité et les bons prix. La plupart des hébergements offrent des tarifs réduits."
+      ],
+      "infoCards": [
+        {
+          "title": "🏨 Auberges",
+          "content": "Nos <a href=\"top-10-auberges-charlevoix-fr.html\">10 meilleures auberges</a> — tarifs plus doux au printemps. Plusieurs offrent des forfaits cabane à sucre."
+        },
+        {
+          "title": "🏠 Chalets",
+          "content": "<a href=\"chalets-charlevoix.html\">Chalets</a> en nature pour profiter de l'éveil printanier. Souvent à prix réduit avant la haute saison estivale."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Quand venir",
+          "content": "Mars-avril pour les sucres. Avril-mai pour les oies. Mai-juin pour la randonnée et les baleines. Chaque période a son charme."
+        },
+        {
+          "title": "🧥 S'habiller",
+          "content": "Couches multiples essentielles ! Les matins restent frais (-5 à 5°C en avril) mais les après-midis peuvent être doux. Bottes imperméables recommandées."
+        },
+        {
+          "title": "🚗 Routes",
+          "content": "Certaines routes secondaires peuvent être en mauvais état au dégel. La route 138 et la <a href=\"route-fleuve-charlevoix.html\">Route 362</a> restent bien entretenues."
+        },
+        {
+          "title": "💡 Astuce",
+          "content": "Le printemps est la saison secrète de Charlevoix. Peu de touristes, des prix doux et une nature en pleine effervescence. Profitez-en."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix-hiver.html\">← Hiver</a> · <a href=\"charlevoix-ete.html\">Été →</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "laiterie-charlevoix",
+  "title": "Laiterie Charlevoix — Baie-Saint-Paul, Charlevoix, Québec",
+  "description": "Laiterie Charlevoix à Baie-Saint-Paul. Fondée en 1948 par la famille Labbé, 4e génération. Fromages fins, Migneron de Charlevoix, cheddars vieillis et boutique.",
+  "ogTitle": "Laiterie Charlevoix — Baie-Saint-Paul",
+  "ogDescription": "Fromages fins depuis 1948. Migneron de Charlevoix, cheddars et boutique.",
+  "heroGradient": "linear-gradient(135deg, #5a3e1b 0%, #2E3E24 100%)",
+  "accentColor": "#5a3e1b",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Laiterie Charlevoix",
+  "tagline": "Fromages fins depuis 1948 — 4e génération de la famille Labbé",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 fermes",
+    "href": "top-10-fermes-charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🧀",
+      "value": "Fromagerie",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "1948",
+      "label": "Fondation"
+    },
+    {
+      "icon": "👨‍👩‍👧‍👦",
+      "value": "4e génération",
+      "label": "Famille Labbé"
+    },
+    {
+      "icon": "📍",
+      "value": "1167 Boul. Mgr de Laval",
+      "label": "Baie-Saint-Paul"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site →",
+    "href": "https://www.laiteriecharlevoix.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "La laiterie",
+      "paragraphs": [
+        "Fondée en 1948 par Elmina Fortin et Stanislas Labbé, la Laiterie Charlevoix est l'une des plus anciennes fromageries familiales du Québec. Quatre générations de Labbé se sont succédé pour transformer le lait de la Vallée du Gouffre en fromages fins reconnus à travers tout le Canada.",
+        "Leur produit phare, le Migneron de Charlevoix — créé en 1994 en collaboration avec la Maison d'affinage Maurice Dufour — est devenu un classique de la fromagerie québécoise. La laiterie produit aussi une gamme de cheddars vieillis et de fromages à pâte molle."
+      ]
+    },
+    {
+      "title": "Produits et expérience",
+      "highlightCards": [
+        {
+          "icon": "🧀",
+          "title": "Fromages fins",
+          "description": "Le Migneron de Charlevoix, fromages à pâte molle et semi-ferme. Un savoir-faire d'affinage développé sur quatre générations."
+        },
+        {
+          "icon": "🧈",
+          "title": "Cheddars vieillis",
+          "description": "Cheddars affinés de différentes maturités. La tradition fromagère québécoise dans sa forme la plus aboutie."
+        },
+        {
+          "icon": "🛍️",
+          "title": "Boutique & dégustation",
+          "description": "Boutique sur place à Baie-Saint-Paul avec dégustation. Aussi présents au Grand Marché de Québec et à Sutton."
+        },
+        {
+          "icon": "🎪",
+          "title": "Foire des Terroirs",
+          "description": "Chaque août, la Foire des Terroirs de Charlevoix se tient sur les terrains de la Laiterie. Producteurs d'ici et d'ailleurs."
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "timeline": [
+        {
+          "year": "1948",
+          "desc": "Stanislas Labbé et Elmina Fortin acquièrent une petite laiterie. Ils achètent le lait de tous les producteurs de la Vallée du Gouffre."
+        },
+        {
+          "year": "1953",
+          "desc": "Marcel Labbé ouvre une route de lait sur la Côte-Nord, de Tadoussac à Baie-Comeau. Période d'expansion majeure."
+        },
+        {
+          "year": "Années 1980",
+          "desc": "Les petits-fils Labbé se concentrent sur la production fromagère régionale, abandonnant le marché Côte-Nord aux grands groupes."
+        },
+        {
+          "year": "1994",
+          "desc": "Création du Migneron de Charlevoix en collaboration avec Maurice Dufour. Le fromage devient un classique québécois."
+        },
+        {
+          "year": "2014",
+          "desc": "Acquisition d'Aux Terroirs (distribution). La Laiterie devient l'un des plus importants distributeurs de fromages fins au Canada."
+        },
+        {
+          "year": "Aujourd'hui",
+          "desc": "4e génération aux commandes. Réseau de boutiques au Québec, distribution pancanadienne."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Adresse",
+          "content": "1167, boul. Mgr de Laval<br>Baie-Saint-Paul, QC G3Z 2W7"
+        },
+        {
+          "title": "📞 Téléphone",
+          "content": "418 435-2184"
+        },
+        {
+          "title": "🌐 En ligne",
+          "content": "<a href=\"https://www.laiteriecharlevoix.com\" target=\"_blank\" rel=\"noopener\">laiteriecharlevoix.com</a>"
+        },
+        {
+          "title": "🛍️ Boutiques",
+          "content": "Baie-Saint-Paul (sur place)<br>Grand Marché de Québec<br>Sutton"
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-fermes-charlevoix.html\">← Top 10 fermes</a> · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"/\">gab.ae</a>"
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "top-10-fermes-charlevoix",
+  "title": "Top 10 — Fermes et terroir de Charlevoix, Québec",
+  "description": "Top 10 des meilleures fermes, fromageries et expériences agrotouristiques de Charlevoix. Laiterie Charlevoix, Famille Migneron, Ferme Éboulmontaise, Cidrerie Pedneault et plus.",
+  "ogTitle": "Top 10 — Fermes et terroir de Charlevoix",
+  "ogDescription": "Les meilleures fermes, fromageries et producteurs de Charlevoix au Québec.",
+  "heroGradient": "linear-gradient(135deg, #5a3e1b 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": "⚜️ Terroir · Agrotourisme · Charlevoix",
+  "heroLocation": null,
+  "h1": "Top 10 — Fermes et<br>terroir de Charlevoix",
+  "tagline": "Les meilleurs producteurs, fromageries et fermes de la région",
+  "heroSub": null,
+  "pageType": "top-list",
+  "intro": "Charlevoix est un garde-manger à ciel ouvert. Entre le fleuve et les montagnes, des producteurs passionnés cultivent, élèvent et transforment des produits d'exception depuis des générations. Voici <strong>les 10 incontournables du terroir charlevoisien</strong>.",
+  "entries": [
+    {
+      "rank": 1,
+      "emoji": "🧀",
+      "title": "Laiterie Charlevoix",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Fondée en 1948 par la famille Labbé, aujourd'hui à sa 4e génération. Créateurs du célèbre Migneron de Charlevoix, cheddars vieillis et fromages fins. Aussi distributeurs via Aux Terroirs. L'institution fromagère de la région.",
+      "tags": [
+        "Fromages fins",
+        "Cheddar",
+        "Depuis 1948",
+        "Boutique"
+      ],
+      "href": "laiterie-charlevoix.html"
+    },
+    {
+      "rank": 2,
+      "emoji": "🍷",
+      "title": "Famille Migneron de Charlevoix",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Fromages affinés, vins biologiques nordiques et eaux-de-vie distillées à partir du lactosérum de leurs fromages et des marcs de vignes. Un projet unique qui marie fromagerie, vignoble et distillerie sous un même toit.",
+      "tags": [
+        "Fromages",
+        "Vins bio",
+        "Eaux-de-vie",
+        "Distillerie"
+      ],
+      "href": "famille-migneron-charlevoix.html"
+    },
+    {
+      "rank": 3,
+      "emoji": "🥩",
+      "title": "Ferme Éboulmontaise",
+      "location": "📍 Les Éboulements",
+      "description": "Ferme familiale fondée en 1990, aujourd'hui dirigée par Gabrielle Cadieux-Gagnon. Élevage d'agneaux et de porc Berkshire avec un restaurant sur place — l'Épicentre — qui met en valeur les produits de la ferme. Terroir authentique.",
+      "tags": [
+        "Agneau",
+        "Porc Berkshire",
+        "Restaurant Épicentre",
+        "Depuis 1990"
+      ],
+      "href": "ferme-eboulmontaise-charlevoix.html"
+    },
+    {
+      "rank": 4,
+      "emoji": "🍎",
+      "title": "Cidrerie & Vergers Pedneault",
+      "location": "📍 Île-aux-Coudres",
+      "description": "Une institution de l'Île-aux-Coudres. Vergers patrimoniaux de pommiers, poiriers et pruniers cultivés depuis des générations. Cidres, mistelles, vinaigres de fruits et produits transformés dans un cadre insulaire unique.",
+      "tags": [
+        "Cidre",
+        "Mistelle",
+        "Vergers patrimoniaux",
+        "Île-aux-Coudres"
+      ],
+      "href": "cidrerie-pedneault-charlevoix.html"
+    },
+    {
+      "rank": 5,
+      "emoji": "🏅",
+      "title": "Maison d'affinage Maurice Dufour",
+      "location": "📍 Baie-Saint-Paul",
+      "description": "Fromagerie artisanale reconnue pour ses fromages affinés d'exception, dont Le Ciel de Charlevoix et Le Migneron (créé en collaboration avec la Laiterie Charlevoix). Maîtres affineurs depuis les années 1990.",
+      "tags": [
+        "Fromages affinés",
+        "Le Ciel de Charlevoix",
+        "Artisanal"
+      ],
+      "href": "fromagerie-maurice-dufour-charlevoix.html"
+    },
+    {
+      "rank": 6,
+      "emoji": "💜",
+      "title": "Lavande Azulée",
+      "location": "📍 Charlevoix",
+      "description": "Champs de lavande cultivés dans le microclimat unique de Charlevoix. Produits artisanaux à base de lavande : huiles essentielles, savons, sachets et créations culinaires. Un arrêt bucolique et parfumé.",
+      "tags": [
+        "Lavande",
+        "Huiles essentielles",
+        "Produits artisanaux"
+      ],
+      "href": "lavande-azulee-charlevoix.html"
+    },
+    {
+      "rank": 7,
+      "emoji": "🦙",
+      "title": "Ferme Alpaga Charlevoix",
+      "location": "📍 Charlevoix",
+      "description": "Ferme familiale d'élevage d'alpagas où petits et grands peuvent rencontrer ces animaux doux et photogéniques. Boutique de produits en fibre d'alpaga : tuques, foulards, mitaines artisanales.",
+      "tags": [
+        "Alpagas",
+        "Fibre d'alpaga",
+        "Familial"
+      ],
+      "href": "alpaga-charlevoix.html"
+    },
+    {
+      "rank": 8,
+      "emoji": "🥬",
+      "title": "Les Jardins du Centre",
+      "location": "📍 Charlevoix",
+      "description": "Ferme maraîchère qui cultive des légumes frais et de saison dans le respect du sol charlevoisien. Circuit court, vente directe au producteur. Un incontournable de l'agriculture locale.",
+      "tags": [
+        "Maraîcher",
+        "Légumes de saison",
+        "Circuit court"
+      ],
+      "href": "jardins-du-centre-charlevoix.html"
+    },
+    {
+      "rank": 9,
+      "emoji": "🥩",
+      "title": "Les Viandes Bio de Charlevoix",
+      "location": "📍 Saint-Urbain",
+      "description": "Élevage biologique certifié dans les montagnes de Saint-Urbain. Bœuf, veau et agneau élevés en pâturage libre, sans hormones ni antibiotiques. Vente directe à la ferme et dans les marchés régionaux.",
+      "tags": [
+        "Bio certifié",
+        "Bœuf",
+        "Pâturage libre"
+      ],
+      "href": "viandes-bio-charlevoix.html"
+    },
+    {
+      "rank": 10,
+      "emoji": "🦆",
+      "title": "Ferme Basque de Charlevoix",
+      "location": "📍 Saint-Urbain",
+      "description": "Élevage de canards et production de foie gras artisanal dans les montagnes de Charlevoix. Terrines, confits, rillettes et produits dérivés du canard. Un savoir-faire unique en région.",
+      "tags": [
+        "Canard",
+        "Foie gras",
+        "Confits",
+        "Saint-Urbain"
+      ],
+      "href": "ferme-basque-charlevoix.html"
+    }
+  ],
+  "listingFormat": false,
+  "tagBg": "#f0f4ed",
+  "tagColor": "#2E3E24",
+  "ctaBanner": {
+    "title": "Explorer Charlevoix",
+    "text": "Découvrez aussi les meilleures auberges de la région.",
+    "links": [
+      {
+        "text": "Top 10 auberges →",
+        "href": "top-10-auberges-charlevoix-fr.html"
+      },
+      {
+        "text": "Les Éboulements →",
+        "href": "les-eboulements-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-auberges-charlevoix-fr.html\">Top 10 auberges</a> · <a href=\"/\">gab.ae</a>"
+}

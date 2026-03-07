@@ -1,0 +1,108 @@
+{
+  "slug": "aventure-plein-air-charlevoix",
+  "title": "Aventure et plein air dans Charlevoix — Guide actif | gab.ae",
+  "description": "Guide complet des activités de plein air à Charlevoix : randonnée, kayak, ski, vélo, escalade, canyoning et plus. Montagne, fleuve et forêt boréale.",
+  "ogTitle": "Aventure et plein air dans Charlevoix — Guide actif",
+  "ogDescription": "Randonnée, kayak, ski, vélo, escalade — Charlevoix est un terrain de jeu grandeur nature.",
+  "heroGradient": "linear-gradient(135deg, #1a5c3a 0%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Guide thématique · Charlevoix · Québec",
+  "h1": "Aventure et plein air 🏔️",
+  "tagline": "Charlevoix : un terrain de jeu grandeur nature entre montagne, fleuve et forêt boréale",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏔️",
+      "value": "1 065 m",
+      "label": "Plus haut sommet"
+    },
+    {
+      "icon": "🌲",
+      "value": "3 parcs",
+      "label": "Parcs nationaux"
+    },
+    {
+      "icon": "🥾",
+      "value": "300+ km",
+      "label": "Sentiers"
+    },
+    {
+      "icon": "🗓️",
+      "value": "4 saisons",
+      "label": "Activités"
+    }
+  ],
+  "heroCta": {
+    "text": "Top 10 activités →",
+    "href": "top-10-activites-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Le terrain de jeu",
+      "paragraphs": [
+        "Charlevoix est une <a href=\"reserve-biosphere-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;text-decoration:none;\">réserve mondiale de la biosphère UNESCO</a> où les montagnes plongent directement dans le fleuve Saint-Laurent. Ce relief spectaculaire — créé par l'impact d'une météorite il y a 400 millions d'années — offre un terrain de jeu exceptionnel pour les amateurs de plein air.",
+        "Du ski alpin avec le plus haut dénivelé de l'est du Canada à l'observation des baleines dans le parc marin, des sentiers de longue randonnée aux rivières poissonneuses, chaque saison apporte son lot d'activités. Voici le guide complet."
+      ]
+    },
+    {
+      "title": "Été et automne"
+    },
+    {
+      "title": "Hiver et printemps"
+    },
+    {
+      "title": "Les incontournables",
+      "highlightCards": [
+        {
+          "icon": "🥾",
+          "title": "Acropole des Draveurs",
+          "description": "La randonnée la plus emblématique de Charlevoix. Vue spectaculaire depuis le sommet à 1 048 m."
+        },
+        {
+          "icon": "⛷️",
+          "title": "Le Massif",
+          "description": "770 m de dénivelé face au fleuve. Le plus haut dénivelé skiable de l'est canadien."
+        },
+        {
+          "icon": "🏞️",
+          "title": "Sentier des Caps",
+          "description": "51 km de sentier de longue randonnée sur les crêtes avec vue sur le fleuve."
+        },
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "Bélugas, rorquals et petits rorquals à la confluence du Saguenay et du Saint-Laurent."
+        }
+      ]
+    },
+    {
+      "title": "Conseils pratiques",
+      "infoCards": [
+        {
+          "title": "🗓️ Meilleure période",
+          "content": "Été (juin-sept) pour la randonnée et le kayak. Automne (sept-oct) pour les couleurs. Hiver (déc-avril) pour le ski."
+        },
+        {
+          "title": "🏕️ Hébergement",
+          "content": "<a href=\"camping-charlevoix.html\">Camping</a> dans les parcs nationaux, <a href=\"chalets-charlevoix.html\">chalets</a> en forêt ou auberges pour le confort après l'effort."
+        },
+        {
+          "title": "🚗 Accès",
+          "content": "<a href=\"comment-se-rendre-charlevoix.html\">Se rendre à Charlevoix</a> : 1h30 de Québec par la route 138 ou la <a href=\"route-fleuve-charlevoix.html\">Route du Fleuve (362)</a>."
+        },
+        {
+          "title": "📋 Préparation",
+          "content": "Réservez tôt pour les parcs nationaux en été (Sépaq). Apportez des couches — la météo change vite en montagne."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

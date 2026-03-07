@@ -1,0 +1,135 @@
+{
+  "slug": "le-festif-charlevoix",
+  "title": "Le Festif! de Baie-Saint-Paul — Festival de musique, Charlevoix",
+  "description": "Le Festif! de Baie-Saint-Paul : festival de musique incontournable au Québec. Programmation éclectique, ambiance unique, arts du cirque et créativité dans les rues de Charlevoix.",
+  "ogTitle": "Le Festif! de Baie-Saint-Paul — Festival de musique",
+  "ogDescription": "Festival de musique incontournable à Baie-Saint-Paul, Charlevoix. Depuis 2010, l'un des événements les plus rassembleurs du Québec.",
+  "heroGradient": "linear-gradient(135deg, #8b2e6b 0%, #2E3E24 100%)",
+  "accentColor": "#8b2e6b",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Le Festif!",
+  "tagline": "Le rassemblement musical incontournable de Charlevoix — audace, créativité et magie depuis 2010",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🎵",
+      "value": "Festival musique",
+      "label": "Type"
+    },
+    {
+      "icon": "📅",
+      "value": "2010",
+      "label": "Fondation"
+    },
+    {
+      "icon": "👥",
+      "value": "~52 000",
+      "label": "Participants (2024)"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Saint-Paul",
+      "label": "Centre-ville"
+    }
+  ],
+  "heroCta": {
+    "text": "Site officiel →",
+    "href": "https://lefestif.ca",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "Le festival",
+      "paragraphs": [
+        "Le Festif! de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> est un rassemblement incontournable de la scène musicale québécoise et internationale. Fondé en 2010 avec 2 000 spectateurs au Parc du Gouffre, le festival a connu une croissance fulgurante pour atteindre environ 52 000 participants en 2024.",
+        "L'engagement local, l'éco-responsabilité, l'audace et la créativité — flirtant parfois avec la magie — sont devenus les marques de commerce du Festif!. L'événement se distingue par son intégration dans le centre-ville de Baie-Saint-Paul, ses spectacles surprises dans des lieux inusités, et un mélange de musique populaire et d'arts du cirque."
+      ]
+    },
+    {
+      "title": "Ce qui rend le Festif! unique",
+      "highlightCards": [
+        {
+          "icon": "🎭",
+          "title": "Spectacles déambulatoires",
+          "description": "Des performances surprises dans les ruelles, les cours arrière et les commerces de Baie-Saint-Paul. La musique est partout, tout le temps."
+        },
+        {
+          "icon": "🎪",
+          "title": "Arts du cirque",
+          "description": "Le Festif! intègre des numéros de cirque et des installations artistiques à sa programmation musicale. Un festival multidisciplinaire."
+        },
+        {
+          "icon": "🌿",
+          "title": "Éco-responsabilité",
+          "description": "Engagement fort envers le développement durable. Verres réutilisables, compostage, transport collectif et compensation carbone font partie de l'ADN du festival."
+        },
+        {
+          "icon": "🏘️",
+          "title": "Intégration urbaine",
+          "description": "Le festival se déploie dans tout le centre-ville. Les scènes côtoient les terrasses, les boutiques et les galeries d'art de Baie-Saint-Paul."
+        }
+      ]
+    },
+    {
+      "title": "Croissance du festival",
+      "timeline": [
+        {
+          "year": "2010",
+          "desc": "Première édition au Parc du Gouffre. 2 000 spectateurs. Les Cowboys fringants en tête d'affiche."
+        },
+        {
+          "year": "2012",
+          "desc": "Le festival se déplace au centre-ville. 10 000 participants. Vincent Vallières, Plume Latraverse, Bernard Adamus."
+        },
+        {
+          "year": "2014",
+          "desc": "18 000 festivaliers. Alpha Blondy, Louis-Jean Cormier, Loco Locass, Les Cowboys fringants."
+        },
+        {
+          "year": "2015",
+          "desc": "Cap des 20 000 participants. Reel Big Fish, Les Trois Accords, Alex Nevsky."
+        },
+        {
+          "year": "2023",
+          "desc": "Environ 45 000 participants sur quatre jours. Le Festif! s'impose comme l'un des plus grands festivals du Québec."
+        },
+        {
+          "year": "2024",
+          "desc": "Affluence record d'environ 52 000 personnes. Direction artistique de Clément Turgeon Thériault."
+        },
+        {
+          "year": "2026",
+          "desc": "Prochaine édition : 23 au 26 juillet 2026. Programmation à venir sur lefestif.ca."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📅 Dates 2026",
+          "content": "23 au 26 juillet 2026. Dernier week-end de juillet, comme chaque année."
+        },
+        {
+          "title": "📍 Lieu",
+          "content": "Centre-ville de <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a>. Scènes multiples réparties dans la ville."
+        },
+        {
+          "title": "🌐 Site web",
+          "content": "<a href=\"https://lefestif.ca\" target=\"_blank\" rel=\"noopener\">lefestif.ca</a> — Programmation, billets et infos."
+        },
+        {
+          "title": "🏨 Hébergement",
+          "content": "Réservez tôt! Les hébergements se remplissent vite. <a href=\"chalets-charlevoix.html\">Chalets</a>, <a href=\"camping-charlevoix.html\">camping</a> et auberges dans la région."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">← Charlevoix</a> · <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> · <a href=\"top-10-activites-charlevoix.html\">Top 10 activités</a> · <a href=\"/\">gab.ae</a>"
+}

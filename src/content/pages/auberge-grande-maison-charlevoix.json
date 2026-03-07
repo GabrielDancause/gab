@@ -1,0 +1,85 @@
+{
+  "slug": "auberge-grande-maison-charlevoix",
+  "title": "Auberge La Grande Maison | Baie-Saint-Paul, Charlevoix",
+  "description": "Auberge La Grande Maison à Baie-Saint-Paul, Charlevoix. Propriété patrimoniale imposante avec chambres spacieuses, atmosphère chaleureuse et jardin.",
+  "ogTitle": "",
+  "ogDescription": "",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #4a6340 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Baie-Saint-Paul · Charlevoix · Québec",
+  "h1": "Auberge La Grande Maison",
+  "tagline": "Une propriété patrimoniale imposante au cœur de Baie-Saint-Paul, alliant charme d'antan et hospitalité chaleureuse",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Retour au Top 10",
+    "href": "top-10-auberges-charlevoix-fr.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏠",
+      "value": "Patrimoniale",
+      "label": "Propriété"
+    },
+    {
+      "icon": "🛌",
+      "value": "Spacieuses",
+      "label": "Chambres"
+    },
+    {
+      "icon": "🌿",
+      "value": "Jardin",
+      "label": "Extérieur"
+    },
+    {
+      "icon": "📍",
+      "value": "Baie-Saint-Paul",
+      "label": "Village"
+    }
+  ],
+  "sections": [
+    {
+      "title": "À propos de l'auberge",
+      "paragraphs": [
+        "L'Auberge La Grande Maison est une auberge classique patrimoniale située à Baie-Saint-Paul, au cœur de la région de Charlevoix. Cette propriété imposante se distingue par son architecture d'époque et son atmosphère chaleureuse et traditionnelle qui invite les visiteurs à se sentir comme chez eux.",
+        "L'établissement offre des chambres spacieuses dans un cadre qui rappelle l'hospitalité québécoise d'autrefois. Idéalement située pour explorer le charmant village de Baie-Saint-Paul et la campagne environnante, l'auberge constitue un point de départ parfait pour découvrir les richesses de Charlevoix."
+      ]
+    },
+    {
+      "title": "Patrimoine et jardin",
+      "paragraphs": [
+        "La Grande Maison tire son nom de l'imposante propriété patrimoniale qui l'abrite. L'architecture et le cachet du bâtiment témoignent du riche héritage de la région de Charlevoix, reconnue pour ses paysages et son patrimoine bâti exceptionnel.",
+        "L'auberge dispose également d'un jardin où les visiteurs peuvent profiter du grand air et de la tranquillité des lieux. Cet espace extérieur ajoute au charme de l'établissement et offre un moment de détente après une journée d'exploration dans la région."
+      ]
+    },
+    {
+      "title": "Activités à proximité",
+      "paragraphs": [
+        "Baie-Saint-Paul est un village reconnu pour sa communauté artistique, ses galeries, ses boutiques et sa gastronomie. L'auberge est bien située pour explorer tout ce que le village et la région ont à offrir."
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "Emplacement",
+          "content": "Baie-Saint-Paul, Charlevoix, Québec. Environ 1h de route de la ville de Québec via la route 138."
+        },
+        {
+          "title": "Type d'hébergement",
+          "content": "Auberge classique patrimoniale avec chambres spacieuses et jardin."
+        },
+        {
+          "title": "Idéal pour",
+          "content": "Couples, familles et voyageurs en quête de charme patrimonial et d'atmosphère traditionnelle."
+        },
+        {
+          "title": "Réservation",
+          "content": "Recherchez «&nbsp;Auberge La Grande Maison Baie-Saint-Paul&nbsp;» en ligne pour les disponibilités et tarifs actuels."
+        }
+      ]
+    }
+  ],
+  "footer": "Guide des auberges de Charlevoix — <a href=\"top-10-auberges-charlevoix-fr.html\">Voir le Top 10</a>"
+}

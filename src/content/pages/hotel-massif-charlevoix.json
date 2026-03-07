@@ -1,0 +1,94 @@
+{
+  "slug": "hotel-massif-charlevoix",
+  "title": "Le Massif de Charlevoix | Petite-Rivière-Saint-François, Charlevoix",
+  "description": "Le Massif de Charlevoix : chalets, refuges, appartements et Club Med au coeur de Petite-Rivière-Saint-François. 53 pistes de ski, luge de 7,5 km, vélo de montagne et plus.",
+  "ogTitle": "",
+  "ogDescription": "",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #4a6340 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Petite-Rivière-Saint-François, Charlevoix",
+  "h1": "Le Massif de Charlevoix",
+  "tagline": "Destination quatre saisons entre montagne et fleuve — ski, luge, vélo et hébergements au sommet",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Retour au Top 10",
+    "href": "top-10-auberges-charlevoix-fr.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "⛰",
+      "value": "4 saisons",
+      "label": "Destination"
+    },
+    {
+      "icon": "⛷",
+      "value": "53 pistes",
+      "label": "Ski alpin"
+    },
+    {
+      "icon": "🛳",
+      "value": "7,5 km",
+      "label": "Luge"
+    },
+    {
+      "icon": "🌊",
+      "value": "Vue fleuve",
+      "label": "Panorama"
+    }
+  ],
+  "heroCta": {
+    "text": "Réserver sur lemassif.com",
+    "href": "https://www.lemassif.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "À propos",
+      "paragraphs": [
+        "Le Massif de Charlevoix est une destination quatre saisons nichée à Petite-Rivière-Saint-François, offrant une expérience unique face au fleuve Saint-Laurent. Avec ses 53 pistes de ski, sa luge de 7,5 km — la plus longue en Amérique du Nord — et ses quelque 55 km de vélo de montagne, le site s’impose comme l’un des joyaux de Charlevoix.",
+        "L’hébergement se décline en plusieurs formules : chalets et refuges au sommet ou à la base, appartements à la base, studios au sommet dans le secteur Chalets-Forêt, et le Club Med tout inclus ouvert depuis décembre 2021. Le restaurant Camp Boule, situé au sommet, complète l’expérience avec une cuisine inspirée du terroir.",
+        "Des forfaits sont offerts à partir de 309&nbsp;$/nuit, avec des rabais allant de 10&nbsp;% (3-4 nuits) à 30&nbsp;% (7 nuits et plus). Les séjours donnent aussi accès à des réductions pouvant atteindre 27&nbsp;% sur les billets de remontées mécaniques."
+      ]
+    },
+    {
+      "title": "Hébergements"
+    },
+    {
+      "title": "Activités sur place"
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "Coordonnées",
+          "content": "185 Chemin du Massif<br>Petite-Rivière-Saint-François, QC G0A 2L0<br>Tél. : <a href=\"tel:18775362774\">1-877-536-2774</a><br>Courriel : <a href=\"mailto:info@lemassif.com\">info@lemassif.com</a>"
+        },
+        {
+          "title": "Tarifs et rabais",
+          "content": "Forfaits dès 309&nbsp;$/nuit<br>3-4 nuits : 10&nbsp;% de rabais<br>5-6 nuits : 20&nbsp;% de rabais<br>7+ nuits : 30&nbsp;% de rabais"
+        },
+        {
+          "title": "Remontées",
+          "content": "Jusqu’à 27&nbsp;% de rabais sur les billets de remontées mécaniques selon la durée du séjour."
+        },
+        {
+          "title": "Site web",
+          "content": "<a href=\"https://www.lemassif.com\" target=\"_blank\" rel=\"noopener\">www.lemassif.com</a><br>Réservation en ligne disponible pour tous les types d’hébergement."
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifiez votre séjour au Massif",
+    "text": "Chalets, refuges, appartements ou Club Med — trouvez la formule qui vous convient.",
+    "links": [
+      {
+        "text": "Réserver maintenant",
+        "href": "https://www.lemassif.com"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"top-10-auberges-charlevoix-fr.html\">Retour au Top 10 Charlevoix</a>"
+}

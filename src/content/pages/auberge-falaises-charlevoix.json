@@ -1,0 +1,96 @@
+{
+  "slug": "auberge-falaises-charlevoix",
+  "title": "Auberge des Falaises — La Malbaie, Charlevoix",
+  "description": "Auberge des Falaises à La Malbaie, Charlevoix. Auberge familiale avec piscine extérieure, chambres confortables et atmosphère décontractée.",
+  "ogTitle": "",
+  "ogDescription": "",
+  "heroGradient": "linear-gradient(135deg, #2E3E24 0%, #4a6340 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "La Malbaie, Charlevoix",
+  "h1": "Auberge des Falaises",
+  "tagline": "Une auberge familiale au coeur de La Malbaie, avec piscine et ambiance chaleureuse",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Top 10 Auberges",
+    "href": "top-10-auberges-charlevoix-fr.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🏠",
+      "value": "Auberge",
+      "label": "Type"
+    },
+    {
+      "icon": "📍",
+      "value": "La Malbaie",
+      "label": "Emplacement"
+    },
+    {
+      "icon": "🏊",
+      "value": "Piscine",
+      "label": "Sur place"
+    },
+    {
+      "icon": "👪",
+      "value": "Familles",
+      "label": "Ambiance"
+    }
+  ],
+  "heroCta": {
+    "text": "Visiter le site officiel",
+    "href": "https://www.aubergedesfalaises.com",
+    "external": true
+  },
+  "sections": [
+    {
+      "title": "L'auberge en bref",
+      "paragraphs": [
+        "L'Auberge des Falaises est un choix judicieux pour les visiteurs de Charlevoix qui souhaitent profiter de La Malbaie sans se ruiner. Avec ses chambres confortables, sa piscine extérieure et son atmosphère décontractée, elle offre un excellent rapport qualité-prix dans un secteur où les hébergements peuvent coûter cher.",
+        "Située à proximité du Fairmont Le Manoir Richelieu et du Casino de Charlevoix, l'auberge permet de profiter des attraits du secteur à une fraction du prix des grands établissements voisins. C'est un choix intermédiaire particulièrement apprécié des familles."
+      ]
+    },
+    {
+      "title": "Chambres et hébergement"
+    },
+    {
+      "title": "Activités à proximité",
+      "paragraphs": [
+        "La Malbaie est un point de départ idéal pour explorer les richesses de Charlevoix. Voici quelques incontournables du secteur."
+      ]
+    },
+    {
+      "title": "Informations pratiques",
+      "infoCards": [
+        {
+          "title": "Emplacement",
+          "content": "La Malbaie, Charlevoix, Québec. Facilement accessible par la route 138."
+        },
+        {
+          "title": "Site web",
+          "content": "<a href=\"https://www.aubergedesfalaises.com\" target=\"_blank\" rel=\"noopener\">aubergedesfalaises.com</a>"
+        },
+        {
+          "title": "À proximité",
+          "content": "Fairmont Le Manoir Richelieu et Casino de Charlevoix à quelques minutes."
+        },
+        {
+          "title": "Réservation",
+          "content": "Consultez le site officiel pour les tarifs et disponibilités à jour."
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Planifiez votre séjour à La Malbaie",
+    "text": "Découvrez les disponibilités et réservez directement sur le site de l'Auberge des Falaises.",
+    "links": [
+      {
+        "text": "Visiter le site officiel",
+        "href": "https://www.aubergedesfalaises.com"
+      }
+    ]
+  },
+  "footer": "Page informative indépendante — mars 2026"
+}

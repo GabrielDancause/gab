@@ -1,0 +1,158 @@
+{
+  "slug": "carte-charlevoix",
+  "title": "Carte et itinéraires de Charlevoix — Guide des routes",
+  "description": "Carte de Charlevoix : itinéraires routiers, circuits touristiques et distances entre les villages. Planifiez votre road trip dans la plus belle région du Québec.",
+  "ogTitle": "Carte et itinéraires de Charlevoix — Guide des routes",
+  "ogDescription": "Itinéraires, distances et circuits pour explorer Charlevoix en voiture.",
+  "heroGradient": "linear-gradient(135deg, #3a6b5a 0%, #4a8a6a 50%, #2E3E24 100%)",
+  "accentColor": "#2E3E24",
+  "badge": null,
+  "heroLocation": "Guide pratique · Charlevoix · Québec",
+  "h1": "Carte et itinéraires 🗺️",
+  "tagline": "Routes, circuits et distances pour explorer Charlevoix à votre rythme",
+  "heroSub": null,
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "guide",
+  "quickFacts": [
+    {
+      "icon": "🗺️",
+      "value": "6 000 km²",
+      "label": "Superficie"
+    },
+    {
+      "icon": "🏘️",
+      "value": "8+",
+      "label": "Municipalités"
+    },
+    {
+      "icon": "🛣️",
+      "value": "3 routes",
+      "label": "Axes principaux"
+    },
+    {
+      "icon": "🏔️",
+      "value": "1 000+ m",
+      "label": "Altitude max"
+    }
+  ],
+  "heroCta": {
+    "text": "Comment s'y rendre →",
+    "href": "comment-se-rendre-charlevoix.html",
+    "external": false
+  },
+  "sections": [
+    {
+      "title": "Les axes routiers",
+      "paragraphs": [
+        "Charlevoix est traversé par trois routes principales qui offrent chacune une expérience différente du territoire."
+      ],
+      "highlightCards": [
+        {
+          "icon": "🛣️",
+          "title": "Route 138 — L'axe rapide",
+          "description": "La route principale qui traverse Charlevoix d'ouest en est. Relie <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> à <a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> en passant par <a href=\"clermont-charlevoix.html\">Clermont</a>. Route intérieure, plus rapide."
+        },
+        {
+          "icon": "🌊",
+          "title": "Route 362 — Le Fleuve",
+          "description": "La <a href=\"route-fleuve-charlevoix.html\">Route du Fleuve</a>. Relie BSP à La Malbaie en longeant le Saint-Laurent via <a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a> et <a href=\"saint-irenee-charlevoix.html\">Saint-Irénée</a>. La plus belle route."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Route 381 — Les Montagnes",
+          "description": "Monte vers <a href=\"saint-urbain-charlevoix.html\">Saint-Urbain</a> et le parc des <a href=\"parc-grands-jardins-charlevoix.html\">Grands-Jardins</a>. Continue jusqu'au Saguenay–Lac-Saint-Jean. Route de montagne spectaculaire."
+        },
+        {
+          "icon": "🏡",
+          "title": "Routes locales",
+          "description": "Un réseau de petites routes connecte les villages de montagne comme <a href=\"saint-hilarion-charlevoix.html\">Saint-Hilarion</a>. Moins fréquentées, pleines de charme rural."
+        }
+      ]
+    },
+    {
+      "title": "Itinéraires suggérés"
+    },
+    {
+      "title": "Les municipalités",
+      "paragraphs": [
+        "D'ouest en est, voici les principales municipalités de Charlevoix :"
+      ],
+      "highlightCards": [
+        {
+          "icon": "🎨",
+          "title": "Porte d'entrée ouest",
+          "description": "<a href=\"petite-riviere-saint-francois-charlevoix.html\">Petite-Rivière-Saint-François</a> (Le Massif) et <a href=\"baie-saint-paul-charlevoix.html\">Baie-Saint-Paul</a> (capitale culturelle). Premiers villages en arrivant de Québec."
+        },
+        {
+          "icon": "🌊",
+          "title": "Le littoral",
+          "description": "<a href=\"les-eboulements-charlevoix.html\">Les Éboulements</a>, <a href=\"saint-irenee-charlevoix.html\">Saint-Irénée</a> et <a href=\"ile-aux-coudres-charlevoix.html\">l'Île-aux-Coudres</a>. Villages côtiers avec vue imprenable sur le fleuve."
+        },
+        {
+          "icon": "🏔️",
+          "title": "Les montagnes",
+          "description": "<a href=\"saint-urbain-charlevoix.html\">Saint-Urbain</a>, <a href=\"saint-hilarion-charlevoix.html\">Saint-Hilarion</a> et <a href=\"clermont-charlevoix.html\">Clermont</a>. Villages de l'intérieur, porte d'accès aux parcs nationaux."
+        },
+        {
+          "icon": "🏰",
+          "title": "L'est de Charlevoix",
+          "description": "<a href=\"la-malbaie-charlevoix.html\">La Malbaie</a> — Fairmont, Casino, accès aux Hautes-Gorges. Centre de services de l'est de la région."
+        }
+      ]
+    },
+    {
+      "title": "Distances clés",
+      "infoCards": [
+        {
+          "title": "📍 Québec → BSP",
+          "content": "95 km · ~1h15 (autoroute 40 + route 138)"
+        },
+        {
+          "title": "📍 BSP → La Malbaie",
+          "content": "55 km · ~45 min (138) ou ~1h (362)"
+        },
+        {
+          "title": "📍 BSP → Île-aux-Coudres",
+          "content": "30 km + traversier gratuit (~45 min total)"
+        },
+        {
+          "title": "📍 La Malbaie → Hautes-Gorges",
+          "content": "~40 km · ~45 min (route secondaire)"
+        },
+        {
+          "title": "📍 BSP → Grands-Jardins",
+          "content": "~40 km · ~40 min (route 381 nord)"
+        },
+        {
+          "title": "📍 La Malbaie → Baie-Ste-Catherine",
+          "content": "~75 km · ~1h (observation des baleines)"
+        }
+      ]
+    },
+    {
+      "title": "Conseils de route",
+      "infoCards": [
+        {
+          "title": "🚗 GPS",
+          "content": "Google Maps et Apple Maps fonctionnent bien dans la région. Téléchargez les cartes hors-ligne pour les zones de montagne."
+        },
+        {
+          "title": "⛽ Essence",
+          "content": "Stations disponibles à Baie-Saint-Paul, Clermont et La Malbaie. Faites le plein avant les parcs nationaux."
+        },
+        {
+          "title": "📸 Points de vue",
+          "content": "Nombreux belvédères le long de la 362. Celui de Les Éboulements offre une vue panoramique sur le fleuve et l'île."
+        },
+        {
+          "title": "🕐 Rythme",
+          "content": "Ne planifiez pas trop serré. Les routes sont sinueuses et les arrêts imprévus font partie du charme de Charlevoix."
+        }
+      ]
+    }
+  ],
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"comment-se-rendre-charlevoix.html\">Comment s'y rendre</a> · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"/\">gab.ae</a>"
+}

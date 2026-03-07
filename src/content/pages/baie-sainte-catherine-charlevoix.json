@@ -1,0 +1,189 @@
+{
+  "slug": "baie-sainte-catherine-charlevoix",
+  "title": "Baie-Sainte-Catherine — Village de Charlevoix, Québec",
+  "description": "Baie-Sainte-Catherine, porte d'entrée vers l'observation des baleines à Charlevoix. Confluent du Saguenay et du Saint-Laurent, traversier vers Tadoussac, Pointe-aux-Alouettes.",
+  "ogTitle": "Baie-Sainte-Catherine — Charlevoix, Québec",
+  "ogDescription": "Au confluent du Saguenay et du Saint-Laurent. Baleines, traversier vers Tadoussac et histoire du premier traité franco-amérindien.",
+  "heroGradient": "linear-gradient(135deg, #1a3d5c 0%, #2E3E24 100%)",
+  "accentColor": "#1a3d5c",
+  "badge": "🐋 Capitale des baleines",
+  "heroLocation": null,
+  "h1": "Baie-Sainte-Catherine",
+  "tagline": "Là où le Saguenay rencontre le Saint-Laurent",
+  "heroSub": "Charlevoix-Est · Capitale-Nationale · Québec",
+  "backLink": {
+    "text": "← Charlevoix",
+    "href": "charlevoix.html"
+  },
+  "pageType": "town",
+  "stats": [
+    {
+      "icon": "👥",
+      "value": "184 hab.",
+      "label": "Population (2021)"
+    },
+    {
+      "icon": "📐",
+      "value": "416,9 km²",
+      "label": "Superficie"
+    },
+    {
+      "icon": "📅",
+      "value": "1903",
+      "label": "Constitution"
+    },
+    {
+      "icon": "🌊",
+      "value": "G0T 1A0",
+      "label": "Code postal"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Le village",
+      "paragraphs": [
+        "Baie-Sainte-Catherine est le bout de la route de Charlevoix — littéralement. Nichée au confluent de la rivière Saguenay et du fleuve Saint-Laurent, cette petite municipalité de 184 habitants est la porte d'entrée vers le monde des baleines et le traversier gratuit vers Tadoussac.",
+        "Malgré sa taille modeste, le village a une importance historique majeure : c'est ici, à la Pointe-aux-Alouettes, que fut signé en 1603 le premier traité franco-amérindien du Nouveau Monde entre Samuel de Champlain et le chef montagnais Anadabijou.",
+        "Aujourd'hui, l'économie repose essentiellement sur le tourisme lié à l'<a href=\"observation-baleines-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;text-decoration:none;\">observation des baleines</a> et la position stratégique du village comme dernier arrêt avant la Côte-Nord."
+      ]
+    },
+    {
+      "title": "Pourquoi visiter",
+      "cards": [
+        {
+          "icon": "🐋",
+          "title": "Observation des baleines",
+          "description": "Plusieurs compagnies de croisières aux baleines partent du quai de Baie-Sainte-Catherine. Bélugas, rorquals, petits rorquals et parfois des baleines à bosse.",
+          "href": null
+        },
+        {
+          "icon": "⛴️",
+          "title": "Traversier vers Tadoussac",
+          "description": "Traversier gratuit de la STQ vers Tadoussac (10 min). Service continu, premier arrivé premier servi. L'un des traversiers les plus populaires du Québec.",
+          "href": null
+        },
+        {
+          "icon": "🏛️",
+          "title": "Pointe-aux-Alouettes",
+          "description": "Site historique du premier traité franco-amérindien (1603). Inscrit au Répertoire du patrimoine culturel du Québec depuis 2008.",
+          "href": null
+        },
+        {
+          "icon": "🌊",
+          "title": "Parc marin du Saguenay",
+          "description": "Le village est une des portes d'entrée du <a href=\"parc-marin-saguenay-charlevoix.html\" style=\"color:#2E3E24;font-weight:600;text-decoration:none;\">Parc marin du Saguenay–Saint-Laurent</a>, aire marine protégée fédérale-provinciale.",
+          "href": null
+        }
+      ]
+    },
+    {
+      "title": "Quoi faire à Baie-Sainte-Catherine",
+      "pois": [
+        {
+          "icon": "🐋",
+          "name": "Croisières aux baleines",
+          "type": "Excursion",
+          "href": "observation-baleines-charlevoix.html"
+        },
+        {
+          "icon": "🌊",
+          "name": "Parc marin",
+          "type": "Aire marine protégée",
+          "href": "parc-marin-saguenay-charlevoix.html"
+        },
+        {
+          "icon": "🥾",
+          "name": "Sentiers du fjord",
+          "type": "Randonnée",
+          "href": "randonnee-charlevoix.html"
+        },
+        {
+          "icon": "🏘️",
+          "name": "Saint-Siméon",
+          "type": "Village · 30 min",
+          "href": "saint-simeon-charlevoix.html"
+        },
+        {
+          "icon": "🏨",
+          "name": "La Malbaie",
+          "type": "Ville · 1h",
+          "href": "la-malbaie-charlevoix.html"
+        },
+        {
+          "icon": "🎣",
+          "name": "Pêche",
+          "type": "Rivières et fjord",
+          "href": "peche-charlevoix.html"
+        }
+      ]
+    },
+    {
+      "title": "Histoire",
+      "paragraphs": [
+        "L'histoire de Baie-Sainte-Catherine est enracinée dans les premiers contacts entre Européens et Premières Nations en Amérique du Nord. Son nom provient du naufrage du navire <em>La Catherine</em> en 1686."
+      ],
+      "timeline": [
+        {
+          "year": "1603",
+          "desc": "À la Pointe-aux-Alouettes, François Gravé du Pont et Samuel de Champlain concluent un traité avec le chef montagnais Anadabijou — le premier traité franco-amérindien du Nouveau Monde."
+        },
+        {
+          "year": "~1850",
+          "desc": "Premiers habitants permanents s'installent à Baie-Sainte-Catherine. Ils vivent de chasse, de pêche et d'agriculture."
+        },
+        {
+          "year": "1903",
+          "desc": "Constitution officielle de la municipalité de Baie-Sainte-Catherine."
+        },
+        {
+          "year": "Début XXᵉ siècle",
+          "desc": "Un moulin à scie s'implante au village, mais ne fonctionne que pendant neuf ans."
+        },
+        {
+          "year": "Années 1980-90",
+          "desc": "L'observation des baleines devient le moteur économique du village. Les croisières attirent des milliers de visiteurs chaque été."
+        },
+        {
+          "year": "2008",
+          "desc": "La Pointe-aux-Alouettes est inscrite au Répertoire du patrimoine culturel du Québec. La route 138 à travers le village est renommée « route de la Grande-Alliance »."
+        }
+      ]
+    },
+    {
+      "title": "Infos pratiques",
+      "infoCards": [
+        {
+          "title": "📍 Emplacement",
+          "content": "MRC Charlevoix-Est, Capitale-Nationale<br>~210 km de Québec par la route 138<br>Dernière municipalité de Charlevoix avant la Côte-Nord"
+        },
+        {
+          "title": "⛴️ Traversier",
+          "content": "Traversier gratuit vers Tadoussac<br>Service continu<br>~10 min de traversée"
+        },
+        {
+          "title": "👥 Gentilé",
+          "content": "Baie-Catherinois, Baie-Catherinoise"
+        },
+        {
+          "title": "🌐 Site officiel",
+          "content": "<a href=\"http://www.baiestecatherine.com/\" target=\"_blank\" rel=\"noopener\">baiestecatherine.com</a>"
+        }
+      ]
+    }
+  ],
+  "ctaBanner": {
+    "title": "Explorer Baie-Sainte-Catherine",
+    "text": "Baleines, fjord et histoire — au bout de la route de Charlevoix.",
+    "links": [
+      {
+        "text": "Observer les baleines →",
+        "href": "observation-baleines-charlevoix.html"
+      },
+      {
+        "text": "Road trip Charlevoix →",
+        "href": "road-trip-charlevoix.html"
+      }
+    ]
+  },
+  "footer": "Dernière mise à jour : mars 2026 · <a href=\"charlevoix.html\">Charlevoix</a> · <a href=\"road-trip-charlevoix.html\">Road trip</a> · <a href=\"/\">gab.ae</a>"
+}

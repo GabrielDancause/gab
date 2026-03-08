@@ -250,7 +250,9 @@ const roster = [
       display: flex;
       gap: 40px;
       align-items: center;
+      transition: border-color 0.2s, transform 0.2s;
     }
+    .auberge-card:hover { border-color: #2a4a2a; transform: translateY(-2px); }
     .auberge-icon { font-size: 4rem; flex-shrink: 0; }
     .auberge-info h3 { font-size: 1.4rem; font-weight: 800; color: #fff; margin-bottom: 6px; }
     .auberge-info .loc { font-size: 0.82rem; color: #4ade80; font-weight: 600; margin-bottom: 12px; }
@@ -379,7 +381,7 @@ const roster = [
   <div class="section-desc">Our flagship property in the heart of Charlevoix.</div>
 </div>
 <div class="auberge">
-  <div class="auberge-card">
+  <a class="auberge-card" href="https://www.aubergedenosaleux.com" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;cursor:pointer;">
     <div class="auberge-icon">🏔️</div>
     <div class="auberge-info">
       <h3>Auberge de nos Aïeux</h3>
@@ -391,7 +393,7 @@ const roster = [
         <div class="auberge-stat"><div class="n">⛺</div><div class="l">Camping</div></div>
       </div>
     </div>
-  </div>
+  </a>
 </div>
 
 <!-- Creator Roster -->
@@ -401,7 +403,19 @@ const roster = [
   <div class="section-desc">Content creators and entrepreneurs building in public.</div>
 </div>
 <div class="roster">
-  {roster.map(c => (
+  {roster.map(c => c.link ? (
+    <a class="creator" href={c.link} target="_blank" rel="noopener" style="text-decoration:none;color:inherit;cursor:pointer;">
+      <div class="creator-emoji">{c.emoji}</div>
+      <div class="creator-name">{c.name}</div>
+      <div class="creator-title">{c.title}</div>
+      <div class="creator-desc">{c.desc}</div>
+      <div class="creator-links">
+        {c.platforms.map(p => (
+          <span class="creator-link">{p}</span>
+        ))}
+      </div>
+    </a>
+  ) : (
     <div class="creator">
       <div class="creator-emoji">{c.emoji}</div>
       <div class="creator-name">{c.name}</div>

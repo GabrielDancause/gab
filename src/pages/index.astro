@@ -1,0 +1,320 @@
+---
+import BaseHead from '../layouts/BaseHead.astro';
+
+const sites = [
+  {
+    name: "On va tu jouer dehors",
+    domain: "onvatujouerdehors.ca",
+    emoji: "🏔️",
+    desc: "Tourism guides, outdoor adventures & Quebec travel",
+    color: "#2D5016",
+    pages: 125,
+    lang: "FR"
+  },
+  {
+    name: "Silicon Based",
+    domain: "siliconbased.dev",
+    emoji: "⚡",
+    desc: "Developer utilities, digital marketing & creator analytics",
+    color: "#0F1729",
+    pages: 0,
+    lang: "EN"
+  },
+  {
+    name: "FIRE Maths",
+    domain: "firemaths.info",
+    emoji: "🔥",
+    desc: "Personal finance calculators, FIRE tools & real estate analysis",
+    color: "#B8430B",
+    pages: 0,
+    lang: "EN"
+  },
+  {
+    name: "Migrating Mammals",
+    domain: "migratingmammals.com",
+    emoji: "🌍",
+    desc: "Digital nomad logistics & boutique hospitality",
+    color: "#8B5E3C",
+    pages: 0,
+    lang: "EN"
+  },
+  {
+    name: "I Just Want To Live",
+    domain: "ijustwantto.live",
+    emoji: "💪",
+    desc: "Health calculators, macro trackers & home DIY guides",
+    color: "#1A7A6D",
+    pages: 0,
+    lang: "EN"
+  },
+  {
+    name: "Leeroy Jenkins",
+    domain: "leeroyjenkins.quest",
+    emoji: "🎮",
+    desc: "Gaming sensitivity calculators, esports tools & setup guides",
+    color: "#6B21A8",
+    pages: 0,
+    lang: "EN"
+  },
+  {
+    name: "28 Grams",
+    domain: "28grams.vip",
+    emoji: "🍳",
+    desc: "Recipe scaling, baker's percentages & culinary conversions",
+    color: "#7A1B3D",
+    pages: 0,
+    lang: "EN"
+  },
+];
+
+const creators = [
+  {
+    name: "Gab",
+    role: "Founder & Travel Vlogger",
+    emoji: "🎬",
+    links: ["TikTok", "Instagram", "YouTube"]
+  },
+  {
+    name: "Ali",
+    role: "Content Creator & Educator",
+    emoji: "✨",
+    links: ["aliimperiale.com", "TikTok", "Instagram"]
+  }
+];
+---
+<html lang="en">
+<head>
+  <BaseHead
+    title="GAB Ventures — Digital Media & Content Network"
+    description="GAB Ventures builds niche content platforms, tools, and media properties across tourism, finance, tech, gaming, health, and culinary."
+    ogTitle="GAB Ventures"
+    ogDescription="A digital media company building niche content platforms."
+  />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; background: #0a0a0a; color: #fafafa; line-height: 1.6; }
+
+    /* Hero */
+    .hero {
+      min-height: 70vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 24px 60px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 40%, rgba(99,102,241,0.08) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 60%, rgba(236,72,153,0.06) 0%, transparent 50%);
+      animation: drift 20s ease-in-out infinite;
+    }
+    @keyframes drift {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-2%, 2%); }
+    }
+    .hero-content { position: relative; z-index: 1; }
+    .logo {
+      font-size: 4rem;
+      font-weight: 900;
+      letter-spacing: -2px;
+      margin-bottom: 8px;
+      background: linear-gradient(135deg, #fff 0%, #a0a0a0 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .logo span { 
+      font-weight: 400;
+      font-size: 1.8rem;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      display: block;
+      background: linear-gradient(135deg, #888 0%, #555 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tagline {
+      font-size: 1.15rem;
+      color: #888;
+      max-width: 520px;
+      margin: 20px auto 0;
+      font-weight: 400;
+    }
+
+    /* Stats bar */
+    .stats {
+      display: flex;
+      gap: 48px;
+      justify-content: center;
+      padding: 40px 24px;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    .stat { text-align: center; }
+    .stat .num { font-size: 2.5rem; font-weight: 800; color: #fff; }
+    .stat .label { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+
+    /* Properties section */
+    .section-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      color: #555;
+      text-align: center;
+      padding: 60px 24px 32px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 16px;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 0 24px 60px;
+    }
+    .card {
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 16px;
+      padding: 28px 24px;
+      transition: border-color 0.2s, transform 0.2s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+    .card:hover { border-color: #333; transform: translateY(-2px); }
+    .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .card-emoji { font-size: 1.8rem; }
+    .card-name { font-size: 1.15rem; font-weight: 700; color: #fff; }
+    .card-domain { font-size: 0.8rem; color: #666; font-weight: 500; }
+    .card-desc { font-size: 0.88rem; color: #888; line-height: 1.6; }
+    .card-footer { display: flex; gap: 8px; margin-top: 14px; align-items: center; }
+    .badge {
+      font-size: 0.7rem;
+      padding: 3px 10px;
+      border-radius: 20px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+    .badge-lang { background: #1a1a2e; color: #818cf8; }
+    .badge-live { background: #0a2e1a; color: #34d399; }
+    .badge-soon { background: #2e2a0a; color: #fbbf24; }
+
+    /* Creators */
+    .creators {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+      flex-wrap: wrap;
+    }
+    .creator {
+      background: #111;
+      border: 1px solid #1e1e1e;
+      border-radius: 16px;
+      padding: 28px 32px;
+      text-align: center;
+      flex: 1;
+      min-width: 260px;
+    }
+    .creator-emoji { font-size: 2.5rem; margin-bottom: 12px; }
+    .creator-name { font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .creator-role { font-size: 0.85rem; color: #888; margin-top: 4px; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 40px 24px;
+      border-top: 1px solid #1a1a1a;
+      font-size: 0.8rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      .logo { font-size: 2.8rem; }
+      .logo span { font-size: 1.2rem; }
+      .stats { gap: 24px; flex-wrap: wrap; }
+      .stat .num { font-size: 1.8rem; }
+      .grid { grid-template-columns: 1fr; }
+      .hero { min-height: 50vh; padding: 60px 20px 40px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <div class="logo">
+      GAB
+      <span>Ventures</span>
+    </div>
+    <p class="tagline">Building niche content platforms, tools, and media properties — powered by AI, driven by curiosity.</p>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="stat">
+    <div class="num">8</div>
+    <div class="label">Properties</div>
+  </div>
+  <div class="stat">
+    <div class="num">125+</div>
+    <div class="label">Pages Live</div>
+  </div>
+  <div class="stat">
+    <div class="num">7</div>
+    <div class="label">Niches</div>
+  </div>
+</div>
+
+<div class="section-title">Our Properties</div>
+<div class="grid">
+  {sites.map(site => (
+    <a class="card" href={`https://${site.domain}`} target="_blank" rel="noopener">
+      <div class="card-header">
+        <span class="card-emoji">{site.emoji}</span>
+        <div>
+          <div class="card-name">{site.name}</div>
+          <div class="card-domain">{site.domain}</div>
+        </div>
+      </div>
+      <div class="card-desc">{site.desc}</div>
+      <div class="card-footer">
+        <span class="badge badge-lang">{site.lang}</span>
+        {site.pages > 0
+          ? <span class="badge badge-live">{site.pages} pages live</span>
+          : <span class="badge badge-soon">Coming soon</span>
+        }
+      </div>
+    </a>
+  ))}
+</div>
+
+<div class="section-title">Creators</div>
+<div class="creators">
+  {creators.map(c => (
+    <div class="creator">
+      <div class="creator-emoji">{c.emoji}</div>
+      <div class="creator-name">{c.name}</div>
+      <div class="creator-role">{c.role}</div>
+    </div>
+  ))}
+</div>
+
+<div class="footer">
+  © 2025 GAB Ventures · Built with AI
+</div>
+
+</body>
+</html>

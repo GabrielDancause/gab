@@ -1,24 +1,26 @@
 ---
 import BaseHead from '../layouts/BaseHead.astro';
 
-const sites = [
+const properties = [
   {
     name: "On va tu jouer dehors",
     domain: "onvatujouerdehors.ca",
     emoji: "🏔️",
-    desc: "Tourism guides, outdoor adventures & Quebec travel",
+    desc: "Tourism guides, outdoor adventures & Quebec travel content",
     color: "#2D5016",
-    pages: 125,
-    lang: "FR"
+    stat: "125+ pages",
+    lang: "FR",
+    live: true,
   },
   {
     name: "Silicon Based",
     domain: "siliconbased.dev",
     emoji: "⚡",
-    desc: "Developer utilities, digital marketing & creator analytics",
+    desc: "Developer utilities, digital marketing tools & creator analytics",
     color: "#0F1729",
-    pages: 0,
-    lang: "EN"
+    stat: "DevBox live",
+    lang: "EN",
+    live: true,
   },
   {
     name: "FIRE Maths",
@@ -26,26 +28,29 @@ const sites = [
     emoji: "🔥",
     desc: "Personal finance calculators, FIRE tools & real estate analysis",
     color: "#B8430B",
-    pages: 0,
-    lang: "EN"
+    stat: "Building",
+    lang: "EN",
+    live: false,
   },
   {
     name: "Migrating Mammals",
     domain: "migratingmammals.com",
     emoji: "🌍",
-    desc: "Digital nomad logistics & boutique hospitality",
+    desc: "Digital nomad logistics & boutique hospitality guides",
     color: "#8B5E3C",
-    pages: 0,
-    lang: "EN"
+    stat: "Building",
+    lang: "EN",
+    live: false,
   },
   {
     name: "I Just Want To Live",
     domain: "ijustwantto.live",
     emoji: "💪",
-    desc: "Health calculators, macro trackers & home DIY guides",
+    desc: "Health calculators, macro trackers & home DIY tools",
     color: "#1A7A6D",
-    pages: 0,
-    lang: "EN"
+    stat: "Building",
+    lang: "EN",
+    live: false,
   },
   {
     name: "Leeroy Jenkins",
@@ -53,57 +58,63 @@ const sites = [
     emoji: "🎮",
     desc: "Gaming sensitivity calculators, esports tools & setup guides",
     color: "#6B21A8",
-    pages: 0,
-    lang: "EN"
+    stat: "Building",
+    lang: "EN",
+    live: false,
   },
   {
     name: "28 Grams",
     domain: "28grams.vip",
     emoji: "🍳",
-    desc: "Recipe scaling, baker's percentages & culinary conversions",
+    desc: "Recipe scaling, baker's percentages & culinary conversion tools",
     color: "#7A1B3D",
-    pages: 0,
-    lang: "EN"
+    stat: "Building",
+    lang: "EN",
+    live: false,
   },
 ];
 
-const creators = [
+const roster = [
   {
     name: "Gab",
-    role: "Founder & Travel Vlogger",
+    title: "Founder",
+    desc: "Entrepreneur, travel vlogger, and the person who decided AI should build an empire while he sleeps.",
     emoji: "🎬",
-    links: ["TikTok", "Instagram", "YouTube"]
+    platforms: ["TikTok", "Instagram", "YouTube"],
   },
   {
-    name: "Ali",
-    role: "Content Creator & Educator",
+    name: "Ali Imperiale",
+    title: "Content Creator & Sex Educator",
+    desc: "Breaking taboos, building community, and teaching people to speak up for themselves.",
     emoji: "✨",
-    links: ["aliimperiale.com", "TikTok", "Instagram"]
-  }
+    platforms: ["aliimperiale.com", "TikTok", "Instagram"],
+    link: "https://aliimperiale.com",
+  },
 ];
 ---
 <html lang="en">
 <head>
   <BaseHead
-    title="GAB Ventures — Digital Media & Content Network"
-    description="GAB Ventures builds niche content platforms, tools, and media properties across tourism, finance, tech, gaming, health, and culinary."
-    ogTitle="GAB Ventures"
-    ogDescription="A digital media company building niche content platforms."
+    title="GAB Ventures — Digital Media, Content & Hospitality"
+    description="GAB Ventures is a digital media company that builds, operates, and produces niche content platforms, hospitality properties, and creator brands across tourism, finance, tech, gaming, health, and culinary."
+    ogTitle="GAB Ventures — Digital Media, Content & Hospitality"
+    ogDescription="We build niche content platforms, operate hospitality properties, and produce creator brands. 8 web properties, 125+ pages, and growing."
   />
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style is:inline>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Inter', -apple-system, sans-serif; background: #0a0a0a; color: #fafafa; line-height: 1.6; }
 
     /* Hero */
     .hero {
-      min-height: 70vh;
+      min-height: 80vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-align: center;
-      padding: 80px 24px 60px;
+      padding: 100px 24px 80px;
       position: relative;
       overflow: hidden;
     }
@@ -114,76 +125,98 @@ const creators = [
       left: -50%;
       width: 200%;
       height: 200%;
-      background: radial-gradient(circle at 30% 40%, rgba(99,102,241,0.08) 0%, transparent 50%),
-                  radial-gradient(circle at 70% 60%, rgba(236,72,153,0.06) 0%, transparent 50%);
+      background: radial-gradient(circle at 30% 40%, rgba(99,102,241,0.06) 0%, transparent 50%),
+                  radial-gradient(circle at 70% 60%, rgba(236,72,153,0.04) 0%, transparent 50%);
       animation: drift 20s ease-in-out infinite;
     }
     @keyframes drift {
       0%, 100% { transform: translate(0, 0); }
       50% { transform: translate(-2%, 2%); }
     }
-    .hero-content { position: relative; z-index: 1; }
+    .hero-content { position: relative; z-index: 1; max-width: 700px; }
     .logo {
-      font-size: 4rem;
+      font-size: 5rem;
       font-weight: 900;
-      letter-spacing: -2px;
-      margin-bottom: 8px;
+      letter-spacing: -3px;
+      margin-bottom: 4px;
       background: linear-gradient(135deg, #fff 0%, #a0a0a0 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    .logo span { 
+    .logo-sub {
       font-weight: 400;
-      font-size: 1.8rem;
-      letter-spacing: 6px;
+      font-size: 1.6rem;
+      letter-spacing: 8px;
       text-transform: uppercase;
       display: block;
+      margin-bottom: 28px;
       background: linear-gradient(135deg, #888 0%, #555 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
-    .tagline {
+    .hero-desc {
       font-size: 1.15rem;
-      color: #888;
-      max-width: 520px;
-      margin: 20px auto 0;
-      font-weight: 400;
+      color: #777;
+      max-width: 560px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
     }
+    .hero-desc strong { color: #ccc; font-weight: 600; }
 
-    /* Stats bar */
+    /* Stats */
     .stats {
       display: flex;
       gap: 48px;
       justify-content: center;
-      padding: 40px 24px;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
+      padding: 44px 24px;
+      border-top: 1px solid #151515;
+      border-bottom: 1px solid #151515;
     }
     .stat { text-align: center; }
-    .stat .num { font-size: 2.5rem; font-weight: 800; color: #fff; }
-    .stat .label { font-size: 0.8rem; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 4px; }
+    .stat .num { font-size: 2.8rem; font-weight: 800; color: #fff; }
+    .stat .label { font-size: 0.75rem; color: #555; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 4px; }
 
-    /* Properties section */
-    .section-title {
-      font-size: 0.8rem;
-      font-weight: 600;
+    /* Section headers */
+    .section-header {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 72px 24px 12px;
+    }
+    .section-tag {
+      font-size: 0.7rem;
+      font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 3px;
-      color: #555;
-      text-align: center;
-      padding: 60px 24px 32px;
+      color: #444;
+      margin-bottom: 8px;
     }
+    .section-title {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      letter-spacing: -0.5px;
+    }
+    .section-desc {
+      font-size: 0.95rem;
+      color: #555;
+      margin-top: 8px;
+      max-width: 520px;
+    }
+
+    /* Properties grid */
     .grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 16px;
+      gap: 14px;
       max-width: 1080px;
       margin: 0 auto;
-      padding: 0 24px 60px;
+      padding: 24px 24px 20px;
     }
     .card {
       background: #111;
-      border: 1px solid #1e1e1e;
+      border: 1px solid #1a1a1a;
       border-radius: 16px;
       padding: 28px 24px;
       transition: border-color 0.2s, transform 0.2s;
@@ -192,62 +225,91 @@ const creators = [
       display: block;
     }
     .card:hover { border-color: #333; transform: translateY(-2px); }
-    .card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+    .card-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
     .card-emoji { font-size: 1.8rem; }
-    .card-name { font-size: 1.15rem; font-weight: 700; color: #fff; }
-    .card-domain { font-size: 0.8rem; color: #666; font-weight: 500; }
-    .card-desc { font-size: 0.88rem; color: #888; line-height: 1.6; }
-    .card-footer { display: flex; gap: 8px; margin-top: 14px; align-items: center; }
-    .badge {
-      font-size: 0.7rem;
-      padding: 3px 10px;
-      border-radius: 20px;
-      font-weight: 600;
-      letter-spacing: 0.3px;
-    }
+    .card-name { font-size: 1.1rem; font-weight: 700; color: #fff; }
+    .card-domain { font-size: 0.78rem; color: #555; }
+    .card-desc { font-size: 0.85rem; color: #777; line-height: 1.6; margin-bottom: 12px; }
+    .card-foot { display: flex; gap: 8px; align-items: center; }
+    .badge { font-size: 0.68rem; padding: 3px 10px; border-radius: 20px; font-weight: 600; }
     .badge-lang { background: #1a1a2e; color: #818cf8; }
     .badge-live { background: #0a2e1a; color: #34d399; }
     .badge-soon { background: #2e2a0a; color: #fbbf24; }
 
-    /* Creators */
-    .creators {
-      display: flex;
-      gap: 24px;
-      justify-content: center;
-      max-width: 700px;
+    /* Auberge */
+    .auberge {
+      max-width: 1080px;
       margin: 0 auto;
-      padding: 0 24px 80px;
-      flex-wrap: wrap;
+      padding: 24px;
+    }
+    .auberge-card {
+      background: linear-gradient(135deg, #111 0%, #0a0f08 100%);
+      border: 1px solid #1a2a1a;
+      border-radius: 20px;
+      padding: 48px 40px;
+      display: flex;
+      gap: 40px;
+      align-items: center;
+    }
+    .auberge-icon { font-size: 4rem; flex-shrink: 0; }
+    .auberge-info h3 { font-size: 1.4rem; font-weight: 800; color: #fff; margin-bottom: 6px; }
+    .auberge-info .loc { font-size: 0.82rem; color: #4ade80; font-weight: 600; margin-bottom: 12px; }
+    .auberge-info p { font-size: 0.9rem; color: #777; line-height: 1.7; }
+    .auberge-stats { display: flex; gap: 24px; margin-top: 16px; }
+    .auberge-stat { text-align: center; }
+    .auberge-stat .n { font-size: 1.5rem; font-weight: 800; color: #fff; }
+    .auberge-stat .l { font-size: 0.68rem; color: #555; text-transform: uppercase; letter-spacing: 0.5px; }
+
+    /* Roster */
+    .roster {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 24px 24px 20px;
     }
     .creator {
       background: #111;
-      border: 1px solid #1e1e1e;
+      border: 1px solid #1a1a1a;
       border-radius: 16px;
-      padding: 28px 32px;
-      text-align: center;
-      flex: 1;
-      min-width: 260px;
+      padding: 32px 28px;
     }
-    .creator-emoji { font-size: 2.5rem; margin-bottom: 12px; }
-    .creator-name { font-size: 1.2rem; font-weight: 700; color: #fff; }
-    .creator-role { font-size: 0.85rem; color: #888; margin-top: 4px; }
+    .creator-emoji { font-size: 2.5rem; margin-bottom: 14px; }
+    .creator-name { font-size: 1.3rem; font-weight: 800; color: #fff; }
+    .creator-title { font-size: 0.82rem; color: #818cf8; font-weight: 600; margin-bottom: 10px; }
+    .creator-desc { font-size: 0.85rem; color: #777; line-height: 1.6; margin-bottom: 14px; }
+    .creator-links { display: flex; gap: 8px; flex-wrap: wrap; }
+    .creator-link {
+      font-size: 0.72rem;
+      padding: 4px 12px;
+      border-radius: 20px;
+      background: #1a1a1a;
+      color: #888;
+      text-decoration: none;
+      font-weight: 500;
+    }
 
     /* Footer */
     .footer {
       text-align: center;
-      padding: 40px 24px;
-      border-top: 1px solid #1a1a1a;
-      font-size: 0.8rem;
-      color: #444;
+      padding: 60px 24px;
+      border-top: 1px solid #151515;
+      margin-top: 60px;
     }
+    .footer-logo { font-size: 1.4rem; font-weight: 800; color: #333; margin-bottom: 8px; }
+    .footer p { font-size: 0.78rem; color: #333; }
 
-    @media (max-width: 600px) {
-      .logo { font-size: 2.8rem; }
-      .logo span { font-size: 1.2rem; }
+    @media (max-width: 700px) {
+      .logo { font-size: 3.2rem; }
+      .logo-sub { font-size: 1.1rem; letter-spacing: 5px; }
+      .hero { min-height: 60vh; padding: 70px 20px 50px; }
       .stats { gap: 24px; flex-wrap: wrap; }
-      .stat .num { font-size: 1.8rem; }
-      .grid { grid-template-columns: 1fr; }
-      .hero { min-height: 50vh; padding: 60px 20px 40px; }
+      .stat .num { font-size: 2rem; }
+      .grid, .roster { grid-template-columns: 1fr; }
+      .auberge-card { flex-direction: column; text-align: center; padding: 32px 24px; }
+      .auberge-stats { justify-content: center; }
+      .section-title { font-size: 1.5rem; }
     }
   </style>
 </head>
@@ -255,34 +317,43 @@ const creators = [
 
 <div class="hero">
   <div class="hero-content">
-    <div class="logo">
-      GAB
-      <span>Ventures</span>
-    </div>
-    <p class="tagline">Building niche content platforms, tools, and media properties — powered by AI, driven by curiosity.</p>
+    <div class="logo">GAB</div>
+    <div class="logo-sub">Ventures</div>
+    <p class="hero-desc">
+      We <strong>build</strong> niche content platforms, <strong>operate</strong> hospitality properties, and <strong>produce</strong> creator brands — powered by AI, fueled by curiosity.
+    </p>
   </div>
 </div>
 
 <div class="stats">
   <div class="stat">
     <div class="num">8</div>
-    <div class="label">Properties</div>
+    <div class="label">Web Properties</div>
   </div>
   <div class="stat">
     <div class="num">125+</div>
     <div class="label">Pages Live</div>
   </div>
   <div class="stat">
-    <div class="num">7</div>
-    <div class="label">Niches</div>
+    <div class="num">40+</div>
+    <div class="label">Rooms</div>
+  </div>
+  <div class="stat">
+    <div class="num">2</div>
+    <div class="label">Creators</div>
   </div>
 </div>
 
-<div class="section-title">Our Properties</div>
+<!-- Digital Properties -->
+<div class="section-header">
+  <div class="section-tag">Digital Properties</div>
+  <div class="section-title">Our Network</div>
+  <div class="section-desc">Niche content platforms and interactive tools — each site targets a specific vertical with best-in-class resources.</div>
+</div>
 <div class="grid">
-  {sites.map(site => (
+  {properties.map(site => (
     <a class="card" href={`https://${site.domain}`} target="_blank" rel="noopener">
-      <div class="card-header">
+      <div class="card-head">
         <span class="card-emoji">{site.emoji}</span>
         <div>
           <div class="card-name">{site.name}</div>
@@ -290,30 +361,65 @@ const creators = [
         </div>
       </div>
       <div class="card-desc">{site.desc}</div>
-      <div class="card-footer">
+      <div class="card-foot">
         <span class="badge badge-lang">{site.lang}</span>
-        {site.pages > 0
-          ? <span class="badge badge-live">{site.pages} pages live</span>
-          : <span class="badge badge-soon">Coming soon</span>
+        {site.live
+          ? <span class="badge badge-live">{site.stat}</span>
+          : <span class="badge badge-soon">{site.stat}</span>
         }
       </div>
     </a>
   ))}
 </div>
 
-<div class="section-title">Creators</div>
-<div class="creators">
-  {creators.map(c => (
+<!-- Hospitality -->
+<div class="section-header">
+  <div class="section-tag">Hospitality</div>
+  <div class="section-title">Auberge de nos Aïeux</div>
+  <div class="section-desc">Our flagship property in the heart of Charlevoix.</div>
+</div>
+<div class="auberge">
+  <div class="auberge-card">
+    <div class="auberge-icon">🏔️</div>
+    <div class="auberge-info">
+      <h3>Auberge de nos Aïeux</h3>
+      <div class="loc">📍 Les Éboulements, Charlevoix, Québec</div>
+      <p>A 40+ room auberge nestled in the mountains of Charlevoix. Van life spots, camping, and rooms with a view — hospitality that feels like coming home.</p>
+      <div class="auberge-stats">
+        <div class="auberge-stat"><div class="n">40+</div><div class="l">Rooms</div></div>
+        <div class="auberge-stat"><div class="n">🚐</div><div class="l">Van Life</div></div>
+        <div class="auberge-stat"><div class="n">⛺</div><div class="l">Camping</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Creator Roster -->
+<div class="section-header">
+  <div class="section-tag">Creator Roster</div>
+  <div class="section-title">The People Behind It</div>
+  <div class="section-desc">Content creators and entrepreneurs building in public.</div>
+</div>
+<div class="roster">
+  {roster.map(c => (
     <div class="creator">
       <div class="creator-emoji">{c.emoji}</div>
       <div class="creator-name">{c.name}</div>
-      <div class="creator-role">{c.role}</div>
+      <div class="creator-title">{c.title}</div>
+      <div class="creator-desc">{c.desc}</div>
+      <div class="creator-links">
+        {c.platforms.map(p => (
+          <span class="creator-link">{p}</span>
+        ))}
+      </div>
     </div>
   ))}
 </div>
 
 <div class="footer">
-  © 2025 GAB Ventures · Built with AI
+  <div class="footer-logo">GAB VENTURES</div>
+  <p>Digital Media · Content · Hospitality</p>
+  <p style="margin-top: 8px;">© 2025 GAB Ventures · Les Éboulements, QC</p>
 </div>
 
 </body>

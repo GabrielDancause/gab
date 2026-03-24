@@ -14,6 +14,12 @@ const { title, description, ogTitle, ogDescription } = Astro.props;
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content={description}>
+<link rel="canonical" href="https://gab.ae/">
 <meta property="og:title" content={ogTitle || title}>
 <meta property="og:description" content={ogDescription || description}>
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gab.ae/">
+<meta property="og:site_name" content="GAB Ventures">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content={ogTitle || title}>
+<meta name="twitter:description" content={ogDescription || description}>
